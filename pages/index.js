@@ -14,8 +14,6 @@ export default function Home({ allPostsData }) {
         <title>Ekaterinburg.design</title>
       </Head>
 
-      <Link href={`/partners`}>Партнеры</Link>
-
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Проекты</h2>
         <ul className={utilStyles.list}>
@@ -31,6 +29,18 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+
+        <div className={utilStyles.headingLg}>
+          <Link href={`/partners`}>Партнеры</Link>
+        </div>
+
+        <div className={utilStyles.headingLg}>
+          <Link href={`/team`}>Команда</Link>
+        </div>
+
+        <div className={utilStyles.headingLg}>
+          <Link href={`/contacts`}>Почта и соцсети</Link>
+        </div>
       </section>
     </Layout>
   )
