@@ -1,8 +1,10 @@
-import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
+
+import Layout from '../../components/Layout'
 import Head from 'next/head'
 import Date from '../../components/Date'
-import utilStyles from '../../styles/utils.module.css'
+
+import utilStyles from '../../styles/utils.module.scss'
 
 export default function Post({ postData }) {
   return (

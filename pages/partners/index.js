@@ -5,9 +5,9 @@ export default function Partners() {
   return (
     <Layout>
       <Head>
-        <title>123</title>
+        <title>Партнеры</title>
       </Head>
-      4567
+      Тест
     </Layout>
   )
 }

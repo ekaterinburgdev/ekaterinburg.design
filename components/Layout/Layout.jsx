@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import styles from './Layout.module.css'
-import utilStyles from '../../styles/utils.module.css'
+import styles from './Layout.module.scss'
+import utilStyles from '../../styles/utils.module.scss'
 
-const name = 'Test'
+const name = 'Ещё не сайт, но работает'
 
 export default function Layout({ children, home }) {
   return (
@@ -52,7 +52,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← На главную</a>
           </Link>
         </div>
       )}
