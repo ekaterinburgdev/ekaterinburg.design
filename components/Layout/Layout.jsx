@@ -56,6 +56,10 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      
+      <footer>
+        2017–2021
+      </footer>
     </div>
   )
 }
