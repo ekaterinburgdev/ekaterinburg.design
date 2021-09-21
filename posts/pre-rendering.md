@@ -1,6 +1,7 @@
 ---
 title: "Второй пост"
 date: "2020-01-01"
+image: "https://ekaterinburg.design/data/works/icons/icons.svg"
 ---
 
 Это какой-то тестовый маркдаун

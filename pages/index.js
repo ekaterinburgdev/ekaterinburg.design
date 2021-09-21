@@ -3,6 +3,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import Image from 'next/image'
 import Date from '../components/Date'
 
 // TODO Setup typograph
@@ -22,8 +23,10 @@ export default function Home({ allPostsData }) {
 
         <h2>Проекты</h2>
         <ul>
-          {allPostsData.map(({ id, date, title }) => (
-            <li  key={id}>
+          {allPostsData.map(({ id, date, title, image }) => (
+            <li key={id}>
+              <img src={image} alt="" />
+
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>

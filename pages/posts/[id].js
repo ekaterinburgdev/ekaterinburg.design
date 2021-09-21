@@ -11,6 +11,8 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
+        <img src={postData.image} alt="" />
+
         <h1>{postData.title}</h1>
         <div>
           <Date dateString={postData.date} />
