@@ -23,3 +23,10 @@ npm run production
 ```sh
 npm start
 ```
+
+## Content management
+
+Site content is managed from files inside the `./data` folder. 
+
+- 📕 Blog posts are contained in `.md` files 
+- 📝 The content of the pages (contacts, partners, team etc) is in `.json` files

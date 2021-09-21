@@ -1,21 +1,7 @@
 import Layout from '../../components/Layout'
 import Head from 'next/head'
 
-
-const contacts = [
-  {
-    caption: 'mail@ekaterinburg.design',
-    link: 'mailto:mail@ekaterinburg.design'
-  },
-  {
-    caption: 'группа в фейсбуке',
-    link: 'https://www.facebook.com/groups/ekaterinburg.design/'
-  },
-  {
-    caption: 'инстаграм',
-    link: 'https://www.instagram.com/ekaterinburg.design/'
-  }
-]
+import contacts from '../../data/contacts.json';
 
 export default function Contacts() {
   return (
