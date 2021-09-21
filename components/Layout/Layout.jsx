@@ -5,7 +5,7 @@ import Link from 'next/link'
 import styles from './Layout.module.scss'
 import utilStyles from '../../styles/utils.module.scss'
 
-const name = 'Ещё не сайт, но работает'
+const name = 'Дизайн-код Екатеринбурга'
 
 export default function Layout({ children, home }) {
   return (
@@ -48,7 +48,9 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+
       <main>{children}</main>
+
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
@@ -56,7 +58,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      
+
       <footer>
         2017–2021
       </footer>

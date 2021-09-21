@@ -15,6 +15,12 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <p>
+          «Дизайн-код Екатеринбурга» — инициативный проект независимых дизайнеров города. Мы разрабатываем единые визуальные стандарты городской среды и внедряем их в жизнь.
+          <br />
+          Наша цель — сделать Екатеринбург уютным и комфортным, чтобы жителям хотелось остаться, а гостям захотелось вернуться.
+        </p>
+
         <h2 className={utilStyles.headingLg}>Проекты</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
