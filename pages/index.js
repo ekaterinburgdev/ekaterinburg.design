@@ -3,7 +3,6 @@ import { getSortedPostsData } from '../lib/posts'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Link from 'next/link'
-import Image from 'next/image'
 import Date from '../components/Date'
 
 // TODO Setup typograph
@@ -21,11 +20,25 @@ export default function Home({ allPostsData }) {
           Наша цель — сделать Екатеринбург уютным и комфортным, чтобы жителям хотелось остаться, а гостям захотелось вернуться.
         </p>
 
+
+        <div>
+          <b><Link href={`/partners`}>Партнеры</Link></b>
+        </div>
+
+        <div>
+          <b><Link href={`/team`}>Команда</Link></b>
+        </div>
+
+        <div>
+          <b><Link href={`/contacts`}>Почта и соцсети</Link></b>
+        </div>
+
+
         <h2>Проекты</h2>
-        <ul>
+        <ul style={{display: 'flex'}}>
           {allPostsData.map(({ id, date, title, image }) => (
             <li key={id}>
-              <img src={image} alt="" />
+              <img src={image} alt="" width={200} />
 
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
@@ -39,18 +52,6 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-
-        <div>
-          <Link href={`/partners`}>Партнеры</Link>
-        </div>
-
-        <div>
-          <Link href={`/team`}>Команда</Link>
-        </div>
-
-        <div>
-          <Link href={`/contacts`}>Почта и соцсети</Link>
-        </div>
       </section>
     </Layout>
   )
