@@ -5,8 +5,7 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 import Date from '../components/Date'
 
-import utilStyles from '../styles/utils.module.scss'
-
+// TODO Setup typograph
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
@@ -14,37 +13,39 @@ export default function Home({ allPostsData }) {
         <title>Ekaterinburg.design</title>
       </Head>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section>
         <p>
           «Дизайн-код Екатеринбурга» — инициативный проект независимых дизайнеров города. Мы разрабатываем единые визуальные стандарты городской среды и внедряем их в жизнь.
           <br />
           Наша цель — сделать Екатеринбург уютным и комфортным, чтобы жителям хотелось остаться, а гостям захотелось вернуться.
         </p>
 
-        <h2 className={utilStyles.headingLg}>Проекты</h2>
-        <ul className={utilStyles.list}>
+        <h2>Проекты</h2>
+        <ul>
           {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <li  key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
+
               <br />
-              <small className={utilStyles.lightText}>
+
+              <small>
                 <Date dateString={date} />
               </small>
             </li>
           ))}
         </ul>
 
-        <div className={utilStyles.headingLg}>
+        <div>
           <Link href={`/partners`}>Партнеры</Link>
         </div>
 
-        <div className={utilStyles.headingLg}>
+        <div>
           <Link href={`/team`}>Команда</Link>
         </div>
 
-        <div className={utilStyles.headingLg}>
+        <div>
           <Link href={`/contacts`}>Почта и соцсети</Link>
         </div>
       </section>
