@@ -1,28 +1,37 @@
 import Layout from '../../components/Layout'
 import Head from 'next/head'
 
-// TODO alt к логотипам
 const partners = [
   {
-    "link": "http://xn--80acgfbsl1azdqr.xn--p1ai/",
-    "image": "https://ekaterinburg.design/data/images/gerb-ekb.svg"
+    "link": "https://xn--80acgfbsl1azdqr.xn--p1ai/",
+    "name": "Администрация Екатеринбурга",
+    "image": "https://ekaterinburg.design/data/images/gerb-ekb.svg",
+    "description": ""
   },
   {
     "link": "http://its.ekburg.ru/",
-    "image": "https://ekaterinburg.design/data/images/its-logo.svg"
+    "name": "Столица Урала",
+    "image": "https://ekaterinburg.design/data/images/its-logo.svg",
+    "description": "Информационно-туристическая служба (ИТС), действующая при Администрации города с 2005 года, — одно из первых в стране муниципальных учреждений, оказывающих бесплатные справочные услуги жителям города и туристам.        ИТС разрабатывает и распространяет буклеты, карты и путеводители с информацией об уральской столице на русском, английском и других иностранных языках, а также развивает систему туристической навигации — все то, что помогает спланировать самостоятельное знакомство с Екатеринбургом и без труда сориентироваться на улицах самого компактного крупного города России."
   },
   {
     "link": "https://atomsk.ru/",
-    "image": "https://ekaterinburg.design/data/images/atom-logo.svg"
+    "name": "Атомстрой­комплекс",
+    "image": "https://ekaterinburg.design/data/images/atom-logo.svg",
+    "description": "Компания «Атомстройкомплекс» как один из ведущих уральских застройщиков помогает проекту «Дизайн-код Екатеринбурга» привлекать дополнительные ресурсы для развития деятельности команды. Выступает заказчиком для разработки новых объектов городской среды, а также планирует тестировать и внедрять элементы дизайн-кода Екатеринбурга на своих объектах."
   },
   {
     "link": "https://e1.ru/",
-    "image": "https://ekaterinburg.design/data/images/e1.svg"
+    "name": "Екатеринбург Онлайн",
+    "image": "https://ekaterinburg.design/data/images/e1.svg",
+    "description": "Крупнейшее сетевое издание в Уральском регионе. Последние свежие новости Екатеринбурга и Свердловской области. Информационный партнёр проекта дизайн-код Екатеринбурга."
   },
   {
     "link": "https://vk.com/made_in_ural",
-    "image": "https://ekaterinburg.design/data/images/miu-logo.svg"
-  }
+    "name": "Made in Ural",
+    "image": "https://ekaterinburg.design/data/images/miu-logo.svg",
+    "description": "Проект Made in Ural — это некоммерческое сообщество активных и ответственных уральцев, ориентированное на продвижение Урала как бренда. В 2015 году проект Made in Ural в результате городского конкурса создал официальный логотип Екатеринбурга, который сегодня принадлежит всем горожанам. Сообщество активно поддерживает и продвигает уральские проекты, связанные с территориальным брендингом, в том числе «Дизайн-код Екатеринбурга»."
+  },
 ]
 
 export default function Partners() {
@@ -32,15 +41,15 @@ export default function Partners() {
         <title>Партнеры</title>
       </Head>
 
-      <ul>
-        {partners.map(({ link, image }) =>
-          <li>
-            <a href={link} target="_blank">
-              <img src={image} alt="" style={{backgroundColor: 'black'}} width={100}  />
-            </a>
-          </li>
-        )}
-      </ul>
+      {partners.map(({ link, name, image, description }) =>
+        <div style={{ marginBottom: 20 }}>
+          <a href={link} target="_blank">
+            <img src={image} alt="" style={{ backgroundColor: 'black' }} width={100} />
+            {name}
+          </a>
+          <div>{description}</div>
+        </div>
+      )}
     </Layout>
   )
 }
