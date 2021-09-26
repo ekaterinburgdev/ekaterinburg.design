@@ -1,4 +1,7 @@
 const { Client: NotionClient } = require("@notionhq/client");
+const Typograf = require('typograf');
+
+const tp = new Typograf({locale: ['ru', 'en-US']});
 
 const NOTION_DATABASES = {
   'Team': process.env.NOTION_DATABASE_TEAM,
@@ -23,9 +26,9 @@ export async function getNotionDatabaseItems(databaseName) {
 function getNotionValueByType(value, type) {
   switch (type) {
     case "title":
-      return value.title[0]?.plain_text || '';
+      return tp.execute(value.title[0]?.plain_text) || '';
     case "rich_text":
-      return value.rich_text[0]?.plain_text || '';
+      return tp.execute(value.rich_text[0]?.plain_text) || '';
     case "number":
       return value.number || '';
     case "select":
