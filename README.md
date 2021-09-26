@@ -2,12 +2,22 @@
 
 Site based Create Next App (Next.js)
 
-## Commands
+## Installation
 
-### Install
+1. Install dependencies
 ```sh
 npm i 
 ```
+
+2. Connect Notion API for using [Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
+```sh
+NOTION_TOKEN=
+NOTION_DATABASE_TEAM=
+NOTION_DATABASE_PARTNERS=
+NOTION_DATABASE_CONTACTS=
+```
+
+## Commands
 
 ### Run dev server
 ```sh
@@ -26,7 +36,4 @@ npm start
 
 ## Content management
 
-Site content is managed from files inside the `./data` folder. 
-
-- 📕 Blog posts are contained in `.md` files 
-- 📝 The content of the pages (contacts, partners, team etc) is in `.json` files
+📕 Blog posts and pages are contained in [Notion Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
