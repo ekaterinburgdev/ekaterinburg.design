@@ -2,6 +2,10 @@
 
 Site based Create Next App (Next.js)
 
+## Content management
+
+📕 Blog posts and pages are contained in [Notion Database](https://www.notion.so/ekaterinburg/97690fa6b5ce4e0690bf1a61056c0c69)
+
 ## Installation
 
 1. Install dependencies
@@ -9,7 +13,7 @@ Site based Create Next App (Next.js)
 npm i 
 ```
 
-2. Create `.env.local` with Notion Tokens for using [Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
+2. Create `.env.local` with [Notion Tokens](https://www.notion.so/my-integrations)
 ```sh
 NOTION_TOKEN=
 NOTION_DATABASE_TEAM=
@@ -18,7 +22,7 @@ NOTION_DATABASE_CONTACTS=
 NOTION_DATABASE_PROJECTS=
 ```
 
-## Commands
+## Development
 
 ### Run dev server
 ```sh
@@ -34,7 +38,6 @@ npm run production
 ```sh
 npm start
 ```
+## Deploy
 
-## Content management
-
-📕 Blog posts and pages are contained in [Notion Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
+Deploy via `git push` or `vercel`
