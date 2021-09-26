@@ -9,12 +9,13 @@ Site based Create Next App (Next.js)
 npm i 
 ```
 
-2. Connect Notion API for using [Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
+2. Create `.env.local` with Notion Tokens for using [Database](https://www.notion.so/ekaterinburg-design-cms/2122277bf0fb472eb135211f0fb84767?v=dd161eb26a724860beef4070aefbd243)
 ```sh
 NOTION_TOKEN=
 NOTION_DATABASE_TEAM=
 NOTION_DATABASE_PARTNERS=
 NOTION_DATABASE_CONTACTS=
+NOTION_DATABASE_PROJECTS=
 ```
 
 ## Commands
