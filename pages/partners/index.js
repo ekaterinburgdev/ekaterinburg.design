@@ -13,7 +13,7 @@ export default function Partners({ partners }) {
       {partners.map(({ link, name, image, description }) =>
         <div key={name} style={{ marginBottom: 20 }}>
           <a href={link} target="_blank">
-            <Image src={image} alt="" style={{ backgroundColor: 'black' }} width={100} height={100} />
+            <Image src={image} width={100} height={100} alt="" />
             {name}
           </a>
           <div>{description}</div>
