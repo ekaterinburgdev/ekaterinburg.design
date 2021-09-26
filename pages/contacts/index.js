@@ -1,9 +1,9 @@
+import { getNotionDatabaseItems } from '../../lib/notion'
+
 import Layout from '../../components/Layout'
 import Head from 'next/head'
 
-import contacts from '../../data/contacts.json';
-
-export default function Contacts() {
+export default function Contacts({ contacts }) {
   return (
     <Layout>
       <Head>
@@ -11,11 +11,14 @@ export default function Contacts() {
       </Head>
 
       <ul>
-        {contacts.map(({ caption, link }) =>
-          <li><a href={link} target="_blank">{caption}</a></li>
+        {contacts.map(({ name, link }) =>
+          <li key={name}><a href={link} target="_blank">{name}</a></li>
         )}
       </ul>
     </Layout >
   )
 }
 
+export async function getStaticProps() {
+  return { props: { contacts: await getNotionDatabaseItems('Сontacts') } }
+}

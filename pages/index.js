@@ -1,6 +1,7 @@
 import { getSortedPostsData } from '../lib/posts'
 
 import Head from 'next/head'
+import Image from 'next/image'
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import Date from '../components/Date'
@@ -38,7 +39,7 @@ export default function Home({ allPostsData }) {
         <ul style={{display: 'flex'}}>
           {allPostsData.map(({ id, date, title, image }) => (
             <li key={id}>
-              <img src={image} alt="" width={200} />
+              <Image src={image} alt="" width={200} height={200} />
 
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
@@ -57,7 +58,7 @@ export default function Home({ allPostsData }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPostsData = getSortedPostsData()
   return {
     props: {
