@@ -45,3 +45,11 @@ footer {
   margin: 60px 0;
   text-align: center;
 }
+
+#nprogress .bar {
+  background-color: #fff !important;
+  height: 3px;
+}
+#nprogress .peg {
+  box-shadow: 0 0 20px #fff, 0 0 10px #fff !important;
+} 
