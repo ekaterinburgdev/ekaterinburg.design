@@ -1,4 +1,4 @@
-import { getNotionDatabaseItems } from '../../lib/notion'
+import { getNotionDatabaseItems } from '../../core/notion'
 
 import Layout from '../../components/Layout'
 import Head from 'next/head'

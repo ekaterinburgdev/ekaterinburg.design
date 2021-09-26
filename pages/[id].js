@@ -1,8 +1,7 @@
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { getNotionDatabaseItems } from '../core/notion'
 
-import Layout from '../../components/Layout'
+import Layout from '../components/Layout'
 import Head from 'next/head'
-import Date from '../../components/Date'
 
 export default function Post({ postData }) {
   return (
@@ -11,20 +10,16 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <img src={postData.image} alt="" />
-
         <h1>{postData.title}</h1>
-        <div>
-          <Date dateString={postData.date} />
-        </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   )
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds()
+  const paths = await (await getNotionDatabaseItems("Projects")).map(({ id }) => {
+    return { params: { id } }
+  })
   return {
     paths,
     fallback: false
@@ -32,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
+  const postData = await (await getNotionDatabaseItems("Projects")).find(({ id }) => params.id === id)
   return {
     props: {
       postData

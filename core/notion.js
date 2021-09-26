@@ -3,7 +3,8 @@ const { Client: NotionClient } = require("@notionhq/client");
 const NOTION_DATABASES = {
   'Team': process.env.NOTION_DATABASE_TEAM,
   'Partners': process.env.NOTION_DATABASE_PARTNERS,
-  'Сontacts': process.env.NOTION_DATABASE_CONTACTS
+  'Сontacts': process.env.NOTION_DATABASE_CONTACTS,
+  'Projects': process.env.NOTION_DATABASE_PROJECTS
 };
 
 const notion = new NotionClient({ auth: process.env.NOTION_TOKEN });
