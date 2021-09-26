@@ -19,6 +19,6 @@ export default function Contacts({ contacts }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return { props: { contacts: await getNotionDatabaseItems('Сontacts') } }
 }

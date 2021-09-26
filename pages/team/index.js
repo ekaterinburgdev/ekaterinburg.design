@@ -22,6 +22,6 @@ export default function Team({ team }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return { props: { team: await getNotionDatabaseItems('Team') } }
 }
