@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
+import Header from '../Header';
+
 import styles from './Layout.module.scss'
 
 const name = 'Дизайн-код Екатеринбурга'
@@ -11,18 +13,18 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className={styles.header}>
 
-        <>
-          <h2>
-            <Link href="/">
-              <a>{name}</a>
-            </Link>
-          </h2>
-        </>
-      </header>
+      <Header />
 
-      <main>{children}</main>
+      <h1>
+        <Link href="/">
+          <a>{name}</a>
+        </Link>
+      </h1>
+
+      <main>
+        {children}
+      </main>
 
       {!home && (
         <div className={styles.backToHome}>
