@@ -1,7 +1,13 @@
 const { Client: NotionClient } = require("@notionhq/client");
 const Typograf = require('typograf');
 
-const tp = new Typograf({locale: ['ru', 'en-US']});
+const tp = new Typograf({ locale: ['ru', 'en-US'] });
+
+tp.disableRule([
+  'common/space/delBeforePunctuation',
+  'common/space/afterPunctuation',
+  'common/nbsp/replaceNbsp',
+]);
 
 const NOTION_DATABASES = {
   'TeamNew': process.env.NOTION_DATABASE_TEAM_NEW,
