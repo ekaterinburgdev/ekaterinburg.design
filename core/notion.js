@@ -4,7 +4,8 @@ const Typograf = require('typograf');
 const tp = new Typograf({locale: ['ru', 'en-US']});
 
 const NOTION_DATABASES = {
-  'Team': process.env.NOTION_DATABASE_TEAM,
+  'TeamNew': process.env.NOTION_DATABASE_TEAM_NEW,
+  'TeamOld': process.env.NOTION_DATABASE_TEAM_OLD,
   'Partners': process.env.NOTION_DATABASE_PARTNERS,
   'Сontacts': process.env.NOTION_DATABASE_CONTACTS,
   'Projects': process.env.NOTION_DATABASE_PROJECTS
@@ -34,13 +35,13 @@ function getNotionValueByType(value, type) {
     case "select":
       return value.select.name || '';
     case "multi_select":
-      return value.multi_select[0]?.name || '';
+      return value.multi_select.map(x => x?.name) || [];
     case "date":
       return value.date || '';
     case "people":
       return value.people || '';
     case "files":
-      return value.files[0]?.file?.url || '';
+      return value.files.map(x => x?.file?.url) || [];
     case "checkbox":
       return value.checkbox || '';
     case "url":

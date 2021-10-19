@@ -10,11 +10,11 @@ export default function Team({ team }) {
       <Head>
         <title>Команда</title>
       </Head>
-      {team.map(({ link, name, image, role }) => (
-        <a href={link} target="_blank" key={name}>
-          <figure >
-            <Image src={image} alt={name} width={100} height={100} />
-            <figcaption>{name}, {role}</figcaption>
+      {team.map(({ имя, роли, сайт, фото }) => (
+        <a href={сайт} target="_blank" key={имя}>
+          <figure>
+            {фото.length > 0 && <Image  src={фото[0]} width={100} height={100} alt="" />}
+            <figcaption>{имя}<br />{роли.map(x => x.toLowerCase()).join(', ')}</figcaption>
           </figure>
         </a>
       ))}
@@ -23,5 +23,12 @@ export default function Team({ team }) {
 }
 
 export async function getServerSideProps() {
-  return { props: { team: await getNotionDatabaseItems('Team') } }
+  return {
+    props: {
+      team: [
+        ... await getNotionDatabaseItems('TeamOld'),
+        ... await getNotionDatabaseItems('TeamNew')
+      ]
+    }
+  }
 }
