@@ -1,0 +1,29 @@
+.site-description {
+    font-size: 1.6vmax;
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.site-description_align-left {
+    text-align: left;
+    padding-left: 2.3em;
+    margin-right: auto;
+
+    &:first-letter {
+        margin-left: -2.3em;
+    }
+}
+
+.site-description_align-right {
+    text-align: right;
+    margin-left: auto;
+
+    &:first-letter {
+        margin-left: 60%;
+    }
+}
+
+.section-heading {
+    font-size: 8vmax;
+    transform: matrix(1, -0.11, 0, 0.99, 0, 0);
+}
