@@ -3,6 +3,7 @@ import { getNotionDatabaseItems } from '../core/notion'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import PostPreviewGrid from '../components/PostPreviewGrid'
 
 // TODO Setup typograph
 export default function Home({ projects }) {
@@ -24,18 +25,10 @@ export default function Home({ projects }) {
         <h2><Link href={`/contacts`}>Почта и соцсети</Link></h2>
 
 
-        <h2>Проекты</h2>
-        <ul>
-          {projects.map(({ title, id, date }) => (
-            <li key={id}>
-              <Link href={`/${id}`}>
-                <a>{title}</a>
-              </Link>
-
-              <br />
-            </li>
-          ))}
-        </ul>
+        <section>
+          <h2>Проекты</h2>
+          <PostPreviewGrid posts={projects} />
+        </section>
       </section>
     </Layout>
   )

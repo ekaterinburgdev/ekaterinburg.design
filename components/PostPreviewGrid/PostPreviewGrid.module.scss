@@ -1,0 +1,32 @@
+.post-preview-grid {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.post-preview-grid__item {
+  background-color: rgba(255,255,255,.15);
+  aspect-ratio: 1/1;
+}
+
+.post-preview-grid__item_highlight {
+  grid-area: span 2 / span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .post-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .post-preview-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .post-preview-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
