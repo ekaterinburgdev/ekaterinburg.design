@@ -5,8 +5,6 @@ import Header from '../Header';
 
 import styles from './Layout.module.scss'
 
-const name = 'Дизайн-код Екатеринбурга'
-
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
@@ -15,13 +13,7 @@ export default function Layout({ children, home }) {
       </Head>
 
       <Header />
-
-      <h1>
-        <Link href="/">
-          <a>{name}</a>
-        </Link>
-      </h1>
-
+      
       <main>
         {children}
       </main>

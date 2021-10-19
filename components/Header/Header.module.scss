@@ -1,8 +1,21 @@
-.post-preview {
+.header {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.post-preview__title {
+.header__title {
+    max-width: 38vmax;
+    margin-right: 1vmax;
+    padding-left: 1em;
+    font-size: 6vmax;
+    line-height: 1.2;
+    
+    &::first-letter {
+        margin-left: -.72em;
+    }
 }
 
-.post-preview__image {
+.header__logo {
+    margin-top: -3rem;
+    margin-left: -3rem;
 }
