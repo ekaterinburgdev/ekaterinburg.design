@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Footer from '../Footer/Footer';
 
 import Header from '../Header';
 
@@ -25,10 +26,8 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-
-      <footer>
-        2017–2021
-      </footer>
+      
+      <Footer />
     </div>
   )
 }
