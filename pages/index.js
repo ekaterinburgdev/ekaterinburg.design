@@ -4,34 +4,34 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import menuItems from '../routes.json';
+
 import Layout from '../components/Layout'
-import Link from 'next/link'
 import PostPreviewGrid from '../components/PostPreviewGrid'
 
 export default function Home({ projects, team, partners, contacts }) {
   return (
     <Layout home menuItems={menuItems}>
       <Head>
-        <title>Ekaterinburg.design</title>
+        <title>Дизайн-код Екатеринбурга</title>
       </Head>
 
-      <header>
+      <section id="about">
         <p className={'site-description site-description_align-left'}>
-          &laquo; Дизайн-код Екатеринбурга&raquo; &nbsp; &mdash; инициативный проект независимых дизайнеров города.Мы&nbsp; разрабатыва&shy; ем единые визуальные стандарты городской среды и&nbsp; внедряем их&nbsp; в&nbsp; жизнь.
+          &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
         </p>
         <p className={'site-description site-description_align-right'}>
-          Наша цель&nbsp; &mdash; сделать Екатеринбург уютным и&nbsp; комфортным, чтобы жите&shy; лям хотелось остаться, а&nbsp; гостям захотелось вернуться.
+          Наша цель&nbsp;&mdash; сделать Екатеринбург уютным и&nbsp;комфортным, чтобы жите&shy;лям хотелось остаться, а&nbsp;гостям&raquo;&nbsp;&mdash;&nbsp;вернуться.
         </p>
-      </header>
+      </section>
 
-      <section>
+      <section id="projects">
         <h2 className={'section-heading'}>Проекты</h2>
         <PostPreviewGrid posts={projects} />
       </section>
 
 
-      <section>
-        <h2 className={'section-heading'}><Link href={`/team`}>Команда</Link></h2>
+      <section id="team">
+        <h2 className={'section-heading'}>Команда</h2>
 
         {team.map(({ имя, роли, сайт, фото }) => (
           <a href={сайт} target="_blank" key={имя}>
@@ -44,8 +44,8 @@ export default function Home({ projects, team, partners, contacts }) {
       </section>
 
 
-      <section>
-        <h2 className={'section-heading'}><Link href={`/partners`}>Партнеры</Link></h2>
+      <section id="partners">
+        <h2 className={'section-heading'}>Партнеры</h2>
 
         {partners.map(({ link, name, image, description }) =>
           <div key={name} style={{ marginBottom: 20 }}>
@@ -58,8 +58,8 @@ export default function Home({ projects, team, partners, contacts }) {
         )}
       </section>
 
-      <section>
-        <h2 className={'section-heading'}><Link href={`/contacts`}>Почта и соцсети</Link></h2>
+      <section id="contacts">
+        <h2 className={'section-heading'}>Почта и соцсети</h2>
 
         {contacts.map(({ name, link }) =>
           <li key={name}><a href={link} target="_blank">{name}</a></li>
@@ -69,7 +69,7 @@ export default function Home({ projects, team, partners, contacts }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       projects: await getNotionDatabaseItems('Projects'),
@@ -79,6 +79,7 @@ export async function getServerSideProps() {
       ],
       partners: await getNotionDatabaseItems('Partners'),
       contacts: await getNotionDatabaseItems('Сontacts')
-    }
+    },
+    revalidate: 15,
   }
 }
