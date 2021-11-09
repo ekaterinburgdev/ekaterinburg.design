@@ -1,0 +1,22 @@
+[
+    {
+      "link": "#about",
+      "title": "Что это"
+    },
+    {
+      "link": "#projects",
+      "title": "Проекты"
+    },
+    {
+      "link": "#team",
+      "title": "Команда"
+    },
+    {
+      "link": "#partners",
+      "title": "Партнёры"
+    },
+    {
+      "link": "#contacts",
+      "title": "Почта и соцсети"
+    }
+  ]

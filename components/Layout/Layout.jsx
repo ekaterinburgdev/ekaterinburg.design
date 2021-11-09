@@ -4,17 +4,18 @@ import Footer from '../Footer/Footer';
 
 import Header from '../Header';
 
-import styles from './Layout.module.scss'
+import styles from './Layout.module.scss';
 
-export default function Layout({ children, home }) {
+
+export default function Layout({ children, home, menuItems }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      
+      <Header menuItems={menuItems} />
+
       <main>
         {children}
       </main>
@@ -26,7 +27,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      
+
       <Footer />
     </div>
   )

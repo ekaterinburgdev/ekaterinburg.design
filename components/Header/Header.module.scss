@@ -15,6 +15,16 @@
     }
 }
 
+.header__menu {
+    position: fixed;
+    z-index: 2;
+    top: 0vh;
+    right: 4vw;
+    padding: 3vh 3vw;
+    background: rgba(0,0,0,.053);
+    backdrop-filter: blur(8px);
+}
+
 .header__logo {
     margin-top: -3rem;
     margin-left: -3rem;

@@ -20,7 +20,7 @@ export default function Header({ menuItems }) {
         </Link>
       </h1>
 
-      <nav className={'header__menu'}>
+      <nav className={cx('header__menu')}>
         <Menu items={menuItems} />
       </nav>
     </header>

@@ -3,13 +3,14 @@ import { getNotionDatabaseItems } from '../core/notion'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import menuItems from '../routes.json';
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import PostPreviewGrid from '../components/PostPreviewGrid'
 
 export default function Home({ projects, team, partners, contacts }) {
   return (
-    <Layout home>
+    <Layout home menuItems={menuItems}>
       <Head>
         <title>Ekaterinburg.design</title>
       </Head>
