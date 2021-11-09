@@ -7,6 +7,8 @@
 
 .post-preview-grid__item {
   position: relative;
+  overflow: hidden;
+  border-radius: 8px;
   background-color: rgba(255,255,255,.15);
   aspect-ratio: 1/1;
 }
