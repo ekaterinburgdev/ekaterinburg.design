@@ -2,7 +2,7 @@
   display: grid;
   grid-auto-flow: row dense;
   grid-template-columns: 1fr;
-  gap: 1vw;
+  gap: .75vw;
 }
 
 .post-preview-grid__item {
