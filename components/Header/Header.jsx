@@ -19,9 +19,7 @@ export default function Header({ menuItems }) {
       </div>
 
       <h1 className={cx('header__title')}>
-        <Link href="/">
-          Дизайн-код Екатеринбурга
-        </Link>
+        Дизайн-код Екатеринбурга
       </h1>
     </header>
   )

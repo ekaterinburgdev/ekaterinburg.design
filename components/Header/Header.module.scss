@@ -23,11 +23,13 @@
     .header__menu {
         position: fixed;
         z-index: 2;
-        top: 0;
-        right: 0;
+        top: 2vh;
+        right: 4vw;
         padding: 1vw 3vw;
-        background: rgba(0,0,0,.053);
+        background: rgb(0 0 0 / 30%);
         backdrop-filter: blur(8px);
+        border-radius: 70px;
+        text-transform: lowercase;
     }
 
     .header__logo {

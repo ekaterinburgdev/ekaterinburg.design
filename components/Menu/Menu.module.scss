@@ -1,7 +1,16 @@
 .menu {
     display: flex;
-    column-gap: 2em;
+    column-gap: 1.6em;
 }
 
 .menu__item {
+    color: rgba(255,255,255,.75);
+    transition: color .15s ease;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
 }
+
