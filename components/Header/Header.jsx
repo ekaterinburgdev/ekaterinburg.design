@@ -10,6 +10,10 @@ const cx = classNames.bind(styles);
 export default function Header({ menuItems }) {
   return (
     <header className={cx('header')}>
+      <nav className={cx('header__menu')}>
+        <Menu items={menuItems} />
+      </nav>
+
       <div className={cx('header__logo')}>
         <HeaderLogo />
       </div>
@@ -19,10 +23,6 @@ export default function Header({ menuItems }) {
           Дизайн-код Екатеринбурга
         </Link>
       </h1>
-
-      <nav className={cx('header__menu')}>
-        <Menu items={menuItems} />
-      </nav>
     </header>
   )
 };

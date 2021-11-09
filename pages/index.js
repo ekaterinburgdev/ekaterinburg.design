@@ -11,55 +11,58 @@ import TeamList from '../components/TeamGrid';
 
 export default function Home({ projects, team, partners, contacts }) {
   return (
-    <Layout home menuItems={menuItems}>
-      <Head>
-        <title>Дизайн-код Екатеринбурга</title>
-      </Head>
+    <>
+      <div id="about"></div>
+      <Layout home menuItems={menuItems}>
+        <Head>
+          <title>Дизайн-код Екатеринбурга</title>
+        </Head>
 
-      <section id="about">
-        <p className={'site-description site-description_align-left'}>
-          &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
-        </p>
-        <p className={'site-description site-description_align-right'}>
-          Наша цель&nbsp;&mdash; сделать Екатеринбург уютным и&nbsp;комфортным, чтобы жите&shy;лям хотелось остаться, а&nbsp;гостям&raquo;&nbsp;&mdash;&nbsp;вернуться.
-        </p>
-      </section>
+        <section>
+          <p className={'site-description site-description_align-left'}>
+            &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
+          </p>
+          <p className={'site-description site-description_align-right'}>
+            Наша цель&nbsp;&mdash; сделать Екатеринбург уютным и&nbsp;комфортным, чтобы жите&shy;лям хотелось остаться, а&nbsp;гостям&raquo;&nbsp;&mdash;&nbsp;вернуться.
+          </p>
+        </section>
 
-      <section id="projects">
-        <h2 className={'section-heading'}>Проекты</h2>
-        <PostPreviewGrid posts={projects} />
-      </section>
-
-
-      <section id="team">
-        <h2 className={'section-heading'}>Команда</h2>
-
-        <TeamList team={team} />
-      </section>
+        <section id="projects">
+          <h2 className={'section-heading'}>Проекты</h2>
+          <PostPreviewGrid posts={projects} />
+        </section>
 
 
-      <section id="partners">
-        <h2 className={'section-heading'}>Партнеры</h2>
+        <section id="team">
+          <h2 className={'section-heading'}>Команда</h2>
 
-        {partners.map(({ link, name, image, description }) =>
-          <div key={name} style={{ marginBottom: 20 }}>
-            <a href={link} target="_blank">
-              <Image src={image[0]} width={100} height={100} alt="" />
-              {name}
-            </a>
-            <div>{description}</div>
-          </div>
-        )}
-      </section>
+          <TeamList team={team} />
+        </section>
 
-      <section id="contacts">
-        <h2 className={'section-heading'}>Почта и соцсети</h2>
 
-        {contacts.map(({ name, link }) =>
-          <li key={name}><a href={link} target="_blank">{name}</a></li>
-        )}
-      </section>
-    </Layout>
+        <section id="partners">
+          <h2 className={'section-heading'}>Партнеры</h2>
+
+          {partners.map(({ link, name, image, description }) =>
+            <div key={name} style={{ marginBottom: 20 }}>
+              <a href={link} target="_blank">
+                <Image src={image[0]} width={100} height={100} alt="" />
+                {name}
+              </a>
+              <div>{description}</div>
+            </div>
+          )}
+        </section>
+
+        <section id="contacts">
+          <h2 className={'section-heading'}>Почта и соцсети</h2>
+
+          {contacts.map(({ name, link }) =>
+            <li key={name}><a href={link} target="_blank">{name}</a></li>
+          )}
+        </section>
+      </Layout>
+    </>
   )
 }
 
