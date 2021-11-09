@@ -43,15 +43,15 @@ export default function Home({ projects, team, partners, contacts }) {
         <section id="partners">
           <h2 className={'section-heading'}>Партнеры</h2>
 
-          {partners.map(({ link, name, image, description }) =>
-            <div key={name} style={{ marginBottom: 20 }}>
-              <a href={link} target="_blank">
-                <Image src={image[0]} width={100} height={100} alt="" />
-                {name}
-              </a>
-              <div>{description}</div>
-            </div>
-          )}
+          <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 20 }}>
+            {partners.map(({ link, name, image, description }) =>
+              <div key={name}>
+                <a href={link} target="_blank">
+                  <Image src={image[0]} width={200} height={200} alt="" />
+                </a>
+              </div>
+            )}
+          </div>
         </section>
 
         <section id="contacts">
