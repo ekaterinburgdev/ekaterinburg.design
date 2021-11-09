@@ -7,6 +7,7 @@ import menuItems from '../routes.json';
 
 import Layout from '../components/Layout'
 import PostPreviewGrid from '../components/PostPreviewGrid'
+import TeamList from '../components/TeamGrid';
 
 export default function Home({ projects, team, partners, contacts }) {
   return (
@@ -33,14 +34,7 @@ export default function Home({ projects, team, partners, contacts }) {
       <section id="team">
         <h2 className={'section-heading'}>Команда</h2>
 
-        {team.map(({ имя, роли, сайт, фото }) => (
-          <a href={сайт} target="_blank" key={имя}>
-            <figure>
-              {фото.length > 0 && <Image src={фото[0]} width={100} height={100} alt="" />}
-              <figcaption>{имя}<br />{роли.map(x => x.toLowerCase()).join(', ')}</figcaption>
-            </figure>
-          </a>
-        ))}
+        <TeamList team={team} />
       </section>
 
 
