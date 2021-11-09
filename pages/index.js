@@ -1,40 +1,83 @@
 import { getNotionDatabaseItems } from '../core/notion'
 
 import Head from 'next/head'
+import Image from 'next/image'
+
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import PostPreviewGrid from '../components/PostPreviewGrid'
 
-// TODO Setup typograph
-export default function Home({ projects }) {
+export default function Home({ projects, team, partners, contacts }) {
   return (
     <Layout home>
       <Head>
         <title>Ekaterinburg.design</title>
       </Head>
 
-      <section>
+      <header>
         <p className={'site-description site-description_align-left'}>
-          &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
+          &laquo; Дизайн-код Екатеринбурга&raquo; &nbsp; &mdash; инициативный проект независимых дизайнеров города.Мы&nbsp; разрабатыва&shy; ем единые визуальные стандарты городской среды и&nbsp; внедряем их&nbsp; в&nbsp; жизнь.
         </p>
         <p className={'site-description site-description_align-right'}>
-          Наша цель&nbsp;&mdash; сделать Екатеринбург уютным и&nbsp;комфортным, чтобы жите&shy;лям хотелось остаться, а&nbsp;гостям захотелось вернуться.
+          Наша цель&nbsp; &mdash; сделать Екатеринбург уютным и&nbsp; комфортным, чтобы жите&shy; лям хотелось остаться, а&nbsp; гостям захотелось вернуться.
         </p>
+      </header>
 
-        <h2 className={'section-heading'}><Link href={`/partners`}>Партнеры</Link></h2>
+      <section>
+        <h2 className={'section-heading'}>Проекты</h2>
+        <PostPreviewGrid posts={projects} />
+      </section>
+
+
+      <section>
         <h2 className={'section-heading'}><Link href={`/team`}>Команда</Link></h2>
+
+        {team.map(({ имя, роли, сайт, фото }) => (
+          <a href={сайт} target="_blank" key={имя}>
+            <figure>
+              {фото.length > 0 && <Image src={фото[0]} width={100} height={100} alt="" />}
+              <figcaption>{имя}<br />{роли.map(x => x.toLowerCase()).join(', ')}</figcaption>
+            </figure>
+          </a>
+        ))}
+      </section>
+
+
+      <section>
+        <h2 className={'section-heading'}><Link href={`/partners`}>Партнеры</Link></h2>
+
+        {partners.map(({ link, name, image, description }) =>
+          <div key={name} style={{ marginBottom: 20 }}>
+            <a href={link} target="_blank">
+              <Image src={image[0]} width={100} height={100} alt="" />
+              {name}
+            </a>
+            <div>{description}</div>
+          </div>
+        )}
+      </section>
+
+      <section>
         <h2 className={'section-heading'}><Link href={`/contacts`}>Почта и соцсети</Link></h2>
 
-
-        <section>
-          <h2 className={'section-heading'}>Проекты</h2>
-          <PostPreviewGrid posts={projects} />
-        </section>
+        {contacts.map(({ name, link }) =>
+          <li key={name}><a href={link} target="_blank">{name}</a></li>
+        )}
       </section>
     </Layout>
   )
 }
 
 export async function getServerSideProps() {
-  return { props: { projects: await getNotionDatabaseItems('Projects') } }
+  return {
+    props: {
+      projects: await getNotionDatabaseItems('Projects'),
+      team: [
+        ... await getNotionDatabaseItems('TeamOld'),
+        ... await getNotionDatabaseItems('TeamNew')
+      ],
+      partners: await getNotionDatabaseItems('Partners'),
+      contacts: await getNotionDatabaseItems('Сontacts')
+    }
+  }
 }
