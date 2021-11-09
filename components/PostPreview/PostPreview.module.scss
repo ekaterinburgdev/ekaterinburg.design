@@ -47,6 +47,10 @@
 	animation: fadeIn-2 12s 3s ease both infinite;
 }
 
+.post-preview__image:only-of-type {
+	animation: none !important;
+}
+
 @keyframes fadeIn-1 {
 	0% {
 		opacity: 1;
