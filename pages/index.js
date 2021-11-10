@@ -47,7 +47,7 @@ export default function Home({ projects, team, partners, contacts }) {
             {partners.map(({ link, name, image, description }) =>
               <div key={name}>
                 <a href={link} target="_blank">
-                  <Image src={image[0]} width={200} height={200} alt="" />
+                  <Image src={image[0]} width={200} height={200} alt="" loading="eager" />
                 </a>
               </div>
             )}
