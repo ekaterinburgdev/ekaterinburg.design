@@ -77,6 +77,6 @@ export async function getStaticProps() {
       partners: await getNotionDatabaseItems('Partners'),
       contacts: await getNotionDatabaseItems('Сontacts')
     },
-    revalidate: 15,
+    revalidate: 60,
   }
 }
