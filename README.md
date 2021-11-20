@@ -1,19 +1,15 @@
-# Ekaterinburg.design Site
+# Сайт проекта Дизайн-код Екатеринбурга
 
-Site based Create Next App (Next.js)
+Работает на базе Create Next App и [Notion API](https://developers.notion.com/)
 
-## Content management
+## Запуск
 
-📕 Blog posts and pages are contained in [Notion Database](https://www.notion.so/ekaterinburg/97690fa6b5ce4e0690bf1a61056c0c69)
-
-## Installation
-
-1. Install dependencies
+1. Установка зависимостей
 ```sh
 npm i 
 ```
 
-2. Create `.env.local` with [Notion Tokens](https://www.notion.so/my-integrations)
+2. Добавить файл с переменными среды `.env.local` с [токенами Notion](https://www.notion.so/my-integrations)
 ```sh
 NOTION_TOKEN=
 NOTION_DATABASE_TEAM=
@@ -22,22 +18,30 @@ NOTION_DATABASE_CONTACTS=
 NOTION_DATABASE_PROJECTS=
 ```
 
-## Development
+## Управление контентом
 
-### Run dev server
+В Notion хранятся данные проекта:
+- Проекты
+- Партнеры
+- Команда
+- Контакты
+
+## Разработка
+
+### Запуск dev-сервера
 ```sh
 npm run dev
 ```
 
-### Build
+### Сборка
 ```sh
 npm run production
 ```
 
-### Start production
+### Запуск production-версии
 ```sh
 npm start
 ```
-## Deploy
+## Деплой
 
-Deploy via `git push` or `vercel`
+Проект развертывается на Vercel при `git push` с помощью GitHub Actions
