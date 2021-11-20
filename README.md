@@ -1,19 +1,25 @@
-# Site ekaterinburg.design
+# Ekaterinburg.design Site
 
-### Setup
+Site based Create Next App (Next.js)
 
+## Commands
+
+### Install
 ```sh
-npm i
-```
-
-### Build
-
-```sh
-npm run build
+npm i 
 ```
 
 ### Run dev server
+```sh
+npm run dev
+```
 
+### Build
+```sh
+npm run production
+```
+
+### Start production
 ```sh
 npm start
 ```
