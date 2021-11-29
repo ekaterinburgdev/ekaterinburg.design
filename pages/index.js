@@ -28,20 +28,28 @@ export default function Home({ projects, team, partners, contacts }) {
         </section>
 
         <section id="projects">
-          <h2 className={'section-heading'}>Проекты</h2>
+          <h2 className={'section-heading section-heading_projects'}>Проекты</h2>
           <PostPreviewGrid posts={projects} />
+
+          <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
+
+          <p className={'support-description'}>
+            Дизайн-код Екатеринбурга — инициативный проект независимых дизайнеров города.
+            Мы разрабатываем единые визуальные стандарты городской среды и внедряем их в жизнь.
+          </p>
+
+          <a className={'support-link'} href="/">помочь проекту →</a>
         </section>
 
-
         <section id="team">
-          <h2 className={'section-heading'}>Команда</h2>
+          <h2 className={'section-heading section-heading_team'}>Команда</h2>
 
           <TeamList team={team} />
         </section>
 
 
         <section id="partners">
-          <h2 className={'section-heading'}>Партнеры</h2>
+          <h2 className={'section-heading section-heading_partners'}>Партнеры</h2>
 
           <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 20 }}>
             {partners.map(({ link, name, image, description }) =>
@@ -52,14 +60,14 @@ export default function Home({ projects, team, partners, contacts }) {
               </div>
             )}
           </div>
+
+          <p className="partners-text">
+            Мы всегда открыты новым специалистам и партнерам для&nbsp;сотрудничества — пишите нам на&nbsp;почту <a href="mailto:mail@ekaterinburg.design">mail@ekaterinburg.design</a>
+          </p>
         </section>
 
         <section id="contacts">
-          <h2 className={'section-heading'}>Почта и соцсети</h2>
-
-          {contacts.map(({ name, link }) =>
-            <li key={name}><a href={link} target="_blank">{name}</a></li>
-          )}
+          <h2 className={'section-heading section-heading_contacts'}>Почта<br />и соцсети</h2>
         </section>
       </Layout>
     </>
@@ -75,7 +83,7 @@ export async function getStaticProps() {
         ... await getNotionDatabaseItems('TeamNew')
       ],
       partners: await getNotionDatabaseItems('Partners'),
-      contacts: await getNotionDatabaseItems('Сontacts')
+      contacts: []//await getNotionDatabaseItems('Сontacts')
     },
     revalidate: 60 * 60 * 24,
   }
