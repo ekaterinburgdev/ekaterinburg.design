@@ -19,6 +19,7 @@ jobs:
       - name: Deploy to Staging 
         id: deploy-vercel-staging
         uses: amondnet/vercel-action@v20
+        if: github.ref != 'refs/heads/main'
         with:
           vercel-token: ${{secrets.VERCEL_TOKEN}}
           github-token: ${{secrets.VERCEL_GITHUB_TOKEN}}
@@ -34,7 +35,7 @@ jobs:
       - name: Deploy to Production 
         id: deploy-vercel-production
         uses: amondnet/vercel-action@v20
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         with:
           vercel-token: ${{secrets.VERCEL_TOKEN}}
           vercel-org-id: ${{secrets.VERCEL_ORG_ID}}
