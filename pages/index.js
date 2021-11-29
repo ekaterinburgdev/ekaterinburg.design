@@ -111,6 +111,6 @@ export async function getStaticProps() {
       ],
       partners: await getNotionDatabaseItems('Partners')
     },
-    revalidate: 60,
+    //revalidate: 60,
   }
 }

@@ -13,10 +13,15 @@
         color: rgba(255,255,255,.75);
         transition: color .15s ease;
         text-decoration: none;
+        text-transform: lowercase;
 
         &:hover {
             color: white;
             text-decoration: none;
+        }
+
+        &:first-child {
+            text-transform: none;
         }
     }
 
