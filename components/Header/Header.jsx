@@ -19,7 +19,7 @@ export default function Header({ menuItems }) {
       </div>
 
       <h1 className={cx('header__title')}>
-        Дизайн-код Екатеринбурга
+        Дизайн-код <span style={{ color: "#00D200" }}>Екатеринбурга</span>
       </h1>
     </header>
   )
