@@ -21,6 +21,7 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{secrets.VERCEL_TOKEN}}
+          github-token: ${{secrets.VERCEL_GITHUB_TOKEN}}
           vercel-org-id: ${{secrets.VERCEL_ORG_ID}}
           vercel-project-id: ${{secrets.VERCEL_PROJECT_ID}}
           alias-domains: >-
