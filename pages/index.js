@@ -8,8 +8,9 @@ import menuItems from '../routes.json';
 import Layout from '../components/Layout'
 import PostPreviewGrid from '../components/PostPreviewGrid'
 import TeamList from '../components/TeamGrid';
+import Contacts from '../components/Contacts';
 
-export default function Home({ projects, team, partners, contacts }) {
+export default function Home({ projects, team, partners }) {
   return (
     <>
       <div id="about"></div>
@@ -68,6 +69,8 @@ export default function Home({ projects, team, partners, contacts }) {
 
         <section id="contacts">
           <h2 className={'section-heading section-heading_contacts'}>Почта<br />и соцсети</h2>
+
+          <Contacts />
         </section>
       </Layout>
     </>
@@ -82,8 +85,7 @@ export async function getStaticProps() {
         ... await getNotionDatabaseItems('TeamOld'),
         ... await getNotionDatabaseItems('TeamNew')
       ],
-      partners: await getNotionDatabaseItems('Partners'),
-      contacts: []//await getNotionDatabaseItems('Сontacts')
+      partners: await getNotionDatabaseItems('Partners')
     },
     revalidate: 60 * 60 * 24,
   }

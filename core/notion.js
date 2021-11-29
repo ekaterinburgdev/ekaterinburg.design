@@ -13,7 +13,6 @@ const NOTION_DATABASES = {
   'TeamNew': process.env.NOTION_DATABASE_TEAM_NEW,
   'TeamOld': process.env.NOTION_DATABASE_TEAM_OLD,
   'Partners': process.env.NOTION_DATABASE_PARTNERS,
-  'Сontacts': process.env.NOTION_DATABASE_CONTACTS,
   'Projects': process.env.NOTION_DATABASE_PROJECTS
 };
 

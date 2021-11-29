@@ -1,0 +1,53 @@
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.contacts__item {
+    transition: .15s ease;
+
+    svg {
+        max-width: 100%;
+    }
+
+    &:hover {
+        opacity: .95;
+    }
+
+    &:active {
+        opacity: .9;
+    }
+}
+
+.contacts__item_mail {
+    font-size: 15vw;
+    font-weight: 500;
+    line-height: .86;
+    color: #00D200;
+    transform: rotate(7deg);
+    margin-top: 1em;
+    margin-bottom: .5em;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 210, 0, .3);
+    transition: .15s ease;
+}
+
+.contacts__item_facebook {
+    position: relative;
+    top: -11vw;
+    right: -2vw;
+    transform: rotate(7deg);
+}
+
+.contacts__item_instagram {
+    transform: rotate(-7deg);
+}
+
+.contacts__item_youtube {
+    position: relative;
+    top: -7vw;
+    right: -21vw;
+    transform: rotate(-7deg);
+}
