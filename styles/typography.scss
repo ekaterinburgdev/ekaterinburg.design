@@ -23,9 +23,13 @@
     }
 }
 
+.section {
+    margin-bottom: 10vmax;
+}
+
 .section-heading {
     position: relative;
-    z-index: 4;
+    z-index: 1;
     font-size: 8vmax;
     line-height: 1.3;
     margin: 0 0 3vmax;
@@ -41,28 +45,27 @@
     font-size: 15vmin;
     line-height: .9;
     color: #00D200;
-    margin-top: .5em;
+    margin-top: 6vmax;
 }
 
 .section-heading_team {
     font-size: 23vmin;
     color: #00B4FF;
-    margin-top: .2em;
 }
 
 .section-heading_partners {
-    font-size: 20.3vmin;
+    font-size: 20vmin;
     color: #00D200;
 }
 
 .section-heading_contacts {
-    font-size: 20.5vmin;
+    font-size: 20vmin;
     line-height: .83;
     color: #FFD400;
 }
 
 .support-description {
-    font-size: 2.5vw;
+    font-size: max(2.5vw, 20px);
     padding-left: 30vw;
     margin-top: -8.5vmin;
     line-height: 1.25;

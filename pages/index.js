@@ -19,7 +19,7 @@ export default function Home({ projects, team, partners }) {
           <title>Дизайн-код Екатеринбурга</title>
         </Head>
 
-        <section>
+        <section className={'section'}>
           <p className={'site-description site-description_align-left'}>
             &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
           </p>
@@ -28,7 +28,7 @@ export default function Home({ projects, team, partners }) {
           </p>
         </section>
 
-        <section id="projects">
+        <section className={'section'} id="projects">
           <h2 className={'section-heading section-heading_projects'}>Проекты</h2>
           <PostPreviewGrid posts={projects} />
 
@@ -49,7 +49,7 @@ export default function Home({ projects, team, partners }) {
         </section>
 
 
-        <section id="partners">
+        <section className={'section'} id="partners">
           <h2 className={'section-heading section-heading_partners'}>Партнеры</h2>
 
           <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 20 }}>
@@ -67,7 +67,7 @@ export default function Home({ projects, team, partners }) {
           </p>
         </section>
 
-        <section id="contacts">
+        <section className={'section'} id="contacts">
           <h2 className={'section-heading section-heading_contacts'}>Почта<br />и соцсети</h2>
 
           <Contacts />
