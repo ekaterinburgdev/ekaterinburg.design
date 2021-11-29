@@ -51,9 +51,9 @@ export default function Home({ projects, team, partners }) {
               Исеть&nbsp;&mdash; открытый динамический гротеск. Обладает ясными формами, с&nbsp;характерными деталями в&nbsp;строчных и&nbsp;прописных буквах, которые помогают быстро и&nbsp;безошибочно считывать форму знаков.
             </p>
 
-            <p className={'iset__link'}>
+            <a href="#" className={'iset__link'}>
               Шрифт «Исеть»
-            </p>
+            </a>
           </div>
 
           <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>

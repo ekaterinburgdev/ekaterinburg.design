@@ -113,4 +113,9 @@
     font-size: max(2.5vw, 20px);
     text-decoration: underline;
     text-decoration-color: rgba(255, 210, 0, 0.3);
+    transition: .15s ease;
+
+    &:hover {
+        text-decoration-color: #FFD200;
+    }
 }

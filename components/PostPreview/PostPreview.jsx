@@ -10,9 +10,12 @@ const cx = classNames.bind(styles);
 export default function PostPreview({ title, gallery, highlight }) {
   return (
     <article className={cx('post-preview', { 'post-preview_highlight': highlight })}>
-      <h2 className={cx('post-preview__title')}>
-        {title}
-      </h2>
+      <a href="#" className={cx('post-preview__title')}>
+        <span className={cx('post-preview__title-caption')}>
+          {title}
+          <span className={cx('post-preview__title-underline')}>{title}</span>
+        </span>
+      </a>
 
       {gallery?.map(image => (
         <figure className={cx('post-preview__image')} key={image}>
