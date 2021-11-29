@@ -27,7 +27,7 @@ jobs:
           alias-domains: >-
             ${{ format(
               '{0}-{1}.vercel.app',
-              github.event.repository.name,
+              secrets.VERCEL_DOMAIN,
               steps.extract_branch.outputs.branch)
             }}
 
