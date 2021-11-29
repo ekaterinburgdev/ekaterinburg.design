@@ -13,9 +13,15 @@
   aspect-ratio: 1/1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 560px) {
   .post-preview-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .post-preview-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .post-preview-grid__item_highlight {
@@ -25,7 +31,7 @@
 
 @media screen and (min-width: 1024px) {
   .post-preview-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
