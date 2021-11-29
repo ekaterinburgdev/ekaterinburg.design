@@ -87,6 +87,7 @@ export async function getStaticProps() {
       ],
       partners: await getNotionDatabaseItems('Partners')
     },
-    revalidate: 60 * 60 * 24,
+    // TODO проработать обновление кэша
+    //revalidate: 60 * 60 * 24,
   }
 }
