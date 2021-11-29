@@ -9,7 +9,7 @@ const cx = classNames.bind(styles);
 export default function TeamGrid({ team }) {
   return (
     team && <ul className={cx("team-grid")}>
-      {team?.map(({
+      {team?.filter(({ ['должность на сайте'] : role }) => role !== 'undefined').map(({
         ['имя']: name,
         ['фото']: photo,
         ['ссылка на сайте']: link,
