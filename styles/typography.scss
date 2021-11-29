@@ -84,8 +84,8 @@
 }
 
 .partners-text {
-    font-size: 1.5vw;
-    max-width: 38vw;
+    font-size: max(1.5vmax, 20px);
+    max-width: 38vmax;
     margin-top: 2vmin;
     margin-bottom: 9vmin;
 }
