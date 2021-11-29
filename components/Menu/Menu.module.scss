@@ -1,20 +1,27 @@
 .menu {
-    display: flex;
-    column-gap: 1.6em;
+    display: none;
 }
 
-.menu__item {
-    color: rgba(255,255,255,.75);
-    transition: color .15s ease;
-    text-decoration: none;
 
-    &:hover {
+@media screen and (min-width: 991px) {
+    .menu {
+        display: flex;
+        column-gap: 1.6em;
+    }
+
+    .menu__item {
+        color: rgba(255,255,255,.75);
+        transition: color .15s ease;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .menu__item_active {
         color: white;
         text-decoration: none;
     }
-}
-
-.menu__item_active {
-    color: white;
-    text-decoration: none;
 }
