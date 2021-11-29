@@ -1,6 +1,17 @@
 .team-person {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+
+    &:link,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.team-person__inner {
+    padding: 0;
+    margin: 0;
 }
 
 .team-person__photo {
@@ -13,8 +24,6 @@
 }
 
 .team-person__caption {
-    position: absolute;
-    width: 110%;
     padding-left: 10%;
     font-size: max(15px, .9vmax);
     line-height: 1.2;
@@ -28,10 +37,11 @@
     font-weight: 600;
 }
 
-.team-person__roles {
+.team-person__role {
     color: #616161;
     font-size: 4vw;
     line-height: 1.2;
+    text-transform: lowercase;
 }
 
 @media screen and (min-width: 560px) {
@@ -39,7 +49,7 @@
         font-size: 2.5vw;
     }
     
-    .team-person__roles {
+    .team-person__role {
         font-size: 2.5vw;
     }
 }
@@ -49,7 +59,7 @@
         font-size: 1.9vw;
     }
     
-    .team-person__roles {
+    .team-person__role {
         font-size: 1.9vw;
     }
 }
@@ -59,7 +69,7 @@
         font-size: 1.1vw;
     }
     
-    .team-person__roles {
+    .team-person__role {
         font-size: 1.1vw;
     }
 }

@@ -9,17 +9,19 @@ const cx = classNames.bind(styles);
 export default function TeamGrid({ team }) {
   return (
     team && <ul className={cx("team-grid")}>
-      {team?.map(({ имя, роли, сайт, фото }) => (
-        <li className={cx("team-grid__item")} key={имя}>
-          {сайт
-            ? (
-              <a href={сайт} target="_blank">
-                <TeamPerson name={имя} roles={роли} photo={фото} />
-              </a>
-            )
-            : (
-              <TeamPerson name={имя} roles={роли} photo={фото} />
-            )}
+      {team?.map(({
+        ['имя']: name,
+        ['фото']: photo,
+        ['ссылка на сайте']: link,
+        ['должность на сайте']: role
+      }) => (
+        <li className={cx("team-grid__item")} key={name}>
+          <TeamPerson
+            name={name}
+            role={role}
+            photo={photo}
+            link={link}
+          />
         </li>
       ))}
     </ul>
