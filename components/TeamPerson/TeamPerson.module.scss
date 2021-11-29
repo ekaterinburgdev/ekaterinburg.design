@@ -24,32 +24,43 @@
     margin-top: .5em;
     margin-bottom: .5em;
     color: white;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 600;
 }
 
 .team-person__roles {
     color: #616161;
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 1.2;
 }
 
 @media screen and (min-width: 560px) {
     .team-person__name {
-        font-size: 2.5vmin;
+        font-size: 2.5vw;
     }
     
     .team-person__roles {
-        font-size: 2.5vmin;
+        font-size: 2.5vw;
     }
 }
 
 @media screen and (min-width: 768px) {
     .team-person__name {
-        font-size: 2.1vmin;
+        font-size: 1.9vw;
     }
     
     .team-person__roles {
-        font-size: 2.1vmin;
+        font-size: 1.9vw;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .team-person__name {
+        font-size: 1.1vw;
+    }
+    
+    .team-person__roles {
+        font-size: 1.1vw;
+    }
+}
+
