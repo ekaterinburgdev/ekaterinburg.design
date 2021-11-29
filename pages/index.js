@@ -66,7 +66,7 @@ export default function Home({ projects, team, partners }) {
           <a className={'support-link'} href="/">помочь проекту →</a>
         </section>
 
-        <section id="team">
+        <section className={'section'} id="team">
           <h2 className={'section-heading section-heading_team'}>Команда</h2>
 
           <TeamList team={team} />
