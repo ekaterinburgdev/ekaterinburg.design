@@ -3,13 +3,12 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    margin: 0 -3vw;
-    overflow: hidden;
+    margin: 0 -3vmin;
 }
 
 .contacts__item {
-    max-width: 45vw;
-    max-height: 45vw;
+    max-width: 45vmin;
+    max-height: 45vmin;
     transition: .15s ease;
 
     svg {
@@ -18,17 +17,18 @@
     }
 
     &:hover {
-        opacity: .95;
+        opacity: .7;
+
     }
 
     &:active {
-        opacity: .9;
+        opacity: .5;
     }
 }
 
 .contacts__item_mail {
     max-width: none;
-    font-size: 15vw;
+    font-size: 15vmin;
     font-weight: 500;
     line-height: .86;
     color: #00D200;
@@ -38,22 +38,39 @@
     text-decoration: underline;
     text-decoration-color: rgba(0, 210, 0, .3);
     transition: .15s ease;
+    
+    &:hover,
+    &:active {
+        opacity: 1;
+    }
 }
 
 .contacts__item_facebook {
     position: relative;
-    top: -11vw;
-    right: -2vw;
+    top: -11vmin;
+    right: -3vmin;
     transform: rotate(7deg);
 }
 
 .contacts__item_instagram {
+    position: relative;
+    right: -1vmin;
     transform: rotate(-7deg);
 }
 
 .contacts__item_youtube {
     position: relative;
-    top: -7vw;
-    right: -21vw;
+    top: -7vmin;
+    right: -21vmin;
     transform: rotate(-7deg);
+}
+
+@media screen and (min-width: 1440px) {
+    .contacts__item_youtube {
+        margin-top: -27vmin;
+        margin-left: auto;
+        top: auto;
+        right: auto;
+        align-self: flex-start;
+    }
 }
