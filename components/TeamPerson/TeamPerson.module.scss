@@ -65,6 +65,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .team-person__caption {
+        position: absolute;
+    }
+    
     .team-person__name {
         font-size: 1.1vw;
     }
