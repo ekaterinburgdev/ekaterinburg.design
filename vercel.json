@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/image-proxy/:match*", "destination": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/:match*" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
