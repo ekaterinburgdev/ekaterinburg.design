@@ -9,6 +9,7 @@ import Layout from '../components/Layout'
 import PostPreviewGrid from '../components/PostPreviewGrid'
 import TeamList from '../components/TeamGrid';
 import Contacts from '../components/Contacts';
+import Partners from '../components/Partners/Partners';
 
 export default function Home({ projects, team, partners }) {
   return (
@@ -76,19 +77,7 @@ export default function Home({ projects, team, partners }) {
         <section className={'section'} id="partners">
           <h2 className={'section-heading section-heading_partners'}>Партнеры</h2>
 
-          <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 20 }}>
-            {partners.map(({ link, name, image, description }) =>
-              <div key={name}>
-                <a href={link} target="_blank">
-                  <Image src={image[0]} width={200} height={200} alt="" loading="eager" />
-                </a>
-              </div>
-            )}
-          </div>
-
-          <p className="partners-text">
-            Мы всегда открыты новым специалистам и партнерам для&nbsp;сотрудничества — пишите нам на&nbsp;почту <a href="mailto:mail@ekaterinburg.design">mail@ekaterinburg.design</a>
-          </p>
+          <Partners partners={partners} />
         </section>
 
         <section className={'section'} id="contacts">

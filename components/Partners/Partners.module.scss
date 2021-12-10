@@ -1,0 +1,27 @@
+.partners {
+    
+}
+
+.partners__list {
+    display: flex;
+    gap: max(1.5vmax, 20px);
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.partners__list-item {
+    width: 100%;
+}
+
+.partners__logo {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.partners__description {
+    font-size: max(1.5vmax, 20px);
+    line-height: 1.6;
+    max-width: 38vmax;
+    margin-top: 2vmin;
+    margin-bottom: 9vmin;
+}
