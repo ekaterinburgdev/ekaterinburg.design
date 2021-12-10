@@ -9,7 +9,11 @@ const cx = classNames.bind(styles);
 export default function TeamPerson({ name, role, photo, link }) {
   const renderPerson = () => (
     <figure className={cx("team-person__inner")}>
-      {photo.length > 0 && <Image src={photo[0]} width={300} height={300} alt="" className={cx("team-person__photo")} loading="eager" />}
+      {photo.length > 0 &&
+        <div className={cx("team-person__photo")}>
+          <img src={photo[0]} width={300} height={300} alt="" loading="lazy" />
+        </div>
+      }
       <figcaption className={cx("team-person__caption")}>
         <div className={cx("team-person__name")}>
           {name}
