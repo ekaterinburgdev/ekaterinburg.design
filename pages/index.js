@@ -19,13 +19,15 @@ export default function Home({ projects, team, partners }) {
         <Head>
           <title>Дизайн-код Екатеринбурга</title>
         </Head>
-
         <section className={'section'}>
           <p className={'site-description site-description_align-left'}>
-            &laquo;Дизайн-код Екатеринбурга&raquo;&nbsp;&mdash; инициативный проект независимых дизайнеров города. Мы&nbsp;разрабатыва&shy;ем единые визуальные стандарты городской среды и&nbsp;внедряем их&nbsp;в&nbsp;жизнь.
+            Мы&nbsp;&mdash; команда энтузиастов и&nbsp;самое большое дизайн-сообщество Екатеринбурга.
           </p>
           <p className={'site-description site-description_align-right'}>
-            Наша цель&nbsp;&mdash; сделать Екатеринбург уютным и&nbsp;комфортным, чтобы жите&shy;лям хотелось остаться, а&nbsp;гостям&raquo;&nbsp;&mdash;&nbsp;вернуться.
+            Мы&nbsp;делаем так, чтобы жителям из&nbsp;Екатеринбурга не&nbsp;хотелось уезжать, а&nbsp;гостям хотелось возвращаться и&nbsp;оставаться навсегда.
+          </p>
+          <p className={'site-description'}>
+            Мы&nbsp;создаем дизайн-систему города и&nbsp;топим за&nbsp;красивую, комфортную и&nbsp;приятную жизнь в&nbsp;городской среде.
           </p>
         </section>
 
