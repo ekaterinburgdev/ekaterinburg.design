@@ -55,6 +55,7 @@
         right: 4vmin;
         padding: 1vmin 3vmin;
         background: rgb(0 0 0 / 30%);
+        -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
         border-radius: 70px;
     }
