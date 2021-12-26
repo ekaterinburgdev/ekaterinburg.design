@@ -56,7 +56,9 @@ export default function Home({ projects, team, partners }) {
               Шрифт «Исеть»
             </a>
           </div>
+        </section>
 
+        <section className={'section'} id="donate">
           <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
 
           <p className={'support-description'}>
@@ -75,7 +77,7 @@ export default function Home({ projects, team, partners }) {
 
 
         <section className={'section'} id="partners">
-          <h2 className={'section-heading section-heading_partners'}>Партнеры</h2>
+          <h2 className={'section-heading section-heading_partners'}>Партнёры</h2>
 
           <Partners partners={partners} />
         </section>
