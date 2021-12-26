@@ -58,15 +58,11 @@ export default function Home({ projects, team, partners }) {
           </div>
         </section>
 
-        <section className={'section'} id="donate">
-          <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
 
-          <p className={'support-description'}>
-            Дизайн-код Екатеринбурга — инициативный проект независимых дизайнеров города.
-            Мы разрабатываем единые визуальные стандарты городской среды и внедряем их в жизнь.
-          </p>
+        <section className={'section'} id="partners">
+          <h2 className={'section-heading section-heading_partners'}>Партнёры</h2>
 
-          <a className={'support-link'} href="/">помочь проекту →</a>
+          <Partners partners={partners} />
         </section>
 
         <section className={'section'} id="team">
@@ -75,11 +71,18 @@ export default function Home({ projects, team, partners }) {
           <TeamList team={team} />
         </section>
 
+        <section className={'section'} id="donate">
+          <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
 
-        <section className={'section'} id="partners">
-          <h2 className={'section-heading section-heading_partners'}>Партнёры</h2>
+          <p className={'support-description'}>
+            Мы&nbsp;развиваем Дизайн-код Екатеринбурга за&nbsp;свой счёт, и&nbsp;нам не&nbsp;хватает средств для реализации объектов&nbsp;&mdash; изготовления адресных табличек, урн, навигационных стелл и&nbsp;других наших проектов.
+          </p>
 
-          <Partners partners={partners} />
+          <p className={'support-description'}>
+            Если вы&nbsp;хотите помочь создать дизайн-систему Екатеринбурга, сделать жизнь в&nbsp;городе приятнее, комфортнее и&nbsp;красивее&nbsp;&mdash; поддержите нас.
+          </p>
+
+          <a className={'support-link'} href="/">помочь проекту →</a>
         </section>
 
         <section className={'section'} id="contacts">
