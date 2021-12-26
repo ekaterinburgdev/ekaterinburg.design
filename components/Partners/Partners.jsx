@@ -14,14 +14,22 @@ export default function Partners({ partners }) {
         {partners.map(({ link, name, image, description }) =>
           <div className={cx('partners__list-item')}>
             <a href={link} target="_blank">
-              <img src={image[0]} alt=""  className={cx('partners__logo')} />
+              <img src={image[0]} alt="" className={cx('partners__logo')} />
             </a>
           </div>
         )}
       </div>
 
       <p className={cx('partners__description')}>
-        Мы всегда открыты новым специалистам и партнерам для&nbsp;сотрудничества — пишите нам на&nbsp;почту <a href="mailto:mail@ekaterinburg.design">mail@ekaterinburg.design</a>
+        Мы&nbsp;создаём дизайн-систему Екатеринбурга, которая исключит появление плохого дизайна в&nbsp;городе. Это сделает городскую среду приятнее и&nbsp;комфортнее.
+      </p>
+
+      <p className={cx('partners__description')}>
+        Чтобы делать это быстрее и&nbsp;эффективнее, мы&nbsp;ищем инвесторов и&nbsp;спонсоров, которые готовы поддержать развитие дизайна Екатеринбурга.
+      </p>
+
+      <p className={cx('partners__description')}>
+        Обсудить условия и&nbsp;обязанности с&nbsp;нашей стороны с&nbsp;вами готов наш руководитель Паша Омелёхин&nbsp;&mdash; <a href="mailto:pasha@ekateringburg.design">pasha@ekateringburg.design</a>
       </p>
     </div>
   )
