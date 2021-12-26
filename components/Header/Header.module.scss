@@ -54,9 +54,9 @@
         top: 2vh;
         right: 4vmin;
         padding: 1vmin 3vmin;
-        background: rgb(0 0 0 / 30%);
-        -webkit-backdrop-filter: blur(8px);
-        backdrop-filter: blur(8px);
+        background: rgba(0,0,0,.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border-radius: 70px;
     }
 }
