@@ -10,7 +10,13 @@
   overflow: hidden;
   border-radius: 8px;
   background-color: rgba(255,255,255,.15);
-  aspect-ratio: 1/1;
+
+  &:after {
+    content: '';
+    position: relative;
+    display: block;
+    padding-bottom: 100%;
+  }
 }
 
 @media screen and (min-width: 560px) {
