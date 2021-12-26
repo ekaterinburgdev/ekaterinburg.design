@@ -94,10 +94,7 @@ export async function getServerSideProps() {
   return {
     props: {
       projects: await getNotionDatabaseItems('Projects'),
-      team: [
-        ... await getNotionDatabaseItems('TeamOld'),
-        ... await getNotionDatabaseItems('TeamNew')
-      ],
+      team: await getNotionDatabaseItems('Team'),
       partners: await getNotionDatabaseItems('Partners')
     },
     //revalidate: 60,

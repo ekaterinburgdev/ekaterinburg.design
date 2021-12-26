@@ -12,8 +12,7 @@ npm i
 2. Добавить файл с переменными среды `.env.local` с [токенами Notion](https://www.notion.so/my-integrations)
 ```sh
 NOTION_TOKEN=
-NOTION_DATABASE_TEAM_NEW=
-NOTION_DATABASE_TEAM_OLD=
+NOTION_DATABASE_TEAM=
 NOTION_DATABASE_PARTNERS=
 NOTION_DATABASE_PROJECTS=
 ```

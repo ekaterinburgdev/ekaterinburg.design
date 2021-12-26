@@ -10,8 +10,7 @@ tp.disableRule([
 ]);
 
 const NOTION_DATABASES = {
-  'TeamNew': process.env.NOTION_DATABASE_TEAM_NEW,
-  'TeamOld': process.env.NOTION_DATABASE_TEAM_OLD,
+  'Team': process.env.NOTION_DATABASE_TEAM,
   'Partners': process.env.NOTION_DATABASE_PARTNERS,
   'Projects': process.env.NOTION_DATABASE_PROJECTS
 };
