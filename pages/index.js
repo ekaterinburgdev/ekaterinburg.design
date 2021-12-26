@@ -90,7 +90,7 @@ export default function Home({ projects, team, partners }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return {
     props: {
       projects: await getNotionDatabaseItems('Projects'),
