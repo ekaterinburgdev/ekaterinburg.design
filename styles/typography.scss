@@ -80,35 +80,6 @@
     margin-top: .5em;
 }
 
-.iset {
-    max-width: 60vmax;
-    margin-top: 5vmax;
-}
-
-.iset__heading {
-    width: 40vmax;
-    height: auto;
-}
-
-.iset__description {
-    font-size: max(2.5vw, 20px);
-    line-height: 1.6;
-    color: rgba(230, 240, 250, .5);
-}
-
-.iset__link {
-    color: #FFD200;
-    font-size: max(2.5vw, 20px);
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 210, 0, 0.3);
-    transition: .15s ease;
-
-    &:hover {
-        text-decoration-color: #FFD200;
-    }
-}
-
-
 @media screen and (min-width: 768px) {
     .site-description {
         max-width: 60%;
