@@ -9,9 +9,11 @@
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  background-color: rgba(255,255,255,.15);
-  transition: .1s ease;
-  transform: scale(1) translateZ(0);
+  background: #222222;
+  transition: .15s ease transform;
+  transform: translateZ(0) scale(1);
+  transform-origin: center;
+  box-shadow: 0 2px 25px rgba(0,0,0,.5);
 
   &:after {
     content: '';
@@ -21,10 +23,8 @@
   }
 
   &:hover {
-    transform: scale(1.1) translateZ(0);
-    transform-origin: center;
+    transform: translateZ(0) scale(1.15);
     z-index: 1;
-    box-shadow: 0 2px 25px rgba(0,0,0,.5);
   }
 }
 
@@ -52,6 +52,6 @@
 
 @media screen and (min-width: 1440px) {
   .post-preview-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }

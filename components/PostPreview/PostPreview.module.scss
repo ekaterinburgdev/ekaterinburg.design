@@ -23,6 +23,7 @@
 	object-fit: cover;
 	object-position: center;
 	border-radius: 8px;
+    transform: translateZ(0);
 }
 
 .post-preview__image:nth-of-type(1) {
