@@ -9,8 +9,8 @@ const cx = classNames.bind(styles);
 
 export default function PostPreviewGrid({ posts }) {
   const sortByPriority = (a, b) => {
-    if (a.priority < b.priority) { return -1; }
-    if (a.priority > b.priority) { return 1; }
+    if (a.priority > b.priority) { return -1; }
+    if (a.priority < b.priority) { return 1; }
     return 0;
   }
 
