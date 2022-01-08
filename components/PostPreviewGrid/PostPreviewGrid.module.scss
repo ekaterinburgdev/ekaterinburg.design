@@ -21,11 +21,6 @@
     display: block;
     padding-bottom: 100%;
   }
-
-  &:hover {
-    transform: translateZ(0) scale(1.25);
-    z-index: 1;
-  }
 }
 
 @media screen and (min-width: 560px) {
@@ -47,6 +42,13 @@
 @media screen and (min-width: 1024px) {
   .post-preview-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .post-preview-grid__item {
+    &:hover {
+      transform: translateZ(0) scale(1.25);
+      z-index: 1;
+    }
   }
 }
 
