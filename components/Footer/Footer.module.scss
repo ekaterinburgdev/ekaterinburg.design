@@ -1,14 +1,15 @@
 .footer {
     font-size: 6.2vw;
-    line-height: 1.08;
+    line-height: .98;
     font-weight: 500;
     color: #1E2841;
+    margin-bottom: 2vw;
 }
 
 .footer__year {
     position: relative;
     text-align: center;
-    font-feature-settings: 'case';
+    font-feature-settings: "onum";
 }
 
 .footer__year-dash {
@@ -20,10 +21,10 @@
 .footer__year-dash:before {
     content: '';
     position: absolute;
-    height: .1em;
+    height: .115em;
     top: .4em;
-    left: .2em;
-    width: calc(100% - 1.6em);
+    left: .15em;
+    width: calc(100% - 1.5em);
     background: currentColor;
     clip-path: polygon(0 0, 100% 0, calc(100% - .02em) 100%, 0% 100%);
 }
