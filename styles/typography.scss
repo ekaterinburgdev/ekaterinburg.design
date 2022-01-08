@@ -28,38 +28,34 @@
     position: relative;
     z-index: 1;
     font-size: 8vmax;
-    line-height: 1.3;
-    margin: .5vmax 0 3vmax;
-    transform: matrix(1, -0.11, 0, 0.99, 0, 0);
+    line-height: 0.86;
+    margin: 1.5vmax 0 6vmax;
+    transform: matrix(1, -0.08, 0, 1, 0, 0);
     transform-origin: center;
+    color: #55647D;
 }
 
 .section-heading_projects {
     font-size: 23vmin;
-    color: #FFD400;
 }
 
 .section-heading_support-us {
     font-size: 15vmin;
     line-height: .9;
-    color: #00D200;
     margin-top: 6vmax;
 }
 
 .section-heading_team {
     font-size: 23vmin;
-    color: #00B4FF;
 }
 
 .section-heading_partners {
     font-size: 20vmin;
-    color: #00D200;
 }
 
 .section-heading_contacts {
     font-size: 20vmin;
     line-height: .83;
-    color: #FFD400;
 }
 
 .support-description {

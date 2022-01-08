@@ -32,7 +32,7 @@ export default function Home({ projects, team, partners }) {
         </section>
 
         <section className={'section'} id="projects">
-          <h2 className={'section-heading section-heading_projects'}>Проекты</h2>
+          <h2 className={'section-heading section-heading_projects'}>Дизайн-<br />система</h2>
           <PostPreviewGrid posts={projects} />
         </section>
 
@@ -49,6 +49,7 @@ export default function Home({ projects, team, partners }) {
           <TeamList team={team} />
         </section>
 
+        {/*
         <section className={'section'} id="donate">
           <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
 
@@ -62,6 +63,7 @@ export default function Home({ projects, team, partners }) {
 
           <a className={'support-link'} href="/">помочь проекту →</a>
         </section>
+        */}
 
         <section className={'section'} id="contacts">
           <h2 className={'section-heading section-heading_contacts'}>Почта<br />и соцсети</h2>
