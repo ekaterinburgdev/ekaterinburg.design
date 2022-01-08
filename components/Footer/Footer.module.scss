@@ -1,6 +1,35 @@
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 4.9vw;
-    color: rgba(255, 255, 255, .2);
+    font-size: 6.2vw;
+    line-height: 1.08;
+    font-weight: 500;
+    color: #1E2841;
+}
+
+.footer__year {
+    position: relative;
+    text-align: center;
+    font-feature-settings: 'case';
+}
+
+.footer__year-dash {
+    position: absolute;
+    display: inline-block;
+    width: calc(50vw - 1.1em);
+}
+
+.footer__year-dash:before {
+    content: '';
+    position: absolute;
+    height: .1em;
+    top: .4em;
+    left: .2em;
+    width: calc(100% - 1.6em);
+    background: currentColor;
+    clip-path: polygon(0 0, 100% 0, calc(100% - .02em) 100%, 0% 100%);
+}
+
+.footer__year-dash::after {
+    content: '20';
+    position: absolute;
+    right: 0;
 }
