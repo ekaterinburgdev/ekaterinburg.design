@@ -17,10 +17,12 @@ export default function TeamGrid({ team }) {
     return 0;
   }
 
+  console.log(team)
+
   return (
     team && <ul className={cx("team-grid")}>
       {team
-        ?.filter(({ ['должность на сайте']: role }) => role !== 'undefined')
+        ?.filter(({ ['показать на сайте']: published }) => published)
         .sort(sortBySurname)
         .map(({
           ['имя']: name,
