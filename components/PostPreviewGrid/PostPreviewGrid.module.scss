@@ -46,14 +46,8 @@
 
   .post-preview-grid__item {
     &:hover {
-      transform: translateZ(0) scale(1.25);
+      transform: translateZ(0) scale(1.1);
       z-index: 1;
     }
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .post-preview-grid {
-    grid-template-columns: repeat(6, 1fr);
   }
 }
