@@ -10,7 +10,7 @@
   overflow: hidden;
   border-radius: 8px;
   background: #222222;
-  transition: .15s ease transform;
+  transition: .25s ease transform;
   transform: translateZ(0) scale(1);
   transform-origin: center;
   box-shadow: 0 2px 25px rgba(0,0,0,.5);
@@ -23,7 +23,7 @@
   }
 
   &:hover {
-    transform: translateZ(0) scale(1.15);
+    transform: translateZ(0) scale(1.25);
     z-index: 1;
   }
 }
