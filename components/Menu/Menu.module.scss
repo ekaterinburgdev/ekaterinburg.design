@@ -6,14 +6,16 @@
 @media screen and (min-width: 991px) {
     .menu {
         display: flex;
-        column-gap: 1.6em;
     }
 
     .menu__item {
-        color: rgba(255,255,255,.4);
-        transition: color .15s ease;
+        color: #A5B4D2;
+        transition: all .15s ease;
         text-decoration: none;
-        text-transform: lowercase;
+        padding: 1px 18px 0;
+        border-radius: 100px;
+        white-space: nowrap;
+        background: transparent;
 
         &:hover {
             color: white;
@@ -22,8 +24,13 @@
     }
 
     .menu__item_active {
-        color: white;
+        color: black;
+        background: #FFD400;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
+
+        &:hover {
+            color: black;
+        }
     }
 }
