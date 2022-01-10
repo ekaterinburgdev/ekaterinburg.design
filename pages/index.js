@@ -14,6 +14,7 @@ import Partners from '../components/Partners/Partners';
 export default function Home({ projects, team, partners }) {
   return (
     <>
+      <Logo />
       <Layout home>
         <Head>
           <title>Дизайн-код Екатеринбурга</title>
@@ -22,8 +23,6 @@ export default function Home({ projects, team, partners }) {
         <Menu items={menuItems} />
 
         <section id="about" className={'section'}>
-          <Logo />
-
           <div className={'main-visual'}>
             <h2 className={'main-visual__title'}>
               Мы — департамент<br />
@@ -98,10 +97,10 @@ function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1920"
       fill="none"
       viewBox="0 0 1920 2243"
-      style={{ width: '100%', marginTop: '-1vw', marginBottom: '-25vw' }}
+      style={{ width: '100%', margin: '-1vw 0 -25vw' }}
+      className='logo'
     >
       <path fill="#000" d="M2719-1275H-799v3518h3518v-3518z"></path>
       <path
