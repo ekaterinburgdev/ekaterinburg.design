@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../Footer/Footer';
-
-import Header from '../Header';
+import Footer from '../Footer';
+import Menu from '../Menu';
 
 import styles from './Layout.module.scss';
 
 
-export default function Layout({ children, home, menuItems }) {
+export default function Layout({ children, home }) {
   return (
     <>
       <div className={styles.container}>
@@ -17,8 +16,6 @@ export default function Layout({ children, home, menuItems }) {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
-
-        <Header menuItems={menuItems} />
 
         <main>
           {children}
