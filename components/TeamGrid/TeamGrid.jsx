@@ -17,8 +17,6 @@ export default function TeamGrid({ team }) {
     return 0;
   }
 
-  console.log(team)
-
   return (
     team && <ul className={cx("team-grid")}>
       {team
