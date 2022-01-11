@@ -38,7 +38,7 @@ export default function Menu({ items }) {
     {items && (
       <ul className={cx('menu')}>
         {items.map(({ title, link }) =>
-          <a href={link} className={cx('menu__item')}>{title}</a>
+          <a href={link} className={cx('menu__item')} key={title}>{title}</a>
         )}
       </ul>
     )}
