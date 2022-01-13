@@ -14,7 +14,7 @@
 .cover_disabled-animation .cover__part {
   transition: none;
   transform: translateZ(0);
-  animation: none;
+  animation-play-state: paused;
 }
 
 .cover__inner {
