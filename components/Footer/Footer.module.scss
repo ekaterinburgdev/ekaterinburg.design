@@ -1,10 +1,16 @@
 .footer {
     font-size: 7.9vw;
     line-height: .98;
+    margin-bottom: 1vh;
     font-weight: 500;
     color: #1E2841;
-    margin-bottom: 5vw;
     white-space: nowrap;
+}
+
+@media screen and (min-width: 991px) {
+    .footer {
+        margin-bottom: 9vh;
+    }
 }
 
 .footer__year {
