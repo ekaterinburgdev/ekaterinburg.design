@@ -5,14 +5,12 @@ import styles from './Cover.module.scss';
 
 const cx = classNames.bind(styles);
 
-let handleScroll = null;
-
 export default function Cover() {
   const coverEl = useRef(null);
   const [ isCoverVisible, setIsCoverVisible ] = useState(true);
 
   useEffect(() => {
-    handleScroll = () => {
+    const handleScroll = () => {
       const isCoverVisible = coverEl.current.getBoundingClientRect().bottom > 0;
 
       if (isCoverVisible) {
@@ -22,10 +20,13 @@ export default function Cover() {
 
       setIsCoverVisible(isCoverVisible);
     };
-    
-    window.addEventListener("scroll", e => {
-      debounce(handleScroll, 100);
-    });
+
+    const debouncedHandleScroll = () => debounce(handleScroll, 100);
+    window.addEventListener('scroll', debouncedHandleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', debouncedHandleScroll);
+    }
   }, []);
   
   return (
