@@ -24,7 +24,7 @@ export async function getNotionDatabaseItems(databaseName) {
 
   return data.map(item => {
     return Object.fromEntries(Object.entries(item)
-      .map(([key, value]) => [key.toLowerCase(), getNotionValueByType(value, value.type)]));
+      .map(([key, value]) => [key.charAt(0).toLowerCase() + key.slice(1), getNotionValueByType(value, value.type)]));
   })
 }
 
