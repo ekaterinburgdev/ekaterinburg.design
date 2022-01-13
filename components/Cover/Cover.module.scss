@@ -1,12 +1,7 @@
 .cover {
   position: relative;
   width: 100%;
-
-  &::after {
-    content: '';
-    display: block;
-    padding-bottom: 100%;
-  }
+  height: 100vw;
 
   &,
   & * {
@@ -14,6 +9,12 @@
     touch-action: none;
     user-select: none;
   }
+}
+
+.cover_disabled-animation .cover__part {
+  transition: none;
+  transform: translateZ(0);
+  animation: none;
 }
 
 .cover__inner {

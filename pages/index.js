@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { getNotionDatabaseItems } from '../core/notion'
 
@@ -14,28 +14,7 @@ import Contacts from '../components/Contacts';
 import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
 
-let handleScroll = null;
-
-function debounce(method, delay) {
-  clearTimeout(method._tId);
-  method._tId = setTimeout(function(){
-      method();
-  }, delay);
-}
-
 export default function Home({ projects, team, partners }) {
-
-  useEffect(() => {
-    handleScroll = () => {
-      const pageScrollPercent = window.scrollY / document.body.scrollHeight * 100;
-      document.documentElement.style.setProperty('--page-scroll-percent', pageScrollPercent);
-    };
-    
-    window.addEventListener("scroll", e => {
-      debounce(handleScroll, 100);
-    });
-  }, []);
-
   return (
     <>
       <Cover />

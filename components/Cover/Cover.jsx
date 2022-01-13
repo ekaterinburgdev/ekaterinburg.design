@@ -1,12 +1,35 @@
 import classNames from 'classnames/bind';
+import { useRef, useEffect, useState } from 'react';
 
 import styles from './Cover.module.scss';
 
 const cx = classNames.bind(styles);
 
+let handleScroll = null;
+
 export default function Cover() {
+  const coverEl = useRef(null);
+  const [ isCoverVisible, setIsCoverVisible ] = useState(true);
+
+  useEffect(() => {
+    handleScroll = () => {
+      const isCoverVisible = coverEl.current.getBoundingClientRect().bottom > 0;
+
+      if (isCoverVisible) {
+        const pageScrollPercent = window.scrollY / document.body.scrollHeight * 100;
+        coverEl.current.style.setProperty('--page-scroll-percent', pageScrollPercent);
+      }
+
+      setIsCoverVisible(isCoverVisible);
+    };
+    
+    window.addEventListener("scroll", e => {
+      debounce(handleScroll, 100);
+    });
+  }, []);
+  
   return (
-    <div className={cx("cover")}>
+    <div className={cx("cover", { "cover_disabled-animation" : !isCoverVisible})} ref={coverEl}>
       <div className={cx("cover__inner")}>
         <div className={cx("cover__part", "cover__part_1")}>
           <Cover1 />
@@ -108,4 +131,11 @@ function Cover6() {
       ></path>
     </svg>
   );
+}
+
+function debounce(method, delay) {
+  clearTimeout(method._tId);
+  method._tId = setTimeout(function(){
+      method();
+  }, delay);
 }
