@@ -11,11 +11,10 @@
 .post-preview__title {
 	display: flex;
 	position: absolute;
-	z-index: 2;
 	align-items: flex-end;
 	width: 100%;
 	height: 100%;
-	padding: 1.5vmax 1.1vmax;
+	padding: 1.5vmax 1.5vmax;
 	font-size: max(1.5vmax, 29px);
 	line-height: 1.4;
 	transition: .35s ease opacity;
@@ -23,7 +22,6 @@
 	&:hover {
 		opacity: 1;
 		text-decoration: none;
-		z-index: 3;
 	}
 
 	&:hover .post-preview__image img {
@@ -35,19 +33,25 @@
 	}
 }
 
-.post-preview_highlight .post-preview__title {
-	font-size: max(2.1vmax, 45px);
-	padding: 2.5vmax 2.5vmax;
-}
-
 .post-preview__title-caption {
 	position: relative;
-	z-index: 1;
+	z-index: 3;
     font-weight: 500;
 	transform: matrix(1, -0.08, 0, 1, 0, 0);
-	opacity: 0;
 	transition: .15s ease opacity;
 	color: white;
+}
+
+@media screen and (min-width: 560px) {
+	.post-preview__title-caption {
+		opacity: 0;
+	}
+
+	.post-preview_highlight .post-preview__title {
+		font-size: max(2.1vmax, 45px);
+		padding: 2.5vmax 2.5vmax;
+	}
+	
 }
 
 .post-preview__title-caption_contrast {

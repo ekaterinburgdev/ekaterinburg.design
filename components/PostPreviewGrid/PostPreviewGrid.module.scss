@@ -19,15 +19,15 @@
   .post-preview-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .post-preview-grid__item_highlight {
+    grid-area: span 2 / span 2;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .post-preview-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .post-preview-grid__item_highlight {
-    grid-area: span 2 / span 2;
   }
 }
 
