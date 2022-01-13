@@ -33,9 +33,8 @@
   height: 100%;
   transform: rotate(calc(var(--rotate-deg) * var(--page-scroll-percent))) translateZ(0);
   transform-origin: center;
-	will-change: transform;
   transition: cubic-bezier(0, 0, .4, 1) transform;
-  will-change: transform;
+	will-change: transform;
 }
 
 .cover__part_2 {
@@ -67,6 +66,7 @@
   .cover__part {
     --rotate-deg: 0deg;
     animation: coverPartRotate .5s linear infinite;
+    will-change: auto;
   }
 
   .cover__part_1 {

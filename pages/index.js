@@ -32,7 +32,7 @@ export default function Home({ projects, team, partners }) {
     };
     
     window.addEventListener("scroll", e => {
-      debounce(handleScroll, 25);
+      debounce(handleScroll, 100);
     });
   }, []);
 
