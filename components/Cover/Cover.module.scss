@@ -27,45 +27,45 @@
 }
 
 .cover__part {
-  --rotate-deg: 0deg;
+  --cover-rotate-deg: 0deg;
   position: absolute;
   z-index: 1;
   width: 100%;
   height: 100%;
-  transform: rotate(calc(var(--rotate-deg) * var(--page-scroll-percent))) translateZ(0);
+  transform: rotate(calc(var(--cover-rotate-deg) * var(--cover-scroll-percent))) translateZ(0);
   transform-origin: center;
   transition: cubic-bezier(0, 0, .4, 1) transform;
 	will-change: transform;
 }
 
 .cover__part_2 {
-  --rotate-deg: -3deg;
+  --cover-rotate-deg: -3deg;
   transition-duration: 1.1s;
 }
 
 .cover__part_3 {
-  --rotate-deg: 3deg;
+  --cover-rotate-deg: 3deg;
   transition-duration: 1.2s;
 }
 
 .cover__part_4 {
-  --rotate-deg: -3deg;
+  --cover-rotate-deg: -3deg;
   transition-duration: 1.3s;
 }
 
 .cover__part_5 {
-  --rotate-deg: 3deg;
+  --cover-rotate-deg: 3deg;
   transition-duration: 1.3s;
 }
 
 .cover__part_6 {
-  --rotate-deg: -3deg;
+  --cover-rotate-deg: -3deg;
   transition-duration: 1.4s;
 }
 
 @media screen and (max-width: 768px) {
   .cover__part {
-    --rotate-deg: 0deg;
+    --cover-rotate-deg: 0deg;
     animation: coverPartRotate .5s linear infinite;
     will-change: auto;
   }
