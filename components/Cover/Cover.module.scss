@@ -34,64 +34,66 @@
   transform: rotate(calc(var(--rotate-deg) * var(--page-scroll-percent))) translateZ(0);
   transform-origin: center;
 	will-change: transform;
-  transition: .5s ease-out transform;
+  transition: cubic-bezier(0, 0, .4, 1) transform;
   will-change: transform;
-
-  svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    animation: coverPartRotate linear infinite;
-  }
 }
 
 .cover__part_2 {
-  --rotate-deg: -1deg;
+  --rotate-deg: -3deg;
+  transition-duration: 1.1s;
 }
 
 .cover__part_3 {
-  --rotate-deg: 1deg;
-
-  svg {
-    animation-duration: 480s;
-  }
+  --rotate-deg: 3deg;
+  transition-duration: 1.2s;
 }
 
 .cover__part_4 {
-  --rotate-deg: -1deg;
+  --rotate-deg: -3deg;
+  transition-duration: 1.3s;
 }
 
 .cover__part_5 {
-  --rotate-deg: 1deg;
-
-  svg {
-    animation-duration: 500s;
-  }
+  --rotate-deg: 3deg;
+  transition-duration: 1.3s;
 }
 
 .cover__part_6 {
-  --rotate-deg: -1deg;
+  --rotate-deg: -3deg;
+  transition-duration: 1.4s;
 }
 
 @media screen and (max-width: 768px) {
+  .cover__part {
+    --rotate-deg: 0deg;
+    animation: coverPartRotate .5s linear infinite;
+  }
+
+  .cover__part_1 {
+    animation: none; 
+  }
+  
   .cover__part_2 {
-    --rotate-deg: -5deg;
+    animation-duration: 50s;
+    animation-direction: reverse;
   }
-
+  
   .cover__part_3 {
-    --rotate-deg: 5deg;
+    animation-duration: 75s;
   }
-
+  
   .cover__part_4 {
-    --rotate-deg: -5deg;
+    animation-duration: 100s;
+    animation-direction: reverse;
   }
-
+  
   .cover__part_5 {
-    --rotate-deg: 5deg;
+    animation-duration: 150s;
   }
-
+  
   .cover__part_6 {
-    --rotate-deg: -5deg;
+    animation-duration: 200s;
+    animation-direction: reverse;
   }
 }
 
