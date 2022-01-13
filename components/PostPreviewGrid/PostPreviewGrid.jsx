@@ -16,12 +16,26 @@ export default function PostPreviewGrid({ posts }) {
 
   return (
     <ul className={cx('post-preview-grid')}>
+      {console.log(posts)}
       {posts
         .filter(({ published }) => published)
         .sort(sortByPriority)
-        .map(({ id, highlight, title, preview: gallery }) => (
-          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_highlight': highlight })} key={title}>
-            <PostPreview id={id} title={title} gallery={gallery} highlight={highlight} />
+        .map((
+          {
+            id,
+            previewGallery,
+            previewContrast,
+            previewHighlight,
+            title,
+          }) => (
+          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_highlight': previewHighlight })} key={title}>
+            <PostPreview
+              id={id}
+              title={title}
+              gallery={previewGallery}
+              contrast={previewContrast}
+              highlight={previewHighlight}
+            />
           </li>
         ))}
     </ul>

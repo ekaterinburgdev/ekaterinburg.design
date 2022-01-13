@@ -1,9 +1,11 @@
 .post-preview {
 	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 8px;
+	background: #222222;
 }
 
 .post-preview__title {
@@ -13,30 +15,46 @@
 	align-items: flex-end;
 	width: 100%;
 	height: 100%;
-	padding: 1.5vmax 1vmax;
-	font-size: max(1.15vmax, 20px);
+	padding: 1.5vmax 1.1vmax;
+	font-size: max(1.5vmax, 29px);
 	line-height: 1.4;
-	opacity: 0;
 	transition: .35s ease opacity;
 
 	&:hover {
 		opacity: 1;
 		text-decoration: none;
+		z-index: 3;
 	}
 
-	&:hover .post-preview__title-underline {
-		text-decoration-color: rgba(255,255,255,.8);
+	&:hover .post-preview__image img {
+		transform: translateZ(0) scale(1.05);
+	}
+	
+	&:hover .post-preview__title-caption {
+		opacity: 1;
 	}
 }
 
 .post-preview_highlight .post-preview__title {
-	font-size: max(2vmax, 35px);
+	font-size: max(2.1vmax, 45px);
 	padding: 2.5vmax 2.5vmax;
 }
 
 .post-preview__title-caption {
 	position: relative;
+	z-index: 1;
     font-weight: 500;
+	transform: matrix(1, -0.08, 0, 1, 0, 0);
+	opacity: 0;
+	transition: .15s ease opacity;
+	color: white;
+}
+
+.post-preview__title-caption_contrast {
+    color: black;
+	background: #FFD400;
+	padding: .1em .2em .1em .2em;
+	margin-bottom: -1.5em;
 }
 
 .post-preview__title-underline {
@@ -48,11 +66,16 @@
 	text-decoration: underline;
 	text-shadow: none;
 	pointer-events: none;
-	text-decoration-color: rgba(255,255,255,.5);
+	text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.post-preview__title-underline_contrast {
+	text-decoration-color: rgba(0, 0, 0, 0.5);
 }
 
 .post-preview__image {
 	position: absolute;
+	overflow: hidden;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -60,6 +83,8 @@
 	margin: 0;
 	padding: 0;
 	animation: fadeIn .15s both;
+	pointer-events: none;
+	border-radius: 8px;
 }
 
 .post-preview__image img {
@@ -69,6 +94,8 @@
 	object-fit: cover;
 	object-position: center;
 	border-radius: 8px;
+	transform: translateZ(0) scale(1);
+	transition: .15s ease transform;
 }
 
 .post-preview__image:nth-of-type(1) {

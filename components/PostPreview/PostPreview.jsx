@@ -7,21 +7,21 @@ import styles from './PostPreview.module.scss'
 
 const cx = classNames.bind(styles);
 
-export default function PostPreview({ id, title, gallery, highlight }) {
+export default function PostPreview({ id, title, gallery, highlight, contrast }) {
   return (
     <article className={cx('post-preview', { 'post-preview_highlight': highlight })}>
       <a href={id} className={cx('post-preview__title')}>
-        <span className={cx('post-preview__title-caption')}>
+        <span className={cx('post-preview__title-caption', { 'post-preview__title-caption_contrast' : contrast })}>
           {title}
-          <span className={cx('post-preview__title-underline')}>{title}</span>
+          <span className={cx('post-preview__title-underline', { 'post-preview__title-underline_contrast' : contrast })}>{title}</span>
         </span>
-      </a>
 
-      {gallery?.map(image => (
-        <figure className={cx('post-preview__image')} key={image}>
-          <img src={image} alt="" />
-        </figure>
-      ))}
+        {gallery?.map(image => (
+          <figure className={cx('post-preview__image')} key={image}>
+            <img src={image} alt="" />
+          </figure>
+        ))}
+      </a>
     </article>
   )
 };
