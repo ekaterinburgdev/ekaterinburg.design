@@ -28,6 +28,7 @@
 .cover__part {
   --rotate-deg: 0deg;
   position: absolute;
+  z-index: 1;
   width: 100%;
   height: 100%;
   transform: rotate(calc(var(--rotate-deg) * var(--page-scroll-percent))) translateZ(0);
@@ -70,6 +71,28 @@
 
 .cover__part_6 {
   --rotate-deg: -1deg;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__part_2 {
+    --rotate-deg: -5deg;
+  }
+
+  .cover__part_3 {
+    --rotate-deg: 5deg;
+  }
+
+  .cover__part_4 {
+    --rotate-deg: -5deg;
+  }
+
+  .cover__part_5 {
+    --rotate-deg: 5deg;
+  }
+
+  .cover__part_6 {
+    --rotate-deg: -5deg;
+  }
 }
 
 @keyframes coverPartRotate {
