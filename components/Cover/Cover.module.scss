@@ -1,0 +1,83 @@
+.cover {
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  &,
+  & * {
+    pointer-events: none;
+    touch-action: none;
+    user-select: none;
+  }
+}
+
+.cover__inner {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  margin-top: -50%;
+  left: 50%;
+  transform: translate3d(-50%, 0%, 0);
+}
+
+.cover__part {
+  --rotate-deg: 0deg;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(calc(var(--rotate-deg) * var(--page-scroll-percent))) translateZ(0);
+  transform-origin: center;
+	will-change: transform;
+  transition: .5s ease-out transform;
+  will-change: transform;
+
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: coverPartRotate linear infinite;
+  }
+}
+
+.cover__part_2 {
+  --rotate-deg: -1deg;
+}
+
+.cover__part_3 {
+  --rotate-deg: 1deg;
+
+  svg {
+    animation-duration: 480s;
+  }
+}
+
+.cover__part_4 {
+  --rotate-deg: -1deg;
+}
+
+.cover__part_5 {
+  --rotate-deg: 1deg;
+
+  svg {
+    animation-duration: 500s;
+  }
+}
+
+.cover__part_6 {
+  --rotate-deg: -1deg;
+}
+
+@keyframes coverPartRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
