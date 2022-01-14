@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vw;
-  margin-bottom: -10vw;
+  margin-bottom: 35vw;
 
   &,
   & * {
@@ -10,6 +10,12 @@
     touch-action: none;
     user-select: none;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin-bottom: -12vw;
+  }  
 }
 
 .cover_disabled-animation .cover__part {
@@ -20,10 +26,18 @@
 .cover__inner {
   position: absolute;
   top: -39%;
-  width: 130%;
-  height: 130%;
+  width: 180%;
+  height: 180%;
   left: 50%;
   transform: translate3d(-50%, 0%, 0);
+}
+
+@media screen and (min-width: 768px) {
+  .cover__inner {
+    top: -39%;
+    width: 130%;
+    height: 130%;
+  }  
 }
 
 .cover__part {
@@ -32,8 +46,6 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  transform: rotate(calc(var(--cover-rotate-deg) * var(--cover-scroll-percent))) translateZ(0);
-  transform-origin: center;
 	will-change: transform;
 }
 
@@ -91,6 +103,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .cover__part {
+    transform: rotate(calc(var(--cover-rotate-deg) * var(--cover-scroll-percent))) translateZ(0);
+    transform-origin: center;
+  }
+  
   .cover__part_2 svg {
     animation-duration: 350s;
   }
