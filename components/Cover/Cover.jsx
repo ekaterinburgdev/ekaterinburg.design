@@ -1,5 +1,6 @@
-import classNames from 'classnames/bind';
 import { useRef, useEffect, useState } from 'react';
+import throttle from '../../utils/thottle';
+import classNames from 'classnames/bind';
 
 import styles from './Cover.module.scss';
 
@@ -132,17 +133,4 @@ function CoverLayer6() {
       ></path>
     </svg>
   );
-}
-
-function throttle(callback, limit) {
-  var waiting = false;
-  return function () {
-    if (!waiting) {
-      callback.apply(this, arguments);
-      waiting = true;
-      setTimeout(function () {
-        waiting = false;
-      }, limit);
-    }
-  }
 }
