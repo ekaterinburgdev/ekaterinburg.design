@@ -16,7 +16,6 @@ export default function PostPreviewGrid({ posts }) {
 
   return (
     <ul className={cx('post-preview-grid')}>
-      {console.log(posts)}
       {posts
         .filter(({ published }) => published)
         .sort(sortByPriority)
