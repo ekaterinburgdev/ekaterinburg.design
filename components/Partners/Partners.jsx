@@ -12,7 +12,7 @@ export default function Partners({ partners }) {
           // TODO Удалить name, description из Notion
         }
         {partners.map(({ link, name, image, description }) =>
-          <div className={cx('partners__list-item')}>
+          <div className={cx('partners__list-item')} key={link}>
             <a href={link} target="_blank">
               <img src={image[0]} alt="" className={cx('partners__logo')} />
             </a>
