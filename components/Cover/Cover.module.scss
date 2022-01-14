@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vw;
+  margin-bottom: -10vw;
 
   &,
   & * {
@@ -12,16 +13,15 @@
 }
 
 .cover_disabled-animation .cover__part {
-  transition: none;
   transform: translateZ(0);
   animation-play-state: paused;
 }
 
 .cover__inner {
   position: absolute;
-  width: 150%;
-  height: 150%;
-  margin-top: -48%;
+  top: -42%;
+  width: 130%;
+  height: 130%;
   left: 50%;
   transform: translate3d(-50%, 0%, 0);
 }
@@ -34,67 +34,81 @@
   height: 100%;
   transform: rotate(calc(var(--cover-rotate-deg) * var(--cover-scroll-percent))) translateZ(0);
   transform-origin: center;
-  transition: cubic-bezier(0, 0, .4, 1) transform;
 	will-change: transform;
 }
 
 .cover__part_2 {
-  --cover-rotate-deg: -3deg;
-  transition-duration: 1.1s;
+  --cover-rotate-deg: -12deg;
 }
 
 .cover__part_3 {
-  --cover-rotate-deg: 3deg;
-  transition-duration: 1.2s;
+  --cover-rotate-deg: 10deg;
 }
 
 .cover__part_4 {
-  --cover-rotate-deg: -3deg;
-  transition-duration: 1.3s;
+  --cover-rotate-deg: -8deg;
 }
 
 .cover__part_5 {
-  --cover-rotate-deg: 3deg;
-  transition-duration: 1.3s;
+  --cover-rotate-deg: 6deg;
 }
 
 .cover__part_6 {
-  --cover-rotate-deg: -3deg;
-  transition-duration: 1.4s;
+  --cover-rotate-deg: -4deg;
 }
 
-@media screen and (max-width: 768px) {
-  .cover__part {
-    --cover-rotate-deg: 0deg;
-    animation: coverPartRotate .5s linear infinite;
-    will-change: auto;
-  }
+.cover__part svg {
+  --cover-rotate-deg: 0deg;
+  animation: coverPartRotate .5s linear infinite;
+  will-change: auto;
+}
 
-  .cover__part_1 {
-    animation: none; 
+.cover__part_1 svg {
+  animation: none; 
+}
+
+.cover__part_2 svg {
+  animation-duration: 50s;
+  animation-direction: reverse;
+}
+
+.cover__part_3 svg {
+  animation-duration: 75s;
+}
+
+.cover__part_4 svg {
+  animation-duration: 100s;
+  animation-direction: reverse;
+}
+
+.cover__part_5 svg {
+  animation-duration: 150s;
+}
+
+.cover__part_6 svg {
+  animation-duration: 200s;
+  animation-direction: reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__part_2 svg {
+    animation-duration: 350s;
   }
   
-  .cover__part_2 {
-    animation-duration: 50s;
-    animation-direction: reverse;
+  .cover__part_3 svg {
+    animation-duration: 375s;
   }
   
-  .cover__part_3 {
-    animation-duration: 75s;
+  .cover__part_4 svg {
+    animation-duration: 400s;
   }
   
-  .cover__part_4 {
-    animation-duration: 100s;
-    animation-direction: reverse;
+  .cover__part_5 svg {
+    animation-duration: 450s;
   }
   
-  .cover__part_5 {
-    animation-duration: 150s;
-  }
-  
-  .cover__part_6 {
-    animation-duration: 200s;
-    animation-direction: reverse;
+  .cover__part_6 svg {
+    animation-duration: 500s;
   }
 }
 

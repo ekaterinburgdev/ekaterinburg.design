@@ -21,11 +21,11 @@ export default function Cover() {
       setIsCoverVisible(isCoverVisible);
     };
 
-    const debouncedHandleScroll = () => debounce(handleScroll, 100);
-    window.addEventListener('scroll', debouncedHandleScroll);
+    const throttledHandleScroll = throttle(handleScroll, 1);
+    window.addEventListener('scroll', throttledHandleScroll);
 
     return () => {
-      window.removeEventListener('scroll', debouncedHandleScroll);
+      window.removeEventListener('scroll', throttledHandleScroll);
     }
   }, []);
 
@@ -134,9 +134,15 @@ function CoverLayer6() {
   );
 }
 
-function debounce(method, delay) {
-  clearTimeout(method._tId);
-  method._tId = setTimeout(function () {
-    method();
-  }, delay);
+function throttle(callback, limit) {
+  var waiting = false;
+  return function () {
+    if (!waiting) {
+      callback.apply(this, arguments);
+      waiting = true;
+      setTimeout(function () {
+        waiting = false;
+      }, limit);
+    }
+  }
 }
