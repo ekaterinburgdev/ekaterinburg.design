@@ -14,7 +14,7 @@ export default function Partners({ partners }) {
         {partners.map(({ link, name, image, description }) =>
           <div className={cx('partners__list-item')} key={link}>
             <a href={link} target="_blank">
-              <img src={image[0]} alt="" className={cx('partners__logo')} src={image} />
+              <img src={image[0]} alt="" className={cx('partners__logo')} loading="lazy"  />
             </a>
           </div>
         )}
