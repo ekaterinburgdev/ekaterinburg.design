@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { Client: NotionClient } = require("@notionhq/client");
 const Typograf = require('typograf');
 
@@ -45,7 +46,8 @@ function getNotionValueByType(value, type) {
     case "people":
       return value.people || '';
     case "files":
-      return value.files.map(x => x?.file?.url) || [];
+      const files = value.files.map(x => x?.file?.url).map(x => getFileFromCache(x)) || [];
+      return files;
     case "checkbox":
       return value.checkbox || '';
     case "url":
@@ -57,4 +59,11 @@ function getNotionValueByType(value, type) {
     case "formula":
       return value.formula.string || '';
   }
+}
+
+function getFileFromCache(url) {
+  const [ filename ] = new URL(url).pathname.split('/').slice(-1);
+  const fileList = fs.readFileSync(`public/notion-static/filelist.json`);
+  const cachedFileUrl = fileList.includes(filename) ? `/notion-static/${filename}` : url;
+  return cachedFileUrl;
 }

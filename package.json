@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run preload-static && next dev",
     "build": "npm run preload-static && next build",
     "start": "next start",
     "preload-static": "node ./build-scripts/cache-images.js"

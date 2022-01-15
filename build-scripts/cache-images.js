@@ -18,9 +18,10 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
 
     fs.mkdirSync(VERCEL_OUTPUT_PATH, { recursive: true });
 
-    items.forEach(x => {
-        download(x);
-    })
+    console.log('Download files from Notion...');
+    const downloads = await Promise.all(items.map(x => download(x)));
+    console.log('Files loaded: ', downloads);
+    fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
 })();
 
 async function getNotionImagesFromDatabase(databaseName) {
@@ -42,20 +43,24 @@ async function getNotionImagesFromDatabase(databaseName) {
 }
 
 function download(url) {
-    const filename = url.split('/').slice(-1)[0].split('?')[0];
-
-    const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + filename);
-
-    https.get(url, (response) => {
-        response.pipe(file);
-    });
-
-    file.on("finish", () => {
-        file.close();
-        console.error(`Loaded: ${filename}`);
-    });
-
-    file.on("error", () => {
-        console.error(`Not loaded: ${filename}`);
+    return new Promise((res) => {
+        const filename = url.split('/').slice(-1)[0].split('?')[0];
+    
+        const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + filename);
+    
+        https.get(url, (response) => {
+            response.pipe(file);
+        });
+    
+        file.on("finish", () => {
+            file.close();
+            res(filename);
+        });
+    
+        file.on("error", () => {
+            console.error(`Not loaded: ${filename}`);
+            res('');
+        });
     });
 }
+
