@@ -1,3 +1,6 @@
+
+const path = require('path');
+const fs = require('fs');
 const { Client: NotionClient } = require("@notionhq/client");
 const Typograf = require('typograf');
 
@@ -69,6 +72,12 @@ function getFileFromCache(url) {
 }
 
 async function loadCachedFilesList() {
-  const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`);
-  return response.json();
+  let fileList;
+  try {
+    const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`);const path = require('path');
+    fileList = await response.json();
+  } catch {
+    fileList = fs.readFileSync(path.join(process.cwd(), 'public', 'notion-static', 'filelist.json'), 'utf8');
+  }
+  return fileList;
 }
