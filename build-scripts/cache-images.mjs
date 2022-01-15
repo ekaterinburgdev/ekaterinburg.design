@@ -33,7 +33,7 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
             imageminMozjpeg({ quality: 85 }),
-            imageminPngquant({ quality: 85 }),
+            imageminPngquant({ quality: [.8, .9] }),
             imageminSvgo()
         ]
     });
