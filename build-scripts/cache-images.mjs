@@ -32,8 +32,8 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
-            imageminMozjpeg({ quality: 85 }),
-            imageminPngquant({ quality: [.8, .9] }),
+            imageminMozjpeg({ quality: 90 }),
+            imageminPngquant({ quality: [.9, .95] }),
             imageminSvgo()
         ]
     });
@@ -60,9 +60,9 @@ async function getNotionImagesFromDatabase(databaseName) {
 
 function download(url) {
     return new Promise((res) => {
-        const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
-        const filename = url.split('/').slice(-1)[0].split('?')[0];
+        const [ filename ] = new URL(url).pathname.split('/').slice(-1);
         const fileExt = filename.split('.').slice(-1)[0];
+        const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
         const outputFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
     
         const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + outputFilename);
