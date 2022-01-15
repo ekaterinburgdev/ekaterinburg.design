@@ -16,7 +16,7 @@ import Cover from '../components/Cover';
 
 export default function Home({ projects, team, partners }) {
   return (
-    <>
+    <div className='wrap'>
       <Cover />
       <Layout home>
         <Head>
@@ -91,7 +91,7 @@ export default function Home({ projects, team, partners }) {
           <Contacts />
         </section>
       </Layout>
-    </>
+    </div>
   )
 }
 
