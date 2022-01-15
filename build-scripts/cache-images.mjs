@@ -2,8 +2,9 @@ import https from 'https';
 import fs from 'fs';
 import { Client } from '@notionhq/client';
 import imagemin from 'imagemin';
-import imageminJpegtran from 'imagemin-jpegtran';
+import imageminMozjpeg from 'imagemin-mozjpeg';
 import imageminPngquant from 'imagemin-pngquant';
+import imageminSvgo from 'imagemin-svgo';
 import dotenv from 'dotenv-flow';
 
 dotenv.config();
@@ -28,9 +29,13 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
 
     console.log('Optimize downloaded files...');
-    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,png}`], {
+    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
-        plugins: [ imageminJpegtran(), imageminPngquant() ]
+        plugins: [
+            imageminMozjpeg({ quality: 90 }),
+            imageminPngquant({ quality: 90 }),
+            imageminSvgo()
+        ]
     });
     console.log('Files optimized!');
 })();
