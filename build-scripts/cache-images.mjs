@@ -29,11 +29,11 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
 
     console.log('Optimize downloaded files...');
-    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,png,svg}`], {
+    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
-            imageminMozjpeg({ quality: 90 }),
-            imageminPngquant({ quality: 90 }),
+            imageminMozjpeg({ quality: 85 }),
+            imageminPngquant({ quality: 85 }),
             imageminSvgo()
         ]
     });
