@@ -18,7 +18,7 @@ export default function PostPreview({ id, title, gallery, highlight, contrast })
 
         {gallery?.map(image => (
           <figure className={cx('post-preview__image')} key={image}>
-            <img src={image} alt="" />
+            <img src={image} loading="lazy" alt="" />
           </figure>
         ))}
       </a>
