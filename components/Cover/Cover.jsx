@@ -31,7 +31,7 @@ export default function Cover() {
   }, []);
 
   return (
-    <div className={cx("cover", { "cover_disabled-animation": !isCoverVisible })} ref={coverEl}>
+    <div className={cx("cover", { "cover_not-visible": !isCoverVisible })} ref={coverEl}>
       <div className={cx("cover__inner")}>
         <div className={cx("cover__part", "cover__part_1")}>
           <CoverLayer1 />
