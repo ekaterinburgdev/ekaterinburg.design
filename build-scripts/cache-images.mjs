@@ -1,8 +1,12 @@
-const https = require('https');
-const fs = require('fs');
-const { Client: NotionClient } = require("@notionhq/client");
-require('dotenv-flow').config();
+import https from 'https';
+import fs from 'fs';
+import { Client } from '@notionhq/client';
+import imagemin from 'imagemin';
+import imageminJpegtran from 'imagemin-jpegtran';
+import imageminPngquant from 'imagemin-pngquant';
+import dotenv from 'dotenv-flow';
 
+dotenv.config();
 const VERCEL_OUTPUT_PATH = './public/notion-static/';
 
 (async () => {
@@ -22,10 +26,17 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     const downloads = await Promise.all(items.map(x => download(x)));
     console.log('Files loaded: ', downloads);
     fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
+
+    console.log('Optimize downloaded files...');
+    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,png}`], {
+        destination: VERCEL_OUTPUT_PATH,
+        plugins: [ imageminJpegtran(), imageminPngquant() ]
+    });
+    console.log('Files optimized!');
 })();
 
 async function getNotionImagesFromDatabase(databaseName) {
-    const notion = new NotionClient({ auth: process.env.NOTION_TOKEN });
+    const notion = new Client({ auth: process.env.NOTION_TOKEN });
     
     const NOTION_DATABASES = {
         'Team': process.env.NOTION_DATABASE_TEAM,
