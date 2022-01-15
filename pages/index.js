@@ -95,13 +95,13 @@ export default function Home({ projects, team, partners }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       projects: await getNotionDatabaseItems('Projects'),
       team: await getNotionDatabaseItems('Team'),
       partners: await getNotionDatabaseItems('Partners')
     },
-    //revalidate: 60,
+    revalidate: 60,
   }
 }
