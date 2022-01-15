@@ -1,6 +1,12 @@
-const fs = require('fs');
 const { Client: NotionClient } = require("@notionhq/client");
 const Typograf = require('typograf');
+
+let CACHED_FILES_LIST = [];
+const NOTION_DATABASES = {
+  'Team': process.env.NOTION_DATABASE_TEAM,
+  'Partners': process.env.NOTION_DATABASE_PARTNERS,
+  'Projects': process.env.NOTION_DATABASE_PROJECTS
+};
 
 const tp = new Typograf({ locale: ['ru', 'en-US'] });
 
@@ -10,15 +16,10 @@ tp.disableRule([
   'common/nbsp/replaceNbsp',
 ]);
 
-const NOTION_DATABASES = {
-  'Team': process.env.NOTION_DATABASE_TEAM,
-  'Partners': process.env.NOTION_DATABASE_PARTNERS,
-  'Projects': process.env.NOTION_DATABASE_PROJECTS
-};
-
 const notion = new NotionClient({ auth: process.env.NOTION_TOKEN });
 
 export async function getNotionDatabaseItems(databaseName) {
+  CACHED_FILES_LIST = await loadCachedFilesList();
   const databaseId = NOTION_DATABASES[databaseName];
   const response = await notion.databases.query({ database_id: databaseId });
   const data = response.results.map(x => x.properties);
@@ -63,7 +64,11 @@ function getNotionValueByType(value, type) {
 
 function getFileFromCache(url) {
   const [ filename ] = new URL(url).pathname.split('/').slice(-1);
-  const fileList = fs.readFileSync(`public/notion-static/filelist.json`);
-  const cachedFileUrl = fileList.includes(filename) ? `/notion-static/${filename}` : url;
+  const cachedFileUrl = CACHED_FILES_LIST.includes(filename) ? `/notion-static/${filename}` : url;
   return cachedFileUrl;
+}
+
+async function loadCachedFilesList() {
+  const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`);
+  return response.json();
 }
