@@ -60,9 +60,12 @@ async function getNotionImagesFromDatabase(databaseName) {
 
 function download(url) {
     return new Promise((res) => {
+        const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
         const filename = url.split('/').slice(-1)[0].split('?')[0];
+        const fileExt = filename.split('.').slice(-1)[0];
+        const outputFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
     
-        const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + filename);
+        const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + outputFilename);
     
         https.get(url, (response) => {
             response.pipe(file);
@@ -70,11 +73,11 @@ function download(url) {
     
         file.on("finish", () => {
             file.close();
-            res(filename);
+            res(outputFilename);
         });
     
         file.on("error", () => {
-            console.error(`Not loaded: ${filename}`);
+            console.error(`Not loaded: ${outputFilename}`);
             res('');
         });
     });

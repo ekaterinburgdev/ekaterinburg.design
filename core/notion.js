@@ -67,7 +67,11 @@ function getNotionValueByType(value, type) {
 
 function getFileFromCache(url) {
   const [ filename ] = new URL(url).pathname.split('/').slice(-1);
-  const cachedFileUrl = CACHED_FILES_LIST.includes(filename) ? `/notion-static/${filename}` : url;
+  const fileExt = filename.split('.').slice(-1)[0];
+  const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
+  const notionFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
+
+  const cachedFileUrl = CACHED_FILES_LIST.includes(notionFilename) ? `/notion-static/${notionFilename}` : url;
   return cachedFileUrl;
 }
 
