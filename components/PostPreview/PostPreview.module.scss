@@ -78,8 +78,12 @@
     color: black;
 }
 
-.post-preview_link.post-preview_contrast .post-preview__caption {
+.post-preview_link .post-preview__caption {
+    margin-bottom: -.92em;
+    margin-left: .3em;
+	padding: .4em .3em;
 	background: #FFD400;
+    color: black;
 }
 
 .post-preview__caption-word {
