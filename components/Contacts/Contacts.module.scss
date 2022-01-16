@@ -76,3 +76,21 @@
         opacity: 1;
     }
 }
+
+@media screen and (min-width: 1800px) {
+    .contacts__item {
+        flex-basis: 35%;
+    }
+
+    .contacts__item_youtube {
+        margin-top: -44vmin;
+    }
+
+    .contacts__item_mail {
+        margin-top: -7vmin;
+    }
+
+    .contacts__link {
+        font-size: 10vw;
+    }
+}
