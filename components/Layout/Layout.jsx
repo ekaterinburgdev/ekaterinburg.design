@@ -25,13 +25,13 @@ export default function Layout({ children, home }) {
           <meta property="og:url" content={`https://${process.env.VERCEL_URL}/`} />
           <meta property="og:title" content={siteTitle} />
           <meta property="og:description" content={siteDescription} />
-          <meta property="og:image" content="/og-preview.png" />
+          <meta property="og:image" content="/og-preview.jpg" />
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content={`https://${process.env.VERCEL_URL}/`} />
           <meta property="twitter:title" content={siteTitle} />
           <meta property="twitter:description" content={siteDescription} />
-          <meta property="twitter:image" content="/og-preview.png"></meta>
+          <meta property="twitter:image" content="/og-preview.jpg"></meta>
         </Head>
 
         <main>
