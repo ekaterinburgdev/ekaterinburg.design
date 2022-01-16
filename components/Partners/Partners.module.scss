@@ -8,7 +8,8 @@
 
 .partners__list-item {
     flex-basis: calc(100% / 3);
-    padding-right: 5vmin;
+    padding-right: 7vmin;
+    padding-bottom: 5vmin;
 }
 
 .partners__logo {
@@ -58,5 +59,11 @@
         &::first-letter {
             margin-left: 3em;
         }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .partners__list-item {
+        flex-basis: calc(100% / 4);
     }
 }
