@@ -8,7 +8,7 @@
 	background: #222222;
 
 	&:hover {
-		z-index: 1;
+		z-index: 2;
 	}
 }
 
@@ -55,6 +55,7 @@
 
 .post-preview__caption {
 	position: absolute;
+	z-index: 1;
 	bottom: 0;
 	padding: 1.5vmax 1.5vmax;
 	transform: translateZ(0) matrix(1, -0.08, 0, 1, 0, 0);
@@ -70,8 +71,8 @@
 }
 
 .post-preview_contrast .post-preview__caption {
-	margin-bottom: -.1em;
-	margin-left: -.5em;
+    margin-bottom: -.92em;
+    margin-left: .3em;
 	padding: .4em .3em;
 	background: white;
     color: black;
@@ -112,6 +113,7 @@
 
 .post-preview__link-area {
 	position: absolute;
+	z-index: 2;
 	width: 100%;
 	height: 100%;
 	font-size: 0;
