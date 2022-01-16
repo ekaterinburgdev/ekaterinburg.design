@@ -1,16 +1,14 @@
-.partners {
-    
-}
-
 .partners__list {
     display: flex;
-    gap: max(1.5vmax, 20px);
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
     margin-bottom: 20px;
 }
 
 .partners__list-item {
-    width: 100%;
+    flex-basis: calc(100% / 3);
+    padding-right: 5vmin;
 }
 
 .partners__logo {
@@ -19,8 +17,40 @@
 }
 
 .partners__description {
-    font-size: max(1.5vmax, 32px);
+    font-size: 2.9vmax;
     line-height: 1.6;
-    max-width: 78vmax;
-    margin-bottom: 3vmin;
+    margin-bottom: 4vmax;
+}
+
+.partners__description_left {
+    margin-right: auto;
+}
+
+.partners__description_right {
+    padding-left: 2em;
+    margin-left: auto;
+
+    &::first-letter {
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .partners__description {
+        font-size: 3.2vw;
+    }
+
+    .partners__description_left {
+        padding-right: 5em;
+        margin-right: auto;
+    }
+
+    .partners__description_right {
+        padding-left: 2em;
+        margin-left: auto;
+
+        &::first-letter {
+            margin-left: 3em;
+        }
+    }
 }
