@@ -1,76 +1,78 @@
 .contacts {
     display: flex;
-    flex-wrap: wrap;
     position: relative;
-    justify-content: center;
-    margin: 0 -3vmin;
+    flex-wrap: wrap;
+    line-height: 1;
+    margin-top: -8vmin;
 }
 
 .contacts__item {
-    max-width: 45vmin;
-    max-height: 45vmin;
+    padding: 0 2vmin;
+    flex-basis: 50%;
+    transform-origin: center;
     transition: .15s ease;
+}
+
+.contacts__icon {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    &:after {
+        content: '';
+        display: block;
+        padding-bottom: 100%;
+    }
 
     svg {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    &:hover {
-        opacity: .7;
-
-    }
-
-    &:active {
-        opacity: .5;
+        position: absolute;
+        width: 100%;
+        height: 100%;
     }
 }
 
-.contacts__item_mail {
-    max-width: none;
-    font-size: 15vmin;
-    font-weight: 500;
-    line-height: .86;
-    color: #FFD400;
-    transform: rotate(7deg);
-    margin-top: 1em;
-    margin-bottom: .5em;
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 212, 0, .3);
-    transition: .15s ease;
-    
-    &:hover,
-    &:active {
-        opacity: 1;
-    }
-}
-
-.contacts__item_facebook {
-    position: relative;
-    top: -11vmin;
-    right: -5vmin;
+.contacts__item_facebook .contacts__icon {
     transform: rotate(7deg);
 }
 
 .contacts__item_instagram {
-    position: relative;
-    right: -3vmin;
+    margin-top: 25vmin;
+}
+
+.contacts__item_instagram .contacts__icon {
+    transform: rotate(-7deg);
+}
+
+.contacts__item_youtube .contacts__icon {
     transform: rotate(-7deg);
 }
 
 .contacts__item_youtube {
-    position: relative;
-    top: -7vmin;
-    right: -21vmin;
+    margin-left: auto;
+    margin-top: -15vmin;
+}
+
+.contacts__item_mail {
+    flex-basis: 100%;
+    margin-top: -11vmin;
+}
+
+.contacts__item_mail .contacts__link {
     transform: rotate(-7deg);
 }
 
-@media screen and (min-width: 1440px) {
-    .contacts__item_youtube {
-        margin-top: -27vmin;
-        margin-left: auto;
-        top: auto;
-        right: auto;
-        align-self: flex-start;
+.contacts__link {
+    max-width: none;
+    transition: .15s ease text-decoration-color;
+    color: #FFD400;
+    font-size: 14vw;
+    font-weight: 500;
+    line-height: .86;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 212, 0, .3);
+    
+    &:hover,
+    &:active {
+        opacity: 1;
     }
 }

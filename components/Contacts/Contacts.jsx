@@ -7,22 +7,29 @@ const cx = classNames.bind(styles);
 export default function Contacts() {
   return (
     <div className={cx('contacts')}>
+      <div className={cx('contacts__item', 'contacts__item_instagram')}>
+        <a className={cx('contacts__icon')} href="https://fb.com/ekaterinburgdesign">
+          <SVGInstagram />
+        </a>
+      </div>
 
-      <a className={cx('contacts__item', 'contacts__item_mail')} href="mailto:mail@ekaterinburg.design">
-        mail@<br />ekaterinburg.<br />design
-      </a>
+      <div className={cx('contacts__item', 'contacts__item_facebook')}>
+        <a className={cx('contacts__icon')} href="mailto:mail@ekaterinburg.design">
+          <SVGFacebook />
+        </a>
+      </div>
 
-      <a className={cx('contacts__item', 'contacts__item_instagram')} href="https://fb.com/ekaterinburgdesign">
-        <SVGInstagram />
-      </a>
+      <div className={cx('contacts__item', 'contacts__item_youtube')}>
+        <a className={cx('contacts__icon')} href="https://www.youtube.com/c/ekaterinburgdesign">
+          <SVGYouTube />
+        </a>
+      </div>
 
-      <a className={cx('contacts__item', 'contacts__item_facebook')} href="mailto:mail@ekaterinburg.design">
-        <SVGFacebook />
-      </a>
-
-      <a className={cx('contacts__item', 'contacts__item_youtube')} href="https://www.youtube.com/c/ekaterinburgdesign">
-        <SVGYouTube />
-      </a>
+      <div className={cx('contacts__item', 'contacts__item_mail')}>
+        <a className={cx('contacts__link')} href="mailto:mail@ekaterinburg.design">
+          mail@<br />ekaterinburg.<br />design
+        </a>
+      </div>
     </div>
   )
 };
