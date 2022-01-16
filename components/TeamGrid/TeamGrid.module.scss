@@ -40,10 +40,6 @@
         padding: 0 0 50%;
     }
 
-    .team-grid__item img {
-        transform: translateZ(0);
-    }
-
     .team-grid__item:nth-child(2n) {
         transform: translate(0, 50%);
     }
