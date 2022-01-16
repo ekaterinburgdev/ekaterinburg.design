@@ -1,27 +1,30 @@
 
 import classNames from 'classnames/bind';
 
-import Image from 'next/image';
-
 import styles from './PostPreview.module.scss'
 
 const cx = classNames.bind(styles);
 
-export default function PostPreview({ id, title, gallery, highlight, contrast }) {
+export default function PostPreview({ title, siteLink, gallery, highlight, contrast }) {
   return (
-    <article className={cx('post-preview', { 'post-preview_highlight': highlight })}>
-      <a href={id} className={cx('post-preview__title')}>
-        <span className={cx('post-preview__title-caption', { 'post-preview__title-caption_contrast' : contrast })}>
-          {title}
-          <span className={cx('post-preview__title-underline', { 'post-preview__title-underline_contrast' : contrast })}>{title}</span>
-        </span>
+    <article className={cx(
+      'post-preview', {
+      'post-preview_highlight': highlight,
+      'post-preview_contrast': contrast,
+      'post-preview_link': siteLink,
+    })}
+    >
+      <div className={cx('post-preview__gallery')}>
+        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
+      </div>
 
-        {gallery?.map(image => (
-          <figure className={cx('post-preview__image')} key={image}>
-            <img src={image} alt="" />
-          </figure>
-        ))}
-      </a>
+      <span className={cx('post-preview__caption')} aria-hidden="true" data-caption-title={title}>
+        {title.split(' ').map(word => (
+          <span className={cx('post-preview__caption-word')} key={word}>{word} </span>)
+        )}
+      </span>
+
+      {siteLink && <a href={siteLink} className={cx('post-preview__link-area')}>{title}</a>}
     </article>
   )
 };

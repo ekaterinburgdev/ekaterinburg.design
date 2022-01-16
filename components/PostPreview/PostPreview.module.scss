@@ -1,125 +1,139 @@
 .post-preview {
 	position: absolute;
-	width: 100%;
-	height: 100%;
 	top: 0;
 	left: 0;
-	border-radius: 8px;
-	background: #222222;
-}
-
-.post-preview__title {
-	display: flex;
-	position: absolute;
-	align-items: flex-end;
 	width: 100%;
 	height: 100%;
-	padding: 1.5vmax 1.5vmax;
-	font-size: max(1.5vmax, 29px);
-	line-height: 1.4;
-	transition: .35s ease opacity;
+	border-radius: 8px;
+	background: #222222;
 
 	&:hover {
-		opacity: 1;
-		text-decoration: none;
-	}
-
-	&:hover .post-preview__image img {
-		transform: translateZ(0) scale(1.05);
-	}
-	
-	&:hover .post-preview__title-caption {
-		opacity: 1;
+		z-index: 1;
 	}
 }
 
-.post-preview__title-caption {
-	position: relative;
-	z-index: 3;
-    font-weight: 500;
-	transform: matrix(1, -0.08, 0, 1, 0, 0);
-	transition: .15s ease opacity;
-	color: white;
-}
-
-@media screen and (min-width: 560px) {
-	.post-preview__title-caption {
-		opacity: 0;
-	}
-
-	.post-preview_highlight .post-preview__title {
-		font-size: max(2.1vmax, 45px);
-		padding: 2.5vmax 2.5vmax;
-	}
-	
-}
-
-.post-preview__title-caption_contrast {
-    color: black;
-	background: #FFD400;
-	padding: .1em .2em .1em .2em;
-	margin-bottom: -1.5em;
-}
-
-.post-preview__title-underline {
+.post-preview__gallery {
 	position: absolute;
-	top: .06em;
-	left: 0;
-	transition: .15s ease;
-	color: transparent;
-	text-decoration: underline;
-	text-shadow: none;
-	pointer-events: none;
-	text-decoration-color: rgba(255, 255, 255, 0.5);
-}
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: inherit;
 
-.post-preview__title-underline_contrast {
-	padding: .1em .2em .1em .2em;
-	text-decoration-color: rgba(0, 0, 0, 0.5);
+	&,
+	& * {
+		pointer-events: none;
+	}
 }
 
 .post-preview__image {
 	position: absolute;
-	overflow: hidden;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	margin: 0;
-	padding: 0;
-	animation: fadeIn .15s both;
-	pointer-events: none;
-	border-radius: 8px;
+	overflow: hidden;
+	transform: scale(1);
+	transition: .15s ease transform;
+	animation: postPreviewImageFadeIn .15s both;
+	vertical-align: middle;
+}
+
+.post-preview:hover .post-preview__image {
+	transform: scale(1.05);
 }
 
 .post-preview__image img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	margin: 0;
+	padding: 0;
+	transform: translateZ(0);
 	object-fit: cover;
 	object-position: center;
-	border-radius: 8px;
-	transform: translateZ(0) scale(1);
-	transition: .15s ease transform;
 }
 
-.post-preview__image:nth-of-type(1) {
-	animation: fadeIn-1 12s 3s ease both infinite;
+.post-preview__caption {
+	position: absolute;
+	bottom: 0;
+	padding: 1.5vmax 1.5vmax;
+	transform: translateZ(0) matrix(1, -0.08, 0, 1, 0, 0);
+	transform-origin: left center;
+	color: white;
+	font-size: max(1.5vmax, 29px);
+    font-weight: 500;
+	line-height: .9;
+}
+	
+.post-preview:hover .post-preview__caption {
+	opacity: 1;
 }
 
-.post-preview__image:nth-of-type(2) {
-	animation: fadeIn-2 12s 6s ease both infinite;
+.post-preview_contrast .post-preview__caption {
+	margin-bottom: -.1em;
+	margin-left: -.5em;
+	padding: .4em .3em;
+	background: white;
+    color: black;
 }
 
-.post-preview__image:nth-of-type(3) {
-	animation: fadeIn-2 12s 3s ease both infinite;
+.post-preview_link.post-preview_contrast .post-preview__caption {
+	background: #FFD400;
+}
+
+.post-preview__caption-word {
+	position: relative;
+	padding-right: .15em;
+	display: inline-block;
+}
+
+.post-preview_link .post-preview__caption-word::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-bottom: .08em solid currentColor;
+	opacity: .4;
+}
+
+@media screen and (min-width: 560px) {
+	.post-preview__caption {
+		opacity: 0;
+		transition: .15s ease opacity;
+		// BUG из-за transform фон обрезается снизу
+		box-shadow: 0 1px 0 transparent;
+	}
+
+	.post-preview_highlight .post-preview__caption {
+		font-size: max(2.1vmax, 50px);
+	}
+}
+
+.post-preview__link-area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+}
+
+.post-preview__image:nth-child(1) {
+	animation: postPreviewImageFadeIn1 12s 3s ease both infinite;
+}
+
+.post-preview__image:nth-child(2) {
+	animation: postPreviewImageFadeIn2 12s 6s ease both infinite;
+}
+
+.post-preview__image:nth-child(3) {
+	animation: postPreviewImageFadeIn2 12s 3s ease both infinite;
 }
 
 .post-preview__image:only-of-type {
-	animation: none !important;
+	animation: none;
 }
 
-@keyframes fadeIn-1 {
+@keyframes postPreviewImageFadeIn1 {
 	0% {
 		opacity: 1;
 	}
@@ -146,7 +160,7 @@
 	}
 }
 
-@keyframes fadeIn-2 {
+@keyframes postPreviewImageFadeIn2 {
 	0% {
 		opacity: 0;
 	}
@@ -170,7 +184,7 @@
 	}
 }
 
-@keyframes fadeIn-3 { 
+@keyframes postPreviewImageFadeIn3 { 
   0% {
     opacity: 0;
   }
