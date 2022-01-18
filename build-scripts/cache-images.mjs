@@ -49,7 +49,7 @@ const MAX_IMAGE_SIZE = 1200;
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
             imageminMozjpeg({ quality: 80 }),
-            imageminPngquant({ quality: [.9, .95] }),
+            imageminPngquant({ quality: [.7, .9] }),
             imageminSvgo()
         ]
     });
