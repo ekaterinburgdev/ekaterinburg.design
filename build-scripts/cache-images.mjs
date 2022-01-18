@@ -35,11 +35,11 @@ const MAX_IMAGE_SIZE = 1200;
         const { width, height } = await image.metadata();
 
         if (width >= 1200) {
-            image.resize(width, null);
+            image.resize(MAX_IMAGE_SIZE, null);
         }
 
         if (height >= 1200) {
-            image.resize(null, height);
+            image.resize(null, MAX_IMAGE_SIZE);
         }
     });
     console.log('Resized downloaded files...');
@@ -48,7 +48,7 @@ const MAX_IMAGE_SIZE = 1200;
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
             imageminMozjpeg({ quality: 80 }),
-            imageminPngquant({ quality: [.7, .9] }),
+            imageminPngquant({ quality: [.6, .85] }),
             imageminSvgo()
         ]
     });
