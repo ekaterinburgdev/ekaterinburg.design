@@ -28,10 +28,9 @@ const MAX_IMAGE_SIZE = 1200;
 
     console.log('Download files from Notion...');
     const downloads = await Promise.all(items.map(x => download(x)));
-    console.log('Files loaded: ', downloads);
+    console.log('Files loaded: ', downloads.join('\n'));
 
     fs.readdirSync(VERCEL_OUTPUT_PATH).forEach(async file => {
-        console.log(file)
         const image = sharp(VERCEL_OUTPUT_PATH + file);
         const { width, height } = await image.metadata();
 
