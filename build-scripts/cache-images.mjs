@@ -1,14 +1,17 @@
 import https from 'https';
 import fs from 'fs';
+import path from 'path';
 import { Client } from '@notionhq/client';
 import imagemin from 'imagemin';
 import imageminMozjpeg from 'imagemin-mozjpeg';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminSvgo from 'imagemin-svgo';
+import sharp from 'sharp';
 import dotenv from 'dotenv-flow';
 
 dotenv.config();
 const VERCEL_OUTPUT_PATH = './public/notion-static/';
+const MAX_IMAGE_SIZE = 1200;
 
 (async () => {
     const items = [
@@ -26,9 +29,22 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     console.log('Download files from Notion...');
     const downloads = await Promise.all(items.map(x => download(x)));
     console.log('Files loaded: ', downloads);
-    fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
 
-    console.log('Optimize downloaded files...');
+    fs.readdirSync(VERCEL_OUTPUT_PATH).forEach(async file => {
+        console.log(file)
+        const image = sharp(VERCEL_OUTPUT_PATH + file);
+        const { width, height } = await image.metadata();
+
+        if (width >= 1200) {
+            image.resize(width, null);
+        }
+
+        if (height >= 1200) {
+            image.resize(null, height);
+        }
+    });
+    console.log('Resized downloaded files...');
+
     const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
@@ -37,12 +53,15 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
             imageminSvgo()
         ]
     });
-    console.log('Files optimized!');
+    console.log(`Files optimized: ${files.length}`);
+
+    fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
+    console.log(`Filelist created: filelist.json`);
 })();
 
 async function getNotionImagesFromDatabase(databaseName) {
     const notion = new Client({ auth: process.env.NOTION_TOKEN });
-    
+
     const NOTION_DATABASES = {
         'Team': process.env.NOTION_DATABASE_TEAM,
         'Partners': process.env.NOTION_DATABASE_PARTNERS,
@@ -60,22 +79,22 @@ async function getNotionImagesFromDatabase(databaseName) {
 
 function download(url) {
     return new Promise((res) => {
-        const [ filename ] = new URL(url).pathname.split('/').slice(-1);
+        const [filename] = new URL(url).pathname.split('/').slice(-1);
         const fileExt = filename.split('.').slice(-1)[0];
         const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
         const outputFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
-    
+
         const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + outputFilename);
-    
+
         https.get(url, (response) => {
             response.pipe(file);
         });
-    
+
         file.on("finish", () => {
             file.close();
             res(outputFilename);
         });
-    
+
         file.on("error", () => {
             console.error(`Not loaded: ${outputFilename}`);
             res('');
