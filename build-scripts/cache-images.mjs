@@ -32,7 +32,7 @@ const VERCEL_OUTPUT_PATH = './public/notion-static/';
     const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
-            imageminMozjpeg({ quality: 90 }),
+            imageminMozjpeg({ quality: 80 }),
             imageminPngquant({ quality: [.9, .95] }),
             imageminSvgo()
         ]

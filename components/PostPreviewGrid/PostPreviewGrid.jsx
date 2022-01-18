@@ -24,17 +24,17 @@ export default function PostPreviewGrid({ posts }) {
             id,
             previewGallery,
             previewContrast,
-            previewHighlight,
+            previewBig,
             siteLink,
             title,
           }) => (
-          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_highlight': previewHighlight })} key={title}>
+          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_big': previewBig })} key={title}>
             <PostPreview
               id={id}
               title={title}
               gallery={previewGallery}
               contrast={previewContrast}
-              highlight={previewHighlight}
+              big={previewBig}
               siteLink={siteLink}
             />
           </li>

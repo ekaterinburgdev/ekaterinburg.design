@@ -5,11 +5,11 @@ import styles from './PostPreview.module.scss'
 
 const cx = classNames.bind(styles);
 
-export default function PostPreview({ title, siteLink, gallery, highlight, contrast }) {
+export default function PostPreview({ title, siteLink, gallery, big, contrast }) {
   return (
     <article className={cx(
       'post-preview', {
-      'post-preview_highlight': highlight,
+      'post-preview_big': big,
       'post-preview_contrast': contrast,
       'post-preview_link': siteLink,
     })}
