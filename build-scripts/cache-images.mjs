@@ -1,13 +1,12 @@
 import https from 'https';
 import fs from 'fs';
-import path from 'path';
 import { Client } from '@notionhq/client';
+import sharp from 'sharp';
+import dotenv from 'dotenv-flow';
 import imagemin from 'imagemin';
 import imageminMozjpeg from 'imagemin-mozjpeg';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminSvgo from 'imagemin-svgo';
-import sharp from 'sharp';
-import dotenv from 'dotenv-flow';
 
 dotenv.config();
 const VERCEL_OUTPUT_PATH = './public/notion-static/';
@@ -23,28 +22,39 @@ const MAX_IMAGE_SIZE = 1200;
     if (fs.existsSync(VERCEL_OUTPUT_PATH)) {
         fs.rmSync(VERCEL_OUTPUT_PATH, { recursive: true });
     }
-
     fs.mkdirSync(VERCEL_OUTPUT_PATH, { recursive: true });
+
 
     console.log('Download files from Notion...');
     const downloads = await Promise.all(items.map(x => download(x)));
-    console.log('Files loaded: ', downloads.join('\n'));
+    console.log(`Files loaded ${downloads.length}:\n`, downloads.join('\n'), '\n');
 
-    fs.readdirSync(VERCEL_OUTPUT_PATH).forEach(async file => {
-        const image = sharp(VERCEL_OUTPUT_PATH + file);
-        const { width, height } = await image.metadata();
 
-        if (width >= 1200) {
-            image.resize(MAX_IMAGE_SIZE, null);
-        }
+    console.log('Resizing downloaded files...');
+    const files = fs.readdirSync(VERCEL_OUTPUT_PATH).filter(x => !x.includes('svg'));
+    const resizedImages = await Promise.all(
+        files.map(filename => new Promise(async (res) => {
+            const image = await sharp(VERCEL_OUTPUT_PATH + filename);
+            const { width, height } = await image.metadata();
 
-        if (height >= 1200) {
-            image.resize(null, MAX_IMAGE_SIZE);
-        }
-    });
-    console.log('Resized downloaded files...');
+            if (width >= MAX_IMAGE_SIZE) {
+                image.resize(MAX_IMAGE_SIZE, null);
+            }
 
-    const files = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
+            if (height >= MAX_IMAGE_SIZE) {
+                image.resize(null, MAX_IMAGE_SIZE);
+            }
+
+            const outputFile = await image.toBuffer();
+            fs.writeFileSync(VERCEL_OUTPUT_PATH + filename, outputFile);
+            res();
+        }))
+    );
+    console.log(`Files resized`)
+
+
+    console.log(`Optimize files...`);
+    const optimizedFiles = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
             imageminMozjpeg({ quality: 80 }),
@@ -52,7 +62,8 @@ const MAX_IMAGE_SIZE = 1200;
             imageminSvgo()
         ]
     });
-    console.log(`Files optimized: ${files.length}`);
+    console.log(`Files optimized: ${optimizedFiles.length}`);
+
 
     fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
     console.log(`Filelist created: filelist.json`);
