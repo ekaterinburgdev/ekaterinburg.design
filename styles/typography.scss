@@ -56,6 +56,7 @@
 .section-heading_contacts {
     font-size: 20vmin;
     line-height: .83;
+    margin-bottom: 2vmax;
 }
 
 .support-description {
@@ -80,11 +81,11 @@
     .site-description {
         max-width: 60%;
     }
-    
+
     .site-description_align-right {
         &:first-letter {
             margin-left: 30%;
         }
     }
-    
+
 }
