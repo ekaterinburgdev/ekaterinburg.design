@@ -71,8 +71,9 @@
     margin-bottom: -.92em;
     margin-left: .3em;
   padding: .4em .3em;
-  background: black;
-    color: white;
+  max-width: 80%;
+    color: #fff;
+  backdrop-filter: blur(20px);
 }
 
 .post-preview_link .post-preview__caption {
