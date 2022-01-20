@@ -16,10 +16,12 @@
     max-width: 100%;
     object-fit: contain;
     filter: brightness(0) invert(1);
-    transition: .15s ease filter;
+    transition: .15s ease all;
+    transform: rotate(0deg) scale(1);
 
     &:hover {
         filter: none;
+        transform: rotate(3deg) scale(1.05);
     }
 }
 
