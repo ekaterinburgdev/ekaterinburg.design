@@ -20,6 +20,7 @@ export default function Partners({ partners }) {
         )}
       </div>
 
+      {/*
       <p className={cx('partners__description', 'partners__description_left')}>
         Мы&nbsp;создаём дизайн-систему Екатеринбурга, которая исключит появление плохого дизайна в&nbsp;городе. Это сделает городскую среду приятнее и&nbsp;комфортнее.
       </p>
@@ -31,7 +32,7 @@ export default function Partners({ partners }) {
       <p className={cx('partners__description', 'partners__description_left')}>
         Обсудить условия и&nbsp;обязанности с&nbsp;нашей стороны с&nbsp;вами готов наш руководитель Паша Омелёхин&nbsp;&mdash; <a href="mailto:pasha@ekateringburg.design">pasha@ekateringburg.design</a>
       </p>
+      */}
     </div>
   )
 };
-
