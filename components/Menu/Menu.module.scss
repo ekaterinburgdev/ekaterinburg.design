@@ -8,7 +8,7 @@
         position: fixed;
         z-index: 4;
         left: 50%;
-        bottom: 2.5vh;
+        bottom: 2vh;
         transform: translateX(-50%);
         padding: 10px;
         background: rgba(0,0,0,.7);
@@ -18,7 +18,7 @@
     }
 
     .menu__item {
-        color: #A5B4D2;
+        color: rgba(230,240,255,.7);
         transition: all .15s ease;
         text-decoration: none;
         padding: .5em 24px .4em;
@@ -29,7 +29,7 @@
         font-size: clamp(22px, 1.4vw, 24px);
 
         &:hover {
-            color: white;
+            color: rgba(255,255,255,1);
             text-decoration: none;
         }
     }
