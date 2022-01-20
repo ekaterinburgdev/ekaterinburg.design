@@ -5,19 +5,26 @@ import styles from './Partners.module.scss';
 const cx = classNames.bind(styles);
 
 export default function Partners({ partners }) {
+  const sortByPriority = (a, b) => {
+    if (a.priority > b.priority) { return -1; }
+    if (a.priority < b.priority) { return 1; }
+    return 0;
+  }
+
   return (
     <div className={cx('partners')}>
       <div className={cx('partners__list')}>
-        {
-          // TODO Удалить name, description из Notion
-        }
-        {partners.map(({ link, name, image, description }) =>
-          <div className={cx('partners__list-item')} key={link}>
-            <a href={link} target="_blank">
-              <img src={image[0]} alt="" className={cx('partners__logo')} loading="lazy"  />
-            </a>
-          </div>
-        )}
+        {partners
+          .filter(({ published }) => published)
+          .sort(sortByPriority)
+          .map(({ link, name, logo, logoInvert }) =>
+            <div className={cx('partners__list-item')} key={link}>
+              <a className={cx('partners__link')} href={link} target="_blank">
+                <img src={logoInvert[0]} alt="" className={cx('partners__logo')} loading="lazy" />
+                <img src={logo[0]} alt={name} className={cx('partners__logo', 'partners__logo_color')} loading="lazy" />
+              </a>
+            </div>
+          )}
       </div>
 
       {/*
