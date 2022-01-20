@@ -28,8 +28,7 @@ export default function Home({ projects, team, partners }) {
         <section id="about" className={'section'}>
           <div className={'main-visual'}>
             <h2 className={'main-visual__title'}>
-              Мы — департамент<br />
-              дизайна<br />
+              Мы — Дизайн-код<br />
               Екатеринбурга
             </h2>
             <p className={'main-visual__description'}>
