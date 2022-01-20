@@ -17,6 +17,7 @@
     display: inline-block;
     position: relative;
     width: 100%;
+    transition: transform .15s ease;
 
     &:after {
         content: '';
@@ -32,7 +33,7 @@
 }
 
 .contacts__item_facebook .contacts__icon {
-    transform: rotate(7deg);
+    transform: rotate(7deg) scale(1);
 }
 
 .contacts__item_instagram {
@@ -47,9 +48,15 @@
     transform: rotate(-7deg);
 }
 
+.contacts__item_facebook:hover .contacts__icon,
+.contacts__item_instagram:hover .contacts__icon,
+.contacts__item_youtube:hover .contacts__icon {
+  transform: rotate(0deg) scale(1.05);
+}
+
 .contacts__item_youtube {
     margin-left: auto;
-    margin-top: -15vmin;
+    margin-top: -20vmin;
 }
 
 .contacts__item_mail {
@@ -57,8 +64,21 @@
     margin-top: -11vmin;
 }
 
-.contacts__item_mail .contacts__link {
-    transform: rotate(-7deg);
+.contacts__item_mail {
+    transform: rotate(0deg) scale(1);
+}
+
+.contacts__item_mail:hover {
+    transform: rotate(-1deg) scale(1.05);
+}
+
+.contacts__caption_mail {
+  color: rgba(#FFD400,.4);
+  font-size: 3vw;
+  font-weight: 500;
+  margin-left: .8vw;
+  text-decoration: none !important;
+  text-decoration-color: rgba(0,0,0,0);
 }
 
 .contacts__link {
@@ -70,10 +90,10 @@
     line-height: .86;
     text-decoration: underline;
     text-decoration-color: rgba(255, 212, 0, .3);
-    
+
     &:hover,
     &:active {
-        opacity: 1;
+        text-decoration-color: rgba(255, 212, 0, 1);
     }
 }
 
