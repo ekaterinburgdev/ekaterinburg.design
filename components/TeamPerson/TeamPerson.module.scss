@@ -51,6 +51,18 @@
     font-size: 4vw;
 }
 
+a.team-person {
+  .team-person__name {
+    text-decoration: underline;
+    text-decoration-color: rgba(#fff, .5);
+  }
+  &:hover {
+    .team-person__name {
+      color: #FFD400;
+    }
+  }
+}
+
 .team-person__role {
     color: #616161;
     font-size: 4vw;
@@ -65,7 +77,7 @@
     .team-person__name {
         font-size: 2.5vw;
     }
-    
+
     .team-person__role {
         font-size: 2.5vw;
     }
@@ -75,7 +87,7 @@
     .team-person__name {
         font-size: 1.9vw;
     }
-    
+
     .team-person__role {
         font-size: 1.9vw;
     }
@@ -85,13 +97,12 @@
     .team-person__caption {
         position: absolute;
     }
-    
+
     .team-person__name {
         font-size: 1.1vw;
     }
-    
+
     .team-person__role {
         font-size: 1.1vw;
     }
 }
-
