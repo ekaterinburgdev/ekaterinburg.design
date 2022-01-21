@@ -40,7 +40,9 @@ export default function Menu({ items }) {
         <div className={cx('menu')}>
           <div className={cx('menu__logo')}>
             <svg className={cx('menu__logo-image')} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 574">
-              <path d="M574 287v1.54c-.68 158-129 285.63-287 285.46C128.49 574 0 445.5 0 287S128.5 0 287 0s287 128.49 287 287z"></path>
+              {/*
+                <path d="M574 287v1.54c-.68 158-129 285.63-287 285.46C128.49 574 0 445.5 0 287S128.5 0 287 0s287 128.49 287 287z"></path>
+              */}
               <path
                 fill="#00b4ff"
                 d="M34.4 417.43l278.74-278.74-81.13-81.13L34.4 255.17z"
