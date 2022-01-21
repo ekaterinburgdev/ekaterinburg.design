@@ -61,7 +61,7 @@
 
 .contacts__item_mail {
     flex-basis: 100%;
-    margin-top: -11vmin;
+    margin-top: -20vmin;
 }
 
 .contacts__item_mail {
@@ -70,31 +70,38 @@
 
 .contacts__item_mail:hover {
     transform: rotate(-1deg) scale(1.05);
+    .contacts__caption_mail {
+      color: rgba(#00B400,.4);
+    }
+    .contacts__link {
+      color: #00B400;
+      text-decoration-color: rgba(#00B400, .2);
+    }
 }
 
 .contacts__caption_mail {
+  display: inline-block;
   color: rgba(#FFD400,.4);
   font-size: 3vw;
   font-weight: 500;
-  margin-left: .8vw;
+  margin-left: .5vw;
+  margin-bottom: .2em;
   text-decoration: none !important;
   text-decoration-color: rgba(0,0,0,0);
+  transition: all .1s ease
 }
 
 .contacts__link {
     max-width: none;
     transition: .15s ease text-decoration-color;
     color: #FFD400;
-    font-size: 14vw;
+    font-size: 10vw;
     font-weight: 500;
     line-height: .86;
     text-decoration: underline;
-    text-decoration-color: rgba(255, 212, 0, .3);
-
-    &:hover,
-    &:active {
-        text-decoration-color: rgba(255, 212, 0, 1);
-    }
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(#FFD400, 0);
+    transition: all .1s ease
 }
 
 @media screen and (min-width: 1800px) {
