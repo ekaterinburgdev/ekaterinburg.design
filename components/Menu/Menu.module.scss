@@ -19,7 +19,8 @@
     .menu__list {
         display: flex;
         left: 50%;
-        padding: 10px;
+        margin-left: -2%;
+        padding: 8px;
         border-radius: 70px;
         background: rgba(0,0,0,.7);
         backdrop-filter: blur(20px);
@@ -27,7 +28,7 @@
     }
 
     .menu__list-item {
-        padding: .5em 24px .4em;
+        padding: .5em 24px .5em;
         transition: all .15s ease;
         border-radius: 100px;
         background: transparent;
@@ -40,6 +41,7 @@
         &:hover {
             color: rgba(255,255,255,1);
             text-decoration: none;
+            background: rgba(230,240,255,.15);
         }
     }
 
@@ -50,7 +52,8 @@
         text-decoration: none;
 
         &:hover {
-            color: black;
+          background: white;
+          color: black;
         }
     }
 }
@@ -64,12 +67,12 @@
         position: relative;
         display: flex;
         align-items: center;
-        padding: .4em 1.5em .35em 3.5em;
+        padding: .4em 1em .35em 3.5em;
         transition: .15s ease all;
         border-radius: 100px;
-        background: #FFD400;
-        background: black;
-        color: black;
+        background: rgba(0,0,0,.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         color: white;
         font-size: clamp(22px, 1.4vw, 24px);
         line-height: 1;
@@ -81,23 +84,24 @@
         top: 0;
         height: 100%;
     }
-    
+
     .menu__button {
         display: inline-block;
-        padding: .3em 1.5em .2em;
+        padding: .35em 1.5em .35em;
         transform: scale(1);
         transform-origin: center;
-        transition: .15s ease transform;
+        transition: .1s ease all;
         border-radius: 100px;
         background: #FFD400;
         color: black;
         font-size: clamp(22px, 1.4vw, 24px);
         white-space: nowrap;
+        box-shadow: 0 0 0 0px rgba(#FFD400,1);
 
         &:hover {
-            transform: scale(1.05);
+            transform: scale(1.1) skewY(-5deg);
             text-decoration: none;
         }
     }
-    
+
 }
