@@ -45,16 +45,12 @@
         }
     }
 
-    .menu__list-item_active {
-        background: #fff;
-        color: black;
+    .menu__list-item_active,
+    .menu__list-item_active:hover {
+        background: rgba(230,240,255,.4);
+        color: white;
         font-weight: 400;
         text-decoration: none;
-
-        &:hover {
-          background: white;
-          color: black;
-        }
     }
 }
 
