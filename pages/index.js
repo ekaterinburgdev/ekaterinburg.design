@@ -32,7 +32,7 @@ export default function Home({ projects, team, partners }) {
               Екатеринбурга
             </h2>
             <p className={'main-visual__description'}>
-              Мы отвечаем за всю красоту, комфорт и уют и создаём самый приятный город в России.
+              Мы отвечаем за всю красоту, комфорт и уют и создаём самый приятный город в России.
 
               <svg className={'main-visual__logo'} width="207" height="170" viewBox="0 0 207 170" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_1696_932)">
@@ -52,6 +52,7 @@ export default function Home({ projects, team, partners }) {
 
         <section className={'section'} id="projects">
           <h2 className={'section-heading section-heading_projects'}>Дизайн-<br />система</h2>
+					<p className={'section-heading_caption'}>Мы задаём стандарты дизайна Екатеринбурга и разрабатываем городские решения на собственном производстве. Умеем вести комплексные проекты: от разработки архитектурных форм до развития территорий. Мы уникальны, кроме нас так никто не может.</p>
           <PostPreviewGrid posts={projects} />
         </section>
 
