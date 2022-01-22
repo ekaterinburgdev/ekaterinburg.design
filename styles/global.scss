@@ -35,6 +35,11 @@ img {
   max-width: 100%;
 }
 
+// Скрытие объектов в emerge
+.emerge {
+  opacity: 0;
+}
+
 // TODO remove ul, li, footer test styles
 ul {
   list-style-type: none;

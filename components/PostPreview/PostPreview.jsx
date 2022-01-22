@@ -14,7 +14,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
       'post-preview_link': siteLink,
     })}
     >
-      <div className={cx('post-preview__gallery')}>
+      <div className={cx('post-preview__gallery', 'emerge')}>
         {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
       </div>
 

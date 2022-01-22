@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Script from 'next/script';
 import Footer from '../Footer';
 import Menu from '../Menu';
 
@@ -48,6 +49,8 @@ export default function Layout({ children, home }) {
       </div>
 
       <Footer />
+
+      <Script src="./js/emerge.js"></Script>
     </>
   )
 }
