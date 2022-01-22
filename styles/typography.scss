@@ -39,6 +39,22 @@
     font-size: 23vmin;
 }
 
+//очень тупое захардкоженное расположение описания дизайн-системы
+#projects {
+	position: relative;
+}
+
+.section-heading_caption {
+	width: 37%;
+	position: absolute;
+	top: 1.35%;
+	left: 62.5%;
+	font-size: max(1.7vmax, 24px);
+	line-height: 1.2;
+	font-weight: 500;
+	transform: matrix(1, -0.08, 0, 1, 0, 0);
+}
+
 .section-heading_support-us {
     font-size: 15vmin;
     line-height: .9;
@@ -88,5 +104,21 @@
             margin-left: 30%;
         }
     }
+}
 
+// мобила
+@media (max-width: 768px) {
+  .section-heading_projects,
+  .section-heading_support-us,
+  .section-heading_team,
+  .section-heading_partners,
+  .section-heading_contacts {
+      font-size: 18vmin;
+  }
+  .section-heading_contacts {
+      margin-bottom: 5vmax;
+  }
+  .section-heading_partners {
+      margin-bottom: 0vmax;
+  }
 }
