@@ -90,3 +90,24 @@ li {
   margin-top: .75em;
   margin-left: .11em;
 }
+
+
+// мобила
+@media (max-width: 768px) {
+  .main-visual__title {
+    font-size: 11vw;
+    padding-left: 0;
+
+    &::first-letter {
+      margin-left: 0;
+    }
+  }
+  .main-visual__description {
+    font-size: 6vw;
+    margin-left: .1em;
+    padding-left: 0;
+  }
+  .main-visual__logo {
+    width: 14vw;
+  }
+}
