@@ -121,3 +121,16 @@
         font-size: 10vw;
     }
 }
+
+// мобила
+@media (max-width: 768px) {
+	.contacts__item_mail {
+	    margin-top: -15vmin;
+	}
+	.contacts__caption_mail {
+	  font-size: 6vw;
+	}
+	.contacts__link {
+    font-size: 15vw;
+	}
+}
