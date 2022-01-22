@@ -8,19 +8,19 @@ export default function Contacts() {
   return (
     <div className={cx('contacts')}>
       <div className={cx('contacts__item', 'contacts__item_instagram')}>
-        <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/">
+        <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/" target="_blank">
           <SVGInstagram />
         </a>
       </div>
 
       <div className={cx('contacts__item', 'contacts__item_facebook')}>
-        <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design">
+        <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank">
           <SVGFacebook />
         </a>
       </div>
 
       <div className={cx('contacts__item', 'contacts__item_youtube')}>
-        <a className={cx('contacts__icon')} href="https://www.youtube.com/channel/UCGHlfaD8vXJRoeRd_J6FS9g">
+        <a className={cx('contacts__icon')} href="https://www.youtube.com/channel/UCGHlfaD8vXJRoeRd_J6FS9g" target="_blank">
           <SVGYouTube />
         </a>
       </div>
