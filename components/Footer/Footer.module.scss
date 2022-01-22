@@ -25,13 +25,13 @@
     height: .115em;
     top: .4em;
     width: calc(100% - 4em);
-    transform: translateX(.25em);
+    transform: translateX(.1em);
     background: currentColor;
-    clip-path: polygon(0 0, 100% 0, calc(100% - .02em) 100%, 0% 100%);
+    clip-path: polygon(0 0, 91.2% 0, calc(91.2% - .02em) 91.2%, 0% 91.2%);
 }
 
 .footer__year-dash::after {
-    content: '20';
+    content: '2022';
     position: absolute;
     right: 0;
 }
