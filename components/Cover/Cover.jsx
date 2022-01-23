@@ -33,23 +33,35 @@ export default function Cover() {
   return (
     <div id="cover" className={cx("cover", "emerge", { "cover_not-visible": !isCoverVisible })} ref={coverEl}>
       <div className={cx("cover__inner")}>
-        <div id="cover-1" className={cx("cover__part", "cover__part_1", "emerge")} data-hold="50" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer1 />
+        <div className={cx("cover__part", "cover__part_1")}>
+          <div id="cover-1" className={cx("emerge")} data-hold="50" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer1 />
+          </div>
         </div>
-        <div id="cover-2" className={cx("cover__part", "cover__part_2", "emerge")} data-hold="100" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer2 />
+        <div className={cx("cover__part", "cover__part_2")}>
+          <div id="cover-2" className={cx("emerge")} data-hold="100" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer2 />
+          </div>
         </div>
-        <div id="cover-3" className={cx("cover__part", "cover__part_3", "emerge")} data-hold="150" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer3 />
+        <div className={cx("cover__part", "cover__part_3")}>
+          <div id="cover-3" className={cx("emerge")} data-hold="150" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer3 />
+          </div>
         </div>
-        <div id="cover-4" className={cx("cover__part", "cover__part_4", "emerge")} data-hold="200" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer4 />
+        <div className={cx("cover__part", "cover__part_4")}>
+          <div id="cover-4" className={cx("emerge")} data-hold="200" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer4 />
+          </div>
         </div>
-        <div id="cover-5" className={cx("cover__part", "cover__part_5", "emerge")} data-hold="250" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer5 />
+        <div className={cx("cover__part", "cover__part_5")}>
+          <div id="cover-5" className={cx("emerge")} data-hold="250" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer5 />
+          </div>
         </div>
-        <div id="cover-6" className={cx("cover__part", "cover__part_6", "emerge")} data-hold="300" data-effect="zoom" data-origin="top" data-duration="1000">
-          <CoverLayer6 />
+        <div className={cx("cover__part", "cover__part_6")}>
+          <div id="cover-6" className={cx("emerge")} data-hold="300" data-effect="zoom" data-origin="top" data-duration="1000">
+            <CoverLayer6 />
+          </div>
         </div>
       </div>
     </div>
