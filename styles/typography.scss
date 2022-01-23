@@ -35,24 +35,29 @@
     color: #55647D;
 }
 
+.section-heading_caption {
+    font-size: max(1.8vmax, 24px);
+    line-height: 1.2;
+    font-weight: 500;
+    transform: matrix(1, -0.08, 0, 1, 0, 0);
+    margin: 0;
+    margin-bottom: 2em;
+}
+
 .section-heading_projects {
     font-size: 23vmin;
+}
+
+.section-header_projects {
+    opacity: 1;
+    margin-right: .4em;
+    transform-origin: right;
+    margin-top: .1em;
 }
 
 //очень тупое захардкоженное расположение описания дизайн-системы
 #projects {
 	position: relative;
-}
-
-.section-heading_caption {
-	width: 37%;
-	position: absolute;
-	top: 1.35%;
-	left: 62.5%;
-	font-size: max(1.7vmax, 24px);
-	line-height: 1.2;
-	font-weight: 500;
-	transform: matrix(1, -0.08, 0, 1, 0, 0);
 }
 
 .section-heading_support-us {
@@ -73,7 +78,7 @@
 .section-heading_contacts {
     font-size: 20vmin;
     line-height: .83;
-    margin-bottom: 2vmax;
+    margin-bottom: 5vmax;
 }
 
 .support-description {
@@ -98,6 +103,10 @@
     .site-description {
         max-width: 60%;
     }
+    
+    .section-heading_contacts {
+      margin-bottom: 2vmax;
+    }
 
     .site-description_align-right {
         &:first-letter {
@@ -106,7 +115,22 @@
     }
 }
 
-// мобила
+@media screen and (min-width: 1200px) {
+    .section-projects {
+        display: flex;
+    }
+
+    .section-heading_caption {
+        font-size: max(1.8vmax, 24px);
+        line-height: 1.2;
+        font-weight: 500;
+        transform: matrix(1, -0.08, 0, 1, 0, 0);
+        margin: 0;
+        max-width: 40vw;
+        margin-left: 1.5em;
+    }
+}
+
 @media (max-width: 768px) {
   .section-heading_projects,
   .section-heading_support-us,
@@ -115,10 +139,7 @@
   .section-heading_contacts {
       font-size: 18vmin;
   }
-  .section-heading_contacts {
-      margin-bottom: 5vmax;
-  }
   .section-heading_partners {
-      margin-bottom: 0vmax;
+      margin-bottom: 0;
   }
 }
