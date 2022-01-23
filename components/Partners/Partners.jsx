@@ -19,7 +19,7 @@ export default function Partners({ partners }) {
           .sort(sortByPriority)
           .map(({ link, name, logo, logoInvert }) =>
             <div className={cx('partners__list-item')} key={link}>
-              <a className={cx('partners__link', "emerge")} href={link} target="_blank">
+              <a className={cx('partners__link', 'emerge')} href={link} data-expose="true" target="_blank">
                 <img src={logoInvert[0]} alt="" className={cx('partners__logo')} loading="lazy" />
                 <img src={logo[0]} alt={name} className={cx('partners__logo', 'partners__logo_color')} loading="lazy" />
               </a>
