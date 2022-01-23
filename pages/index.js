@@ -27,11 +27,11 @@ export default function Home({ projects, team, partners }) {
 
         <section id="about" className={'section emerge'}>
           <div className={'main-visual'} data-expose="true">
-            <h2 className={'main-visual__title emerge'} data-expose="true">
+            <h2 className={'main-visual__title emerge'} data-expose="true" data-await="cover-6" data-hold="400">
               Мы — Дизайн-код<br />
               Екатеринбурга
             </h2>
-            <p className={'main-visual__description emerge'} data-expose="true">
+            <p className={'main-visual__description emerge'} data-expose="true" data-await="cover-6" data-hold="500">
               Мы отвечаем за всю красоту, комфорт и уют и создаём самый приятный город в России.
 
               <svg className={'main-visual__logo'} width="207" height="170" viewBox="0 0 207 170" fill="none" xmlns="http://www.w3.org/2000/svg">
