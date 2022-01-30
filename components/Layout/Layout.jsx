@@ -50,7 +50,6 @@ export default function Layout({ children, home }) {
 
       <Footer />
 
-      <Script src="./js/emerge.js"></Script>
     </>
   )
 }
