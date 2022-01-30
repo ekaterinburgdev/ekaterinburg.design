@@ -16,7 +16,7 @@ export default function TeamPerson({ name, role, photo, link }) {
       }
       <figcaption className={cx("team-person__caption")}>
         <div className={cx("team-person__name")}>
-          {name}
+          <span>{name}</span>
         </div>
         <div className={cx("team-person__role")}>
           {role}
@@ -27,7 +27,7 @@ export default function TeamPerson({ name, role, photo, link }) {
 
   return (
     link !== 'undefined'
-      ? <a className={cx("team-person")} href={link}>{renderPerson()}</a>
+      ? <a className={cx("team-person", "team-person_link")} href={link}>{renderPerson()}</a>
       : <span className={cx("team-person")} >{renderPerson()}</span>
   )
 };
