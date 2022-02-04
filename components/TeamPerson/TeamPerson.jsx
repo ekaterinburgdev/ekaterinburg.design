@@ -27,7 +27,7 @@ export default function TeamPerson({ name, role, photo, link }) {
 
   return (
     link !== 'undefined'
-      ? <a className={cx("team-person", "team-person_link")} href={link}>{renderPerson()}</a>
+      ? <a className={cx("team-person", "team-person_link")} href={link} target="_blank" rel="noopener noreferrer nofollow">{renderPerson()}</a>
       : <span className={cx("team-person")} >{renderPerson()}</span>
   )
 };
