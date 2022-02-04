@@ -57,8 +57,8 @@ const MAX_IMAGE_SIZE = 1200;
     const optimizedFiles = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
         destination: VERCEL_OUTPUT_PATH,
         plugins: [
-            imageminMozjpeg({ quality: 80 }),
-            imageminPngquant({ quality: [.6, .85] }),
+            imageminMozjpeg({ quality: 75 }),
+            imageminPngquant({ quality: [.6, .8] }),
             imageminSvgo()
         ]
     });

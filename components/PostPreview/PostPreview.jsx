@@ -20,11 +20,11 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
       startRandomTimeout = setTimeout(() => {
         changeSlidesInterval = setInterval(function () {
           for (let i = 0; i < images.length; i++) {
-            images[i].style.opacity = 0;
+            images[i].classList.remove(cx('post-preview__image_active'));
           }
   
           current = (current != images.length - 1) ? current + 1 : 0;
-          images[current].style.opacity = 1;
+          images[current].classList.add(cx('post-preview__image_active'));
         }, 4000);
       }, Math.floor(Math.random() * 1500) + 1)
   
@@ -44,7 +44,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
     })}
     >
       <div className={cx('post-preview__gallery', 'emerge')} ref={galleryRef}>
-        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
+        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} loading="lazy" alt="" />)}
       </div>
 
       <span className={cx('post-preview__caption')} aria-hidden="true" data-caption-title={title}>
