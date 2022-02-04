@@ -1,11 +1,40 @@
 
 import classNames from 'classnames/bind';
+import { useEffect, useRef } from 'react';
 
 import styles from './PostPreview.module.scss'
 
 const cx = classNames.bind(styles);
 
 export default function PostPreview({ title, siteLink, gallery, big, contrast }) {
+  const galleryRef = useRef(null)
+
+  useEffect(() => {
+    const images = galleryRef.current.querySelectorAll('img')
+
+    if (images.length > 1) {
+      let startRandomTimeout;
+      let changeSlidesInterval;
+      let current = 0;
+
+      startRandomTimeout = setTimeout(() => {
+        changeSlidesInterval = setInterval(function () {
+          for (let i = 0; i < images.length; i++) {
+            images[i].style.opacity = 0;
+          }
+  
+          current = (current != images.length - 1) ? current + 1 : 0;
+          images[current].style.opacity = 1;
+        }, 4000);
+      }, Math.floor(Math.random() * 1500) + 1)
+  
+      return () => {
+        clearTimeout(startRandomTimeout)
+        clearInterval(changeSlidesInterval)
+      };
+    }
+  }, [])
+
   return (
     <article className={cx(
       'post-preview', {
@@ -14,7 +43,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
       'post-preview_link': siteLink,
     })}
     >
-      <div className={cx('post-preview__gallery', 'emerge')}>
+      <div className={cx('post-preview__gallery', 'emerge')} ref={galleryRef}>
         {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
       </div>
 
