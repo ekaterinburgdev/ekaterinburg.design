@@ -17,11 +17,11 @@
 .partners__link {
     position: relative;
     display: block;
-    transform: rotate(0deg) scale(1);
+    transform: translateZ(0) scale(1) rotate(0deg);
     transition: .15s ease transform;
 
     &:hover {
-        transform: rotate(3deg) scale(1.05);
+        transform: translateZ(0) scale(1.05) rotate(3deg);
     }
 
     &:hover .partners__logo {

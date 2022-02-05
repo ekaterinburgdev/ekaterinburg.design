@@ -14,7 +14,7 @@
     padding: 0 1vw 40%;
     
     &:nth-child(3n-1) {
-        transform: translate(0, 50%);
+        transform: translate3d(0, 50%, 0%);
     }
 }
 
@@ -43,7 +43,7 @@
         }
 
         &:nth-child(2n) {
-            transform: translate(0, 50%);
+            transform: translate3d(0, 50%, 0);
         }
     }
 }
@@ -67,7 +67,7 @@
         }
         
         &:nth-child(2n) {
-            transform: translate(0, 50%);
+            transform: translate3d(0, 50%, 0);
         }
     }
 }

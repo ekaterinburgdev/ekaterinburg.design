@@ -18,7 +18,6 @@
     position: relative;
     width: 100%;
     border-radius: 50%;
-    overflow: hidden;
     background-color: #2e2e2e;
 
     &::after {
@@ -34,6 +33,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: inherit;
     object-fit: cover;
     object-position: center top;
     pointer-events: none;
