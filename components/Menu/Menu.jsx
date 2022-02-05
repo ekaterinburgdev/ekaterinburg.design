@@ -73,7 +73,7 @@ export default function Menu({ items }) {
             )}
           </ul>
 
-          <a className={cx('menu__button')} href="mailto:mail@ekaterinburg.design" target="_blank" rel="noopener noreferrer">Написать нам</a>
+          <a className={cx('menu__button')} href="mailto:mail@ekaterinburg.design">Написать нам</a>
         </div>
       </>
     )}
