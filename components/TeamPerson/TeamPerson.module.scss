@@ -19,7 +19,7 @@
     width: 100%;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #696969;
+    background-color: #2e2e2e;
 
     &::after {
         content: '';
@@ -68,7 +68,7 @@ a.team-person {
 }
 
 .team-person__role {
-    color: #616161;
+    color: #757575;
     font-size: 3vw;
     line-height: 1.2;
 
