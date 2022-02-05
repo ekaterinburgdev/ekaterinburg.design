@@ -52,7 +52,7 @@ export default function Home({ projects, team, partners }) {
 
         <section className={'section'} id="projects">
           <h2 className={'section__heading section__heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
-          <p className={'section__subheader emerge'} data-expose="true">
+          <p className={'section__subheader section__subheader_projects emerge'} data-expose="true">
             Мы&nbsp;задаём стандарты дизайна и&nbsp;ведём комплексные проекты: от&nbsp;разработки графики и&nbsp;уличной мебели до&nbsp;развития территорий.
           </p>
           <PostPreviewGrid posts={projects} />
