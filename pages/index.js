@@ -53,7 +53,7 @@ export default function Home({ projects, team, partners }) {
         <section className={'section'} id="projects">
           <div className={'section__projects'}>
             <h2 className={'section__heading section__heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
-            <p className={'section__heading_caption emerge'} data-expose="true">
+            <p className={'section__subheader emerge'} data-expose="true">
               Мы задаём стандарты дизайна Екатеринбурга и разрабатываем городские решения на собственном производстве. Умеем вести комплексные проекты: от разработки архитектурных форм до развития территорий.
               <br />
               <br />

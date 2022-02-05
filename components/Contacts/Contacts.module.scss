@@ -1,52 +1,52 @@
 .contacts {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    line-height: 1;
-    margin-top: -8vmin;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: -8vmin;
+  line-height: 1;
 }
 
 .contacts__item {
-    padding: 0 2vmin;
-    flex-basis: 50%;
-    transform-origin: center;
-    transition: .15s ease;
+  flex-basis: 50%;
+  padding: 0 2vmin;
+  transform-origin: center;
+  transition: .15s ease;
 }
 
 .contacts__icon {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  transition: transform .15s ease;
+
+  &:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  svg {
+    position: absolute;
     width: 100%;
-    transition: transform .15s ease;
-
-    &:after {
-        content: '';
-        display: block;
-        padding-bottom: 100%;
-    }
-
-    svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-    }
+    height: 100%;
+    pointer-events: none;
+  }
 }
 
 .contacts__item_facebook .contacts__icon {
-    transform: rotate(7deg) scale(1);
+  transform: rotate(7deg) scale(1);
 }
 
 .contacts__item_instagram {
-    margin-top: 25vmin;
+  margin-top: 25vmin;
 }
 
 .contacts__item_instagram .contacts__icon {
-    transform: rotate(-7deg);
+  transform: rotate(-7deg);
 }
 
 .contacts__item_youtube .contacts__icon {
-    transform: rotate(-7deg);
+  transform: rotate(-7deg);
 }
 
 .contacts__item_facebook:hover .contacts__icon,
@@ -56,82 +56,85 @@
 }
 
 .contacts__item_youtube {
-    margin-left: auto;
-    margin-top: -20vmin;
+  margin-top: -20vmin;
+  margin-left: auto;
 }
 
 .contacts__item_mail {
-    flex-basis: 100%;
-    margin-top: -20vmin;
+  flex-basis: 100%;
+  margin-top: -15vmin;
 }
 
 .contacts__item_mail {
-    transform: translateZ(0) scale(1) rotate(0deg);
+  transform: translateZ(0) scale(1) rotate(0deg);
 }
 
 .contacts__item_mail:hover {
-    transform: rotate(-1deg) scale(1.05);
-    .contacts__caption_mail {
-      color: rgba(#00B400,.4);
-    }
-    .contacts__link {
-      color: #00B400;
-      text-decoration-color: rgba(#00B400, .2);
-    }
+  transform: rotate(-1deg) scale(1.05);
+
+  .contacts__caption_mail {
+    color: rgba(#00B400, .4);
+  }
+
+  .contacts__link {
+    color: #00B400;
+    text-decoration-color: rgba(#00B400, .2);
+  }
 }
 
 .contacts__caption_mail {
   display: inline-block;
-  color: rgba(#FFD400,.4);
-  font-size: 3vw;
-  font-weight: 500;
-  margin-left: .5vw;
   margin-bottom: .2em;
+  margin-left: .5vw;
+  transition: all .1s ease;
+  color: rgba(#FFD400, .4);
+  font-size: 6vw;
+  font-weight: 500;
   text-decoration: none !important;
-  text-decoration-color: rgba(0,0,0,0);
-  transition: all .1s ease
+  text-decoration-color: rgba(0, 0, 0, 0);
 }
 
 .contacts__link {
-    max-width: none;
-    transition: .15s ease text-decoration-color;
-    color: #FFD400;
+  max-width: none;
+  transition: .15s ease text-decoration-color;
+  transition: all .1s ease;
+  color: #FFD400;
+  font-size: 15vw;
+  font-weight: 500;
+  line-height: .86;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgba(#FFD400, 0);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item_mail {
+    margin-top: -20vmin;
+  }
+
+  .contacts__caption_mail {
+    font-size: 3vw;
+  }
+
+  .contacts__link {
     font-size: 10vw;
-    font-weight: 500;
-    line-height: .86;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: rgba(#FFD400, 0);
-    transition: all .1s ease
+  }
 }
 
 @media screen and (min-width: 1800px) {
-    .contacts__item {
-        flex-basis: 35%;
-    }
+  .contacts__item {
+    flex-basis: 35%;
+  }
 
-    .contacts__item_youtube {
-        margin-top: -44vmin;
-    }
+  .contacts__item_youtube {
+    margin-top: -44vmin;
+  }
 
-    .contacts__item_mail {
-        margin-top: -7vmin;
-    }
+  .contacts__item_mail {
+    margin-top: -7vmin;
+  }
 
-    .contacts__link {
-        font-size: 10vw;
-    }
-}
-
-// мобила
-@media (max-width: 768px) {
-	.contacts__item_mail {
-	    margin-top: -15vmin;
-	}
-	.contacts__caption_mail {
-	  font-size: 6vw;
-	}
-	.contacts__link {
-    font-size: 15vw;
-	}
+  .contacts__link {
+    font-size: 10vw;
+  }
 }

@@ -10,21 +10,17 @@
   transform: matrix(1, -0.08, 0, 1, 0, 0);
   transform-origin: center;
   color: #55647D;
-  font-size: 8vmax;
+  font-size: 18vmin;
   line-height: 0.86;
 }
 
-.section__heading_caption {
+.section__subheader {
   margin: 0;
   margin-bottom: 2em;
   transform: matrix(1, -0.08, 0, 1, 0, 0);
-  font-size: max(1.8vmax, 24px);
   font-weight: 500;
   line-height: 1.2;
-}
-
-.section__heading_projects {
-  font-size: 23vmin;
+  font-size: max(1.8vmax,24px);
 }
 
 .section__header_projects {
@@ -36,22 +32,15 @@
 
 .section__heading_support-us {
   margin-top: 6vmax;
-  font-size: 15vmin;
   line-height: .9;
 }
 
-.section__heading_team {
-  font-size: 23vmin;
-}
-
 .section__heading_partners {
-  margin-bottom: 2vmax;
-  font-size: 20vmin;
+  margin-bottom: 0;
 }
 
 .section__heading_contacts {
   margin-bottom: 5vmax;
-  font-size: 20vmin;
   line-height: .83;
 }
 
@@ -66,27 +55,35 @@
     display: flex;
   }
 
-  .section__heading_caption {
+  .section__subheader {
     max-width: 40vw;
     margin: 0;
     margin-left: 1.5em;
     transform: matrix(1, -0.08, 0, 1, 0, 0);
-    font-size: max(1.8vmax, 24px);
     font-weight: 500;
     line-height: 1.2;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .section__heading_projects,
-  .section__heading_support-us,
-  .section__heading_team,
-  .section__heading_partners,
-  .section__heading_contacts {
-    font-size: 18vmin;
+@media screen and (min-width: 768px) {
+  .section__heading_projects {
+    font-size: 23vmin;
+  }
+
+  .section__heading_support-us {
+    font-size: 15vmin;
+  }
+
+  .section__heading_team {
+    font-size: 23vmin;
   }
 
   .section__heading_partners {
-    margin-bottom: 0;
+    font-size: 20vmin;
+    margin-bottom: 2vmax;
+  }
+
+  .section__heading_contacts {
+    font-size: 20vmin;
   }
 }
