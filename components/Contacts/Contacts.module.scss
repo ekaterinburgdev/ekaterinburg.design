@@ -67,6 +67,13 @@
 
 .contacts__item_mail {
   transform: translateZ(0) scale(1) rotate(0deg);
+
+  .contacts__link {
+    background-size: .25em .28em;
+    background-position: 0% 100%;
+    background-repeat: repeat-x;
+    transition: background-position .15s ease;
+  }
 }
 
 .contacts__item_mail:hover {
@@ -78,7 +85,15 @@
 
   .contacts__link {
     color: #00B400;
-    text-decoration-color: rgba(#00B400, .2);
+    text-decoration: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 93 48'%3E%3Cpath fill='%2300b400' d='M93 27v21L46 21 0 48V27L46 0l47 27z' opacity='.2'/%3E%3C/svg%3E");
+    backdrop-filter: blur(.5px);
+    transform: translateZ(0);
+  }
+
+  .contacts__link:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 93 48'%3E%3Cpath fill='%2300b400' d='M93 27v21L46 21 0 48V27L46 0l47 27z' opacity='.5'/%3E%3C/svg%3E");
+    background-position: 2% 100%;
   }
 }
 
@@ -90,21 +105,15 @@
   color: rgba(#FFD400, .4);
   font-size: 6vw;
   font-weight: 500;
-  text-decoration: none !important;
-  text-decoration-color: rgba(0, 0, 0, 0);
 }
 
 .contacts__link {
   max-width: none;
-  transition: .15s ease text-decoration-color;
   transition: all .1s ease;
   color: #FFD400;
   font-size: 15vw;
   font-weight: 500;
   line-height: .86;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: rgba(#FFD400, 0);
 }
 
 @media screen and (min-width: 768px) {
