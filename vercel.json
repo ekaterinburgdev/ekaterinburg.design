@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/notion-static/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
