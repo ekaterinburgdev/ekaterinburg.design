@@ -37,6 +37,7 @@
     max-width: 100%;
     object-fit: contain;
     transition: .15s ease opacity;
+    pointer-events: none;
 }
 
 .partners__logo_color {
