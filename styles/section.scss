@@ -5,7 +5,6 @@
 
 .section__heading {
   position: relative;
-  z-index: 1;
   margin: 1.5vmax 0 6vmax;
   transform: matrix(1, -0.08, 0, 1, 0, 0);
   transform-origin: center;
@@ -20,7 +19,9 @@
   transform: matrix(1, -0.08, 0, 1, 0, 0);
   font-weight: 500;
   line-height: 1.2;
-  font-size: max(1.8vmax,24px);
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1.19;
 }
 
 .section__header_projects {
@@ -48,24 +49,7 @@
   .section__heading_contacts {
     margin-bottom: 2vmax;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .section__projects {
-    display: flex;
-  }
-
-  .section__subheader {
-    max-width: 40vw;
-    margin: 0;
-    margin-left: 1.5em;
-    transform: matrix(1, -0.08, 0, 1, 0, 0);
-    font-weight: 500;
-    line-height: 1.2;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .section__heading_projects {
     font-size: 23vmin;
   }
@@ -85,5 +69,15 @@
 
   .section__heading_contacts {
     font-size: 20vmin;
+  }
+
+  .section__subheader {
+    max-width: 75vw;
+    margin: 0 0 1em;
+    transform: matrix(1, -0.08, 0, 1, 0, 0);
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 4vw;
+    transform-origin: left;
   }
 }
