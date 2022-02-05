@@ -1,3 +1,7 @@
+.main-visual {
+  animation: mainVisualFadeIn 1s .3s ease both;
+}
+
 .main-visual__title {
   margin: 0 0 .2em;
   padding-left: 0;
@@ -43,5 +47,15 @@
 
   .main-visual__logo {
     width: 10vw;
+  }
+}
+
+@keyframes mainVisualFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
