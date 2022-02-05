@@ -51,9 +51,9 @@ export default function Home({ projects, team, partners }) {
         </section>
 
         <section className={'section'} id="projects">
-          <div className={'section-projects'}>
-            <h2 className={'section-heading section-heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
-            <p className={'section-heading_caption emerge'} data-expose="true">
+          <div className={'section__projects'}>
+            <h2 className={'section__heading section__heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
+            <p className={'section__heading_caption emerge'} data-expose="true">
               Мы задаём стандарты дизайна Екатеринбурга и разрабатываем городские решения на собственном производстве. Умеем вести комплексные проекты: от разработки архитектурных форм до развития территорий.
               <br />
               <br />
@@ -65,20 +65,20 @@ export default function Home({ projects, team, partners }) {
 
 
         <section className={'section'} id="partners">
-          <h2 className={'section-heading section-heading_partners emerge'} data-expose="true">Партнёры</h2>
+          <h2 className={'section__heading section__heading_partners emerge'} data-expose="true">Партнёры</h2>
 
           <Partners partners={partners} />
         </section>
 
         <section className={'section'} id="team">
-          <h2 className={'section-heading section-heading_team emerge'} data-expose="true">Команда</h2>
+          <h2 className={'section__heading section__heading_team emerge'} data-expose="true">Команда</h2>
 
           <TeamList team={team} />
         </section>
 
         {/*
         <section className={'section'} id="donate">
-          <h3 className={'section-heading section-heading_support-us'}>Поддержите<br />нас</h3>
+          <h3 className={'section__heading section__heading_support-us'}>Поддержите<br />нас</h3>
 
           <p className={'support-description'}>
             Мы&nbsp;развиваем Дизайн-код Екатеринбурга за&nbsp;свой счёт, и&nbsp;нам не&nbsp;хватает средств для реализации объектов&nbsp;&mdash; изготовления адресных табличек, урн, навигационных стелл и&nbsp;других наших проектов.
@@ -93,7 +93,7 @@ export default function Home({ projects, team, partners }) {
         */}
 
         <section className={'section'} id="contacts">
-          <h2 className={'section-heading section-heading_contacts emerge'} data-expose="true">Почта<br />и соцсети</h2>
+          <h2 className={'section__heading section__heading_contacts emerge'} data-expose="true">Почта<br />и соцсети</h2>
 
           <Contacts />
         </section>

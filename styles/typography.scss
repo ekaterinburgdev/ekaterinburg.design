@@ -1,146 +1,51 @@
 .site-description {
-    font-size: max(2.1vmax, 32px);
-    line-height: 1.5;
-    font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 3vmax;
+  margin-top: 0;
+  margin-bottom: 3vmax;
+  font-size: max(2.1vmax, 32px);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .site-description_align-left {
-    text-align: left;
-    margin-right: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .site-description_align-right {
-    text-align: right;
-    margin-left: auto;
+  margin-left: auto;
+  text-align: right;
 
-    &:first-letter {
-        margin-left: 30%;
-    }
-}
-
-.section {
-    padding-top: .75vmax;
-    margin-bottom: 10.75vmax;
-}
-
-.section-heading {
-    position: relative;
-    z-index: 1;
-    font-size: 8vmax;
-    line-height: 0.86;
-    margin: 1.5vmax 0 6vmax;
-    transform: matrix(1, -0.08, 0, 1, 0, 0);
-    transform-origin: center;
-    color: #55647D;
-}
-
-.section-heading_caption {
-    font-size: max(1.8vmax, 24px);
-    line-height: 1.2;
-    font-weight: 500;
-    transform: matrix(1, -0.08, 0, 1, 0, 0);
-    margin: 0;
-    margin-bottom: 2em;
-}
-
-.section-heading_projects {
-    font-size: 23vmin;
-}
-
-.section-header_projects {
-    opacity: 1;
-    margin-right: .4em;
-    transform-origin: right;
-    margin-top: .1em;
-}
-
-//очень тупое захардкоженное расположение описания дизайн-системы
-#projects {
-	position: relative;
-}
-
-.section-heading_support-us {
-    font-size: 15vmin;
-    line-height: .9;
-    margin-top: 6vmax;
-}
-
-.section-heading_team {
-    font-size: 23vmin;
-}
-
-.section-heading_partners {
-    font-size: 20vmin;
-    margin-bottom: 2vmax;
-}
-
-.section-heading_contacts {
-    font-size: 20vmin;
-    line-height: .83;
-    margin-bottom: 5vmax;
+  &:first-letter {
+    margin-left: 30%;
+  }
 }
 
 .support-description {
-    font-size: max(2.5vw, 20px);
-    padding-left: 30vw;
-    line-height: 1.25;
+  padding-left: 30vw;
+  font-size: max(2.5vw, 20px);
+  line-height: 1.25;
 }
 
 .support-link {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 6.5vmin;
-    line-height: 1.29;
-    color: #00D200;
-    text-decoration: underline;
-    text-decoration-color: rgba(0, 210, 0, .3);
-    transition: .15s ease;
-    margin-top: .5em;
+  display: inline-block;
+  margin-top: .5em;
+  transition: .15s ease;
+  color: #00D200;
+  font-size: 6.5vmin;
+  font-weight: 600;
+  line-height: 1.29;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 210, 0, .3);
 }
 
 @media screen and (min-width: 768px) {
-    .site-description {
-        max-width: 60%;
-    }
-    
-    .section-heading_contacts {
-      margin-bottom: 2vmax;
-    }
-
-    .site-description_align-right {
-        &:first-letter {
-            margin-left: 30%;
-        }
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .section-projects {
-        display: flex;
-    }
-
-    .section-heading_caption {
-        font-size: max(1.8vmax, 24px);
-        line-height: 1.2;
-        font-weight: 500;
-        transform: matrix(1, -0.08, 0, 1, 0, 0);
-        margin: 0;
-        max-width: 40vw;
-        margin-left: 1.5em;
-    }
-}
-
-@media (max-width: 768px) {
-  .section-heading_projects,
-  .section-heading_support-us,
-  .section-heading_team,
-  .section-heading_partners,
-  .section-heading_contacts {
-      font-size: 18vmin;
+  .site-description {
+    max-width: 60%;
   }
-  .section-heading_partners {
-      margin-bottom: 0;
+
+  .site-description_align-right {
+    &:first-letter {
+      margin-left: 30%;
+    }
   }
 }

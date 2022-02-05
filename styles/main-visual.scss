@@ -1,0 +1,47 @@
+.main-visual__title {
+  margin: 0 0 .2em;
+  padding-left: 0;
+  transform: matrix(1, -0.08, 0, 1, 0, 0);
+  color: #FFD400;
+  font-size: 11vw;
+  font-weight: 600;
+  line-height: .98;
+}
+
+.main-visual__description {
+  margin: 0;
+  margin-left: .1em;
+  transform: matrix(1, -0.08, 0, 1, 0, 0);
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.main-visual__logo {
+  display: block;
+  width: 14vw;
+  height: auto;
+  margin-top: .75em;
+  margin-left: .11em;
+}
+
+@media screen and (min-width: 768px) {
+  .main-visual__title {
+    padding-left: 3em;
+    font-size: 9.7vw;
+
+    &::first-letter {
+      margin-left: -2.9em;
+    }
+  }
+
+  .main-visual__description {
+    margin-left: 1em;
+    padding-left: 6.2em;
+    font-size: 4.1vw;
+  }
+
+  .main-visual__logo {
+    width: 10vw;
+  }
+}

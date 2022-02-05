@@ -1,11 +1,14 @@
-@import './font.scss';
-@import './typography.scss';
+@import './font';
+@import './main-visual';
+@import './nprogress';
+@import './section';
+@import './typography';
 
 html,
 body {
-  background: black;
   margin: 0;
   padding: 0;
+  background: black;
 }
 
 html {
@@ -43,70 +46,12 @@ img {
 
 // TODO remove ul, li, footer test styles
 ul {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 li {
   margin: 0;
   padding: 0;
-}
-
-#nprogress .bar {
-  background-color: #fff !important;
-  height: 3px;
-}
-#nprogress .peg {
-  box-shadow: 0 0 20px #fff, 0 0 10px #fff !important;
-}
-
-.main-visual__title {
-  font-size: 11vw;
-  padding-left: 0;
-  color: #FFD400;
-  font-weight: 600;
-  line-height: .98;
-  transform: matrix(1, -0.08, 0, 1, 0, 0);
-  margin: 0 0 .2em;
-}
-
-.main-visual__description {
-  transform: matrix(1, -0.08, 0, 1, 0, 0);
-  margin: 0;
-  line-height: 1.19;
-  font-weight: 500;
-  font-size: 6vw;
-  margin-left: .1em;
-}
-
-.main-visual__logo {
-  display: block;
-  width: 14vw;
-  height: auto;
-  margin-top: .75em;
-  margin-left: .11em;
-}
-
-
-
-@media screen and (min-width: 768px) {
-  .main-visual__title {
-    font-size: 9.7vw;
-    padding-left: 3em;
-  
-    &::first-letter {
-      margin-left: -2.9em;
-    }
-  }
-
-  .main-visual__description {
-    font-size: 4.1vw;
-    margin-left: 1em;
-    padding-left: 6.2em;
-  }
-  
-  .main-visual__logo {
-    width: 10vw;
-  }
 }

@@ -1,0 +1,92 @@
+.section {
+  margin-bottom: 10.75vmax;
+  padding-top: .75vmax;
+}
+
+.section__heading {
+  position: relative;
+  z-index: 1;
+  margin: 1.5vmax 0 6vmax;
+  transform: matrix(1, -0.08, 0, 1, 0, 0);
+  transform-origin: center;
+  color: #55647D;
+  font-size: 8vmax;
+  line-height: 0.86;
+}
+
+.section__heading_caption {
+  margin: 0;
+  margin-bottom: 2em;
+  transform: matrix(1, -0.08, 0, 1, 0, 0);
+  font-size: max(1.8vmax, 24px);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.section__heading_projects {
+  font-size: 23vmin;
+}
+
+.section__header_projects {
+  margin-top: .1em;
+  margin-right: .4em;
+  transform-origin: right;
+  opacity: 1;
+}
+
+.section__heading_support-us {
+  margin-top: 6vmax;
+  font-size: 15vmin;
+  line-height: .9;
+}
+
+.section__heading_team {
+  font-size: 23vmin;
+}
+
+.section__heading_partners {
+  margin-bottom: 2vmax;
+  font-size: 20vmin;
+}
+
+.section__heading_contacts {
+  margin-bottom: 5vmax;
+  font-size: 20vmin;
+  line-height: .83;
+}
+
+@media screen and (min-width: 768px) {
+  .section__heading_contacts {
+    margin-bottom: 2vmax;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section__projects {
+    display: flex;
+  }
+
+  .section__heading_caption {
+    max-width: 40vw;
+    margin: 0;
+    margin-left: 1.5em;
+    transform: matrix(1, -0.08, 0, 1, 0, 0);
+    font-size: max(1.8vmax, 24px);
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__heading_projects,
+  .section__heading_support-us,
+  .section__heading_team,
+  .section__heading_partners,
+  .section__heading_contacts {
+    font-size: 18vmin;
+  }
+
+  .section__heading_partners {
+    margin-bottom: 0;
+  }
+}
