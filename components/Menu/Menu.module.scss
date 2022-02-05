@@ -72,6 +72,7 @@
         color: white;
         font-size: clamp(22px, 1.4vw, 24px);
         line-height: 1;
+        pointer-events: none;
     }
 
     .menu__logo-image {
@@ -84,7 +85,7 @@
     .menu__button {
         display: inline-block;
         padding: .35em 1.5em .35em;
-        transform: scale(1);
+        transform: translateZ(0) scale(1);
         transform-origin: center;
         transition: .1s ease all;
         border-radius: 100px;
@@ -95,7 +96,7 @@
         box-shadow: 0 0 0 0px rgba(#FFD400,1);
 
         &:hover {
-            transform: scale(1.1) skewY(-5deg);
+            transform: translateZ(0) scale(1.1) skewY(-5deg);
             text-decoration: none;
         }
     }
