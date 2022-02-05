@@ -1,12 +1,25 @@
 .team-person {
     margin: 0;
     padding: 0;
-    text-decoration: none;
 
-    &:link,
+    &,
     &:hover {
         text-decoration: none;
     }
+}
+
+.team-person_link .team-person__name span {
+    transition: .15s ease box-shadow;
+    box-shadow:  0 2px 0 rgba(255, 255, 255, .31448);
+}
+
+.team-person_link:hover .team-person__name span {
+    display: inline;
+    box-shadow:  0 2px 0 #ffd500;
+}
+
+.team-person_link .team-person__name {
+    margin-bottom: .45em;
 }
 
 .team-person__inner {
@@ -92,20 +105,6 @@ a.team-person {
     .team-person__name {
         display: inline-block;
         font-size: 1.8vw;
-    }
-
-    .team-person_link .team-person__name {
-        margin-bottom: .45em;
-    }
-
-    .team-person_link .team-person__name span {
-        transition: .15s ease box-shadow;
-        box-shadow:  0 2px 0 rgba(255, 255, 255, .31448);
-    }
-
-    .team-person_link:hover .team-person__name span {
-        display: inline;
-        box-shadow:  0 2px 0 #ffd500;
     }
 
     .team-person__role {
