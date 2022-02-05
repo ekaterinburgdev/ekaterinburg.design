@@ -22,10 +22,6 @@
   display: none;
 }
 
-.cover_not-visible {
-  content-visibility: hidden;
-}
-
 .cover_not-visible .cover__layer {
   transform: none;
   animation-play-state: paused;
