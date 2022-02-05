@@ -31,7 +31,7 @@ export default function Cover() {
   }, []);
 
   return (
-    <div id="cover" className={cx("cover", "emerge", { "cover_not-visible": !isCoverVisible })} ref={coverEl}>
+    <div id="cover" className={cx("cover", { "cover_not-visible": !isCoverVisible })} ref={coverEl}>
       <div className={cx("cover__inner")}>
         <div className={cx("cover__layer", "cover__layer_prevent-scale-scroll")}></div>
         <div className={cx("cover__layer", "cover__layer_1")}>

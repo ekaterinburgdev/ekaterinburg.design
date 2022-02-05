@@ -28,7 +28,7 @@ export default function TeamGrid({ team }) {
           ['ссылка на сайте']: link,
           ['должность на сайте']: role
         }) => (
-          <li className={cx("team-grid__item", "emerge")} key={name} data-expose="true">
+          <li className={cx("team-grid__item")} key={name}>
             <TeamPerson
               name={name}
               role={role}

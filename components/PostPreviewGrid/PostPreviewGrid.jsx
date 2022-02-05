@@ -28,7 +28,7 @@ export default function PostPreviewGrid({ posts }) {
             siteLink,
             title,
           }) => (
-          <li className={cx('post-preview-grid__item', 'emerge', { 'post-preview-grid__item_big': previewBig })} key={title} data-expose="true">
+          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_big': previewBig })} key={title}>
             <PostPreview
               id={id}
               title={title}

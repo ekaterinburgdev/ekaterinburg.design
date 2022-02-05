@@ -47,7 +47,7 @@ export default function Menu({ items }) {
   return <>
     {items && (
       <>
-        <div className={cx('menu', 'emerge')} data-await="cover" data-duration="1000">
+        <div className={cx('menu')}>
           <div className={cx('menu__logo')}>
             <svg className={cx('menu__logo-image')} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 574">
               <path

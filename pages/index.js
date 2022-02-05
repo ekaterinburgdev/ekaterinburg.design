@@ -25,13 +25,13 @@ export default function Home({ projects, team, partners }) {
 
         <Menu items={menuItems} />
 
-        <section id="about" className={'section emerge'}>
-          <div className={'main-visual'} data-expose="true">
-            <h2 className={'main-visual__title emerge'} data-expose="true" data-await="cover-6" data-hold="400">
+        <section id="about" className={'section'}>
+          <div className={'main-visual'}>
+            <h2 className={'main-visual__title'}>
               Мы — Дизайн-код<br />
               Екатеринбурга
             </h2>
-            <p className={'main-visual__description emerge'} data-expose="true" data-await="cover-6" data-hold="500">
+            <p className={'main-visual__description'}>
               Мы отвечаем за&nbsp;всю красоту, комфорт и&nbsp;уют и&nbsp;создаём самый приятный город в&nbsp;России.
 
               <svg className={'main-visual__logo'} width="207" height="170" viewBox="0 0 207 170" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,8 +51,8 @@ export default function Home({ projects, team, partners }) {
         </section>
 
         <section className={'section'} id="projects">
-          <h2 className={'section__heading section__heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
-          <p className={'section__subheader section__subheader_projects emerge'} data-expose="true">
+          <h2 className={'section__heading section__heading_projects'}>Дизайн-<br />система</h2>
+          <p className={'section__subheader section__subheader_projects'}>
             Мы&nbsp;задаём стандарты дизайна и&nbsp;ведём комплексные проекты: от&nbsp;разработки графики и&nbsp;архитектурных элементов до&nbsp;развития территорий.
           </p>
           <PostPreviewGrid posts={projects} />
@@ -60,13 +60,13 @@ export default function Home({ projects, team, partners }) {
 
 
         <section className={'section'} id="partners">
-          <h2 className={'section__heading section__heading_partners emerge'} data-expose="true">Партнёры</h2>
+          <h2 className={'section__heading section__heading_partners'}>Партнёры</h2>
 
           <Partners partners={partners} />
         </section>
 
         <section className={'section'} id="team">
-          <h2 className={'section__heading section__heading_team emerge'} data-expose="true">Команда</h2>
+          <h2 className={'section__heading section__heading_team'}>Команда</h2>
 
           <TeamList team={team} />
         </section>
@@ -88,7 +88,7 @@ export default function Home({ projects, team, partners }) {
         */}
 
         <section className={'section'} id="contacts">
-          <h2 className={'section__heading section__heading_contacts emerge'} data-expose="true">Почта<br />и соцсети</h2>
+          <h2 className={'section__heading section__heading_contacts'}>Почта<br />и соцсети</h2>
 
           <Contacts />
         </section>
