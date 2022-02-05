@@ -85,7 +85,7 @@
     .menu__button {
         display: inline-block;
         padding: .35em 1.5em .35em;
-        transform: translateZ(0) scale(1);
+        transform: scale(1) translateZ(0);
         transform-origin: center;
         transition: .1s ease all;
         border-radius: 100px;
@@ -96,7 +96,7 @@
         box-shadow: 0 0 0 0px rgba(#FFD400,1);
 
         &:hover {
-            transform: translateZ(0) scale(1.1) skewY(-5deg);
+            transform: scale(1.1) skewY(-5deg) translateZ(0);
             text-decoration: none;
         }
     }
