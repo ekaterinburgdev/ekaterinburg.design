@@ -4,13 +4,19 @@
 html,
 body {
   background: black;
-  color: white;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
   font-family: 'Iset Sans', sans-serif;
   font-size: 20px;
   line-height: 1.85;
-  scroll-behavior: smooth;
 }
 
 * {
