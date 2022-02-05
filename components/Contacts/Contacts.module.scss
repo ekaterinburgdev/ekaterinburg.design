@@ -70,7 +70,9 @@
 
   .contacts__link {
     background-size: .25em .275em;
-    text-decoration-color: transparent;
+    text-decoration: none;
+    transition: .15s ease box-shadow;
+    box-shadow: inset 0 -.125em black, inset 0 -.17em transparent;
   }
 }
 
@@ -82,14 +84,12 @@
   }
 
   .contacts__link {
-    transition: .15s ease text-decoration-color;
     color: #00B400;
-    text-decoration: underline;
-    text-decoration-color: rgba(#00B400, .2);
+    box-shadow: inset 0 -.11em black, inset 0 -.16em rgba(#00B400, .2);
   }
 
   .contacts__link:hover {
-    text-decoration-color: rgba(#00B400, .6);
+    box-shadow: inset 0 -.11em black, inset 0 -.16em rgba(#00B400, .6);
   }
 }
 
