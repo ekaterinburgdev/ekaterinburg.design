@@ -53,7 +53,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
         )}
       </span>
 
-      {siteLink && <a href={siteLink} target={siteLink.charAt(0) !== '/' && "_blank"} className={cx('post-preview__link-area')}>{title}</a>}
+      {siteLink && <a href={siteLink} target={siteLink.charAt(0) !== '/' ? '_blank' : 'self'}  className={cx('post-preview__link-area')}>{title}</a>}
     </article>
   )
 };
