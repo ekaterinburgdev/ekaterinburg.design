@@ -2,12 +2,13 @@
   display: grid;
   grid-auto-flow: row dense;
   grid-template-columns: 1fr;
-  gap: .75vmax;
-  margin: 0 -2vw;
+  margin: 0 -.75vw;
 }
 
 .post-preview-grid__item {
   position: relative;
+  margin: .36vmax;
+  margin-bottom: 1.25vmax;
 
   &:after {
     content: '';
@@ -29,10 +30,15 @@
 @media screen and (min-width: 768px) {
   .post-preview-grid {
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 -2vw;
+  }
+
+  .post-preview-grid__item {
+    margin-bottom: .36vmax;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 991px) {
   .post-preview-grid {
     grid-template-columns: repeat(4, 1fr);
   }
