@@ -1,0 +1,1974 @@
+[
+{
+	"nameRu": "ВИЗ",
+	"nameEn": "VIZ"
+},
+{
+	"nameRu": "ЖБИ",
+	"nameEn": "ZhBI"
+},
+{
+	"nameRu": "ОПХ",
+	"nameEn": "OPKh"
+},
+{
+	"nameRu": "УНЦ",
+	"nameEn": "UNTs"
+},
+{
+	"nameRu": "1 км",
+	"nameEn": "1st km"
+},
+{
+	"nameRu": "4 км",
+	"nameEn": "4th km"
+},
+{
+	"nameRu": "5 км",
+	"nameEn": "5th km"
+},
+{
+	"nameRu": "6 км",
+	"nameEn": "6th km"
+},
+{
+	"nameRu": "8 км",
+	"nameEn": "8th km"
+},
+{
+	"nameRu": "Клуб",
+	"nameEn": "Club"
+},
+{
+	"nameRu": "Мира",
+	"nameEn": "Mira St."
+},
+{
+	"nameRu": "Сады",
+	"nameEn": "Gardens"
+},
+{
+	"nameRu": "Союз",
+	"nameEn": "Soyuz"
+},
+{
+	"nameRu": "УЗТМ",
+	"nameEn": "UZTM"
+},
+{
+	"nameRu": "УПТК",
+	"nameEn": "UPTK"
+},
+{
+	"nameRu": "Цирк",
+	"nameEn": "Circus"
+},
+{
+	"nameRu": "10 км",
+	"nameEn": "10th km"
+},
+{
+	"nameRu": "11 км",
+	"nameEn": "11th km"
+},
+{
+	"nameRu": "12 км",
+	"nameEn": "12th km"
+},
+{
+	"nameRu": "13 км",
+	"nameEn": "13th km"
+},
+{
+	"nameRu": "14 км",
+	"nameEn": "14th km"
+},
+{
+	"nameRu": "Азина",
+	"nameEn": "Azina St."
+},
+{
+	"nameRu": "Веер ",
+	"nameEn": "Veyer"
+},
+{
+	"nameRu": "Патра",
+	"nameEn": "Patra"
+},
+{
+	"nameRu": "Уктус",
+	"nameEn": "Uktus"
+},
+{
+	"nameRu": "ЦПКиО",
+	"nameEn": "Mayakovsky Central Park"
+},
+{
+	"nameRu": "Шабры",
+	"nameEn": "Shabry"
+},
+{
+	"nameRu": "Школа",
+	"nameEn": "Shkola"
+},
+{
+	"nameRu": "Щорса",
+	"nameEn": "Shchorsa St."
+},
+{
+	"nameRu": "Южная",
+	"nameEn": "Yuzhnaya St."
+},
+{
+	"nameRu": "Ясная",
+	"nameEn": "Yasnaya St."
+},
+{
+	"nameRu": "Бажова",
+	"nameEn": "Bazhova St."
+},
+{
+	"nameRu": "Бебеля",
+	"nameEn": "Bebelya St."
+},
+{
+	"nameRu": "Дачная",
+	"nameEn": "Dachnaya St."
+},
+{
+	"nameRu": "Детский сад №43",
+	"nameEn": "Kindergarten No. 43"
+},
+{
+	"nameRu": "ДК ВОС",
+	"nameEn": "DK VOS"
+},
+{
+	"nameRu": "Звезда",
+	"nameEn": "Zvezda"
+},
+{
+	"nameRu": "Ильича",
+	"nameEn": "Ilyicha St."
+},
+{
+	"nameRu": "Кирова",
+	"nameEn": "Kirova St."
+},
+{
+	"nameRu": "Крауля",
+	"nameEn": "Kraulya St."
+},
+{
+	"nameRu": "Лесная",
+	"nameEn": "Lesnaya"
+},
+{
+	"nameRu": "Лесхоз",
+	"nameEn": "Leskhoz"
+},
+{
+	"nameRu": "Победы",
+	"nameEn": "Pobedy St."
+},
+{
+	"nameRu": "Попова",
+	"nameEn": "Popova St."
+},
+{
+	"nameRu": "Репина",
+	"nameEn": "Repina St."
+},
+{
+	"nameRu": "Серова",
+	"nameEn": "Serova St."
+},
+{
+	"nameRu": "УрГУПС",
+	"nameEn": "University of Railway Transport"
+},
+{
+	"nameRu": "Фрунзе",
+	"nameEn": "Frunze St."
+},
+{
+	"nameRu": "Фучика",
+	"nameEn": "Fuchika St."
+},
+{
+	"nameRu": "Химмаш",
+	"nameEn": "Khimmash"
+},
+{
+	"nameRu": "Шарташ",
+	"nameEn": "Shartash"
+},
+{
+	"nameRu": "Шварца",
+	"nameEn": "Shvartsa St."
+},
+{
+	"nameRu": "Эльмаш",
+	"nameEn": "Elmash"
+},
+{
+	"nameRu": "8 Марта",
+	"nameEn": "8 Marta St."
+},
+{
+	"nameRu": "Базовый",
+	"nameEn": "Bazovy Ln."
+},
+{
+	"nameRu": "Бардина",
+	"nameEn": "Bardina St."
+},
+{
+	"nameRu": "Баумана",
+	"nameEn": "Baumana St."
+},
+{
+	"nameRu": "Блюхера",
+	"nameEn": "Blyukhera St."
+},
+{
+	"nameRu": "Боровая",
+	"nameEn": "Borovaya St."
+},
+{
+	"nameRu": "Военная",
+	"nameEn": "Voyennaya St."
+},
+{
+	"nameRu": "Войкова",
+	"nameEn": "Voykova St."
+},
+{
+	"nameRu": "Главная",
+	"nameEn": "Glavnaya St."
+},
+{
+	"nameRu": "Громова",
+	"nameEn": "Gromova St."
+},
+{
+	"nameRu": "ДМБ №9",
+	"nameEn": "DMB No. 9"
+},
+{
+	"nameRu": "Есенина",
+	"nameEn": "Yesenina Blvd."
+},
+{
+	"nameRu": "Звонкий",
+	"nameEn": "Zvonkiy Ln."
+},
+{
+	"nameRu": "Зелёная",
+	"nameEn": "Zelyonaya St."
+},
+{
+	"nameRu": "Крылова",
+	"nameEn": "Krylova St."
+},
+{
+	"nameRu": "Лукиных",
+	"nameEn": "Lukinykh St."
+},
+{
+	"nameRu": "Магазин",
+	"nameEn": "Magazin"
+},
+{
+	"nameRu": "Межевая",
+	"nameEn": "Mezhevaya St."
+},
+{
+	"nameRu": "Полянка",
+	"nameEn": "Polyanka St."
+},
+{
+	"nameRu": "Рабочая",
+	"nameEn": "Rabochaya"
+},
+{
+	"nameRu": "Рабочих",
+	"nameEn": "Rabochikh St."
+},
+{
+	"nameRu": "Разъезд",
+	"nameEn": "Razyezd"
+},
+{
+	"nameRu": "Росинка",
+	"nameEn": "Rosinka"
+},
+{
+	"nameRu": "Рыбаков",
+	"nameEn": "Rybakov St."
+},
+{
+	"nameRu": "Садовая",
+	"nameEn": "Sadovaya"
+},
+{
+	"nameRu": "Союзная",
+	"nameEn": "Soyuznaya"
+},
+{
+	"nameRu": "Средняя",
+	"nameEn": "Srednyaya"
+},
+{
+	"nameRu": "Стадион",
+	"nameEn": "Stadion"
+},
+{
+	"nameRu": "Токарей",
+	"nameEn": "Tokarey St."
+},
+{
+	"nameRu": "ТЦ МЕГА",
+	"nameEn": "MEGA Mall"
+},
+{
+	"nameRu": "Чапаева",
+	"nameEn": "Chapayeva St."
+},
+{
+	"nameRu": "Чкалова",
+	"nameEn": "Chkalova St."
+},
+{
+	"nameRu": "Шаумяна",
+	"nameEn": "Shaumyana St."
+},
+{
+	"nameRu": "Шефская",
+	"nameEn": "Shefskaya St."
+},
+{
+	"nameRu": "7 Ключей",
+	"nameEn": "7 Klyuchey"
+},
+{
+	"nameRu": "Авангард",
+	"nameEn": "Avangard"
+},
+{
+	"nameRu": "Барвинка",
+	"nameEn": "Barvinka St."
+},
+{
+	"nameRu": "Бородина",
+	"nameEn": "Borodina St."
+},
+{
+	"nameRu": "Братская",
+	"nameEn": "Bratskaya St."
+},
+{
+	"nameRu": "Ватутина",
+	"nameEn": "Vatutina St."
+},
+{
+	"nameRu": "Викулова",
+	"nameEn": "Vikulova St."
+},
+{
+	"nameRu": "Гагарина",
+	"nameEn": "Gagarina St."
+},
+{
+	"nameRu": "Горького",
+	"nameEn": "Gorkogo St."
+},
+{
+	"nameRu": "Дом кино",
+	"nameEn": "Dom Kino Cinema"
+},
+{
+	"nameRu": "Донская ",
+	"nameEn": "Donskaya St."
+},
+{
+	"nameRu": "Елизавет",
+	"nameEn": "Yelizavet"
+},
+{
+	"nameRu": "Заречный",
+	"nameEn": "Zarechny"
+},
+{
+	"nameRu": "Июльская",
+	"nameEn": "Iyulskaya St."
+},
+{
+	"nameRu": "Косарева",
+	"nameEn": "Kosareva St."
+},
+{
+	"nameRu": "Культуры",
+	"nameEn": "Kultury Blvd."
+},
+{
+	"nameRu": "Лесопарк",
+	"nameEn": "Lesopark"
+},
+{
+	"nameRu": "Лыжников",
+	"nameEn": "Lyzhnikov St."
+},
+{
+	"nameRu": "Малышева",
+	"nameEn": "Malysheva St."
+},
+{
+	"nameRu": "Мостовая",
+	"nameEn": "Mostovaya St."
+},
+{
+	"nameRu": "Облсобес",
+	"nameEn": "Oblsobes"
+},
+{
+	"nameRu": "Отрадная",
+	"nameEn": "Otradnaya St."
+},
+{
+	"nameRu": "п. Исток",
+	"nameEn": "Istok"
+},
+{
+	"nameRu": "п. Пески",
+	"nameEn": "Pyeski"
+},
+{
+	"nameRu": "Папанина",
+	"nameEn": "Papanina St."
+},
+{
+	"nameRu": "Полюсная",
+	"nameEn": "Polyusnaya St."
+},
+{
+	"nameRu": "Пост №1",
+	"nameEn": "Post No. 1"
+},
+{
+	"nameRu": "Проезжая",
+	"nameEn": "Proyezzhaya St."
+},
+{
+	"nameRu": "Прониной",
+	"nameEn": "Proninoy St."
+},
+{
+	"nameRu": "Радищева",
+	"nameEn": "Radishcheva St."
+},
+{
+	"nameRu": "Развилки",
+	"nameEn": "Razvilki"
+},
+{
+	"nameRu": "Сад «Юг»",
+	"nameEn": "Yug Garden"
+},
+{
+	"nameRu": "Слесарей",
+	"nameEn": "Slesarey"
+},
+{
+	"nameRu": "Соболева",
+	"nameEn": "Soboleva St."
+},
+{
+	"nameRu": "Сулимова",
+	"nameEn": "Sulimova St."
+},
+{
+	"nameRu": "Татищева",
+	"nameEn": "Tatishcheva St."
+},
+{
+	"nameRu": "Умельцев",
+	"nameEn": "Umeltsev St."
+},
+{
+	"nameRu": "Учителей",
+	"nameEn": "Uchiteley St."
+},
+{
+	"nameRu": "Шевченко",
+	"nameEn": "Shevchenko St."
+},
+{
+	"nameRu": "Энгельса",
+	"nameEn": "Engelsa St."
+},
+{
+	"nameRu": "Ангарская",
+	"nameEn": "Angarskaya St."
+},
+{
+	"nameRu": "Артинская",
+	"nameEn": "Artinskaya St."
+},
+{
+	"nameRu": "Белякова ",
+	"nameEn": "Belyakova St."
+},
+{
+	"nameRu": "Восточная",
+	"nameEn": "Vostochnaya St."
+},
+{
+	"nameRu": "Высоцкого",
+	"nameEn": "Vysotskogo St."
+},
+{
+	"nameRu": "Готвальда",
+	"nameEn": "Gottwalda St."
+},
+{
+	"nameRu": "Димитрова",
+	"nameEn": "Dimitrova St."
+},
+{
+	"nameRu": "ДО Шарташ",
+	"nameEn": "Dom Otdykha Shartash"
+},
+{
+	"nameRu": "Драмтеатр",
+	"nameEn": "Drama Theatre"
+},
+{
+	"nameRu": "Завод РТИ",
+	"nameEn": "Zavod RTI"
+},
+{
+	"nameRu": "Заводская",
+	"nameEn": "Zavodskaya St."
+},
+{
+	"nameRu": "Индустрии",
+	"nameEn": "Industrii St."
+},
+{
+	"nameRu": "Калинина ",
+	"nameEn": "Kalinina St."
+},
+{
+	"nameRu": "Кварцевая",
+	"nameEn": "Kvartsevaya St."
+},
+{
+	"nameRu": "Куйбышева",
+	"nameEn": "Kuybysheva St."
+},
+{
+	"nameRu": "Кунарская",
+	"nameEn": "Kunarskaya St."
+},
+{
+	"nameRu": "Ляпустина",
+	"nameEn": "Lyapustina St."
+},
+{
+	"nameRu": "Новинская",
+	"nameEn": "Novinskaya St."
+},
+{
+	"nameRu": "Общежитие",
+	"nameEn": "Obshchezhitie"
+},
+{
+	"nameRu": "Онуфриева",
+	"nameEn": "Onufriyeva St."
+},
+{
+	"nameRu": "п. Медный",
+	"nameEn": "Medny"
+},
+{
+	"nameRu": "п. Рудный",
+	"nameEn": "Rudny"
+},
+{
+	"nameRu": "Парк-Хаус",
+	"nameEn": "Park-House Mall"
+},
+{
+	"nameRu": "Патрушиха",
+	"nameEn": "Patrushikha"
+},
+{
+	"nameRu": "Плотников",
+	"nameEn": "Plotnikov St."
+},
+{
+	"nameRu": "Посадская",
+	"nameEn": "Posadskaya St."
+},
+{
+	"nameRu": "Расточная",
+	"nameEn": "Rastochnaya St."
+},
+{
+	"nameRu": "Сварщиков",
+	"nameEn": "Svarshchikov"
+},
+{
+	"nameRu": "Советская",
+	"nameEn": "Sovetskaya St."
+},
+{
+	"nameRu": "Спортбаза",
+	"nameEn": "Sportbaza"
+},
+{
+	"nameRu": "Таганская",
+	"nameEn": "Taganskaya St."
+},
+{
+	"nameRu": "Тверитина",
+	"nameEn": "Tveritina St."
+},
+{
+	"nameRu": "Трактовая",
+	"nameEn": "Traktovaya St."
+},
+{
+	"nameRu": "Уралобувь",
+	"nameEn": "Uralobuv"
+},
+{
+	"nameRu": "Уральская",
+	"nameEn": "Uralskaya St."
+},
+{
+	"nameRu": "Шейнкмана",
+	"nameEn": "Sheynkmana St."
+},
+{
+	"nameRu": "Щербакова",
+	"nameEn": "Shcherbakova St."
+},
+{
+	"nameRu": "Эстонская",
+	"nameEn": "Estonskaya St."
+},
+{
+	"nameRu": "Ювелирная",
+	"nameEn": "Yuvelirnaya"
+},
+{
+	"nameRu": "Автовокзал",
+	"nameEn": "Bus Station"
+},
+{
+	"nameRu": "Амундсена ",
+	"nameEn": "Amundsena St."
+},
+{
+	"nameRu": "Белинского",
+	"nameEn": "Belinskogo St."
+},
+{
+	"nameRu": "Белоярская",
+	"nameEn": "Beloyarskaya St."
+},
+{
+	"nameRu": "Библиотека",
+	"nameEn": "Biblioteka"
+},
+{
+	"nameRu": "Большакова",
+	"nameEn": "Bolshakova St."
+},
+{
+	"nameRu": "Вокзальная",
+	"nameEn": "Vokzalnaya St."
+},
+{
+	"nameRu": "Восстания ",
+	"nameEn": "Vosstaniya St."
+},
+{
+	"nameRu": "Вторчермет",
+	"nameEn": "Vtorchermet"
+},
+{
+	"nameRu": "Горный щит",
+	"nameEn": "Gorniy Shchit"
+},
+{
+	"nameRu": "Гурзуфская",
+	"nameEn": "Gurzufskaya St."
+},
+{
+	"nameRu": "ДК Лаврова",
+	"nameEn": "DK Lavrova"
+},
+{
+	"nameRu": "Дом музыки",
+	"nameEn": "Dom Muzyki"
+},
+{
+	"nameRu": "Инженерная",
+	"nameEn": "Inzhenernaya St."
+},
+{
+	"nameRu": "Камчатская",
+	"nameEn": "Kamchatskaya St."
+},
+{
+	"nameRu": "Киностудия",
+	"nameEn": "Film Studios"
+},
+{
+	"nameRu": "Кузнецова ",
+	"nameEn": "Kuznetsova St."
+},
+{
+	"nameRu": "Латвийская",
+	"nameEn": "Latviyskaya St."
+},
+{
+	"nameRu": "Ломоносова",
+	"nameEn": "Lomonosova St."
+},
+{
+	"nameRu": "Маневровая",
+	"nameEn": "Manevrovaya St."
+},
+{
+	"nameRu": "Матросская",
+	"nameEn": "Matrosskaya St."
+},
+{
+	"nameRu": "Менделеева",
+	"nameEn": "Mendeleyeva St."
+},
+{
+	"nameRu": "Московская",
+	"nameEn": "Moskovskaya St."
+},
+{
+	"nameRu": "Норильская",
+	"nameEn": "Norilskaya St."
+},
+{
+	"nameRu": "п. Изоплит",
+	"nameEn": "Izoplit"
+},
+{
+	"nameRu": "п. Садовый",
+	"nameEn": "Sadovy"
+},
+{
+	"nameRu": "п. Чапаева",
+	"nameEn": "Chapayeva"
+},
+{
+	"nameRu": "Палисадная",
+	"nameEn": "Palisadnaya St."
+},
+{
+	"nameRu": "Пехотинцев",
+	"nameEn": "Pekhotintsev St."
+},
+{
+	"nameRu": "Пионерская",
+	"nameEn": "Pionerskaya"
+},
+{
+	"nameRu": "Реактивная",
+	"nameEn": "Reaktivnaya St."
+},
+{
+	"nameRu": "Самолётная",
+	"nameEn": "Samolyotnaya St."
+},
+{
+	"nameRu": "Санаторная",
+	"nameEn": "Sanatornaya St."
+},
+{
+	"nameRu": "Спортивная",
+	"nameEn": "Sportivnaya"
+},
+{
+	"nameRu": "Телестудия",
+	"nameEn": "Telestudiya"
+},
+{
+	"nameRu": "Уралкабель",
+	"nameEn": "Uralkabel"
+},
+{
+	"nameRu": "Уралтехгаз",
+	"nameEn": "Uraltekhgaz"
+},
+{
+	"nameRu": "Ферганская",
+	"nameEn": "Ferganskaya St."
+},
+{
+	"nameRu": "Филармония",
+	"nameEn": "Philharmonic Hall"
+},
+{
+	"nameRu": "Черепанова",
+	"nameEn": "Cherepanova St."
+},
+{
+	"nameRu": "Черкасская",
+	"nameEn": "Cherkasskaya St."
+},
+{
+	"nameRu": "Шарташская",
+	"nameEn": "Shartashskaya St."
+},
+{
+	"nameRu": "Электриков",
+	"nameEn": "Elektrikov St."
+},
+{
+	"nameRu": "Авиагородок",
+	"nameEn": "Aviagorodok"
+},
+{
+	"nameRu": "Авиационная",
+	"nameEn": "Aviatsionnaya St."
+},
+{
+	"nameRu": "Автоколонна",
+	"nameEn": "Avtokolonna"
+},
+{
+	"nameRu": "Байкальская",
+	"nameEn": "Baikalskaya St."
+},
+{
+	"nameRu": "Бахчиванджи",
+	"nameEn": "Bakhchivandzhi St."
+},
+{
+	"nameRu": "Бухара-Урал",
+	"nameEn": "Bukhara-Ural"
+},
+{
+	"nameRu": "Васильковая",
+	"nameEn": "Vasilkovaya St."
+},
+{
+	"nameRu": "ВИЗ-бульвар",
+	"nameEn": "Verkh-Isetskiy Blvd."
+},
+{
+	"nameRu": "Декабристов",
+	"nameEn": "Dekabristov St."
+},
+{
+	"nameRu": "Детский сад",
+	"nameEn": "Kindergarten"
+},
+{
+	"nameRu": "ДК «Химмаш»",
+	"nameEn": "DK Khimmash"
+},
+{
+	"nameRu": "ДК Гагарина",
+	"nameEn": "DK Gagarina"
+},
+{
+	"nameRu": "Донбасская ",
+	"nameEn": "Donbasskaya St."
+},
+{
+	"nameRu": "Европейская",
+	"nameEn": "Yevropeyskaya St."
+},
+{
+	"nameRu": "Зелёный Бор",
+	"nameEn": "Zelyony Bor"
+},
+{
+	"nameRu": "Калининская",
+	"nameEn": "Kalininskaya"
+},
+{
+	"nameRu": "Кишинёвская",
+	"nameEn": "Kishinyovskaya St."
+},
+{
+	"nameRu": "Колмогорова",
+	"nameEn": "Kolmogorova St."
+},
+{
+	"nameRu": "Контрольная",
+	"nameEn": "Kontrolnaya"
+},
+{
+	"nameRu": "Краснолесья",
+	"nameEn": "Krasnolesya St."
+},
+{
+	"nameRu": "Лесничество",
+	"nameEn": "Lesnichestvo"
+},
+{
+	"nameRu": "Медгородок ",
+	"nameEn": "Medgorodok"
+},
+{
+	"nameRu": "Металлургов",
+	"nameEn": "Metallurgov St."
+},
+{
+	"nameRu": "Монтажников",
+	"nameEn": "Montazhnikov St."
+},
+{
+	"nameRu": "Мусоргского",
+	"nameEn": "Musorgskogo St."
+},
+{
+	"nameRu": "Нижнеисетск",
+	"nameEn": "Nizhneisetsk"
+},
+{
+	"nameRu": "Октябрьская",
+	"nameEn": "Oktyabrskaya "
+},
+{
+	"nameRu": "п. Кольцово",
+	"nameEn": "Koltsovo"
+},
+{
+	"nameRu": "Полеводство",
+	"nameEn": "Polevodstvo"
+},
+{
+	"nameRu": "Поликлиника",
+	"nameEn": "Poliklinika"
+},
+{
+	"nameRu": "Решетникова",
+	"nameEn": "Reshetnikova Dr."
+},
+{
+	"nameRu": "Родонитовая",
+	"nameEn": "Rodonitovaya St."
+},
+{
+	"nameRu": "Саввы Белых",
+	"nameEn": "Savvy Belykh St."
+},
+{
+	"nameRu": "Сад «Запад»",
+	"nameEn": "Zapad Garden"
+},
+{
+	"nameRu": "Сахалинская",
+	"nameEn": "Sakhalinskaya St."
+},
+{
+	"nameRu": "Свердлесмаш",
+	"nameEn": "Sverdlesmash"
+},
+{
+	"nameRu": "Синие камни",
+	"nameEn": "Siniye Kamni"
+},
+{
+	"nameRu": "Сухоложская",
+	"nameEn": "Sukholozhskaya St."
+},
+{
+	"nameRu": "Таватуйская",
+	"nameEn": "Tavatuyskaya St."
+},
+{
+	"nameRu": "Техническая",
+	"nameEn": "Tekhnicheskaya St."
+},
+{
+	"nameRu": "Хасановская",
+	"nameEn": "Khasanovskaya St."
+},
+{
+	"nameRu": "Челюскинцев",
+	"nameEn": "Chelyuskintsev St."
+},
+{
+	"nameRu": "Эскадронная",
+	"nameEn": "Eskadronnaya St."
+},
+{
+	"nameRu": "40 лет ВЛКСМ",
+	"nameEn": "40 Let VLKSM St."
+},
+{
+	"nameRu": "Ботаническая",
+	"nameEn": "Botanicheskaya St."
+},
+{
+	"nameRu": "Генеральская",
+	"nameEn": "Generalskaya St."
+},
+{
+	"nameRu": "Дагестанская",
+	"nameEn": "Dagestanskaya St."
+},
+{
+	"nameRu": "Дом культуры",
+	"nameEn": "Dom Kultury"
+},
+{
+	"nameRu": "Дом пионеров",
+	"nameEn": "Dom Pionerov"
+},
+{
+	"nameRu": "Дружининская",
+	"nameEn": "Druzhininskaya St."
+},
+{
+	"nameRu": "Карла Маркса",
+	"nameEn": "Karla Marxa St."
+},
+{
+	"nameRu": "Керамическая",
+	"nameEn": "Keramicheskaya"
+},
+{
+	"nameRu": "Космонавтов ",
+	"nameEn": "Kosmonavtov Ave."
+},
+{
+	"nameRu": "Крестинского",
+	"nameEn": "Krestinskogo St."
+},
+{
+	"nameRu": "Луначарского",
+	"nameEn": "Lunacharskogo St."
+},
+{
+	"nameRu": "Надеждинская",
+	"nameEn": "Nadezhdinskaya St."
+},
+{
+	"nameRu": "Опалихинская",
+	"nameEn": "Opalikhinskaya St."
+},
+{
+	"nameRu": "Орджоникидзе",
+	"nameEn": "Ordzhonikidze Ave."
+},
+{
+	"nameRu": "Павлодарская",
+	"nameEn": "Pavlodarskaya St."
+},
+{
+	"nameRu": "пер. Рижский",
+	"nameEn": "Rizhskiy Ln."
+},
+{
+	"nameRu": "пер. Широкий",
+	"nameEn": "Shirokiy Ln."
+},
+{
+	"nameRu": "Первомайская",
+	"nameEn": "Pervomayskaya St."
+},
+{
+	"nameRu": "Психбольница",
+	"nameEn": "Psikhbolnitsa"
+},
+{
+	"nameRu": "Птицефабрика",
+	"nameEn": "Ptitsefabrika"
+},
+{
+	"nameRu": "Радиоколледж",
+	"nameEn": "Radiokolledzh"
+},
+{
+	"nameRu": "Радиостанция",
+	"nameEn": "Radiostantsiya"
+},
+{
+	"nameRu": "Сад «Орбита»",
+	"nameEn": "Orbita Garden"
+},
+{
+	"nameRu": "Сосновый Бор",
+	"nameEn": "Sosnovy Bor"
+},
+{
+	"nameRu": "Стахановская",
+	"nameEn": "Stakhanovskaya St."
+},
+{
+	"nameRu": "Стрелочников",
+	"nameEn": "Strelochnikov St."
+},
+{
+	"nameRu": "Студенческая",
+	"nameEn": "Studencheskaya St."
+},
+{
+	"nameRu": "Сыромолотова",
+	"nameEn": "Syromolotova St."
+},
+{
+	"nameRu": "Тубсанаторий",
+	"nameEn": "Tubsanatoriy"
+},
+{
+	"nameRu": "ТЦ «Алатырь»",
+	"nameEn": "Alatyr Mall"
+},
+{
+	"nameRu": "Энтузиастов ",
+	"nameEn": "Entuziastov St."
+},
+{
+	"nameRu": "Юго-Западная",
+	"nameEn": "Yugo-Zapadnaya"
+},
+{
+	"nameRu": "Южный проезд",
+	"nameEn": "Yuzhny Dr."
+},
+{
+	"nameRu": "Ярославская ",
+	"nameEn": "Yaroslavskaya St."
+},
+{
+	"nameRu": "17 Мехколонна",
+	"nameEn": "17 Mekhkolonna"
+},
+{
+	"nameRu": "Академическая",
+	"nameEn": "Akademicheskaya St."
+},
+{
+	"nameRu": "Анны Бычковой",
+	"nameEn": "Anny Bychkovoy St."
+},
+{
+	"nameRu": "Аэроагентство",
+	"nameEn": "Aeroagentstvo"
+},
+{
+	"nameRu": "Белореченская",
+	"nameEn": "Belorechenskaya St."
+},
+{
+	"nameRu": "Билимбаевская",
+	"nameEn": "Bilimbayevskaya St."
+},
+{
+	"nameRu": "Волгоградская",
+	"nameEn": "Volgogradskaya St."
+},
+{
+	"nameRu": "Ворошиловская",
+	"nameEn": "Voroshilovskaya"
+},
+{
+	"nameRu": "Госпиталь ВОВ",
+	"nameEn": "Gospital VOV"
+},
+{
+	"nameRu": "Дворец Спорта",
+	"nameEn": "Uralets Arena"
+},
+{
+	"nameRu": "Детский центр",
+	"nameEn": "Detskiy Tsentr"
+},
+{
+	"nameRu": "Зелёный Бор-2",
+	"nameEn": "Zelyony Bor-2"
+},
+{
+	"nameRu": "Зоологическая",
+	"nameEn": "Zoologicheskaya St."
+},
+{
+	"nameRu": "Комсомольская",
+	"nameEn": "Komsomolskaya St."
+},
+{
+	"nameRu": "Кондукторская",
+	"nameEn": "Konduktorskaya St."
+},
+{
+	"nameRu": "Новгородцевой",
+	"nameEn": "Novgorodtsevoy St."
+},
+{
+	"nameRu": "Новопашинский",
+	"nameEn": "Novopashinskiy Ln."
+},
+{
+	"nameRu": "Новосибирская",
+	"nameEn": "Novosibirskaya St."
+},
+{
+	"nameRu": "Оперный театр",
+	"nameEn": "Opera and Ballet Theatre"
+},
+{
+	"nameRu": "Опытный завод",
+	"nameEn": "Opytny Zavod"
+},
+{
+	"nameRu": "пер. Парковый",
+	"nameEn": "Parkovy Ln."
+},
+{
+	"nameRu": "пер. Тульский",
+	"nameEn": "Tulskiy Ln."
+},
+{
+	"nameRu": "Площадь Труда",
+	"nameEn": "Truda Sq."
+},
+{
+	"nameRu": "Походная улица",
+	"nameEn": "Pokhodnaya St."
+},
+{
+	"nameRu": "Профессорская",
+	"nameEn": "Professorskaya"
+},
+{
+	"nameRu": "Сад «Авиатор»",
+	"nameEn": "Aviator Garden"
+},
+{
+	"nameRu": "Сад «Берёзка»",
+	"nameEn": "Beryozka Garden"
+},
+{
+	"nameRu": "Сад «Визовец»",
+	"nameEn": "Vizovets Garden"
+},
+{
+	"nameRu": "Сортировочная",
+	"nameEn": "Sortirovochnaya St."
+},
+{
+	"nameRu": "Таганский ряд",
+	"nameEn": "Taganskiy Ryad"
+},
+{
+	"nameRu": "ТРЦ «Гринвич»",
+	"nameEn": "Grinvich Mall"
+},
+{
+	"nameRu": "ТРЦ «Фан-Фан»",
+	"nameEn": "Fan-Fan Mall"
+},
+{
+	"nameRu": "Фрезеровщиков",
+	"nameEn": "Frezerovshchikov St."
+},
+{
+	"nameRu": "Широкая речка",
+	"nameEn": "Shirokaya Rechka"
+},
+{
+	"nameRu": "40 лет Октября",
+	"nameEn": "40 Let Oktyabrya St."
+},
+{
+	"nameRu": "Бориса Ельцина",
+	"nameEn": "Borisa Yeltsina St."
+},
+{
+	"nameRu": "Верхнемакарово",
+	"nameEn": "Verkhnemakarovo"
+},
+{
+	"nameRu": "Данилы Зверева",
+	"nameEn": "Danily Zvereva St."
+},
+{
+	"nameRu": "Зелёный остров",
+	"nameEn": "Zelyony Ostrov"
+},
+{
+	"nameRu": "Институт связи",
+	"nameEn": "Institute of Communications"
+},
+{
+	"nameRu": "Кировградская ",
+	"nameEn": "Kirovgradskaya St."
+},
+{
+	"nameRu": "Краснофлотцев ",
+	"nameEn": "Krasnoflottsev St."
+},
+{
+	"nameRu": "Ледовый дворец",
+	"nameEn": "Ledovy Dvorets"
+},
+{
+	"nameRu": "Магазин «Кедр»",
+	"nameEn": "Magazin Kedr"
+},
+{
+	"nameRu": "Маршала Жукова",
+	"nameEn": "Marshala Zhukova St."
+},
+{
+	"nameRu": "Метро «Динамо»",
+	"nameEn": "Dinamo Metro Station"
+},
+{
+	"nameRu": "Новомосковская",
+	"nameEn": "Novomoskovskaya"
+},
+{
+	"nameRu": "п. Калиновский",
+	"nameEn": "Kalinovskiy"
+},
+{
+	"nameRu": "п. Мичуринский",
+	"nameEn": "Michurinskiy"
+},
+{
+	"nameRu": "Павла Шаманова",
+	"nameEn": "Pavla Shamanova St."
+},
+{
+	"nameRu": "Педагогическая",
+	"nameEn": "Pedagogicheskaya St."
+},
+{
+	"nameRu": "пер. Гончарный",
+	"nameEn": "Goncharny Ln."
+},
+{
+	"nameRu": "пер. Клеверный",
+	"nameEn": "Kleverny Ln."
+},
+{
+	"nameRu": "Поворот на УКЗ",
+	"nameEn": "Povorot na UKZ"
+},
+{
+	"nameRu": "Сад «Дружба 1»",
+	"nameEn": "Druzhba 1 Garden"
+},
+{
+	"nameRu": "Сад «Дружба 3»",
+	"nameEn": "Druzhba 3 Garden"
+},
+{
+	"nameRu": "Сад «Родничок»",
+	"nameEn": "Rodnichok Garden"
+},
+{
+	"nameRu": "Торговый центр",
+	"nameEn": "Torgovy Tsentr"
+},
+{
+	"nameRu": "Трансагентство",
+	"nameEn": "Transagentstvo"
+},
+{
+	"nameRu": "ТРЦ «Карнавал»",
+	"nameEn": "Karnaval Mall"
+},
+{
+	"nameRu": "ТЦ «Восточный»",
+	"nameEn": "Vostochny Shopping Centre"
+},
+{
+	"nameRu": "ТЦ «Дирижабль»",
+	"nameEn": "Dirizhabl Shopping Centre"
+},
+{
+	"nameRu": "Центр Культуры",
+	"nameEn": "Tsentr Kultury"
+},
+{
+	"nameRu": "Автопредприятие",
+	"nameEn": "Avtopredpriyatiye"
+},
+{
+	"nameRu": "Горбольница №6",
+	"nameEn": "Gorbolnitsa No. 6"
+},
+{
+	"nameRu": "Горбольница №7",
+	"nameEn": "Gorbolnitsa No. 7"
+},
+{
+	"nameRu": "Горный институт",
+	"nameEn": "Mining University"
+},
+{
+	"nameRu": "Дворец молодёжи",
+	"nameEn": "Dvorets Molodyozhi Culture Centre"
+},
+{
+	"nameRu": "Инженера Алиева",
+	"nameEn": "Inzhenera Aliyeva St."
+},
+{
+	"nameRu": "Каменный карьер",
+	"nameEn": "Kamenny Karyer"
+},
+{
+	"nameRu": "Кирпичный завод",
+	"nameEn": "Kirpichny Zavod"
+},
+{
+	"nameRu": "Краснознамённая",
+	"nameEn": "Krasnoznamyonnaya St."
+},
+{
+	"nameRu": "Метро «Уралмаш»",
+	"nameEn": "Uralmash Metro Station"
+},
+{
+	"nameRu": "НПЦ «Онкология»",
+	"nameEn": "NPTs Onkologiya"
+},
+{
+	"nameRu": "Озеро Чусовское",
+	"nameEn": "Ozero Chusovskoye"
+},
+{
+	"nameRu": "Парковый кордон",
+	"nameEn": "Parkovy Kordon"
+},
+{
+	"nameRu": "Площадь Обороны",
+	"nameEn": "Oborony Sq."
+},
+{
+	"nameRu": "Проспект Ленина",
+	"nameEn": "Lenina Ave."
+},
+{
+	"nameRu": "Проспект Седова",
+	"nameEn": "Sedova Ave."
+},
+{
+	"nameRu": "Сад «Вирусолог»",
+	"nameEn": "Virusolog Garden"
+},
+{
+	"nameRu": "Сад «Рябинушка»",
+	"nameEn": "Ryabinushka Garden"
+},
+{
+	"nameRu": "Сибирский тракт",
+	"nameEn": "Sibirskiy Hwy."
+},
+{
+	"nameRu": "Софьи Перовской",
+	"nameEn": "Sofyi Perovskoy St."
+},
+{
+	"nameRu": "Станция «Исток»",
+	"nameEn": "Istok Station"
+},
+{
+	"nameRu": "Трамвайный парк",
+	"nameEn": "Tramvayny Park"
+},
+{
+	"nameRu": "Цех механизации",
+	"nameEn": "Tsekh Mekhanizatsii"
+},
+{
+	"nameRu": "Детская больница",
+	"nameEn": "Detskaya Bolnitsa"
+},
+{
+	"nameRu": "Заводоуправление",
+	"nameEn": "Zavodoupravleniye"
+},
+{
+	"nameRu": "Каменные палатки",
+	"nameEn": "Kamenniye Palatki"
+},
+{
+	"nameRu": "Кинотеатр «Темп»",
+	"nameEn": "Kinoteatr Temp"
+},
+{
+	"nameRu": "Коммунистическая",
+	"nameEn": "Kommunisticheskaya St."
+},
+{
+	"nameRu": "Машиностроителей",
+	"nameEn": "Mashinostroiteley St."
+},
+{
+	"nameRu": "Молодогвардейцев",
+	"nameEn": "Molodogvardeytsev St."
+},
+{
+	"nameRu": "Московская горка",
+	"nameEn": "Moskovskaya Gorka"
+},
+{
+	"nameRu": "п. Широкая речка",
+	"nameEn": "Shirokaya Rechka"
+},
+{
+	"nameRu": "Парк им. Чкалова",
+	"nameEn": "Chkalov Park"
+},
+{
+	"nameRu": "Площадь Малышева",
+	"nameEn": "Malysheva Sq."
+},
+{
+	"nameRu": "Рынок на Громова",
+	"nameEn": "Rynok na Gromova"
+},
+{
+	"nameRu": "Сакко и Ванцетти",
+	"nameEn": "Sacco i Vanzetti St."
+},
+{
+	"nameRu": "Станция «Шарташ»",
+	"nameEn": "Shartash Station"
+},
+{
+	"nameRu": "Театр «Волхонка»",
+	"nameEn": "Volkhonka Theatre"
+},
+{
+	"nameRu": "ТК «Современник»",
+	"nameEn": "Sovremennik Shopping Centre"
+},
+{
+	"nameRu": "ТЦ «Буревестник»",
+	"nameEn": "Burevestnik Shopping Centre"
+},
+{
+	"nameRu": "Фронтовых бригад",
+	"nameEn": "Frontovykh Brigad St."
+},
+{
+	"nameRu": "Шарташский рынок",
+	"nameEn": "Shartashskiy Rynok"
+},
+{
+	"nameRu": "Шиловский кордон",
+	"nameEn": "Shilovskiy Kordon"
+},
+{
+	"nameRu": "Электроремонтная",
+	"nameEn": "Elektroremontnaya"
+},
+{
+	"nameRu": "Южная подстанция",
+	"nameEn": "Yuzhnaya Podstantsiya"
+},
+{
+	"nameRu": "Автомагистральная",
+	"nameEn": "Avtomagistralnaya St."
+},
+{
+	"nameRu": "Аэропорт Кольцово",
+	"nameEn": "Koltsovo Airport"
+},
+{
+	"nameRu": "Бульвар Малахова ",
+	"nameEn": "Malakhova Blvd."
+},
+{
+	"nameRu": "Гостиница «Исеть»",
+	"nameEn": "Iset Hotel"
+},
+{
+	"nameRu": "Гостиница «Уктус»",
+	"nameEn": "Uktus Hotel"
+},
+{
+	"nameRu": "Кладбище «Лесное»",
+	"nameEn": "Kladbishche Lesnoye"
+},
+{
+	"nameRu": "Лифтостроительный",
+	"nameEn": "Liftostroitelny"
+},
+{
+	"nameRu": "Начдива Васильева",
+	"nameEn": "Nachdiva Vasilyeva St."
+},
+{
+	"nameRu": "Окружное кладбище",
+	"nameEn": "Okruzhnoe Kladbishche"
+},
+{
+	"nameRu": "Площадь 1905 года",
+	"nameEn": "Sq. of 1905"
+},
+{
+	"nameRu": "Сиреневый бульвар",
+	"nameEn": "Sirenevy Blvd."
+},
+{
+	"nameRu": "Софьи Ковалевской",
+	"nameEn": "Sofyi Kovalevskoy St."
+},
+{
+	"nameRu": "Станция «Березит»",
+	"nameEn": "Berezit Station"
+},
+{
+	"nameRu": "Станция «Путёвка»",
+	"nameEn": "Putyovka Station"
+},
+{
+	"nameRu": "Станция «Сысерть»",
+	"nameEn": "Sysert Station"
+},
+{
+	"nameRu": "Строительный двор",
+	"nameEn": "Stroitelny Dvor"
+},
+{
+	"nameRu": "Трамвайное кольцо",
+	"nameEn": "Tramvaynoye Koltso"
+},
+{
+	"nameRu": "Управление дороги",
+	"nameEn": "Upravleniye Dorogi"
+},
+{
+	"nameRu": "Уральских рабочих",
+	"nameEn": "Uralskikh Rabochikh St."
+},
+{
+	"nameRu": "Хладокомбинат №3",
+	"nameEn": "Khladokombinat No. 3"
+},
+{
+	"nameRu": "Академика Сахарова",
+	"nameEn": "Akademika Sakharova St."
+},
+{
+	"nameRu": "Гимназия «Корифей»",
+	"nameEn": "Gimnaziya Korifey"
+},
+{
+	"nameRu": "Детский санаторий ",
+	"nameEn": "Detskiy Sanatoriy"
+},
+{
+	"nameRu": "Красных командиров",
+	"nameEn": "Krasnykh Komandirov St."
+},
+{
+	"nameRu": "п. Светлореченский",
+	"nameEn": "Svetlorechenskiy"
+},
+{
+	"nameRu": "Площадь Коммунаров",
+	"nameEn": "Kommunarov Sq."
+},
+{
+	"nameRu": "Поворот на Изоплит",
+	"nameEn": "Povorot na Izoplit"
+},
+{
+	"nameRu": "Серафимы Дерябиной",
+	"nameEn": "Serafimy Deryabinoy St."
+},
+{
+	"nameRu": "Станция «Керамика»",
+	"nameEn": "Keramika Station"
+},
+{
+	"nameRu": "Станция «Кольцово»",
+	"nameEn": "Koltsovo Station"
+},
+{
+	"nameRu": "Станция «Лечебная»",
+	"nameEn": "Lechebnaya Station"
+},
+{
+	"nameRu": "Старых большевиков",
+	"nameEn": "Starykh Bolshevikov St."
+},
+{
+	"nameRu": "Тбилисский бульвар",
+	"nameEn": "Tbilisskiy Blvd."
+},
+{
+	"nameRu": "Теплоходный проезд",
+	"nameEn": "Teplokhodny Dr."
+},
+{
+	"nameRu": "Хладокомбинат Норд",
+	"nameEn": "Khladokombinat Nord"
+},
+{
+	"nameRu": "3-го Интернационала",
+	"nameEn": "3 Internatsionala St."
+},
+{
+	"nameRu": "Верх-Исетский рынок",
+	"nameEn": "Verkh-Isetskiy Rynok"
+},
+{
+	"nameRu": "Дом-музей П. Бажова",
+	"nameEn": "Bazhov House Museum"
+},
+{
+	"nameRu": "Медицинский колледж",
+	"nameEn": "Meditsinskiy Kolledzh"
+},
+{
+	"nameRu": "Микрохирургия глаза",
+	"nameEn": "Mikrokhirurgiya Glaza"
+},
+{
+	"nameRu": "Парфюмерная фабрика",
+	"nameEn": "Parfyumernaya Fabrika"
+},
+{
+	"nameRu": "Поворот на п. Исток",
+	"nameEn": "Povorot na Istok"
+},
+{
+	"nameRu": "Стрельбище «Динамо»",
+	"nameEn": "Strelbishche Dinamo"
+},
+{
+	"nameRu": "ТК «Новомосковский»",
+	"nameEn": "Novomoskovskiy Shopping Centre"
+},
+{
+	"nameRu": "Центральный стадион",
+	"nameEn": "Central Stadium"
+},
+{
+	"nameRu": "Чкалова/Краснолесья",
+	"nameEn": "Chkalova St. / Krasnolesya St."
+},
+{
+	"nameRu": "Бакинских комиссаров",
+	"nameEn": "Bakinskikh Komissarov St."
+},
+{
+	"nameRu": "Готвальда-Черепанова",
+	"nameEn": "Gottwalda St. — Cherepanova St."
+},
+{
+	"nameRu": "Магазин «Кооператор»",
+	"nameEn": "Magazin Kooperator"
+},
+{
+	"nameRu": "Метро «Ботаническая»",
+	"nameEn": "Botanicheskaya Metro Station"
+},
+{
+	"nameRu": "Новосвердловская ТЭЦ",
+	"nameEn": "Novosverdlovskaya TETs"
+},
+{
+	"nameRu": "Новосибирская вторая",
+	"nameEn": "2nd Novosibirskaya St."
+},
+{
+	"nameRu": "Проспект Космонавтов",
+	"nameEn": "Prospekt Kosmonavtov Metro Station"
+},
+{
+	"nameRu": "Сад «Госуниверситет»",
+	"nameEn": "Gosuniversitet Garden"
+},
+{
+	"nameRu": "Сад «Янтарный ключ» ",
+	"nameEn": "Yantarny Klyuch Garden"
+},
+{
+	"nameRu": "Самоцветный бульвар ",
+	"nameEn": "Samotsvetny Blvd."
+},
+{
+	"nameRu": "Универсам «Звёздный»",
+	"nameEn": "Zvyozdny Supermarket"
+},
+{
+	"nameRu": "Федерация профсоюзов",
+	"nameEn": "Federatsiya Profsoyuzov"
+},
+{
+	"nameRu": "Юридическая академия",
+	"nameEn": "Law University"
+},
+{
+	"nameRu": "Автомобильный колледж",
+	"nameEn": "Avtomobilny Kolledzh "
+},
+{
+	"nameRu": "Академика Вонсовского",
+	"nameEn": "Akademika Vonsovskogo St."
+},
+{
+	"nameRu": "Библиотека Белинского",
+	"nameEn": "Belinsky Library"
+},
+{
+	"nameRu": "Венгерских Коммунаров",
+	"nameEn": "Vengerskikh Kommunarov St."
+},
+{
+	"nameRu": "Диагностический центр",
+	"nameEn": "Diagnosticheskiy Tsentr"
+},
+{
+	"nameRu": "Екатерининский привоз",
+	"nameEn": "Yekaterininskiy Privoz"
+},
+{
+	"nameRu": "Колледж им. Ползунова",
+	"nameEn": "Polzunov College"
+},
+{
+	"nameRu": "Ново-Московский тракт",
+	"nameEn": "Novo-Moskovskiy Hwy."
+},
+{
+	"nameRu": "Площадь 1-й Пятилетки",
+	"nameEn": "1 Pyatiletki Sq."
+},
+{
+	"nameRu": "Центр Культуры «Урал»",
+	"nameEn": "Ural Culture Centre"
+},
+{
+	"nameRu": "Школа им. Рахманинова",
+	"nameEn": "Shkola Rakhmaninova"
+},
+{
+	"nameRu": "Архитектурная академия",
+	"nameEn": "Academy of Architecture"
+},
+{
+	"nameRu": "Гостиница «Свердловск»",
+	"nameEn": "Sverdlovsk Hotel (Marins Park Hotel)"
+},
+{
+	"nameRu": "Железнодорожный вокзал",
+	"nameEn": "Railway Station"
+},
+{
+	"nameRu": "Куйбышева-Луначарского",
+	"nameEn": "Kuybysheva St. – Lunacharskogo St."
+},
+{
+	"nameRu": "Артиллерийский институт",
+	"nameEn": "Artilleriyskiy Institut"
+},
+{
+	"nameRu": "Гостиница «Центральная»",
+	"nameEn": "Ekaterinburg-Tsentralny Hotel"
+},
+{
+	"nameRu": "Кордон «Берёзовый ключ»",
+	"nameEn": "Kordon Beryozovy Klyuch"
+},
+{
+	"nameRu": "Малый Конный полуостров",
+	"nameEn": "Malyi Konniy Poluostrov"
+},
+{
+	"nameRu": "Нижне-Исетское кладбище",
+	"nameEn": "Nizhne-Isetskoe Kladbishche"
+},
+{
+	"nameRu": "Супермаркет «Кировский»",
+	"nameEn": "Kirovskiy Supermarket"
+},
+{
+	"nameRu": "Центр культуры «Стрела»",
+	"nameEn": "Tsentr Kultury Strela"
+},
+{
+	"nameRu": "Академический микрорайон",
+	"nameEn": "Akademicheskiy Microdistrict"
+},
+{
+	"nameRu": "Фармацевтический колледж",
+	"nameEn": "Farmatsevticheskiy Kolledzh"
+},
+{
+	"nameRu": "Табачная фабрика «Альвис»",
+	"nameEn": "Tabachnaya Fabrika Alvis"
+},
+{
+	"nameRu": "Театр музыкальной комедии",
+	"nameEn": "Musical Comedy Theatre"
+},
+{
+	"nameRu": "ТЮЗ (Театр юного зрителя)",
+	"nameEn": "Theatre for the Young Spectator"
+},
+{
+	"nameRu": "Кольцевая а/д (автодорога)",
+	"nameEn": "Koltsevaya Avtodoroga"
+},
+{
+	"nameRu": "Микрорайон «Компрессорный»",
+	"nameEn": "Kompressorny Microdistrict"
+},
+{
+	"nameRu": "Микрорайон «Комсомольский»",
+	"nameEn": "Komsomolskiy Microdistrict"
+},
+{
+	"nameRu": "Педагогический университет",
+	"nameEn": "Pedagogical University"
+},
+{
+	"nameRu": "Церковь Рождества Христова",
+	"nameEn": "Tserkov Rozhdestva Khristova"
+},
+{
+	"nameRu": "Опытная станция Садоводства",
+	"nameEn": "Opytnaya Stantsiya Sadovodstva"
+},
+{
+	"nameRu": "ТРЦ «Екатерининский» (Глобус)",
+	"nameEn": "Yekaterininskiy Mall (Globus)"
+},
+{
+	"nameRu": "Западная фильтровальная станция",
+	"nameEn": "Zapadnaya Filtrovalnaya Stantsiya"
+},
+{
+	"nameRu": "Техучилище (Техническое училище)",
+	"nameEn": "Tekhuchilishche"
+},
+{
+	"nameRu": "Уральский федеральный университет",
+	"nameEn": "Ural Federal University"
+},
+{
+	"nameRu": "Протезно-ортопедическое предприятие",
+	"nameEn": "Protezno-Ortopedicheskoe Predpriyatiye"
+},
+{
+	"nameRu": "УГЛТУ (Лесотехнический университет)",
+	"nameEn": "Forest Engineering University"
+}
+]

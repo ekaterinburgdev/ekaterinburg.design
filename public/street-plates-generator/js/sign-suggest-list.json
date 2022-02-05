@@ -1,0 +1,8067 @@
+[
+{
+	"streetName": "1905 года",
+	"streetType": "Площадь",
+	"streetLatin": "Square of 1905"
+},
+{
+	"streetName": "1-й Подъёмный",
+	"streetType": "Переулок",
+	"streetLatin": "1st Podyomny Lane"
+},
+{
+	"streetName": "1-й Пятилетки",
+	"streetType": "Площадь",
+	"streetLatin": "1 Pyatiletki Square"
+},
+{
+	"streetName": "1-й Системный",
+	"streetType": "Переулок",
+	"streetLatin": "1st Sistemny Lane"
+},
+{
+	"streetName": "1-й Чусовской",
+	"streetType": "Переулок",
+	"streetLatin": "1st Chusovskoy Lane"
+},
+{
+	"streetName": "1-я Заводская",
+	"streetType": "Улица",
+	"streetLatin": "1st Zavodskaya Street"
+},
+{
+	"streetName": "1-я Причальная",
+	"streetType": "Улица",
+	"streetLatin": "1st Prichalnaya Street"
+},
+{
+	"streetName": "2-й Подъёмный",
+	"streetType": "Переулок",
+	"streetLatin": "2nd Podyomny Lane"
+},
+{
+	"streetName": "2-й Системный",
+	"streetType": "Переулок",
+	"streetLatin": "2nd Sistemny Lane"
+},
+{
+	"streetName": "2-й Чусовской",
+	"streetType": "Переулок",
+	"streetLatin": "2nd Chusovskoy Lane"
+},
+{
+	"streetName": "2-я Заводская",
+	"streetType": "Улица",
+	"streetLatin": "2nd Zavodskaya Street"
+},
+{
+	"streetName": "2-я Новосибирская",
+	"streetType": "Улица",
+	"streetLatin": "2nd Novosibirskaya Street"
+},
+{
+	"streetName": "2-я Причальная",
+	"streetType": "Улица",
+	"streetLatin": "2nd Prichalnaya Street"
+},
+{
+	"streetName": "3-й Пятилетки",
+	"streetType": "Улица",
+	"streetLatin": "3 Pyatiletki Street"
+},
+{
+	"streetName": "3-я Причальная",
+	"streetType": "Улица",
+	"streetLatin": "3rd Prichalnaya Street"
+},
+{
+	"streetName": "40-летия Комсомола",
+	"streetType": "Улица",
+	"streetLatin": "40-letiya Komsomola Street"
+},
+{
+	"streetName": "40-летия Октября",
+	"streetType": "Улица",
+	"streetLatin": "40-letiya Oktyabrya Street"
+},
+{
+	"streetName": "4-я Причальная",
+	"streetType": "Улица",
+	"streetLatin": "4th Prichalnaya Street"
+},
+{
+	"streetName": "50-й Пикет",
+	"streetType": "Улица",
+	"streetLatin": "50 Piket Street"
+},
+{
+	"streetName": "5-я Причальная",
+	"streetType": "Улица",
+	"streetLatin": "5th Prichalnaya Street"
+},
+{
+	"streetName": "8 Марта",
+	"streetType": "Улица",
+	"streetLatin": "8 Marta Street"
+},
+{
+	"streetName": "9 Мая",
+	"streetType": "Улица",
+	"streetLatin": "9 Maya Street"
+},
+{
+	"streetName": "III Интернационала",
+	"streetType": "Улица",
+	"streetLatin": "3 Internatsionala Street"
+},
+{
+	"streetName": "XXII Партсъезда",
+	"streetType": "Улица",
+	"streetLatin": "22 Partsyezda Street"
+},
+{
+	"streetName": "Абрикосовая",
+	"streetType": "Улица",
+	"streetLatin": "Abrikosovaya Street"
+},
+{
+	"streetName": "Авангардная",
+	"streetType": "Улица",
+	"streetLatin": "Avangardnaya Street"
+},
+{
+	"streetName": "Авейде ",
+	"streetType": "Переулок",
+	"streetLatin": "Aveyde Lane"
+},
+{
+	"streetName": "Авиаторов",
+	"streetType": "Улица",
+	"streetLatin": "Aviatorov Street"
+},
+{
+	"streetName": "Авиационная",
+	"streetType": "Улица",
+	"streetLatin": "Aviatsionnaya Street"
+},
+{
+	"streetName": "Автогенный",
+	"streetType": "Переулок",
+	"streetLatin": "Avtogenny Lane"
+},
+{
+	"streetName": "Автомагистральная",
+	"streetType": "Улица",
+	"streetLatin": "Avtomagistralnaya Street"
+},
+{
+	"streetName": "Автоматики",
+	"streetType": "Переулок",
+	"streetLatin": "Avtomatiki Lane"
+},
+{
+	"streetName": "Автоматчиков",
+	"streetType": "Улица",
+	"streetLatin": "Avtomatchikov Street"
+},
+{
+	"streetName": "Автомобильный",
+	"streetType": "Переулок",
+	"streetLatin": "Avtomobilny Lane"
+},
+{
+	"streetName": "Автономных республик",
+	"streetType": "Улица",
+	"streetLatin": "Avtonomnykh Respublik Street"
+},
+{
+	"streetName": "Авторская",
+	"streetType": "Улица",
+	"streetLatin": "Avtorskaya Street"
+},
+{
+	"streetName": "Агатовая",
+	"streetType": "Улица",
+	"streetLatin": "Agatovaya Street"
+},
+{
+	"streetName": "Аграрная",
+	"streetType": "Улица",
+	"streetLatin": "Agrarnaya Street"
+},
+{
+	"streetName": "Агрономическая",
+	"streetType": "Улица",
+	"streetLatin": "Agronomicheskaya Street"
+},
+{
+	"streetName": "Адмирала Ушакова",
+	"streetType": "Улица",
+	"streetLatin": "Admirala Ushakova Street"
+},
+{
+	"streetName": "Азина",
+	"streetType": "Улица",
+	"streetLatin": "Azina Street"
+},
+{
+	"streetName": "Азовский",
+	"streetType": "Переулок",
+	"streetLatin": "Azovskiy Lane"
+},
+{
+	"streetName": "Азотная",
+	"streetType": "Улица",
+	"streetLatin": "Azotnaya Street"
+},
+{
+	"streetName": "Айвазовского",
+	"streetType": "Улица",
+	"streetLatin": "Aivazovskogo Street"
+},
+{
+	"streetName": "Академика Бардина",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Bardina Street"
+},
+{
+	"streetName": "Академика Вонсовского",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Vonsovskogo Street"
+},
+{
+	"streetName": "Академика Губкина",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Gubkina Street"
+},
+{
+	"streetName": "Академика Карпинского",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Karpinskogo Street"
+},
+{
+	"streetName": "Академика Павлова",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Pavlova Street"
+},
+{
+	"streetName": "Академика Постовского",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Postovskogo Street"
+},
+{
+	"streetName": "Академика Сахарова",
+	"streetType": "Проспект",
+	"streetLatin": "Akademika Sakharova Avenue"
+},
+{
+	"streetName": "Академика Семихатова ",
+	"streetType": "Бульвар",
+	"streetLatin": "Akademika Semikhatova Boulevard"
+},
+{
+	"streetName": "Академика Ферсмана",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Fersmana Street"
+},
+{
+	"streetName": "Академика Шварца",
+	"streetType": "Улица",
+	"streetLatin": "Akademika Shvartsa Street"
+},
+{
+	"streetName": "Академическая",
+	"streetType": "Улица",
+	"streetLatin": "Akademicheskaya Street"
+},
+{
+	"streetName": "Акаций",
+	"streetType": "Переулок",
+	"streetLatin": "Akatsiy Lane"
+},
+{
+	"streetName": "Аквамариновая",
+	"streetType": "Улица",
+	"streetLatin": "Akvamarinovaya Street"
+},
+{
+	"streetName": "Акварельная",
+	"streetType": "Улица",
+	"streetLatin": "Akvarelnaya Street"
+},
+{
+	"streetName": "Аксакова",
+	"streetType": "Улица",
+	"streetLatin": "Aksakova Street"
+},
+{
+	"streetName": "Акулова",
+	"streetType": "Улица",
+	"streetLatin": "Akulova Street"
+},
+{
+	"streetName": "Алая",
+	"streetType": "Улица",
+	"streetLatin": "Alaya Street"
+},
+{
+	"streetName": "Александра Матросова",
+	"streetType": "Улица",
+	"streetLatin": "Aleksandra Matrosova Street"
+},
+{
+	"streetName": "Александровская",
+	"streetType": "Улица",
+	"streetLatin": "Aleksandrovskaya Street"
+},
+{
+	"streetName": "Алексеева",
+	"streetType": "Улица",
+	"streetLatin": "Alekseyeva Street"
+},
+{
+	"streetName": "Алексея Стаханова",
+	"streetType": "Улица",
+	"streetLatin": "Alekseya Stakhanova Street"
+},
+{
+	"streetName": "Алексея Толстого",
+	"streetType": "Улица",
+	"streetLatin": "Alekseya Tolstogo Street"
+},
+{
+	"streetName": "Алма-Атинский",
+	"streetType": "Переулок",
+	"streetLatin": "Alma-Atinskiy Lane"
+},
+{
+	"streetName": "Алмазная",
+	"streetType": "Улица",
+	"streetLatin": "Almaznaya Street"
+},
+{
+	"streetName": "Алтайская",
+	"streetType": "Улица",
+	"streetLatin": "Altayskaya Street"
+},
+{
+	"streetName": "Альпийская",
+	"streetType": "Улица",
+	"streetLatin": "Alpiyskaya Street"
+},
+{
+	"streetName": "Альпинистов",
+	"streetType": "Улица",
+	"streetLatin": "Alpinistov Street"
+},
+{
+	"streetName": "Амбулаторная",
+	"streetType": "Улица",
+	"streetLatin": "Ambulatornaya Street"
+},
+{
+	"streetName": "Аметистовая",
+	"streetType": "Улица",
+	"streetLatin": "Ametistovaya Street"
+},
+{
+	"streetName": "Амундсена",
+	"streetType": "Улица",
+	"streetLatin": "Amundsena Street"
+},
+{
+	"streetName": "Амурская",
+	"streetType": "Улица",
+	"streetLatin": "Amurskaya Street"
+},
+{
+	"streetName": "Анатолия Мехренцева",
+	"streetType": "Улица",
+	"streetLatin": "Anatoliya Mekhrentseva Street"
+},
+{
+	"streetName": "Анатолия Муранова",
+	"streetType": "Улица",
+	"streetLatin": "Anatoliya Muranova Street"
+},
+{
+	"streetName": "Ангарская",
+	"streetType": "Улица",
+	"streetLatin": "Angarskaya Street"
+},
+{
+	"streetName": "Анны Бычковой",
+	"streetType": "Улица",
+	"streetLatin": "Anny Bychkovoy Street"
+},
+{
+	"streetName": "Анри Барбюса",
+	"streetType": "Улица",
+	"streetLatin": "Henri Barbussa Street"
+},
+{
+	"streetName": "Антона Валека",
+	"streetType": "Улица",
+	"streetLatin": "Antona Valeka Street"
+},
+{
+	"streetName": "Апельсиновая",
+	"streetType": "Улица",
+	"streetLatin": "Apelsinovaya Street"
+},
+{
+	"streetName": "Аппаратная",
+	"streetType": "Станция",
+	"streetLatin": "Apparatnaya Station"
+},
+{
+	"streetName": "Аппаратная",
+	"streetType": "Улица",
+	"streetLatin": "Apparatnaya Street"
+},
+{
+	"streetName": "Аппатитовая",
+	"streetType": "Улица",
+	"streetLatin": "Appatitovaya Street"
+},
+{
+	"streetName": "Апрельская",
+	"streetType": "Улица",
+	"streetLatin": "Aprelskaya Street"
+},
+{
+	"streetName": "Аптекарская",
+	"streetType": "Улица",
+	"streetLatin": "Aptekarskaya Street"
+},
+{
+	"streetName": "Арамилка",
+	"streetType": "Улица",
+	"streetLatin": "Aramilka Street"
+},
+{
+	"streetName": "Арамильский",
+	"streetType": "Переулок",
+	"streetLatin": "Aramilskiy Lane"
+},
+{
+	"streetName": "Аркадия Гайдара",
+	"streetType": "Улица",
+	"streetLatin": "Arkadiya Gaidara Street"
+},
+{
+	"streetName": "Армавирская",
+	"streetType": "Улица",
+	"streetLatin": "Armavirskaya Street"
+},
+{
+	"streetName": "Артельный",
+	"streetType": "Переулок",
+	"streetLatin": "Artelny Lane"
+},
+{
+	"streetName": "Артёма",
+	"streetType": "Улица",
+	"streetLatin": "Artyoma Street"
+},
+{
+	"streetName": "Артиллеристов",
+	"streetType": "Улица",
+	"streetLatin": "Artilleristov Street"
+},
+{
+	"streetName": "Артинская ",
+	"streetType": "Улица",
+	"streetLatin": "Artinskaya Street"
+},
+{
+	"streetName": "Археологов",
+	"streetType": "Улица",
+	"streetLatin": "Arkheologov Street"
+},
+{
+	"streetName": "Архитектора Малахова",
+	"streetType": "Бульвар",
+	"streetLatin": "Arkhitektora Malakhova Boulevard"
+},
+{
+	"streetName": "Архитекторов",
+	"streetType": "Улица",
+	"streetLatin": "Arkhitektorov Street"
+},
+{
+	"streetName": "Асбестовский",
+	"streetType": "Переулок",
+	"streetLatin": "Asbestovskiy Lane"
+},
+{
+	"streetName": "Астраханская",
+	"streetType": "Улица",
+	"streetLatin": "Astrakhanskaya Street"
+},
+{
+	"streetName": "Атмосферная",
+	"streetType": "Улица",
+	"streetLatin": "Atmosfernaya Street"
+},
+{
+	"streetName": "Аффинажный",
+	"streetType": "Переулок",
+	"streetLatin": "Affinazhny Lane"
+},
+{
+	"streetName": "Ахматовой",
+	"streetType": "Улица",
+	"streetLatin": "Akhmatovoy Street"
+},
+{
+	"streetName": "Ачинская",
+	"streetType": "Улица",
+	"streetLatin": "Achinskaya Street"
+},
+{
+	"streetName": "Ашхабадский",
+	"streetType": "Переулок",
+	"streetLatin": "Ashkhabadskiy Lane"
+},
+{
+	"streetName": "Аятский",
+	"streetType": "Переулок",
+	"streetLatin": "Ayatskiy Lane"
+},
+{
+	"streetName": "Бабушкина",
+	"streetType": "Улица",
+	"streetLatin": "Babushkina Street"
+},
+{
+	"streetName": "Багарякский",
+	"streetType": "Переулок",
+	"streetLatin": "Bagaryakskiy Lane"
+},
+{
+	"streetName": "Багерная",
+	"streetType": "Улица",
+	"streetLatin": "Bagernaya Street"
+},
+{
+	"streetName": "Багратиона",
+	"streetType": "Переулок",
+	"streetLatin": "Bagrationa Lane"
+},
+{
+	"streetName": "Багровая",
+	"streetType": "Улица",
+	"streetLatin": "Bagrovaya Street"
+},
+{
+	"streetName": "Багряный",
+	"streetType": "Переулок",
+	"streetLatin": "Bagryany Lane"
+},
+{
+	"streetName": "Баженовский",
+	"streetType": "Переулок",
+	"streetLatin": "Bazhenovskiy Lane"
+},
+{
+	"streetName": "Бажова",
+	"streetType": "Улица",
+	"streetLatin": "Bazhova Street"
+},
+{
+	"streetName": "Базальтовая",
+	"streetType": "Улица",
+	"streetLatin": "Bazaltovaya Street"
+},
+{
+	"streetName": "Базовый",
+	"streetType": "Переулок",
+	"streetLatin": "Bazovy Lane"
+},
+{
+	"streetName": "Байдукова",
+	"streetType": "Улица",
+	"streetLatin": "Baydukova Street"
+},
+{
+	"streetName": "Байкальская",
+	"streetType": "Улица",
+	"streetLatin": "Baikalskaya Street"
+},
+{
+	"streetName": "Байновская",
+	"streetType": "Улица",
+	"streetLatin": "Baynovskaya Street"
+},
+{
+	"streetName": "Бакинских комиссаров",
+	"streetType": "Улица",
+	"streetLatin": "Bakinskikh Komissarov Street"
+},
+{
+	"streetName": "Балакинский",
+	"streetType": "Переулок",
+	"streetLatin": "Balakinskiy Lane"
+},
+{
+	"streetName": "Балакирева",
+	"streetType": "Переулок",
+	"streetLatin": "Balakireva Lane"
+},
+{
+	"streetName": "Балаклавский",
+	"streetType": "Тупик",
+	"streetLatin": "Balaklavskiy Court"
+},
+{
+	"streetName": "Балтымская",
+	"streetType": "Улица",
+	"streetLatin": "Baltymskaya Street"
+},
+{
+	"streetName": "Балтымский",
+	"streetType": "Переулок",
+	"streetLatin": "Baltymskiy Lane"
+},
+{
+	"streetName": "Банковский",
+	"streetType": "Переулок",
+	"streetLatin": "Bankovskiy Lane"
+},
+{
+	"streetName": "Банникова",
+	"streetType": "Улица",
+	"streetLatin": "Bannikova Street"
+},
+{
+	"streetName": "Банный",
+	"streetType": "Переулок",
+	"streetLatin": "Banniy Lane"
+},
+{
+	"streetName": "Баранчинская",
+	"streetType": "Улица",
+	"streetLatin": "Baranchinskaya Street"
+},
+{
+	"streetName": "Барбарисовый",
+	"streetType": "Переулок",
+	"streetLatin": "Barbarisovy Lane"
+},
+{
+	"streetName": "Барвинка",
+	"streetType": "Улица",
+	"streetLatin": "Barvinka Street"
+},
+{
+	"streetName": "Баррикадная",
+	"streetType": "Улица",
+	"streetLatin": "Barrikadnaya Street"
+},
+{
+	"streetName": "Бархотская",
+	"streetType": "Улица",
+	"streetLatin": "Barkhotskaya Street"
+},
+{
+	"streetName": "Барьерная",
+	"streetType": "Улица",
+	"streetLatin": "Baryernaya Street"
+},
+{
+	"streetName": "Бастионная",
+	"streetType": "Улица",
+	"streetLatin": "Bastionnaya Street"
+},
+{
+	"streetName": "Батумский",
+	"streetType": "Переулок",
+	"streetLatin": "Batumskiy Lane"
+},
+{
+	"streetName": "Баумана",
+	"streetType": "Улица",
+	"streetLatin": "Baumana Street"
+},
+{
+	"streetName": "Бахчиванджи",
+	"streetType": "Площадь",
+	"streetLatin": "Bakhchivandzhi Square"
+},
+{
+	"streetName": "Бахчиванджи",
+	"streetType": "Улица",
+	"streetLatin": "Bakhchivandzhi Street"
+},
+{
+	"streetName": "Башкирский",
+	"streetType": "Переулок",
+	"streetLatin": "Bashkirskiy Lane"
+},
+{
+	"streetName": "Бебеля",
+	"streetType": "Улица",
+	"streetLatin": "Bebelya Street"
+},
+{
+	"streetName": "Белинского",
+	"streetType": "Улица",
+	"streetLatin": "Belinskogo Street"
+},
+{
+	"streetName": "Белогорская",
+	"streetType": "Улица",
+	"streetLatin": "Belogorskaya Street"
+},
+{
+	"streetName": "Белорецкий",
+	"streetType": "Переулок",
+	"streetLatin": "Beloretskiy Lane"
+},
+{
+	"streetName": "Белореченская",
+	"streetType": "Улица",
+	"streetLatin": "Belorechenskaya Street"
+},
+{
+	"streetName": "Белостановский",
+	"streetType": "Переулок",
+	"streetLatin": "Belostanovskiy Lane"
+},
+{
+	"streetName": "Белоцветная",
+	"streetType": "Улица",
+	"streetLatin": "Belotsvetnaya Street"
+},
+{
+	"streetName": "Белоярская",
+	"streetType": "Улица",
+	"streetLatin": "Beloyarskaya Street"
+},
+{
+	"streetName": "Белый",
+	"streetType": "Переулок",
+	"streetLatin": "Beliy Lane"
+},
+{
+	"streetName": "Бельниковский",
+	"streetType": "Переулок",
+	"streetLatin": "Belnikovskiy Lane"
+},
+{
+	"streetName": "Белякова",
+	"streetType": "Улица",
+	"streetLatin": "Belyakova Street"
+},
+{
+	"streetName": "Береговая",
+	"streetType": "Улица",
+	"streetLatin": "Beregovaya Street"
+},
+{
+	"streetName": "Берегового",
+	"streetType": "Улица",
+	"streetLatin": "Beregovogo Street"
+},
+{
+	"streetName": "Бережная",
+	"streetType": "Улица",
+	"streetLatin": "Berezhnaya Street"
+},
+{
+	"streetName": "Березит ",
+	"streetType": "Станция",
+	"streetLatin": "Berezit Station"
+},
+{
+	"streetName": "Березитовая",
+	"streetType": "Улица",
+	"streetLatin": "Berezitovaya Street"
+},
+{
+	"streetName": "Берёзовая",
+	"streetType": "Улица",
+	"streetLatin": "Beryozovaya Street"
+},
+{
+	"streetName": "Берёзовская",
+	"streetType": "Улица",
+	"streetLatin": "Beryozovskaya Street"
+},
+{
+	"streetName": "Берёзовый ключ ",
+	"streetType": "Улица",
+	"streetLatin": "Beryozovy Klyuch Street"
+},
+{
+	"streetName": "Берилловая",
+	"streetType": "Улица",
+	"streetLatin": "Berillovaya Street"
+},
+{
+	"streetName": "Бессарабская",
+	"streetType": "Улица",
+	"streetLatin": "Bessarabskaya Street"
+},
+{
+	"streetName": "Бесшумный",
+	"streetType": "Переулок",
+	"streetLatin": "Besshumny Lane"
+},
+{
+	"streetName": "Бетонщиков",
+	"streetType": "Улица",
+	"streetLatin": "Betonshchikov Street"
+},
+{
+	"streetName": "Бехтерева",
+	"streetType": "Улица",
+	"streetLatin": "Bekhtereva Street"
+},
+{
+	"streetName": "Библиотечная",
+	"streetType": "Улица",
+	"streetLatin": "Bibliotechnaya Street"
+},
+{
+	"streetName": "Билимбаевская",
+	"streetType": "Улица",
+	"streetLatin": "Bilimbayevskaya Street"
+},
+{
+	"streetName": "Бирюзовая",
+	"streetType": "Улица",
+	"streetLatin": "Biryuzovaya Street"
+},
+{
+	"streetName": "Бисертская",
+	"streetType": "Улица",
+	"streetLatin": "Bisertskaya Street"
+},
+{
+	"streetName": "Благодатская",
+	"streetType": "Улица",
+	"streetLatin": "Blagodatskaya Street"
+},
+{
+	"streetName": "Благостная",
+	"streetType": "Улица",
+	"streetLatin": "Blagostnaya Street"
+},
+{
+	"streetName": "Блюхера",
+	"streetType": "Улица",
+	"streetLatin": "Blyukhera Street"
+},
+{
+	"streetName": "Бобровый",
+	"streetType": "Переулок",
+	"streetLatin": "Bobrovy Lane"
+},
+{
+	"streetName": "Бобруйская",
+	"streetType": "Улица",
+	"streetLatin": "Bobruyskaya Street"
+},
+{
+	"streetName": "Богатырская",
+	"streetType": "Улица",
+	"streetLatin": "Bogatyrskaya Street"
+},
+{
+	"streetName": "Бодрый",
+	"streetType": "Переулок",
+	"streetLatin": "Bodry Lane"
+},
+{
+	"streetName": "Боевой",
+	"streetType": "Переулок",
+	"streetLatin": "Boyevoy Lane"
+},
+{
+	"streetName": "Боевых дружин",
+	"streetType": "Улица",
+	"streetLatin": "Boyevykh Druzhin Street"
+},
+{
+	"streetName": "Бокарева",
+	"streetType": "Улица",
+	"streetLatin": "Bokareva Street"
+},
+{
+	"streetName": "Боковой",
+	"streetType": "Переулок",
+	"streetLatin": "Bokovoy Lane"
+},
+{
+	"streetName": "Бокситовый",
+	"streetType": "Проезд",
+	"streetLatin": "Boksitovy Drive"
+},
+{
+	"streetName": "Болгарский",
+	"streetType": "Переулок",
+	"streetLatin": "Bolgarskiy Lane"
+},
+{
+	"streetName": "Болотная",
+	"streetType": "Улица",
+	"streetLatin": "Bolotnaya Street"
+},
+{
+	"streetName": "Большакова",
+	"streetType": "Улица",
+	"streetLatin": "Bolshakova Street"
+},
+{
+	"streetName": "Большая Георгиевская",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street"
+},
+{
+	"streetName": "Большая Георгиевская, 10-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 10th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 11-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 11th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 12-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 12th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 13-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 13th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 14-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 14th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 15-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 15th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 1-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 1st Line"
+},
+{
+	"streetName": "Большая Георгиевская, 2-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 2nd Line"
+},
+{
+	"streetName": "Большая Георгиевская, 3-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 3rd Line"
+},
+{
+	"streetName": "Большая Георгиевская, 4-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 4th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 5-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 5th line"
+},
+{
+	"streetName": "Большая Георгиевская, 6-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 6th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 7-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 7th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 8-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 8th Line"
+},
+{
+	"streetName": "Большая Георгиевская, 9-я линия",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Georgiyevskaya Street, 9th Line"
+},
+{
+	"streetName": "Большая съезжая",
+	"streetType": "Улица",
+	"streetLatin": "Bolshaya Syezzhaya Street"
+},
+{
+	"streetName": "Большие караси",
+	"streetType": "Улица",
+	"streetLatin": "Bolshiye Karasi Street"
+},
+{
+	"streetName": "Большой Конный",
+	"streetType": "Полуостров ",
+	"streetLatin": "Bolshoy Konniy Poluostrov"
+},
+{
+	"streetName": "Бордюрная",
+	"streetType": "Улица",
+	"streetLatin": "Bordyurnaya Street"
+},
+{
+	"streetName": "Бориса Ельцина",
+	"streetType": "Улица",
+	"streetLatin": "Borisa Yeltsina Street"
+},
+{
+	"streetName": "Боровая",
+	"streetType": "Улица",
+	"streetLatin": "Borovaya Street"
+},
+{
+	"streetName": "Бородина",
+	"streetType": "Улица",
+	"streetLatin": "Borodina Street"
+},
+{
+	"streetName": "Ботаническая",
+	"streetType": "Улица",
+	"streetLatin": "Botanicheskaya Street"
+},
+{
+	"streetName": "Боткинская",
+	"streetType": "Улица",
+	"streetLatin": "Botkinskaya Street"
+},
+{
+	"streetName": "Боцманская",
+	"streetType": "Улица",
+	"streetLatin": "Botsmanskaya Street"
+},
+{
+	"streetName": "Братская",
+	"streetType": "Улица",
+	"streetLatin": "Bratskaya Street"
+},
+{
+	"streetName": "Братьев Быковых",
+	"streetType": "Улица",
+	"streetLatin": "Bratyev Bykovykh Street"
+},
+{
+	"streetName": "Бригадиров",
+	"streetType": "Переулок",
+	"streetLatin": "Brigadirov Lane"
+},
+{
+	"streetName": "Брикетный",
+	"streetType": "Тупик",
+	"streetLatin": "Briketny Court"
+},
+{
+	"streetName": "Брусничная",
+	"streetType": "Улица",
+	"streetLatin": "Brusnichnaya Street"
+},
+{
+	"streetName": "Будённого",
+	"streetType": "Улица",
+	"streetLatin": "Budyonnogo Street"
+},
+{
+	"streetName": "Букетный",
+	"streetType": "Переулок",
+	"streetLatin": "Buketny Lane"
+},
+{
+	"streetName": "Бурильщиков",
+	"streetType": "Улица",
+	"streetLatin": "Burilshchikov Street"
+},
+{
+	"streetName": "Буторина",
+	"streetType": "Улица",
+	"streetLatin": "Butorina Street"
+},
+{
+	"streetName": "Былинная",
+	"streetType": "Улица",
+	"streetLatin": "Bylinnaya Street"
+},
+{
+	"streetName": "Вавилова ",
+	"streetType": "Улица",
+	"streetLatin": "Vavilova Street"
+},
+{
+	"streetName": "Вагонный",
+	"streetType": "Переулок",
+	"streetLatin": "Vagonny Lane"
+},
+{
+	"streetName": "Вайнера",
+	"streetType": "Улица",
+	"streetLatin": "Vaynera Street"
+},
+{
+	"streetName": "Вакина",
+	"streetType": "Улица",
+	"streetLatin": "Vakina Street"
+},
+{
+	"streetName": "Валдайский",
+	"streetType": "Переулок",
+	"streetLatin": "Valdayskiy Lane"
+},
+{
+	"streetName": "Валежная",
+	"streetType": "Улица",
+	"streetLatin": "Valezhnaya Street"
+},
+{
+	"streetName": "Вали Котика",
+	"streetType": "Улица",
+	"streetLatin": "Vali Kotika Street"
+},
+{
+	"streetName": "Валимхаматова",
+	"streetType": "Улица",
+	"streetLatin": "Valimkhamatova Street"
+},
+{
+	"streetName": "Валовой",
+	"streetType": "Переулок",
+	"streetLatin": "Valovoy Lane"
+},
+{
+	"streetName": "Варшавская",
+	"streetType": "Улица",
+	"streetLatin": "Varshavskaya Street"
+},
+{
+	"streetName": "Варяжская",
+	"streetType": "Улица",
+	"streetLatin": "Varyazhskaya Street"
+},
+{
+	"streetName": "Василия Баранова",
+	"streetType": "Переулок",
+	"streetLatin": "Vasiliya Baranova Lane"
+},
+{
+	"streetName": "Василия Ерёмина",
+	"streetType": "Улица",
+	"streetLatin": "Vasiliya Yeryomina Street"
+},
+{
+	"streetName": "Васильковая",
+	"streetType": "Улица",
+	"streetLatin": "Vasilkovaya Street"
+},
+{
+	"streetName": "Ватутина",
+	"streetType": "Улица",
+	"streetLatin": "Vatutina Street"
+},
+{
+	"streetName": "Вековая",
+	"streetType": "Улица",
+	"streetLatin": "Vekovaya St."
+},
+{
+	"streetName": "Векторная",
+	"streetType": "Улица",
+	"streetLatin": "Vektornaya Street"
+},
+{
+	"streetName": "Великорусов",
+	"streetType": "Улица",
+	"streetLatin": "Velikorusov Street"
+},
+{
+	"streetName": "Венгерских коммунаров",
+	"streetType": "Улица",
+	"streetLatin": "Vengerskikh Kommunarov Street"
+},
+{
+	"streetName": "Вербеновый",
+	"streetType": "Переулок",
+	"streetLatin": "Verbenovy Lane"
+},
+{
+	"streetName": "Вербная",
+	"streetType": "Улица",
+	"streetLatin": "Verbnaya Street"
+},
+{
+	"streetName": "Вербовочный",
+	"streetType": "Переулок",
+	"streetLatin": "Verbovochny Lane"
+},
+{
+	"streetName": "Вересковый",
+	"streetType": "Переулок",
+	"streetLatin": "Vereskovy Lane"
+},
+{
+	"streetName": "Верещагина",
+	"streetType": "Улица",
+	"streetLatin": "Vereshchagina Street"
+},
+{
+	"streetName": "Верстовая",
+	"streetType": "Улица",
+	"streetLatin": "Verstovaya Street"
+},
+{
+	"streetName": "Верх-Исетский",
+	"streetType": "Бульвар",
+	"streetLatin": "Verkh-Isetskiy Boulevard"
+},
+{
+	"streetName": "Верхнемакаровская",
+	"streetType": "Улица",
+	"streetLatin": "Verkhnemakarovskaya Street"
+},
+{
+	"streetName": "Верхний",
+	"streetType": "Переулок",
+	"streetLatin": "Verkhniy Lane"
+},
+{
+	"streetName": "Верхняя",
+	"streetType": "Улица",
+	"streetLatin": "Verkhnyaya Street"
+},
+{
+	"streetName": "Верховая",
+	"streetType": "Улица",
+	"streetLatin": "Verkhovaya Street"
+},
+{
+	"streetName": "Верхоянская",
+	"streetType": "Улица",
+	"streetLatin": "Verkhoyanskaya Street"
+},
+{
+	"streetName": "Вершининская",
+	"streetType": "Улица",
+	"streetLatin": "Vershininskaya Street"
+},
+{
+	"streetName": "Весёлая горка",
+	"streetType": "Улица",
+	"streetLatin": "Vesyolaya Gorka Street"
+},
+{
+	"streetName": "Весёлый",
+	"streetType": "Переулок",
+	"streetLatin": "Vesyoly Lane"
+},
+{
+	"streetName": "Весенняя",
+	"streetType": "Улица",
+	"streetLatin": "Vesennyaya Street"
+},
+{
+	"streetName": "Веснянка",
+	"streetType": "Улица",
+	"streetLatin": "Vesnyanka Street"
+},
+{
+	"streetName": "Ветеринарная",
+	"streetType": "Улица",
+	"streetLatin": "Veterinarnaya Street"
+},
+{
+	"streetName": "Ветреный",
+	"streetType": "Переулок",
+	"streetLatin": "Vetreny Lane"
+},
+{
+	"streetName": "Вечерний",
+	"streetType": "Переулок",
+	"streetLatin": "Vecherniy Lane"
+},
+{
+	"streetName": "Видная",
+	"streetType": "Улица",
+	"streetLatin": "Vidnaya Street"
+},
+{
+	"streetName": "Вижайская",
+	"streetType": "Улица",
+	"streetLatin": "Vizhayskaya Street"
+},
+{
+	"streetName": "Визитная",
+	"streetType": "Улица",
+	"streetLatin": "Vizitnaya Street"
+},
+{
+	"streetName": "Викулова ",
+	"streetType": "Улица",
+	"streetLatin": "Vikulova Street"
+},
+{
+	"streetName": "Вилонова",
+	"streetType": "Улица",
+	"streetLatin": "Vilonova Street"
+},
+{
+	"streetName": "Вильгельма де Геннина",
+	"streetType": "Улица",
+	"streetLatin": "Wilhelma de Gennina Street"
+},
+{
+	"streetName": "Виноградный",
+	"streetType": "Переулок",
+	"streetLatin": "Vinogradny Lane"
+},
+{
+	"streetName": "Виражный",
+	"streetType": "Переулок",
+	"streetLatin": "Virazhny Lane"
+},
+{
+	"streetName": "Висимский",
+	"streetType": "Переулок",
+	"streetLatin": "Visimskiy Lane"
+},
+{
+	"streetName": "Вишерский",
+	"streetType": "Переулок",
+	"streetLatin": "Visherskiy Lane"
+},
+{
+	"streetName": "Вишнёвая",
+	"streetType": "Улица",
+	"streetLatin": "Vishnyovaya Street"
+},
+{
+	"streetName": "Владивостокская",
+	"streetType": "Улица",
+	"streetLatin": "Vladivostokskaya Street"
+},
+{
+	"streetName": "Владимира Высоцкого",
+	"streetType": "Улица",
+	"streetLatin": "Vladimira Vysotskogo Street"
+},
+{
+	"streetName": "Владимира Естехина",
+	"streetType": "Бульвар",
+	"streetLatin": "Vladimira Yestekhina Boulevard"
+},
+{
+	"streetName": "Владимира Трошина",
+	"streetType": "Улица",
+	"streetLatin": "Vladimira Troshina Street"
+},
+{
+	"streetName": "Вогульский",
+	"streetType": "Переулок",
+	"streetLatin": "Vogulskiy Lane"
+},
+{
+	"streetName": "Водительский",
+	"streetType": "Проезд",
+	"streetLatin": "Voditelskiy Drive"
+},
+{
+	"streetName": "Водная",
+	"streetType": "Улица",
+	"streetLatin": "Vodnaya Street"
+},
+{
+	"streetName": "Водоёмная",
+	"streetType": "Улица",
+	"streetLatin": "Vodoyomnaya Street"
+},
+{
+	"streetName": "Водонасосная",
+	"streetType": "Улица",
+	"streetLatin": "Vodonasosnaya Street"
+},
+{
+	"streetName": "Водопьянова",
+	"streetType": "Улица",
+	"streetLatin": "Vodopyanova Street"
+},
+{
+	"streetName": "Воеводина",
+	"streetType": "Улица",
+	"streetLatin": "Voyevodina Street"
+},
+{
+	"streetName": "Военная",
+	"streetType": "Улица",
+	"streetLatin": "Voyennaya Street"
+},
+{
+	"streetName": "Военного флота",
+	"streetType": "Улица",
+	"streetLatin": "Voyennogo Flota Street"
+},
+{
+	"streetName": "Войкова",
+	"streetType": "Улица",
+	"streetLatin": "Voykova Street"
+},
+{
+	"streetName": "Воинов",
+	"streetType": "Улица",
+	"streetLatin": "Voinov Street"
+},
+{
+	"streetName": "Вокзальная",
+	"streetType": "Улица",
+	"streetLatin": "Vokzalnaya Street"
+},
+{
+	"streetName": "Волгоградская",
+	"streetType": "Улица",
+	"streetLatin": "Volgogradskaya Street"
+},
+{
+	"streetName": "Волжская",
+	"streetType": "Улица",
+	"streetLatin": "Volzhskaya Street"
+},
+{
+	"streetName": "Вологодская",
+	"streetType": "Улица",
+	"streetLatin": "Vologodskaya Street"
+},
+{
+	"streetName": "Володарского",
+	"streetType": "Улица",
+	"streetLatin": "Volodarskogo Street"
+},
+{
+	"streetName": "Волошина",
+	"streetType": "Улица",
+	"streetLatin": "Voloshina Street"
+},
+{
+	"streetName": "Волховская",
+	"streetType": "Улица",
+	"streetLatin": "Volkhovskaya Street"
+},
+{
+	"streetName": "Волчанский",
+	"streetType": "Переулок",
+	"streetLatin": "Volchanskiy Lane"
+},
+{
+	"streetName": "Волшебный",
+	"streetType": "Переулок",
+	"streetLatin": "Volshebny Lane"
+},
+{
+	"streetName": "Воровского",
+	"streetType": "Улица",
+	"streetLatin": "Vorovskogo Street"
+},
+{
+	"streetName": "Воронежский",
+	"streetType": "Переулок",
+	"streetLatin": "Voronezhskiy Lane"
+},
+{
+	"streetName": "Воронина",
+	"streetType": "Улица",
+	"streetLatin": "Voronina Street"
+},
+{
+	"streetName": "Воскресенская",
+	"streetType": "Улица",
+	"streetLatin": "Voskresenskaya Street"
+},
+{
+	"streetName": "Воскресный",
+	"streetType": "Переулок",
+	"streetLatin": "Voskresny Lane"
+},
+{
+	"streetName": "Восстания",
+	"streetType": "Улица",
+	"streetLatin": "Vosstaniya Street"
+},
+{
+	"streetName": "Восточная",
+	"streetType": "Улица",
+	"streetLatin": "Vostochnaya Street"
+},
+{
+	"streetName": "Восходящая",
+	"streetType": "Улица",
+	"streetLatin": "Voskhodyashchaya Street"
+},
+{
+	"streetName": "Врачей",
+	"streetType": "Переулок",
+	"streetLatin": "Vrachey Lane"
+},
+{
+	"streetName": "Встречная",
+	"streetType": "Улица",
+	"streetLatin": "Vstrechnaya Street"
+},
+{
+	"streetName": "Встречный",
+	"streetType": "Переулок",
+	"streetLatin": "Vstrechny Lane"
+},
+{
+	"streetName": "Выездной",
+	"streetType": "Переулок",
+	"streetLatin": "Vyyezdnoy Lane"
+},
+{
+	"streetName": "Высокий",
+	"streetType": "Переулок",
+	"streetLatin": "Vysokiy Lane"
+},
+{
+	"streetName": "Высоковольтный",
+	"streetType": "Переулок",
+	"streetLatin": "Vysokovoltny Lane"
+},
+{
+	"streetName": "Высокогорская",
+	"streetType": "Улица",
+	"streetLatin": "Vysokogorskaya Street"
+},
+{
+	"streetName": "Высотная",
+	"streetType": "Улица",
+	"streetLatin": "Vysotnaya Street"
+},
+{
+	"streetName": "Выставочная",
+	"streetType": "Улица",
+	"streetLatin": "Vystavochnaya Street"
+},
+{
+	"streetName": "Выходной",
+	"streetType": "Переулок",
+	"streetLatin": "Vykhodnoy Lane"
+},
+{
+	"streetName": "Вьюжный",
+	"streetType": "Переулок",
+	"streetLatin": "Vyuzhny Lane"
+},
+{
+	"streetName": "Вязовый",
+	"streetType": "Переулок",
+	"streetLatin": "Vyazovy Lane"
+},
+{
+	"streetName": "Вятская",
+	"streetType": "Улица",
+	"streetLatin": "Vyatskaya Street"
+},
+{
+	"streetName": "Гагарина",
+	"streetType": "Переулок",
+	"streetLatin": "Gagarina Lane"
+},
+{
+	"streetName": "Гагарина",
+	"streetType": "Улица",
+	"streetLatin": "Gagarina Street"
+},
+{
+	"streetName": "Гагарская",
+	"streetType": "Улица",
+	"streetLatin": "Gagarskaya Street"
+},
+{
+	"streetName": "Гаевский",
+	"streetType": "Переулок",
+	"streetLatin": "Gayevskiy Lane"
+},
+{
+	"streetName": "Газетная",
+	"streetType": "Улица",
+	"streetLatin": "Gazetnaya Street"
+},
+{
+	"streetName": "Газовый",
+	"streetType": "Переулок",
+	"streetLatin": "Gazovy Lane"
+},
+{
+	"streetName": "Газорезчиков",
+	"streetType": "Переулок",
+	"streetLatin": "Gazorezchikov Lane"
+},
+{
+	"streetName": "Галактики",
+	"streetType": "Улица",
+	"streetLatin": "Galaktiki Street"
+},
+{
+	"streetName": "Галилея",
+	"streetType": "Улица",
+	"streetLatin": "Galileya Street"
+},
+{
+	"streetName": "Гаражная",
+	"streetType": "Улица",
+	"streetLatin": "Garazhnaya Street"
+},
+{
+	"streetName": "Гаринский",
+	"streetType": "Переулок",
+	"streetLatin": "Garinskiy Lane"
+},
+{
+	"streetName": "Гаршина",
+	"streetType": "Улица",
+	"streetLatin": "Garshina Street"
+},
+{
+	"streetName": "Гастелло",
+	"streetType": "Улица",
+	"streetLatin": "Gastello Street"
+},
+{
+	"streetName": "Гвардейцев",
+	"streetType": "Улица",
+	"streetLatin": "Gvardeytsev Street"
+},
+{
+	"streetName": "Генеральская",
+	"streetType": "Улица",
+	"streetLatin": "Generalskaya Street"
+},
+{
+	"streetName": "Геодезическая",
+	"streetType": "Улица",
+	"streetLatin": "Geodezicheskaya Street"
+},
+{
+	"streetName": "Геологическая",
+	"streetType": "Улица",
+	"streetLatin": "Geologicheskaya Street"
+},
+{
+	"streetName": "Геологов",
+	"streetType": "Улица",
+	"streetLatin": "Geologov Street"
+},
+{
+	"streetName": "Георгиевская",
+	"streetType": "Улица",
+	"streetLatin": "Georgiyevskaya Street"
+},
+{
+	"streetName": "Георгиновый",
+	"streetType": "Переулок",
+	"streetLatin": "Georginovy Lane"
+},
+{
+	"streetName": "Героев России",
+	"streetType": "Улица",
+	"streetLatin": "Geroyev Rossii Street"
+},
+{
+	"streetName": "Герцена",
+	"streetType": "Улица",
+	"streetLatin": "Herzena Street"
+},
+{
+	"streetName": "Главная",
+	"streetType": "Улица",
+	"streetLatin": "Glavnaya Street"
+},
+{
+	"streetName": "Глеба Успенского",
+	"streetType": "Улица",
+	"streetLatin": "Gleba Uspenskogo Street"
+},
+{
+	"streetName": "Глинная",
+	"streetType": "Улица",
+	"streetLatin": "Glinnaya Street"
+},
+{
+	"streetName": "Глубочинский",
+	"streetType": "Переулок",
+	"streetLatin": "Glubochinskiy Lane"
+},
+{
+	"streetName": "Глухая",
+	"streetType": "Улица",
+	"streetLatin": "Glukhaya Street"
+},
+{
+	"streetName": "Глуховская",
+	"streetType": "Улица",
+	"streetLatin": "Glukhovskaya Street"
+},
+{
+	"streetName": "Гоголя",
+	"streetType": "Улица",
+	"streetLatin": "Gogolya Street"
+},
+{
+	"streetName": "Головыринский",
+	"streetType": "Переулок",
+	"streetLatin": "Golovyrinskiy Lane"
+},
+{
+	"streetName": "Гологорская",
+	"streetType": "Улица",
+	"streetLatin": "Gologorskaya Street"
+},
+{
+	"streetName": "Голубичная",
+	"streetType": "Улица",
+	"streetLatin": "Golubichnaya Street"
+},
+{
+	"streetName": "Гончарный",
+	"streetType": "Переулок",
+	"streetLatin": "Goncharny Lane"
+},
+{
+	"streetName": "Гореловская",
+	"streetType": "Улица",
+	"streetLatin": "Gorelovskaya Street"
+},
+{
+	"streetName": "Горлинка",
+	"streetType": "Улица",
+	"streetLatin": "Gorlinka Street"
+},
+{
+	"streetName": "Горнистов",
+	"streetType": "Проезд",
+	"streetLatin": "Gornistov Drive"
+},
+{
+	"streetName": "Горнорабочих",
+	"streetType": "Улица",
+	"streetLatin": "Gornorabochikh Street"
+},
+{
+	"streetName": "Горнощитская",
+	"streetType": "Улица",
+	"streetLatin": "Gornoshchitskaya Street"
+},
+{
+	"streetName": "Горняков",
+	"streetType": "Улица",
+	"streetLatin": "Gornyakov Street"
+},
+{
+	"streetName": "Городская",
+	"streetType": "Улица",
+	"streetLatin": "Gorodskaya Street"
+},
+{
+	"streetName": "Горский",
+	"streetType": "Переулок",
+	"streetLatin": "Gorskiy Lane"
+},
+{
+	"streetName": "Горького",
+	"streetType": "Улица",
+	"streetLatin": "Gorkogo Street"
+},
+{
+	"streetName": "Готвальда",
+	"streetType": "Улица",
+	"streetLatin": "Gottwalda Street"
+},
+{
+	"streetName": "Гражданская",
+	"streetType": "Улица",
+	"streetLatin": "Grazhdanskaya Street"
+},
+{
+	"streetName": "Гражданской войны",
+	"streetType": "Улица",
+	"streetLatin": "Grazhdanskoy Voyny Street"
+},
+{
+	"streetName": "Гранитная",
+	"streetType": "Улица",
+	"streetLatin": "Granitnaya Street"
+},
+{
+	"streetName": "Гранитовая",
+	"streetType": "Улица",
+	"streetLatin": "Granitovaya Street"
+},
+{
+	"streetName": "Грачей",
+	"streetType": "Улица",
+	"streetLatin": "Grachey Street"
+},
+{
+	"streetName": "Грибная горка",
+	"streetType": "Улица",
+	"streetLatin": "Gribnaya Gorka Street"
+},
+{
+	"streetName": "Грибной",
+	"streetType": "Переулок",
+	"streetLatin": "Gribnoy Lane"
+},
+{
+	"streetName": "Грибоедова",
+	"streetType": "Улица",
+	"streetLatin": "Griboyedova Street"
+},
+{
+	"streetName": "Григория Речкалова",
+	"streetType": "Улица",
+	"streetLatin": "Grigoriya Rechkalova Street"
+},
+{
+	"streetName": "Гризодубовой",
+	"streetType": "Улица",
+	"streetLatin": "Grizodubovoy Street"
+},
+{
+	"streetName": "Громова",
+	"streetType": "Улица",
+	"streetLatin": "Gromova Street"
+},
+{
+	"streetName": "Грузинский",
+	"streetType": "Переулок",
+	"streetLatin": "Gruzinskiy Lane"
+},
+{
+	"streetName": "Грузчиков",
+	"streetType": "Улица",
+	"streetLatin": "Gruzchikov Street"
+},
+{
+	"streetName": "Грушевая",
+	"streetType": "Улица",
+	"streetLatin": "Grushevaya Street"
+},
+{
+	"streetName": "Губахинская",
+	"streetType": "Улица",
+	"streetLatin": "Gubakhinskaya Street"
+},
+{
+	"streetName": "Гумилёва",
+	"streetType": "Улица",
+	"streetLatin": "Gumilyova Street"
+},
+{
+	"streetName": "Гурзуфская",
+	"streetType": "Улица",
+	"streetLatin": "Gurzufskaya Street"
+},
+{
+	"streetName": "Дагестанская",
+	"streetType": "Улица",
+	"streetLatin": "Dagestanskaya Street"
+},
+{
+	"streetName": "Далёкая",
+	"streetType": "Улица",
+	"streetLatin": "Dalyokaya Street"
+},
+{
+	"streetName": "Далматовская",
+	"streetType": "Улица",
+	"streetLatin": "Dalmatovskaya Street"
+},
+{
+	"streetName": "Дальневосточная",
+	"streetType": "Улица",
+	"streetLatin": "Dalnevostochnaya Street"
+},
+{
+	"streetName": "Дальний березит",
+	"streetType": "Улица",
+	"streetLatin": "Dalniy Berezit Street"
+},
+{
+	"streetName": "Дальняя",
+	"streetType": "Улица",
+	"streetLatin": "Dalnyaya Street"
+},
+{
+	"streetName": "Данилина",
+	"streetType": "Улица",
+	"streetLatin": "Danilina Street"
+},
+{
+	"streetName": "Даниловская",
+	"streetType": "Улица",
+	"streetLatin": "Danilovskaya Street"
+},
+{
+	"streetName": "Данилы Зверева",
+	"streetType": "Улица",
+	"streetLatin": "Danily Zvereva Street"
+},
+{
+	"streetName": "Дарвина",
+	"streetType": "Улица",
+	"streetLatin": "Darwina Street"
+},
+{
+	"streetName": "Дарьинская",
+	"streetType": "Улица",
+	"streetLatin": "Daryinskaya Street"
+},
+{
+	"streetName": "Даурская",
+	"streetType": "Улица",
+	"streetLatin": "Daurskaya Street"
+},
+{
+	"streetName": "Дачная",
+	"streetType": "Улица",
+	"streetLatin": "Dachnaya Street"
+},
+{
+	"streetName": "Двинская ",
+	"streetType": "Улица",
+	"streetLatin": "Dvinskaya Street"
+},
+{
+	"streetName": "Деева",
+	"streetType": "Улица",
+	"streetLatin": "Deyeva Street"
+},
+{
+	"streetName": "Декабристов",
+	"streetType": "Улица",
+	"streetLatin": "Dekabristov Street"
+},
+{
+	"streetName": "Демьяна Бедного",
+	"streetType": "Улица",
+	"streetLatin": "Demyana Bednogo Street"
+},
+{
+	"streetName": "Денежская",
+	"streetType": "Улица",
+	"streetLatin": "Denezhskaya Street"
+},
+{
+	"streetName": "Денисова-Уральского",
+	"streetType": "Бульвар",
+	"streetLatin": "Denisova-Uralskogo Boulevard"
+},
+{
+	"streetName": "Деповский",
+	"streetType": "Переулок",
+	"streetLatin": "Depovskiy Lane"
+},
+{
+	"streetName": "Депутатская",
+	"streetType": "Улица",
+	"streetLatin": "Deputatskaya Street"
+},
+{
+	"streetName": "Дерновый",
+	"streetType": "Переулок",
+	"streetLatin": "Dernovy Lane"
+},
+{
+	"streetName": "Детская",
+	"streetType": "Улица",
+	"streetLatin": "Detskaya Street"
+},
+{
+	"streetName": "Джамбула",
+	"streetType": "Переулок",
+	"streetLatin": "Dzhambula Lane"
+},
+{
+	"streetName": "Дзержинского",
+	"streetType": "Площадь",
+	"streetLatin": "Dzerzhinskogo Square"
+},
+{
+	"streetName": "Дзержинского",
+	"streetType": "Улица",
+	"streetLatin": "Dzerzhinskogo Street"
+},
+{
+	"streetName": "Диагональный",
+	"streetType": "Переулок",
+	"streetLatin": "Diagonalny Lane"
+},
+{
+	"streetName": "Дивизионная",
+	"streetType": "Улица",
+	"streetLatin": "Divizionnaya Street"
+},
+{
+	"streetName": "Дивная",
+	"streetType": "Улица",
+	"streetLatin": "Divnaya Street"
+},
+{
+	"streetName": "Дизельный",
+	"streetType": "Переулок",
+	"streetLatin": "Dizelny Lane"
+},
+{
+	"streetName": "Димитрова",
+	"streetType": "Улица",
+	"streetLatin": "Dimitrova Street"
+},
+{
+	"streetName": "Дирижабельная",
+	"streetType": "Улица",
+	"streetLatin": "Dirizhabelnaya Street"
+},
+{
+	"streetName": "Днепровский",
+	"streetType": "Переулок",
+	"streetLatin": "Dneprovskiy Lane"
+},
+{
+	"streetName": "Добролюбова",
+	"streetType": "Улица",
+	"streetLatin": "Dobrolyubova Street"
+},
+{
+	"streetName": "Добрянский",
+	"streetType": "Переулок",
+	"streetLatin": "Dobryanskiy Lane"
+},
+{
+	"streetName": "Дозорный",
+	"streetType": "Переулок",
+	"streetLatin": "Dozorny Lane"
+},
+{
+	"streetName": "Долинка",
+	"streetType": "Улица",
+	"streetLatin": "Dolinka Street"
+},
+{
+	"streetName": "Доломитовая",
+	"streetType": "Улица",
+	"streetLatin": "Dolomitovaya Street"
+},
+{
+	"streetName": "Долорес Ибаррури",
+	"streetType": "Улица",
+	"streetLatin": "Dolores Ibarruri Street"
+},
+{
+	"streetName": "Донбасская",
+	"streetType": "Улица",
+	"streetLatin": "Donbasskaya Street"
+},
+{
+	"streetName": "Донская",
+	"streetType": "Улица",
+	"streetLatin": "Donskaya Street"
+},
+{
+	"streetName": "Дорожная",
+	"streetType": "Улица",
+	"streetLatin": "Dorozhnaya Street"
+},
+{
+	"streetName": "Доронина",
+	"streetType": "Улица",
+	"streetLatin": "Doronina Street"
+},
+{
+	"streetName": "Достоевского",
+	"streetType": "Улица",
+	"streetLatin": "Dostoyevskogo Street"
+},
+{
+	"streetName": "Дошкольная",
+	"streetType": "Улица",
+	"streetLatin": "Doshkolnaya Street"
+},
+{
+	"streetName": "Драгунский",
+	"streetType": "Переулок",
+	"streetLatin": "Dragunskiy Lane"
+},
+{
+	"streetName": "Древесный",
+	"streetType": "Переулок",
+	"streetLatin": "Drevesny Lane"
+},
+{
+	"streetName": "Дружбы",
+	"streetType": "Переулок",
+	"streetLatin": "Druzhby Lane"
+},
+{
+	"streetName": "Дружбы",
+	"streetType": "Улица",
+	"streetLatin": "Druzhby Street"
+},
+{
+	"streetName": "Дружининская",
+	"streetType": "Улица",
+	"streetLatin": "Druzhininskaya Street"
+},
+{
+	"streetName": "Дружинников",
+	"streetType": "Переулок",
+	"streetLatin": "Druzhinnikov Lane"
+},
+{
+	"streetName": "Дружный",
+	"streetType": "Переулок",
+	"streetLatin": "Druzhny Lane"
+},
+{
+	"streetName": "Дублёр Сибирского тракта",
+	"streetType": "Тракт",
+	"streetLatin": "Sibirskiy Highway (double)"
+},
+{
+	"streetName": "Дубравная",
+	"streetType": "Улица",
+	"streetLatin": "Dubravnaya Street"
+},
+{
+	"streetName": "Дубровинский",
+	"streetType": "Переулок",
+	"streetLatin": "Dubrovinskiy Lane"
+},
+{
+	"streetName": "Дунайская",
+	"streetType": "Улица",
+	"streetLatin": "Dunayskaya Street"
+},
+{
+	"streetName": "Дунитовый",
+	"streetType": "Переулок",
+	"streetLatin": "Dunitovy Lane"
+},
+{
+	"streetName": "Дымковская",
+	"streetType": "Улица",
+	"streetLatin": "Dymkovskaya Street"
+},
+{
+	"streetName": "Евгения Савкова",
+	"streetType": "Улица",
+	"streetLatin": "Yevgeniya Savkova Street"
+},
+{
+	"streetName": "Европейская",
+	"streetType": "Улица",
+	"streetLatin": "Yevropeyskaya Street"
+},
+{
+	"streetName": "Егерская",
+	"streetType": "Улица",
+	"streetLatin": "Yegerskaya Street"
+},
+{
+	"streetName": "Егорова",
+	"streetType": "Улица",
+	"streetLatin": "Yegorova Street"
+},
+{
+	"streetName": "Единого фронта",
+	"streetType": "Улица",
+	"streetLatin": "Yedinogo Fronta Street"
+},
+{
+	"streetName": "Ежевичная",
+	"streetType": "Улица",
+	"streetLatin": "Yezhevichnaya Street"
+},
+{
+	"streetName": "Ежовый",
+	"streetType": "Переулок",
+	"streetLatin": "Yezhovy Lane"
+},
+{
+	"streetName": "Еланский",
+	"streetType": "Переулок",
+	"streetLatin": "Yelanskiy Lane"
+},
+{
+	"streetName": "Елизаветинское",
+	"streetType": "Шоссе",
+	"streetLatin": "Yelizavetinskoye Highway"
+},
+{
+	"streetName": "Еловский",
+	"streetType": "Переулок",
+	"streetLatin": "Yelovskiy Lane"
+},
+{
+	"streetName": "Ельничная",
+	"streetType": "Улица",
+	"streetLatin": "Yelnichnaya Street"
+},
+{
+	"streetName": "Енисейская",
+	"streetType": "Улица",
+	"streetLatin": "Yeniseyskaya Street"
+},
+{
+	"streetName": "Ереванская",
+	"streetType": "Улица",
+	"streetLatin": "Yerevanskaya Street"
+},
+{
+	"streetName": "Ермака",
+	"streetType": "Площадь",
+	"streetLatin": "Yermaka Square"
+},
+{
+	"streetName": "Ермака",
+	"streetType": "Улица",
+	"streetLatin": "Yermaka Street"
+},
+{
+	"streetName": "Ершова",
+	"streetType": "Переулок",
+	"streetLatin": "Yershova Lane"
+},
+{
+	"streetName": "Жасминовый",
+	"streetType": "Переулок",
+	"streetLatin": "Zhasminovy Lane"
+},
+{
+	"streetName": "Железнодорожников",
+	"streetType": "Улица",
+	"streetLatin": "Zheleznodorozhnikov Street"
+},
+{
+	"streetName": "Железняковый",
+	"streetType": "Переулок",
+	"streetLatin": "Zheleznyakovy Lane"
+},
+{
+	"streetName": "Желябова",
+	"streetType": "Улица",
+	"streetLatin": "Zhelyabova Street"
+},
+{
+	"streetName": "Жемчужный",
+	"streetType": "Переулок",
+	"streetLatin": "Zhemchuzhny Lane"
+},
+{
+	"streetName": "Живописная",
+	"streetType": "Улица",
+	"streetLatin": "Zhivopisnaya Street"
+},
+{
+	"streetName": "Животноводов",
+	"streetType": "Улица",
+	"streetLatin": "Zhivotnovodov Street"
+},
+{
+	"streetName": "Жиловка",
+	"streetType": "Улица",
+	"streetLatin": "Zhilovka Street"
+},
+{
+	"streetName": "Жилплощадка",
+	"streetType": "Улица",
+	"streetLatin": "Zhilploshchadka Street"
+},
+{
+	"streetName": "Жуковского",
+	"streetType": "Площадь",
+	"streetLatin": "Zhukovskogo Square"
+},
+{
+	"streetName": "Журавлиный",
+	"streetType": "Переулок",
+	"streetLatin": "Zhuravliny Lane"
+},
+{
+	"streetName": "Забойщиков",
+	"streetType": "Улица",
+	"streetLatin": "Zaboyshchikov Street"
+},
+{
+	"streetName": "Заветный",
+	"streetType": "Переулок",
+	"streetLatin": "Zavetny Lane"
+},
+{
+	"streetName": "Заводская",
+	"streetType": "Улица",
+	"streetLatin": "Zavodskaya Street"
+},
+{
+	"streetName": "Завокзальная",
+	"streetType": "Улица",
+	"streetLatin": "Zavokzalnaya Street"
+},
+{
+	"streetName": "Загородный",
+	"streetType": "Переулок",
+	"streetLatin": "Zagorodny Lane"
+},
+{
+	"streetName": "Загорская",
+	"streetType": "Улица",
+	"streetLatin": "Zagorskaya Street"
+},
+{
+	"streetName": "Задорный",
+	"streetType": "Переулок",
+	"streetLatin": "Zadorny Lane"
+},
+{
+	"streetName": "Заезжий",
+	"streetType": "Переулок",
+	"streetLatin": "Zayezzhiy Lane"
+},
+{
+	"streetName": "Закатный",
+	"streetType": "Переулок",
+	"streetLatin": "Zakatny Lane"
+},
+{
+	"streetName": "Залесья",
+	"streetType": "Улица",
+	"streetLatin": "Zalesya Street"
+},
+{
+	"streetName": "Замятина",
+	"streetType": "Переулок",
+	"streetLatin": "Zamyatina Lane"
+},
+{
+	"streetName": "Заозёрский",
+	"streetType": "Переулок",
+	"streetLatin": "Zaozyorskiy Lane"
+},
+{
+	"streetName": "Западная",
+	"streetType": "Улица",
+	"streetLatin": "Zapadnaya Street"
+},
+{
+	"streetName": "Западный",
+	"streetType": "Переулок",
+	"streetLatin": "Zapadny Lane"
+},
+{
+	"streetName": "Заповедная",
+	"streetType": "Улица",
+	"streetLatin": "Zapovednaya Street"
+},
+{
+	"streetName": "Запорожский",
+	"streetType": "Переулок",
+	"streetLatin": "Zaporozhskiy Lane"
+},
+{
+	"streetName": "Запрудная ",
+	"streetType": "Улица",
+	"streetLatin": "Zaprudnaya Street"
+},
+{
+	"streetName": "Запрудный",
+	"streetType": "Переулок",
+	"streetLatin": "Zaprudny Lane"
+},
+{
+	"streetName": "Заречная",
+	"streetType": "Улица",
+	"streetLatin": "Zarechnaya Street"
+},
+{
+	"streetName": "Зарядный",
+	"streetType": "Переулок",
+	"streetLatin": "Zaryadny Lane"
+},
+{
+	"streetName": "Застройщиков",
+	"streetType": "Улица",
+	"streetLatin": "Zastroyshchikov Street"
+},
+{
+	"streetName": "Защитная",
+	"streetType": "Улица",
+	"streetLatin": "Zashchitnaya Street"
+},
+{
+	"streetName": "Званый",
+	"streetType": "Переулок",
+	"streetLatin": "Zvany Lane"
+},
+{
+	"streetName": "Звёздная",
+	"streetType": "Улица",
+	"streetLatin": "Zvyozdnaya Street"
+},
+{
+	"streetName": "Звёздный",
+	"streetType": "Переулок",
+	"streetLatin": "Zvyozdny Lane"
+},
+{
+	"streetName": "Звонкий",
+	"streetType": "Переулок",
+	"streetLatin": "Zvonkiy Lane"
+},
+{
+	"streetName": "Здешний",
+	"streetType": "Переулок",
+	"streetLatin": "Zdeshniy Lane"
+},
+{
+	"streetName": "Зелёная",
+	"streetType": "Улица",
+	"streetLatin": "Zelyonaya Street"
+},
+{
+	"streetName": "Зелёная поляна",
+	"streetType": "Улица",
+	"streetLatin": "Zelyonaya Polyana Street"
+},
+{
+	"streetName": "Зелёная роща",
+	"streetType": "Улица",
+	"streetLatin": "Zelyonaya Roshcha Street"
+},
+{
+	"streetName": "Зеленогорская",
+	"streetType": "Улица",
+	"streetLatin": "Zelenogorskaya Street"
+},
+{
+	"streetName": "Зелёный ",
+	"streetType": "Бульвар",
+	"streetLatin": "Zelyony Boulevard"
+},
+{
+	"streetName": "Зелёный",
+	"streetType": "Переулок",
+	"streetLatin": "Zelyony Lane"
+},
+{
+	"streetName": "Зелёный остров",
+	"streetType": "Улица",
+	"streetLatin": "Zelyony Ostrov Street"
+},
+{
+	"streetName": "Земледелия",
+	"streetType": "Переулок",
+	"streetLatin": "Zemledeliya Lane"
+},
+{
+	"streetName": "Землеустроителей",
+	"streetType": "Улица",
+	"streetLatin": "Zemleustroiteley Street"
+},
+{
+	"streetName": "Земляничный",
+	"streetType": "Переулок",
+	"streetLatin": "Zemlyanichny Lane"
+},
+{
+	"streetName": "Землячки",
+	"streetType": "Переулок",
+	"streetLatin": "Zemlyachki Lane"
+},
+{
+	"streetName": "Земская",
+	"streetType": "Улица",
+	"streetLatin": "Zemskaya Street"
+},
+{
+	"streetName": "Зенитчиков",
+	"streetType": "Улица",
+	"streetLatin": "Zenitchikov Street"
+},
+{
+	"streetName": "Зеркальная",
+	"streetType": "Улица",
+	"streetLatin": "Zerkalnaya Street"
+},
+{
+	"streetName": "Зерновой",
+	"streetType": "Переулок",
+	"streetLatin": "Zernovoy Lane"
+},
+{
+	"streetName": "Зимняя",
+	"streetType": "Улица",
+	"streetLatin": "Zimnyaya Street"
+},
+{
+	"streetName": "Златогорская",
+	"streetType": "Улица",
+	"streetLatin": "Zlatogorskaya Street"
+},
+{
+	"streetName": "Златоустовский",
+	"streetType": "Переулок",
+	"streetLatin": "Zlatoustovskiy Lane"
+},
+{
+	"streetName": "Змеиная гора",
+	"streetType": "Улица",
+	"streetLatin": "Zmeinaya Gora Street"
+},
+{
+	"streetName": "Зои Космодемьянской",
+	"streetType": "Улица",
+	"streetLatin": "Zoi Kosmodemyanskoy Street"
+},
+{
+	"streetName": "Золотые пески",
+	"streetType": "Улица",
+	"streetLatin": "Zolotye Pyeski Street"
+},
+{
+	"streetName": "Зоологическая",
+	"streetType": "Улица",
+	"streetLatin": "Zoologicheskaya Street"
+},
+{
+	"streetName": "Зорянка",
+	"streetType": "Улица",
+	"streetLatin": "Zoryanka Street"
+},
+{
+	"streetName": "Зырянский",
+	"streetType": "Переулок",
+	"streetLatin": "Zyryanskiy Lane"
+},
+{
+	"streetName": "Ивана Грязнова",
+	"streetType": "Улица",
+	"streetLatin": "Ivana Gryaznova Street"
+},
+{
+	"streetName": "Иванова",
+	"streetType": "Улица",
+	"streetLatin": "Ivanova Street"
+},
+{
+	"streetName": "Ивовая",
+	"streetType": "Улица",
+	"streetLatin": "Ivovaya Street"
+},
+{
+	"streetName": "Избирателей",
+	"streetType": "Улица",
+	"streetLatin": "Izbirateley Street"
+},
+{
+	"streetName": "Известковый",
+	"streetType": "Кордон",
+	"streetLatin": "Izvestkovy Post"
+},
+{
+	"streetName": "Извилистый",
+	"streetType": "Переулок",
+	"streetLatin": "Izvilisty Lane"
+},
+{
+	"streetName": "Измоденовский",
+	"streetType": "Переулок",
+	"streetLatin": "Izmodenovskiy Lane"
+},
+{
+	"streetName": "Изобретателей",
+	"streetType": "Улица",
+	"streetLatin": "Izobretateley Street"
+},
+{
+	"streetName": "Изоплитная",
+	"streetType": "Улица",
+	"streetLatin": "Izoplitnaya Street"
+},
+{
+	"streetName": "Изразцовый",
+	"streetType": "Переулок",
+	"streetLatin": "Izraztsovy Lane"
+},
+{
+	"streetName": "Изумрудный",
+	"streetType": "Переулок",
+	"streetLatin": "Izumrudny Lane"
+},
+{
+	"streetName": "Изыскателей",
+	"streetType": "Улица",
+	"streetLatin": "Izyskateley Street"
+},
+{
+	"streetName": "Илимская",
+	"streetType": "Улица",
+	"streetLatin": "Ilimskaya Street"
+},
+{
+	"streetName": "Ильинский",
+	"streetType": "Переулок",
+	"streetLatin": "Ilyinskiy Lane"
+},
+{
+	"streetName": "Ильича",
+	"streetType": "Улица",
+	"streetLatin": "Ilyicha Street"
+},
+{
+	"streetName": "Индустрии",
+	"streetType": "Улица",
+	"streetLatin": "Industrii Street"
+},
+{
+	"streetName": "Инженера Алиева",
+	"streetType": "Улица",
+	"streetLatin": "Inzhenera Aliyeva Street"
+},
+{
+	"streetName": "Инженерная",
+	"streetType": "Улица",
+	"streetLatin": "Inzhenernaya Street"
+},
+{
+	"streetName": "Инновационная",
+	"streetType": "Улица",
+	"streetLatin": "Innovatsionnaya Street"
+},
+{
+	"streetName": "Инструментальщиков",
+	"streetType": "Улица",
+	"streetLatin": "Instrumentalshchikov Street"
+},
+{
+	"streetName": "Ирбитская",
+	"streetType": "Улица",
+	"streetLatin": "Irbitskaya Street"
+},
+{
+	"streetName": "Иргинская",
+	"streetType": "Улица",
+	"streetLatin": "Irginskaya Street"
+},
+{
+	"streetName": "Ирисовый",
+	"streetType": "Переулок",
+	"streetLatin": "Irisovy Lane"
+},
+{
+	"streetName": "Иркутская",
+	"streetType": "Улица",
+	"streetLatin": "Irkutskaya Street"
+},
+{
+	"streetName": "Иртышский",
+	"streetType": "Переулок",
+	"streetLatin": "Irtyshskiy Lane"
+},
+{
+	"streetName": "Исетская",
+	"streetType": "Улица",
+	"streetLatin": "Isetskaya Street"
+},
+{
+	"streetName": "Искателей",
+	"streetType": "Улица",
+	"streetLatin": "Iskateley Street"
+},
+{
+	"streetName": "Искристый",
+	"streetType": "Переулок",
+	"streetLatin": "Iskristy Lane"
+},
+{
+	"streetName": "Искровцев",
+	"streetType": "Улица",
+	"streetLatin": "Iskrovtsev Street"
+},
+{
+	"streetName": "Искусный",
+	"streetType": "Переулок",
+	"streetLatin": "Iskusny Lane"
+},
+{
+	"streetName": "Испанских рабочих",
+	"streetType": "Улица",
+	"streetLatin": "Ispanskikh Rabochikh Street"
+},
+{
+	"streetName": "Исполкомовский",
+	"streetType": "Переулок",
+	"streetLatin": "Ispolkomovskiy Lane"
+},
+{
+	"streetName": "Испытателей",
+	"streetType": "Улица",
+	"streetLatin": "Ispytateley Street"
+},
+{
+	"streetName": "Исследователей",
+	"streetType": "Улица",
+	"streetLatin": "Issledovateley Street"
+},
+{
+	"streetName": "Исток",
+	"streetType": "Станция",
+	"streetLatin": "Istok Station"
+},
+{
+	"streetName": "Историческая",
+	"streetType": "Улица",
+	"streetLatin": "Istoricheskaya Street"
+},
+{
+	"streetName": "Источная",
+	"streetType": "Улица",
+	"streetLatin": "Istochnaya Street"
+},
+{
+	"streetName": "Иткульский",
+	"streetType": "Переулок",
+	"streetLatin": "Itkulskiy Lane"
+},
+{
+	"streetName": "ИТР",
+	"streetType": "Улица",
+	"streetLatin": "ITR Street"
+},
+{
+	"streetName": "Ишимский",
+	"streetType": "Переулок",
+	"streetLatin": "Ishimskiy Lane"
+},
+{
+	"streetName": "Июльская",
+	"streetType": "Улица",
+	"streetLatin": "Iyulskaya Street"
+},
+{
+	"streetName": "Кадровый",
+	"streetType": "Переулок",
+	"streetLatin": "Kadrovy Lane"
+},
+{
+	"streetName": "Казанская",
+	"streetType": "Улица",
+	"streetLatin": "Kazanskaya Street"
+},
+{
+	"streetName": "Казачий",
+	"streetType": "Переулок",
+	"streetLatin": "Kazachiy Lane"
+},
+{
+	"streetName": "Калинина",
+	"streetType": "Улица",
+	"streetLatin": "Kalinina Street"
+},
+{
+	"streetName": "Калиновка",
+	"streetType": "Микрорайон",
+	"streetLatin": "Kalinovka Microdistrict"
+},
+{
+	"streetName": "Калиновка",
+	"streetType": "Станция",
+	"streetLatin": "Kalinovka Station"
+},
+{
+	"streetName": "Калиновский",
+	"streetType": "Переулок",
+	"streetLatin": "Kalinovskiy Lane"
+},
+{
+	"streetName": "Калмыцкий",
+	"streetType": "Переулок",
+	"streetLatin": "Kalmytskiy Lane"
+},
+{
+	"streetName": "Каманина",
+	"streetType": "Улица",
+	"streetLatin": "Kamanina Street"
+},
+{
+	"streetName": "Каменка",
+	"streetType": "Улица",
+	"streetLatin": "Kamenka Street"
+},
+{
+	"streetName": "Каменный",
+	"streetType": "Переулок",
+	"streetLatin": "Kamenny Lane"
+},
+{
+	"streetName": "Каменотёсов",
+	"streetType": "Улица",
+	"streetLatin": "Kamenotyosov Street"
+},
+{
+	"streetName": "Каменщиков",
+	"streetType": "Улица",
+	"streetLatin": "Kamenshchikov Street"
+},
+{
+	"streetName": "Камская",
+	"streetType": "Улица",
+	"streetLatin": "Kamskaya Street"
+},
+{
+	"streetName": "Камчатская",
+	"streetType": "Улица",
+	"streetLatin": "Kamchatskaya Street"
+},
+{
+	"streetName": "Камышинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kamyshinskiy Lane"
+},
+{
+	"streetName": "Камышовый",
+	"streetType": "Переулок",
+	"streetLatin": "Kamyshovy Lane"
+},
+{
+	"streetName": "Канатный",
+	"streetType": "Переулок",
+	"streetLatin": "Kanatny Lane"
+},
+{
+	"streetName": "Караванная",
+	"streetType": "Улица",
+	"streetLatin": "Karavannaya Street"
+},
+{
+	"streetName": "Карасьевская",
+	"streetType": "Улица",
+	"streetLatin": "Karasyevskaya Street"
+},
+{
+	"streetName": "Карельская",
+	"streetType": "Улица",
+	"streetLatin": "Karelskaya Street"
+},
+{
+	"streetName": "Каркасный",
+	"streetType": "Переулок",
+	"streetLatin": "Karkasny Lane"
+},
+{
+	"streetName": "Карла Либкнехта",
+	"streetType": "Улица",
+	"streetLatin": "Karla Liebknechta Street"
+},
+{
+	"streetName": "Карла Маркса",
+	"streetType": "Улица",
+	"streetLatin": "Karla Marxa Street"
+},
+{
+	"streetName": "Карнавальная",
+	"streetType": "Улица",
+	"streetLatin": "Karnavalnaya Street"
+},
+{
+	"streetName": "Карьерная",
+	"streetType": "Улица",
+	"streetLatin": "Karyernaya Street"
+},
+{
+	"streetName": "Каскадный",
+	"streetType": "Проезд",
+	"streetLatin": "Kaskadny Drive"
+},
+{
+	"streetName": "Каслинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kaslinskiy Lane"
+},
+{
+	"streetName": "Катайский",
+	"streetType": "Переулок",
+	"streetLatin": "Katayskiy Lane"
+},
+{
+	"streetName": "Качканарская",
+	"streetType": "Улица",
+	"streetLatin": "Kachkanarskaya Street"
+},
+{
+	"streetName": "Кашинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kashinskiy Lane"
+},
+{
+	"streetName": "Каширская",
+	"streetType": "Улица",
+	"streetLatin": "Kashirskaya Street"
+},
+{
+	"streetName": "Каштановая",
+	"streetType": "Улица",
+	"streetLatin": "Kashtanovaya Street"
+},
+{
+	"streetName": "Кварцевая",
+	"streetType": "Улица",
+	"streetLatin": "Kvartsevaya Street"
+},
+{
+	"streetName": "Кедровая",
+	"streetType": "Улица",
+	"streetLatin": "Kedrovaya Street"
+},
+{
+	"streetName": "Керамик",
+	"streetType": "Станция",
+	"streetLatin": "Keramik Station"
+},
+{
+	"streetName": "Кизеловская",
+	"streetType": "Улица",
+	"streetLatin": "Kizelovskaya Street"
+},
+{
+	"streetName": "Кимовская",
+	"streetType": "Улица",
+	"streetLatin": "Kimovskaya Street "
+},
+{
+	"streetName": "Кипарисовый",
+	"streetType": "Переулок",
+	"streetLatin": "Kiparisovy Lane"
+},
+{
+	"streetName": "Киргизский",
+	"streetType": "Переулок",
+	"streetLatin": "Kirgizskiy Lane"
+},
+{
+	"streetName": "Кирова",
+	"streetType": "Площадь",
+	"streetLatin": "Kirova Square"
+},
+{
+	"streetName": "Кирова",
+	"streetType": "Улица",
+	"streetLatin": "Kirova Street"
+},
+{
+	"streetName": "Кировградская",
+	"streetType": "Улица",
+	"streetLatin": "Kirovgradskaya Street"
+},
+{
+	"streetName": "Кирпичный",
+	"streetType": "Переулок",
+	"streetLatin": "Kirpichny Lane"
+},
+{
+	"streetName": "Кислородная",
+	"streetType": "Улица",
+	"streetLatin": "Kislorodnaya Street"
+},
+{
+	"streetName": "Китайский",
+	"streetType": "Переулок",
+	"streetLatin": "Kitayskiy Lane"
+},
+{
+	"streetName": "Кичигинская",
+	"streetType": "Улица",
+	"streetLatin": "Kichiginskaya Street"
+},
+{
+	"streetName": "Кишинёвская",
+	"streetType": "Улица",
+	"streetLatin": "Kishinyovskaya Street"
+},
+{
+	"streetName": "Клары Цеткин",
+	"streetType": "Улица",
+	"streetLatin": "Clary Zetkin Street"
+},
+{
+	"streetName": "Клевакинская",
+	"streetType": "Улица",
+	"streetLatin": "Klevakinskaya Street"
+},
+{
+	"streetName": "Клеверный",
+	"streetType": "Переулок",
+	"streetLatin": "Kleverny Lane"
+},
+{
+	"streetName": "Кленовая",
+	"streetType": "Улица",
+	"streetLatin": "Klenovaya Street"
+},
+{
+	"streetName": "Климовская",
+	"streetType": "Улица",
+	"streetLatin": "Klimovskaya Street"
+},
+{
+	"streetName": "Клубничная",
+	"streetType": "Улица",
+	"streetLatin": "Klubnichnaya Street"
+},
+{
+	"streetName": "Клубный",
+	"streetType": "Переулок",
+	"streetLatin": "Klubny Lane"
+},
+{
+	"streetName": "Клюквенная",
+	"streetType": "Улица",
+	"streetLatin": "Klyukvennaya Street"
+},
+{
+	"streetName": "Ключевая ",
+	"streetType": "Улица",
+	"streetLatin": "Klyuchevaya Street"
+},
+{
+	"streetName": "Ключевская",
+	"streetType": "Улица",
+	"streetLatin": "Klyuchevskaya Street"
+},
+{
+	"streetName": "Ключики",
+	"streetType": "Переулок",
+	"streetLatin": "Klyuchiki Lane"
+},
+{
+	"streetName": "Книжный",
+	"streetType": "Переулок",
+	"streetLatin": "Knizhny Lane"
+},
+{
+	"streetName": "Кобозева",
+	"streetType": "Улица",
+	"streetLatin": "Kobozeva Street"
+},
+{
+	"streetName": "Ковровый",
+	"streetType": "Переулок",
+	"streetLatin": "Kovrovy Lane"
+},
+{
+	"streetName": "Ковыльная",
+	"streetType": "Улица",
+	"streetLatin": "Kovylnaya Street"
+},
+{
+	"streetName": "Козловская",
+	"streetType": "Улица",
+	"streetLatin": "Kozlovskaya Street"
+},
+{
+	"streetName": "Койвинский",
+	"streetType": "Переулок",
+	"streetLatin": "Koyvinskiy Lane"
+},
+{
+	"streetName": "Коллективный",
+	"streetType": "Переулок",
+	"streetLatin": "Kollektivny Lane"
+},
+{
+	"streetName": "Колмогорова",
+	"streetType": "Улица",
+	"streetLatin": "Kolmogorova Street"
+},
+{
+	"streetName": "Колодезный",
+	"streetType": "Переулок",
+	"streetLatin": "Kolodezny Lane"
+},
+{
+	"streetName": "Колодяжинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kolodyazhinskiy Lane"
+},
+{
+	"streetName": "Колокольная",
+	"streetType": "Улица",
+	"streetLatin": "Kolokolnaya Street"
+},
+{
+	"streetName": "Коломенский",
+	"streetType": "Переулок",
+	"streetLatin": "Kolomenskiy Lane"
+},
+{
+	"streetName": "Колоритная",
+	"streetType": "Улица",
+	"streetLatin": "Koloritnaya Street"
+},
+{
+	"streetName": "Колосковый",
+	"streetType": "Переулок",
+	"streetLatin": "Koloskovy Lane"
+},
+{
+	"streetName": "Колхозная",
+	"streetType": "Улица",
+	"streetLatin": "Kolkhoznaya Street"
+},
+{
+	"streetName": "Колхозников",
+	"streetType": "Улица",
+	"streetLatin": "Kolkhoznikov Street"
+},
+{
+	"streetName": "Колчеданская",
+	"streetType": "Улица",
+	"streetLatin": "Kolchedanskaya Street"
+},
+{
+	"streetName": "Кольцевая",
+	"streetType": "Улица",
+	"streetLatin": "Koltsevaya Street"
+},
+{
+	"streetName": "Кольцова",
+	"streetType": "Переулок",
+	"streetLatin": "Koltsova Lane"
+},
+{
+	"streetName": "Колюткинский ",
+	"streetType": "Переулок",
+	"streetLatin": "Kolyutkinskiy Lane"
+},
+{
+	"streetName": "Комбинатская",
+	"streetType": "Улица",
+	"streetLatin": "Kombinatskaya Street"
+},
+{
+	"streetName": "Комвузовская",
+	"streetType": "Улица",
+	"streetLatin": "Komvuzovskaya Street"
+},
+{
+	"streetName": "Кометная",
+	"streetType": "Улица",
+	"streetLatin": "Kometnaya Street"
+},
+{
+	"streetName": "Коминтерна",
+	"streetType": "Улица",
+	"streetLatin": "Kominterna Street"
+},
+{
+	"streetName": "Коммунальная",
+	"streetType": "Улица",
+	"streetLatin": "Kommunalnaya Street"
+},
+{
+	"streetName": "Коммунаров",
+	"streetType": "Площадь",
+	"streetLatin": "Kommunarov Square"
+},
+{
+	"streetName": "Коммунистическая",
+	"streetType": "Улица",
+	"streetLatin": "Kommunisticheskaya Street"
+},
+{
+	"streetName": "Комсомольская",
+	"streetType": "Площадь",
+	"streetLatin": "Komsomolskaya Square"
+},
+{
+	"streetName": "Комсомольская",
+	"streetType": "Улица",
+	"streetLatin": "Komsomolskaya Street"
+},
+{
+	"streetName": "Кондратьева",
+	"streetType": "Улица",
+	"streetLatin": "Kondratyeva Street"
+},
+{
+	"streetName": "Кондукторская",
+	"streetType": "Улица",
+	"streetLatin": "Konduktorskaya Street"
+},
+{
+	"streetName": "Конотопская",
+	"streetType": "Улица",
+	"streetLatin": "Konotopskaya Street"
+},
+{
+	"streetName": "Контролёров",
+	"streetType": "Улица",
+	"streetLatin": "Kontrolyorov Street"
+},
+{
+	"streetName": "Конюшенный",
+	"streetType": "Проезд",
+	"streetLatin": "Konyushenny Drive"
+},
+{
+	"streetName": "Кооперативная",
+	"streetType": "Улица",
+	"streetLatin": "Kooperativnaya Street"
+},
+{
+	"streetName": "Коперника",
+	"streetType": "Улица",
+	"streetLatin": "Kopernika Street"
+},
+{
+	"streetName": "Коралловый",
+	"streetType": "Переулок",
+	"streetLatin": "Korallovy Lane"
+},
+{
+	"streetName": "Кордон «Мыс»",
+	"streetType": "Микрорайон",
+	"streetLatin": "Kordon Mys Microdistrict"
+},
+{
+	"streetName": "Корейский",
+	"streetType": "Переулок",
+	"streetLatin": "Koreyskiy Lane"
+},
+{
+	"streetName": "Корепина",
+	"streetType": "Улица",
+	"streetLatin": "Korepina Street"
+},
+{
+	"streetName": "Коркинская",
+	"streetType": "Улица",
+	"streetLatin": "Korkinskaya Street"
+},
+{
+	"streetName": "Корневой",
+	"streetType": "Переулок",
+	"streetLatin": "Kornevoy Lane"
+},
+{
+	"streetName": "Короленко",
+	"streetType": "Улица",
+	"streetLatin": "Korolenko Street"
+},
+{
+	"streetName": "Короткий",
+	"streetType": "Переулок",
+	"streetLatin": "Korotkiy Lane"
+},
+{
+	"streetName": "Косарева",
+	"streetType": "Улица",
+	"streetLatin": "Kosareva Street"
+},
+{
+	"streetName": "Космонавтов",
+	"streetType": "Проспект",
+	"streetLatin": "Kosmonavtov Avenue"
+},
+{
+	"streetName": "Космонавтов",
+	"streetType": "Улица",
+	"streetLatin": "Kosmonavtov Street"
+},
+{
+	"streetName": "Кособродский",
+	"streetType": "Переулок",
+	"streetLatin": "Kosobrodskiy Lane"
+},
+{
+	"streetName": "Косогорная",
+	"streetType": "Улица",
+	"streetLatin": "Kosogornaya Street"
+},
+{
+	"streetName": "Косотурская ",
+	"streetType": "Улица",
+	"streetLatin": "Kosoturskaya Street"
+},
+{
+	"streetName": "Костромская",
+	"streetType": "Улица",
+	"streetLatin": "Kostromskaya Street"
+},
+{
+	"streetName": "Косьвинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kosvinskiy Lane"
+},
+{
+	"streetName": "Котельникова",
+	"streetType": "Улица",
+	"streetLatin": "Kotelnikova Street"
+},
+{
+	"streetName": "Котельщиков",
+	"streetType": "Переулок",
+	"streetLatin": "Kotelshchikov Lane"
+},
+{
+	"streetName": "Котовского",
+	"streetType": "Улица",
+	"streetLatin": "Kotovskogo Street"
+},
+{
+	"streetName": "Коуровская",
+	"streetType": "Улица",
+	"streetLatin": "Kourovskaya Street"
+},
+{
+	"streetName": "Кофейный",
+	"streetType": "Переулок",
+	"streetLatin": "Kofeyny Lane"
+},
+{
+	"streetName": "Краевой",
+	"streetType": "Переулок",
+	"streetLatin": "Krayevoy Lane"
+},
+{
+	"streetName": "Крайний",
+	"streetType": "Переулок",
+	"streetLatin": "Krayniy Lane"
+},
+{
+	"streetName": "Крановщиков",
+	"streetType": "Переулок",
+	"streetLatin": "Kranovshchikov Lane"
+},
+{
+	"streetName": "Крапивный",
+	"streetType": "Переулок",
+	"streetLatin": "Krapivny Lane"
+},
+{
+	"streetName": "Красина",
+	"streetType": "Улица",
+	"streetLatin": "Krasina Street"
+},
+{
+	"streetName": "Красная",
+	"streetType": "Улица",
+	"streetLatin": "Krasnaya Street"
+},
+{
+	"streetName": "Красная горка",
+	"streetType": "Улица",
+	"streetLatin": "Krasnaya Gorka Street"
+},
+{
+	"streetName": "Красноармейская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnoarmeyskaya Street"
+},
+{
+	"streetName": "Красноармейский",
+	"streetType": "Переулок",
+	"streetLatin": "Krasnoarmeyskiy Lane"
+},
+{
+	"streetName": "Красногвардейская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnogvardeyskaya Street"
+},
+{
+	"streetName": "Краснодарская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnodarskaya Street"
+},
+{
+	"streetName": "Краснознамённая",
+	"streetType": "Улица",
+	"streetLatin": "Krasnoznamyonnaya Street"
+},
+{
+	"streetName": "Краснокамская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnokamskaya Street"
+},
+{
+	"streetName": "Краснолесья",
+	"streetType": "Улица",
+	"streetLatin": "Krasnolesya Street"
+},
+{
+	"streetName": "Краснополянский",
+	"streetType": "Переулок",
+	"streetLatin": "Krasnopolyanskiy Lane "
+},
+{
+	"streetName": "Краснопрудная",
+	"streetType": "Улица",
+	"streetLatin": "Krasnoprudnaya Street"
+},
+{
+	"streetName": "Красноуральская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnouralskaya Street"
+},
+{
+	"streetName": "Красноуфимская",
+	"streetType": "Улица",
+	"streetLatin": "Krasnoufimskaya Street"
+},
+{
+	"streetName": "Краснофлотцев",
+	"streetType": "Улица",
+	"streetLatin": "Krasnoflottsev Street"
+},
+{
+	"streetName": "Красный",
+	"streetType": "Переулок",
+	"streetLatin": "Krasny Lane"
+},
+{
+	"streetName": "Красных борцов",
+	"streetType": "Улица",
+	"streetLatin": "Krasnykh Bortsov Street"
+},
+{
+	"streetName": "Красных зорь",
+	"streetType": "Улица",
+	"streetLatin": "Krasnykh Zor Street"
+},
+{
+	"streetName": "Красных командиров",
+	"streetType": "Улица",
+	"streetLatin": "Krasnykh Komandirov Street"
+},
+{
+	"streetName": "Красных партизан",
+	"streetType": "Улица",
+	"streetLatin": "Krasnykh Partizan Street"
+},
+{
+	"streetName": "Крауля",
+	"streetType": "Улица",
+	"streetLatin": "Kraulya Street"
+},
+{
+	"streetName": "Кренкеля",
+	"streetType": "Улица",
+	"streetLatin": "Krenkelya Street"
+},
+{
+	"streetName": "Крестинского",
+	"streetType": "Улица",
+	"streetLatin": "Krestinskogo Street"
+},
+{
+	"streetName": "Крестьянская",
+	"streetType": "Улица",
+	"streetLatin": "Krestyanskaya Street"
+},
+{
+	"streetName": "Криничный",
+	"streetType": "Переулок",
+	"streetLatin": "Krinichny Lane"
+},
+{
+	"streetName": "Кристальная",
+	"streetType": "Улица",
+	"streetLatin": "Kristalnaya Street"
+},
+{
+	"streetName": "Крокусовый",
+	"streetType": "Переулок",
+	"streetLatin": "Krokusovy Lane "
+},
+{
+	"streetName": "Кронштадтская",
+	"streetType": "Улица",
+	"streetLatin": "Kronshtadtskaya Street"
+},
+{
+	"streetName": "Круговая",
+	"streetType": "Улица",
+	"streetLatin": "Krugovaya Street"
+},
+{
+	"streetName": "Кружевная",
+	"streetType": "Улица",
+	"streetLatin": "Kruzhevnaya Street"
+},
+{
+	"streetName": "Кружилинская",
+	"streetType": "Улица",
+	"streetLatin": "Kruzhilinskaya Street"
+},
+{
+	"streetName": "Крупносортщиков",
+	"streetType": "Улица",
+	"streetLatin": "Krupnosortshchikov Street"
+},
+{
+	"streetName": "Крупской",
+	"streetType": "Улица",
+	"streetLatin": "Krupskoy Street"
+},
+{
+	"streetName": "Крутая",
+	"streetType": "Улица",
+	"streetLatin": "Krutaya Street"
+},
+{
+	"streetName": "Крутихинский",
+	"streetType": "Переулок",
+	"streetLatin": "Krutikhinskiy Lane"
+},
+{
+	"streetName": "Крутоярская",
+	"streetType": "Улица",
+	"streetLatin": "Krutoyarskaya Street"
+},
+{
+	"streetName": "Крылатский",
+	"streetType": "Переулок",
+	"streetLatin": "Krylatskiy Lane"
+},
+{
+	"streetName": "Крылова",
+	"streetType": "Улица",
+	"streetLatin": "Krylova Street"
+},
+{
+	"streetName": "Крымский",
+	"streetType": "Переулок",
+	"streetLatin": "Krymskiy Lane"
+},
+{
+	"streetName": "Кубанская",
+	"streetType": "Улица",
+	"streetLatin": "Kubanskaya Street"
+},
+{
+	"streetName": "Кузинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kuzinskiy Lane"
+},
+{
+	"streetName": "Кузнецова",
+	"streetType": "Улица",
+	"streetLatin": "Kuznetsova Street"
+},
+{
+	"streetName": "Кузнечная",
+	"streetType": "Улица",
+	"streetLatin": "Kuznechnaya Street"
+},
+{
+	"streetName": "Кузнечный",
+	"streetType": "Переулок",
+	"streetLatin": "Kuznechny Lane"
+},
+{
+	"streetName": "Куйбышева",
+	"streetType": "Площадь",
+	"streetLatin": "Kuybysheva Square"
+},
+{
+	"streetName": "Куйбышева",
+	"streetType": "Улица",
+	"streetLatin": "Kuybysheva Street"
+},
+{
+	"streetName": "Кулибина",
+	"streetType": "Улица",
+	"streetLatin": "Kulibina Street"
+},
+{
+	"streetName": "Куликовская ",
+	"streetType": "Улица",
+	"streetLatin": "Kulikovskaya Street"
+},
+{
+	"streetName": "Культуры",
+	"streetType": "Бульвар",
+	"streetLatin": "Kultury Boulevard"
+},
+{
+	"streetName": "Кунарская",
+	"streetType": "Улица",
+	"streetLatin": "Kunarskaya Street"
+},
+{
+	"streetName": "Кунгурский",
+	"streetType": "Проезд",
+	"streetLatin": "Kungurskiy Drive"
+},
+{
+	"streetName": "Курганская",
+	"streetType": "Улица",
+	"streetLatin": "Kurganskaya Street"
+},
+{
+	"streetName": "Курортная",
+	"streetType": "Улица",
+	"streetLatin": "Kurortnaya Street"
+},
+{
+	"streetName": "Курьинский",
+	"streetType": "Переулок",
+	"streetLatin": "Kuryinskiy Lane"
+},
+{
+	"streetName": "Кустовой",
+	"streetType": "Переулок",
+	"streetLatin": "Kustovoy Lane"
+},
+{
+	"streetName": "Кутузова",
+	"streetType": "Улица",
+	"streetLatin": "Kutuzova Street"
+},
+{
+	"streetName": "Кытлымская",
+	"streetType": "Улица",
+	"streetLatin": "Kytlymskaya Street"
+},
+{
+	"streetName": "Кыштымский",
+	"streetType": "Переулок",
+	"streetLatin": "Kyshtymskiy Lane"
+},
+{
+	"streetName": "Лавандовая",
+	"streetType": "Улица",
+	"streetLatin": "Lavandovaya Street"
+},
+{
+	"streetName": "Лагерная",
+	"streetType": "Улица",
+	"streetLatin": "Lagernaya Street"
+},
+{
+	"streetName": "Лазаревская",
+	"streetType": "Улица",
+	"streetLatin": "Lazarevskaya Street"
+},
+{
+	"streetName": "Лазурный",
+	"streetType": "Переулок",
+	"streetLatin": "Lazurny Lane"
+},
+{
+	"streetName": "Ландышевая",
+	"streetType": "Улица",
+	"streetLatin": "Landyshevaya Street"
+},
+{
+	"streetName": "Лапчатка",
+	"streetType": "Улица",
+	"streetLatin": "Lapchatka Street"
+},
+{
+	"streetName": "Латвийская",
+	"streetType": "Улица",
+	"streetLatin": "Latviyskaya Street"
+},
+{
+	"streetName": "Латышская",
+	"streetType": "Улица",
+	"streetLatin": "Latyshskaya Street"
+},
+{
+	"streetName": "Лебяжий",
+	"streetType": "Переулок",
+	"streetLatin": "Lebyazhiy Lane"
+},
+{
+	"streetName": "Леваневского",
+	"streetType": "Улица",
+	"streetLatin": "Levanevskogo Street"
+},
+{
+	"streetName": "Левитана",
+	"streetType": "Улица",
+	"streetLatin": "Levitana Street"
+},
+{
+	"streetName": "Левшинский",
+	"streetType": "Переулок",
+	"streetLatin": "Levshinskiy Lane"
+},
+{
+	"streetName": "Ледниковая",
+	"streetType": "Улица",
+	"streetLatin": "Lednikovaya Street"
+},
+{
+	"streetName": "Лезгинская",
+	"streetType": "Улица",
+	"streetLatin": "Lezginskaya Street"
+},
+{
+	"streetName": "Ленина",
+	"streetType": "Проспект",
+	"streetLatin": "Lenina Avenue"
+},
+{
+	"streetName": "Ленина",
+	"streetType": "Улица",
+	"streetLatin": "Lenina Street"
+},
+{
+	"streetName": "Ленинградская",
+	"streetType": "Улица",
+	"streetLatin": "Leningradskaya Street"
+},
+{
+	"streetName": "Леонида Утёсова",
+	"streetType": "Улица",
+	"streetLatin": "Leonida Utyosova Street"
+},
+{
+	"streetName": "Леонидовский",
+	"streetType": "Переулок",
+	"streetLatin": "Leonidovskiy Lane"
+},
+{
+	"streetName": "Лермонтова",
+	"streetType": "Улица",
+	"streetLatin": "Lermontova Street"
+},
+{
+	"streetName": "Лесная",
+	"streetType": "Улица",
+	"streetLatin": "Lesnaya Street"
+},
+{
+	"streetName": "Лесной",
+	"streetType": "Переулок",
+	"streetLatin": "Lesnoy Lane"
+},
+{
+	"streetName": "Лесоводов",
+	"streetType": "Улица",
+	"streetLatin": "Lesovodov Street"
+},
+{
+	"streetName": "Лесорубов",
+	"streetType": "Улица",
+	"streetLatin": "Lesorubov Street"
+},
+{
+	"streetName": "Летняя",
+	"streetType": "Улица",
+	"streetLatin": "Letnyaya Street"
+},
+{
+	"streetName": "Лётчиков",
+	"streetType": "Улица",
+	"streetLatin": "Lyotchikov Street"
+},
+{
+	"streetName": "Летящий",
+	"streetType": "Переулок",
+	"streetLatin": "Letyashchiy Lane"
+},
+{
+	"streetName": "Лечебный",
+	"streetType": "Переулок",
+	"streetLatin": "Lechebny Lane"
+},
+{
+	"streetName": "Лечебный",
+	"streetType": "Станция",
+	"streetLatin": "Lechebny Station"
+},
+{
+	"streetName": "Лидии Руслановой",
+	"streetType": "Улица",
+	"streetLatin": "Lidii Ruslanovoy Street"
+},
+{
+	"streetName": "Лиловая",
+	"streetType": "Улица",
+	"streetLatin": "Lilovaya Street"
+},
+{
+	"streetName": "Лимонитовый",
+	"streetType": "Переулок",
+	"streetLatin": "Limonitovy Lane"
+},
+{
+	"streetName": "Линейная",
+	"streetType": "Улица",
+	"streetLatin": "Lineynaya Street"
+},
+{
+	"streetName": "Липовый",
+	"streetType": "Переулок",
+	"streetLatin": "Lipovy Lane"
+},
+{
+	"streetName": "Лиственная",
+	"streetType": "Улица",
+	"streetLatin": "Listvennaya Street"
+},
+{
+	"streetName": "Листопадная",
+	"streetType": "Улица",
+	"streetLatin": "Listopadnaya Street"
+},
+{
+	"streetName": "Литейщиков",
+	"streetType": "Улица",
+	"streetLatin": "Liteyshchikov Street"
+},
+{
+	"streetName": "Литовская",
+	"streetType": "Улица",
+	"streetLatin": "Litovskaya Street"
+},
+{
+	"streetName": "Лобачевского",
+	"streetType": "Переулок",
+	"streetLatin": "Lobachevskogo Lane"
+},
+{
+	"streetName": "Лобвинская",
+	"streetType": "Улица",
+	"streetLatin": "Lobvinskaya Street"
+},
+{
+	"streetName": "Лобкова",
+	"streetType": "Улица",
+	"streetLatin": "Lobkova Street"
+},
+{
+	"streetName": "Логиновская",
+	"streetType": "Улица",
+	"streetLatin": "Loginovskaya Street"
+},
+{
+	"streetName": "Лодыгина",
+	"streetType": "Улица",
+	"streetLatin": "Lodygina Street"
+},
+{
+	"streetName": "Лозовой",
+	"streetType": "Переулок",
+	"streetLatin": "Lozovoy Lane"
+},
+{
+	"streetName": "Ломоносова",
+	"streetType": "Улица",
+	"streetLatin": "Lomonosova Street"
+},
+{
+	"streetName": "Лосиный",
+	"streetType": "Переулок",
+	"streetLatin": "Losiny Lane"
+},
+{
+	"streetName": "Лоцмановых",
+	"streetType": "Улица",
+	"streetLatin": "Lotsmanovykh Street"
+},
+{
+	"streetName": "Лощинка",
+	"streetType": "Улица",
+	"streetLatin": "Loshchinka Street"
+},
+{
+	"streetName": "Луганская",
+	"streetType": "Улица",
+	"streetLatin": "Luganskaya Street"
+},
+{
+	"streetName": "Луговая",
+	"streetType": "Улица",
+	"streetLatin": "Lugovaya Street"
+},
+{
+	"streetName": "Лукиных",
+	"streetType": "Улица",
+	"streetLatin": "Lukinykh Street"
+},
+{
+	"streetName": "Луковский",
+	"streetType": "Переулок",
+	"streetLatin": "Lukovskiy Lane"
+},
+{
+	"streetName": "Луначарского",
+	"streetType": "Улица",
+	"streetLatin": "Lunacharskogo Street"
+},
+{
+	"streetName": "Лунная",
+	"streetType": "Улица",
+	"streetLatin": "Lunnaya Street"
+},
+{
+	"streetName": "Лучевая",
+	"streetType": "Улица",
+	"streetLatin": "Luchevaya Street"
+},
+{
+	"streetName": "Лучезарная",
+	"streetType": "Улица",
+	"streetLatin": "Luchezarnaya Street"
+},
+{
+	"streetName": "Лучистая",
+	"streetType": "Улица",
+	"streetLatin": "Luchistaya Street"
+},
+{
+	"streetName": "Лыжников",
+	"streetType": "Улица",
+	"streetLatin": "Lyzhnikov Street"
+},
+{
+	"streetName": "Лялинская",
+	"streetType": "Улица",
+	"streetLatin": "Lyalinskaya Street"
+},
+{
+	"streetName": "Ляпустина",
+	"streetType": "Улица",
+	"streetLatin": "Lyapustina Street"
+},
+{
+	"streetName": "Магнитный",
+	"streetType": "Переулок",
+	"streetLatin": "Magnitny Lane"
+},
+{
+	"streetName": "Майкопская",
+	"streetType": "Улица",
+	"streetLatin": "Maykopskaya Street"
+},
+{
+	"streetName": "Майская",
+	"streetType": "Улица",
+	"streetLatin": "Mayskaya Street"
+},
+{
+	"streetName": "Макарьевская ",
+	"streetType": "Улица",
+	"streetLatin": "Makaryevskaya Street"
+},
+{
+	"streetName": "Максима Горького",
+	"streetType": "Улица",
+	"streetLatin": "Maksima Gorkogo Street"
+},
+{
+	"streetName": "Малахитовый",
+	"streetType": "Переулок",
+	"streetLatin": "Malakhitovy Lane"
+},
+{
+	"streetName": "Малая Караванная",
+	"streetType": "Улица",
+	"streetLatin": "Malaya Karavannaya Street"
+},
+{
+	"streetName": "Малая съезжая",
+	"streetType": "Улица",
+	"streetLatin": "Malaya Syezzhaya Street"
+},
+{
+	"streetName": "Малиновая",
+	"streetType": "Улица",
+	"streetLatin": "Malinovaya Street"
+},
+{
+	"streetName": "Малогородская",
+	"streetType": "Улица",
+	"streetLatin": "Malogorodskaya Street"
+},
+{
+	"streetName": "Малоистокская",
+	"streetType": "Улица",
+	"streetLatin": "Maloistokskaya Street"
+},
+{
+	"streetName": "Малопрудная",
+	"streetType": "Улица",
+	"streetLatin": "Maloprudnaya Street"
+},
+{
+	"streetName": "Малореченская",
+	"streetType": "Улица",
+	"streetLatin": "Malorechenskaya Street"
+},
+{
+	"streetName": "Малый",
+	"streetType": "Переулок",
+	"streetLatin": "Malyi Lane"
+},
+{
+	"streetName": "Малый Конный",
+	"streetType": "Полуостров",
+	"streetLatin": "Malyi Konniy Poluostrov"
+},
+{
+	"streetName": "Малый Лесной",
+	"streetType": "Переулок",
+	"streetLatin": "Malyi Lesnoy Lane"
+},
+{
+	"streetName": "Малышева",
+	"streetType": "Площадь",
+	"streetLatin": "Malysheva Square"
+},
+{
+	"streetName": "Малышева",
+	"streetType": "Улица",
+	"streetLatin": "Malysheva Street"
+},
+{
+	"streetName": "Мамина-Сибиряка",
+	"streetType": "Улица",
+	"streetLatin": "Mamina-Sibiryaka Street"
+},
+{
+	"streetName": "Маневровая",
+	"streetType": "Улица",
+	"streetLatin": "Manevrovaya Street"
+},
+{
+	"streetName": "Манчажская",
+	"streetType": "Улица",
+	"streetLatin": "Manchazhskaya Street"
+},
+{
+	"streetName": "Марамзинская",
+	"streetType": "Улица",
+	"streetLatin": "Maramzinskaya Street"
+},
+{
+	"streetName": "Марата",
+	"streetType": "Улица",
+	"streetLatin": "Marata Street"
+},
+{
+	"streetName": "Мартовская",
+	"streetType": "Улица",
+	"streetLatin": "Martovskaya Street"
+},
+{
+	"streetName": "Маршала Жукова",
+	"streetType": "Улица",
+	"streetLatin": "Marshala Zhukova Street"
+},
+{
+	"streetName": "Маршрутная",
+	"streetType": "Улица",
+	"streetLatin": "Marshrutnaya Street"
+},
+{
+	"streetName": "Маскарадная",
+	"streetType": "Улица",
+	"streetLatin": "Maskaradnaya Street"
+},
+{
+	"streetName": "Мастеров",
+	"streetType": "Улица",
+	"streetLatin": "Masterov Street"
+},
+{
+	"streetName": "Матросова",
+	"streetType": "Улица",
+	"streetLatin": "Matrosova Street"
+},
+{
+	"streetName": "Матросская",
+	"streetType": "Улица",
+	"streetLatin": "Matrosskaya Street"
+},
+{
+	"streetName": "Махнёва",
+	"streetType": "Улица",
+	"streetLatin": "Makhnyova Street"
+},
+{
+	"streetName": "Машинистов",
+	"streetType": "Улица",
+	"streetLatin": "Mashinistov Street"
+},
+{
+	"streetName": "Машинная",
+	"streetType": "Улица",
+	"streetLatin": "Mashinnaya Street"
+},
+{
+	"streetName": "Машиностроителей",
+	"streetType": "Улица",
+	"streetLatin": "Mashinostroiteley Street"
+},
+{
+	"streetName": "Маяковского",
+	"streetType": "Улица",
+	"streetLatin": "Mayakovskogo Street"
+},
+{
+	"streetName": "Медвежский",
+	"streetType": "Переулок",
+	"streetLatin": "Medvezhskiy Lane"
+},
+{
+	"streetName": "Медиков",
+	"streetType": "Переулок",
+	"streetLatin": "Medikov Lane"
+},
+{
+	"streetName": "Медицинский",
+	"streetType": "Переулок",
+	"streetLatin": "Meditsinskiy Lane"
+},
+{
+	"streetName": "Медная",
+	"streetType": "Улица",
+	"streetLatin": "Mednaya Street"
+},
+{
+	"streetName": "Медногорская",
+	"streetType": "Улица",
+	"streetLatin": "Mednogorskaya Street"
+},
+{
+	"streetName": "Медовая",
+	"streetType": "Улица",
+	"streetLatin": "Medovaya Street"
+},
+{
+	"streetName": "Межгорная",
+	"streetType": "Улица",
+	"streetLatin": "Mezhgornaya Street"
+},
+{
+	"streetName": "Межевая",
+	"streetType": "Улица",
+	"streetLatin": "Mezhevaya Street"
+},
+{
+	"streetName": "Мезенский",
+	"streetType": "Переулок",
+	"streetLatin": "Mezenskiy Lane"
+},
+{
+	"streetName": "Мелиораторов",
+	"streetType": "Улица",
+	"streetLatin": "Melioratorov Street"
+},
+{
+	"streetName": "Мелководный",
+	"streetType": "Переулок",
+	"streetLatin": "Melkovodny Lane"
+},
+{
+	"streetName": "Мельковская",
+	"streetType": "Улица",
+	"streetLatin": "Melkovskaya Street"
+},
+{
+	"streetName": "Мельковский",
+	"streetType": "Переулок",
+	"streetLatin": "Melkovskiy Lane"
+},
+{
+	"streetName": "Мельникова",
+	"streetType": "Улица",
+	"streetLatin": "Melnikova Street"
+},
+{
+	"streetName": "Мельничная",
+	"streetType": "Улица",
+	"streetLatin": "Melnichnaya Street"
+},
+{
+	"streetName": "Менделеева",
+	"streetType": "Улица",
+	"streetLatin": "Mendeleyeva Street"
+},
+{
+	"streetName": "Менжинского",
+	"streetType": "Улица",
+	"streetLatin": "Menzhinskogo Street"
+},
+{
+	"streetName": "Местный",
+	"streetType": "Переулок",
+	"streetLatin": "Mestny Lane"
+},
+{
+	"streetName": "Металлургов",
+	"streetType": "Улица",
+	"streetLatin": "Metallurgov Street"
+},
+{
+	"streetName": "Механизаторов",
+	"streetType": "Улица",
+	"streetLatin": "Mekhanizatorov Street"
+},
+{
+	"streetName": "Механический",
+	"streetType": "Переулок",
+	"streetLatin": "Mekhanicheskiy Lane"
+},
+{
+	"streetName": "Мечтателей",
+	"streetType": "Улица",
+	"streetLatin": "Mechtateley Street"
+},
+{
+	"streetName": "Миасская",
+	"streetType": "Улица",
+	"streetLatin": "Miasskaya Street"
+},
+{
+	"streetName": "Милицейская",
+	"streetType": "Улица",
+	"streetLatin": "Militseyskaya Street"
+},
+{
+	"streetName": "Минеральная",
+	"streetType": "Улица",
+	"streetLatin": "Mineralnaya Street"
+},
+{
+	"streetName": "Миномётчиков",
+	"streetType": "Улица",
+	"streetLatin": "Minomyotchikov Street"
+},
+{
+	"streetName": "Мира",
+	"streetType": "Улица",
+	"streetLatin": "Mira Street"
+},
+{
+	"streetName": "Миславского",
+	"streetType": "Улица",
+	"streetLatin": "Mislavskogo Street"
+},
+{
+	"streetName": "Михаила Одинцова",
+	"streetType": "Улица",
+	"streetLatin": "Mikhaila Odintsova Street"
+},
+{
+	"streetName": "Михайловская",
+	"streetType": "Улица",
+	"streetLatin": "Mikhaylovskaya Street"
+},
+{
+	"streetName": "Михеева",
+	"streetType": "Улица",
+	"streetLatin": "Mikheyeva Street"
+},
+{
+	"streetName": "Мичурина",
+	"streetType": "Улица",
+	"streetLatin": "Michurina Street"
+},
+{
+	"streetName": "Многостаночников",
+	"streetType": "Переулок",
+	"streetLatin": "Mnogostanochnikov Lane"
+},
+{
+	"streetName": "Можайского",
+	"streetType": "Улица",
+	"streetLatin": "Mozhayskogo Street"
+},
+{
+	"streetName": "Можжевеловая",
+	"streetType": "Улица",
+	"streetLatin": "Mozhzhevelovaya Street"
+},
+{
+	"streetName": "Мозаичный",
+	"streetType": "Переулок",
+	"streetLatin": "Mozaichny Lane"
+},
+{
+	"streetName": "Молебка",
+	"streetType": "Улица",
+	"streetLatin": "Molebka Street"
+},
+{
+	"streetName": "Молодёжи",
+	"streetType": "Улица",
+	"streetLatin": "Molodyozhi Street"
+},
+{
+	"streetName": "Молодёжная",
+	"streetType": "Улица",
+	"streetLatin": "Molodyozhnaya Street"
+},
+{
+	"streetName": "Молодецкий",
+	"streetType": "Переулок",
+	"streetLatin": "Molodetskiy Lane"
+},
+{
+	"streetName": "Молодогвардейцев",
+	"streetType": "Улица",
+	"streetLatin": "Molodogvardeytsev Street"
+},
+{
+	"streetName": "Молотобойцев",
+	"streetType": "Улица",
+	"streetLatin": "Molotoboytsev Street"
+},
+{
+	"streetName": "Молочный",
+	"streetType": "Переулок",
+	"streetLatin": "Molochny Lane"
+},
+{
+	"streetName": "Монетный",
+	"streetType": "Переулок",
+	"streetLatin": "Monetny Lane"
+},
+{
+	"streetName": "Монтажников",
+	"streetType": "Улица",
+	"streetLatin": "Montazhnikov Street"
+},
+{
+	"streetName": "Монтёрская",
+	"streetType": "Улица",
+	"streetLatin": "Montyorskaya Street"
+},
+{
+	"streetName": "МОПРа",
+	"streetType": "Улица",
+	"streetLatin": "MOPRa Street"
+},
+{
+	"streetName": "Мордвинский",
+	"streetType": "Переулок",
+	"streetLatin": "Mordvinskiy Lane"
+},
+{
+	"streetName": "Морозный",
+	"streetType": "Переулок",
+	"streetLatin": "Morozny Lane"
+},
+{
+	"streetName": "Москвина",
+	"streetType": "Улица",
+	"streetLatin": "Moskvina Street"
+},
+{
+	"streetName": "Московская",
+	"streetType": "Улица",
+	"streetLatin": "Moskovskaya Street"
+},
+{
+	"streetName": "Московский",
+	"streetType": "Тракт",
+	"streetLatin": "Moskovskiy Highway"
+},
+{
+	"streetName": "Мостовая",
+	"streetType": "Улица",
+	"streetLatin": "Mostovaya Street"
+},
+{
+	"streetName": "Мостовка",
+	"streetType": "Улица",
+	"streetLatin": "Mostovka Street"
+},
+{
+	"streetName": "Мотаихинский",
+	"streetType": "Переулок",
+	"streetLatin": "Motaikhinskiy Lane"
+},
+{
+	"streetName": "Моховой",
+	"streetType": "Переулок",
+	"streetLatin": "Mokhovoy Lane"
+},
+{
+	"streetName": "Мраморская",
+	"streetType": "Улица",
+	"streetLatin": "Mramorskaya Street"
+},
+{
+	"streetName": "Мугайский",
+	"streetType": "Переулок",
+	"streetLatin": "Mugayskiy Lane"
+},
+{
+	"streetName": "Музыкальная",
+	"streetType": "Улица",
+	"streetLatin": "Muzykalnaya Street"
+},
+{
+	"streetName": "Музыки",
+	"streetType": "Переулок",
+	"streetLatin": "Muzyki Lane"
+},
+{
+	"streetName": "Муратовский",
+	"streetType": "Переулок",
+	"streetLatin": "Muratovskiy Lane"
+},
+{
+	"streetName": "Мурзинская",
+	"streetType": "Улица",
+	"streetLatin": "Murzinskaya Street"
+},
+{
+	"streetName": "Мусоргского",
+	"streetType": "Улица",
+	"streetLatin": "Musorgskogo Street"
+},
+{
+	"streetName": "Мусы Джалиля",
+	"streetType": "Улица",
+	"streetLatin": "Musy Dzhalilya Street"
+},
+{
+	"streetName": "Мятная",
+	"streetType": "Улица",
+	"streetLatin": "Myatnaya Street"
+},
+{
+	"streetName": "Набережная",
+	"streetType": "Улица",
+	"streetLatin": "Naberezhnaya Street"
+},
+{
+	"streetName": "Набережный",
+	"streetType": "Переулок",
+	"streetLatin": "Naberezhny Lane"
+},
+{
+	"streetName": "Нагорная",
+	"streetType": "Улица",
+	"streetLatin": "Nagornaya Street"
+},
+{
+	"streetName": "Надеждинская",
+	"streetType": "Улица",
+	"streetLatin": "Nadezhdinskaya Street"
+},
+{
+	"streetName": "Нарезной",
+	"streetType": "Переулок",
+	"streetLatin": "Nareznoy Lane"
+},
+{
+	"streetName": "Народного фронта",
+	"streetType": "Улица",
+	"streetLatin": "Narodnogo Fronta Street"
+},
+{
+	"streetName": "Народной воли",
+	"streetType": "Улица",
+	"streetLatin": "Narodnoy Voli Street"
+},
+{
+	"streetName": "Насосный",
+	"streetType": "Переулок",
+	"streetLatin": "Nasosny Lane"
+},
+{
+	"streetName": "Начдива Васильева",
+	"streetType": "Улица",
+	"streetLatin": "Nachdiva Vasilyeva Street"
+},
+{
+	"streetName": "Начдива Онуфриева",
+	"streetType": "Улица",
+	"streetLatin": "Nachdiva Onufriyeva Street"
+},
+{
+	"streetName": "Невьянский",
+	"streetType": "Переулок",
+	"streetLatin": "Nevyanskiy Lane"
+},
+{
+	"streetName": "Нейвинский",
+	"streetType": "Переулок",
+	"streetLatin": "Neyvinskiy Lane"
+},
+{
+	"streetName": "Некрасова",
+	"streetType": "Улица",
+	"streetLatin": "Nekrasova Street"
+},
+{
+	"streetName": "Нектарная",
+	"streetType": "Улица",
+	"streetLatin": "Nektarnaya Street"
+},
+{
+	"streetName": "Нефритовая",
+	"streetType": "Улица",
+	"streetLatin": "Nefritovaya Street"
+},
+{
+	"streetName": "Нижняя",
+	"streetType": "Улица",
+	"streetLatin": "Nizhnyaya Street"
+},
+{
+	"streetName": "Низовой",
+	"streetType": "Переулок",
+	"streetLatin": "Nizovoy Lane"
+},
+{
+	"streetName": "Никитина",
+	"streetType": "Переулок",
+	"streetLatin": "Nikitina Lane"
+},
+{
+	"streetName": "Никитский",
+	"streetType": "Проезд",
+	"streetLatin": "Nikitskiy Drive"
+},
+{
+	"streetName": "Николая Дёмина",
+	"streetType": "Улица",
+	"streetLatin": "Nikolaya Dyomina Street"
+},
+{
+	"streetName": "Николая Кичигина",
+	"streetType": "Улица",
+	"streetLatin": "Nikolaya Kichigina Street"
+},
+{
+	"streetName": "Николая Никонова",
+	"streetType": "Улица",
+	"streetLatin": "Nikolaya Nikonova Street"
+},
+{
+	"streetName": "Николая Островского",
+	"streetType": "Улица",
+	"streetLatin": "Nikolaya Ostrovskogo Street"
+},
+{
+	"streetName": "Николы Тесла",
+	"streetType": "Улица",
+	"streetLatin": "Nikoly Tesla Street"
+},
+{
+	"streetName": "Никольский",
+	"streetType": "Переулок",
+	"streetLatin": "Nikolskiy Lane"
+},
+{
+	"streetName": "Новаторов",
+	"streetType": "Улица",
+	"streetLatin": "Novatorov Street"
+},
+{
+	"streetName": "Новая",
+	"streetType": "Улица",
+	"streetLatin": "Novaya Street"
+},
+{
+	"streetName": "Новгородцевой",
+	"streetType": "Улица",
+	"streetLatin": "Novgorodtsevoy Street"
+},
+{
+	"streetName": "Новинская",
+	"streetType": "Улица",
+	"streetLatin": "Novinskaya Street"
+},
+{
+	"streetName": "Новокольцовская",
+	"streetType": "Улица",
+	"streetLatin": "Novokoltsovskaya Street"
+},
+{
+	"streetName": "Новокомбинатская",
+	"streetType": "Улица",
+	"streetLatin": "Novokombinatskaya Street"
+},
+{
+	"streetName": "Новоозёрная",
+	"streetType": "Улица",
+	"streetLatin": "Novoozyornaya Street"
+},
+{
+	"streetName": "Новопашинский",
+	"streetType": "Переулок",
+	"streetLatin": "Novopashinskiy Lane"
+},
+{
+	"streetName": "Новорешётская",
+	"streetType": "Улица",
+	"streetLatin": "Novoreshotskaya Street"
+},
+{
+	"streetName": "Новосвердловская ТЭЦ",
+	"streetType": "Территория",
+	"streetLatin": "Novosverdlovskaya TETs (territory)"
+},
+{
+	"streetName": "Новосёлов",
+	"streetType": "Улица",
+	"streetLatin": "Novosyolov Street"
+},
+{
+	"streetName": "Новосибирская",
+	"streetType": "Улица",
+	"streetLatin": "Novosibirskaya Street"
+},
+{
+	"streetName": "Новоспасская",
+	"streetType": "Улица",
+	"streetLatin": "Novospasskaya Street"
+},
+{
+	"streetName": "Новостроя",
+	"streetType": "Улица",
+	"streetLatin": "Novostroya Street"
+},
+{
+	"streetName": "Норильская",
+	"streetType": "Улица",
+	"streetLatin": "Norilskaya Street"
+},
+{
+	"streetName": "Облепиховый",
+	"streetType": "Переулок",
+	"streetLatin": "Oblepikhovy Lane"
+},
+{
+	"streetName": "Обманский",
+	"streetType": "Переулок",
+	"streetLatin": "Obmanskiy Lane"
+},
+{
+	"streetName": "Обозный",
+	"streetType": "Переулок",
+	"streetLatin": "Obozny Lane"
+},
+{
+	"streetName": "Оборонная",
+	"streetType": "Улица",
+	"streetLatin": "Oboronnaya Street"
+},
+{
+	"streetName": "Обороны",
+	"streetType": "Площадь",
+	"streetLatin": "Oborony Square"
+},
+{
+	"streetName": "Оброшинская",
+	"streetType": "Улица",
+	"streetLatin": "Obroshinskaya Street"
+},
+{
+	"streetName": "Обувщиков",
+	"streetType": "Улица",
+	"streetLatin": "Obuvshchikov Street"
+},
+{
+	"streetName": "Обуховская",
+	"streetType": "Улица",
+	"streetLatin": "Obukhovskaya Street"
+},
+{
+	"streetName": "Обходной",
+	"streetType": "Переулок",
+	"streetLatin": "Obkhodnoy Lane"
+},
+{
+	"streetName": "Овощная",
+	"streetType": "Улица",
+	"streetLatin": "Ovoshchnaya Street"
+},
+{
+	"streetName": "Овражек",
+	"streetType": "Улица",
+	"streetLatin": "Ovrazhek Street"
+},
+{
+	"streetName": "Огарёва",
+	"streetType": "Улица",
+	"streetLatin": "Ogaryova Street"
+},
+{
+	"streetName": "Огородная",
+	"streetType": "Станция",
+	"streetLatin": "Ogorodnaya Station"
+},
+{
+	"streetName": "Одинарка",
+	"streetType": "Улица",
+	"streetLatin": "Odinarka Street"
+},
+{
+	"streetName": "Озёрная",
+	"streetType": "Улица",
+	"streetLatin": "Ozyornaya Street"
+},
+{
+	"streetName": "Озёрный",
+	"streetType": "Переулок",
+	"streetLatin": "Ozyorny Lane"
+},
+{
+	"streetName": "Окраинная",
+	"streetType": "Улица",
+	"streetLatin": "Okrainnaya Street"
+},
+{
+	"streetName": "Окружная",
+	"streetType": "Улица",
+	"streetLatin": "Okruzhnaya Street"
+},
+{
+	"streetName": "Октябрьская",
+	"streetType": "Площадь",
+	"streetLatin": "Oktyabrskaya Square"
+},
+{
+	"streetName": "Октябрьская",
+	"streetType": "Улица",
+	"streetLatin": "Oktyabrskaya Street"
+},
+{
+	"streetName": "Октябрьской революции",
+	"streetType": "Улица",
+	"streetLatin": "Oktyabrskoy Revolyutsii Street"
+},
+{
+	"streetName": "Октябрят",
+	"streetType": "Переулок",
+	"streetLatin": "Oktyabryat Lane"
+},
+{
+	"streetName": "Олега Кошевого",
+	"streetType": "Улица",
+	"streetLatin": "Olega Koshevogo Street"
+},
+{
+	"streetName": "Оливиновый",
+	"streetType": "Переулок",
+	"streetLatin": "Olivinovy Lane"
+},
+{
+	"streetName": "Олимпийская",
+	"streetType": "Набережная",
+	"streetLatin": "Olimpiyskaya Riverfront"
+},
+{
+	"streetName": "Ольгинская",
+	"streetType": "Улица",
+	"streetLatin": "Olginskaya Street"
+},
+{
+	"streetName": "Ольховая",
+	"streetType": "Улица",
+	"streetLatin": "Olkhovaya Street"
+},
+{
+	"streetName": "Ольховская",
+	"streetType": "Улица",
+	"streetLatin": "Olkhovskaya Street"
+},
+{
+	"streetName": "Омская",
+	"streetType": "Улица",
+	"streetLatin": "Omskaya Street"
+},
+{
+	"streetName": "Онежская",
+	"streetType": "Улица",
+	"streetLatin": "Onezhskaya Street"
+},
+{
+	"streetName": "Опалихинская",
+	"streetType": "Улица",
+	"streetLatin": "Opalikhinskaya Street"
+},
+{
+	"streetName": "Опаловый",
+	"streetType": "Переулок",
+	"streetLatin": "Opalovy Lane"
+},
+{
+	"streetName": "Оперативников",
+	"streetType": "Улица",
+	"streetLatin": "Operativnikov Street"
+},
+{
+	"streetName": "Опорная",
+	"streetType": "Улица",
+	"streetLatin": "Opornaya Street"
+},
+{
+	"streetName": "Опытная",
+	"streetType": "Улица",
+	"streetLatin": "Opytnaya Street"
+},
+{
+	"streetName": "Орбитальная",
+	"streetType": "Улица",
+	"streetLatin": "Orbitalnaya Street"
+},
+{
+	"streetName": "Орденоносцев",
+	"streetType": "Улица",
+	"streetLatin": "Ordenonostsev Street"
+},
+{
+	"streetName": "Орджоникидзе",
+	"streetType": "Проспект",
+	"streetLatin": "Ordzhonikidze Avenue"
+},
+{
+	"streetName": "Орджоникидзе",
+	"streetType": "Улица",
+	"streetLatin": "Ordzhonikidze Street"
+},
+{
+	"streetName": "Ореховая",
+	"streetType": "Улица",
+	"streetLatin": "Orekhovaya Street"
+},
+{
+	"streetName": "Оркестровый",
+	"streetType": "Переулок",
+	"streetLatin": "Orkestrovy Lane"
+},
+{
+	"streetName": "Орловская",
+	"streetType": "Улица",
+	"streetLatin": "Orlovskaya Street"
+},
+{
+	"streetName": "Оседлая",
+	"streetType": "Улица",
+	"streetLatin": "Osedlaya Street"
+},
+{
+	"streetName": "Осенний ",
+	"streetType": "Переулок",
+	"streetLatin": "Osenniy Lane"
+},
+{
+	"streetName": "Осиновый",
+	"streetType": "Переулок",
+	"streetLatin": "Osinovy Lane"
+},
+{
+	"streetName": "Осипенко",
+	"streetType": "Переулок",
+	"streetLatin": "Osipenko Lane"
+},
+{
+	"streetName": "Основинская",
+	"streetType": "Улица",
+	"streetLatin": "Osnovinskaya Street"
+},
+{
+	"streetName": "Осоавиахима",
+	"streetType": "Переулок",
+	"streetLatin": "Osoaviakhima Lane"
+},
+{
+	"streetName": "Осоковая",
+	"streetType": "Улица",
+	"streetLatin": "Osokovaya Street"
+},
+{
+	"streetName": "Отдельный",
+	"streetType": "Переулок",
+	"streetLatin": "Otdelny Lane"
+},
+{
+	"streetName": "Отдыха",
+	"streetType": "Улица",
+	"streetLatin": "Otdykha Street"
+},
+{
+	"streetName": "Отпускников",
+	"streetType": "Переулок",
+	"streetLatin": "Otpusknikov Lane"
+},
+{
+	"streetName": "Отрадная",
+	"streetType": "Улица",
+	"streetLatin": "Otradnaya Street"
+},
+{
+	"streetName": "Отто Шмидта",
+	"streetType": "Улица",
+	"streetLatin": "Otto Shmidta Street"
+},
+{
+	"streetName": "Охотников",
+	"streetType": "Улица",
+	"streetLatin": "Okhotnikov Street"
+},
+{
+	"streetName": "Очеретина",
+	"streetType": "Улица",
+	"streetLatin": "Ocheretina Street"
+},
+{
+	"streetName": "Павла Зыкова",
+	"streetType": "Улица",
+	"streetLatin": "Pavla Zykova Street"
+},
+{
+	"streetName": "Павла Шаманова",
+	"streetType": "Улица",
+	"streetLatin": "Pavla Shamanova Street"
+},
+{
+	"streetName": "Павловская",
+	"streetType": "Улица",
+	"streetLatin": "Pavlovskaya Street"
+},
+{
+	"streetName": "Павлодарская",
+	"streetType": "Улица",
+	"streetLatin": "Pavlodarskaya Street"
+},
+{
+	"streetName": "Палисадная",
+	"streetType": "Улица",
+	"streetLatin": "Palisadnaya Street"
+},
+{
+	"streetName": "Палкино",
+	"streetType": "Станция",
+	"streetLatin": "Palkino Station"
+},
+{
+	"streetName": "Палкинский",
+	"streetType": "Переулок",
+	"streetLatin": "Palkinskiy Lane"
+},
+{
+	"streetName": "Пальмиро Тольятти",
+	"streetType": "Улица",
+	"streetLatin": "Palmiro Togliatti Street"
+},
+{
+	"streetName": "Памирская",
+	"streetType": "Улица",
+	"streetLatin": "Pamirskaya Street"
+},
+{
+	"streetName": "Панельная",
+	"streetType": "Улица",
+	"streetLatin": "Panelnaya Street"
+},
+{
+	"streetName": "Панорамная",
+	"streetType": "Улица",
+	"streetLatin": "Panoramnaya Street"
+},
+{
+	"streetName": "Панфиловцев",
+	"streetType": "Улица",
+	"streetLatin": "Panfilovtsev Street"
+},
+{
+	"streetName": "Папанина",
+	"streetType": "Улица",
+	"streetLatin": "Papanina Street"
+},
+{
+	"streetName": "Парижской Коммуны",
+	"streetType": "Площадь",
+	"streetLatin": "Parizhskoy Kommuny Square"
+},
+{
+	"streetName": "Парковая",
+	"streetType": "Улица",
+	"streetLatin": "Parkovaya Street"
+},
+{
+	"streetName": "Парковый",
+	"streetType": "Переулок",
+	"streetLatin": "Parkovy Lane"
+},
+{
+	"streetName": "Парниковая",
+	"streetType": "Улица",
+	"streetLatin": "Parnikovaya Street"
+},
+{
+	"streetName": "Паровозников",
+	"streetType": "Улица",
+	"streetLatin": "Parovoznikov Street"
+},
+{
+	"streetName": "Партизанская",
+	"streetType": "Улица",
+	"streetLatin": "Partizanskaya Street"
+},
+{
+	"streetName": "Пархоменко",
+	"streetType": "Улица",
+	"streetLatin": "Parkhomenko Street"
+},
+{
+	"streetName": "Пасхальная ",
+	"streetType": "Улица",
+	"streetLatin": "Paskhalnaya Street"
+},
+{
+	"streetName": "Патриотов",
+	"streetType": "Улица",
+	"streetLatin": "Patriotov Street"
+},
+{
+	"streetName": "Патриса Лумумбы",
+	"streetType": "Улица",
+	"streetLatin": "Patrisa Lumumby Street"
+},
+{
+	"streetName": "Патрушихинская",
+	"streetType": "Улица",
+	"streetLatin": "Patrushikhinskaya Street"
+},
+{
+	"streetName": "Певческий",
+	"streetType": "Переулок",
+	"streetLatin": "Pevcheskiy Lane"
+},
+{
+	"streetName": "Педагогическая",
+	"streetType": "Улица",
+	"streetLatin": "Pedagogicheskaya Street"
+},
+{
+	"streetName": "Пейзажная",
+	"streetType": "Улица",
+	"streetLatin": "Peyzazhnaya Street"
+},
+{
+	"streetName": "Пензенская",
+	"streetType": "Улица",
+	"streetLatin": "Penzenskaya Street"
+},
+{
+	"streetName": "Пеньковая",
+	"streetType": "Улица",
+	"streetLatin": "Penkovaya Street"
+},
+{
+	"streetName": "Первомайская",
+	"streetType": "Улица",
+	"streetLatin": "Pervomayskaya Street"
+},
+{
+	"streetName": "Первомайский",
+	"streetType": "Переулок",
+	"streetLatin": "Pervomayskiy Lane"
+},
+{
+	"streetName": "Первопроходцев",
+	"streetType": "Улица",
+	"streetLatin": "Pervoprokhodtsev Street"
+},
+{
+	"streetName": "Первоцветная",
+	"streetType": "Улица",
+	"streetLatin": "Pervotsvetnaya Street"
+},
+{
+	"streetName": "Первый",
+	"streetType": "Проезд",
+	"streetLatin": "Perviy Drive"
+},
+{
+	"streetName": "Перевальная",
+	"streetType": "Улица",
+	"streetLatin": "Perevalnaya Street"
+},
+{
+	"streetName": "Перекатная",
+	"streetType": "Улица",
+	"streetLatin": "Perekatnaya Street"
+},
+{
+	"streetName": "Переходный",
+	"streetType": "Переулок",
+	"streetLatin": "Perekhodny Lane"
+},
+{
+	"streetName": "Пермская",
+	"streetType": "Улица",
+	"streetLatin": "Permskaya Street"
+},
+{
+	"streetName": "Персиковая",
+	"streetType": "Улица",
+	"streetLatin": "Persikovaya Street"
+},
+{
+	"streetName": "Перспективная",
+	"streetType": "Улица",
+	"streetLatin": "Perspektivnaya Street"
+},
+{
+	"streetName": "Пески",
+	"streetType": "Улица",
+	"streetLatin": "Pyeski Street"
+},
+{
+	"streetName": "Пестеревский",
+	"streetType": "Переулок",
+	"streetLatin": "Pesterevskiy Lane"
+},
+{
+	"streetName": "Песчаная",
+	"streetType": "Улица",
+	"streetLatin": "Peschanaya Street"
+},
+{
+	"streetName": "Петра Кожемяко",
+	"streetType": "Бульвар",
+	"streetLatin": "Petra Kozhemyako Boulevard"
+},
+{
+	"streetName": "Петропавловская",
+	"streetType": "Улица",
+	"streetLatin": "Petropavlovskaya Street"
+},
+{
+	"streetName": "Пехотинцев",
+	"streetType": "Улица",
+	"streetLatin": "Pekhotintsev Street"
+},
+{
+	"streetName": "Печатников",
+	"streetType": "Улица",
+	"streetLatin": "Pechatnikov Street"
+},
+{
+	"streetName": "Печерская",
+	"streetType": "Улица",
+	"streetLatin": "Pecherskaya Street"
+},
+{
+	"streetName": "Пешеходный",
+	"streetType": "Переулок",
+	"streetLatin": "Peshekhodny Lane"
+},
+{
+	"streetName": "Пикетная",
+	"streetType": "Улица",
+	"streetLatin": "Piketnaya Street"
+},
+{
+	"streetName": "Пилотная",
+	"streetType": "Улица",
+	"streetLatin": "Pilotnaya Street"
+},
+{
+	"streetName": "Пильщиков",
+	"streetType": "Переулок",
+	"streetLatin": "Pilshchikov Lane"
+},
+{
+	"streetName": "Пионеров",
+	"streetType": "Улица",
+	"streetLatin": "Pionerov Street"
+},
+{
+	"streetName": "Пионерская",
+	"streetType": "Улица",
+	"streetLatin": "Pionerskaya Street"
+},
+{
+	"streetName": "Пионерский",
+	"streetType": "Переулок",
+	"streetLatin": "Pionerskiy Lane"
+},
+{
+	"streetName": "Пионовая",
+	"streetType": "Улица",
+	"streetLatin": "Pionovaya Street"
+},
+{
+	"streetName": "Пирогова",
+	"streetType": "Улица",
+	"streetLatin": "Pirogova Street"
+},
+{
+	"streetName": "Писарева",
+	"streetType": "Переулок",
+	"streetLatin": "Pisareva Lane"
+},
+{
+	"streetName": "Пихтовая",
+	"streetType": "Улица",
+	"streetLatin": "Pikhtovaya Street"
+},
+{
+	"streetName": "Плавильщиков",
+	"streetType": "Улица",
+	"streetLatin": "Plavilshchikov Street"
+},
+{
+	"streetName": "Планеристов",
+	"streetType": "Улица",
+	"streetLatin": "Planeristov Street"
+},
+{
+	"streetName": "Планетная",
+	"streetType": "Улица",
+	"streetLatin": "Planetnaya Street"
+},
+{
+	"streetName": "Платиновая",
+	"streetType": "Улица",
+	"streetLatin": "Platinovaya Street"
+},
+{
+	"streetName": "Плеханова",
+	"streetType": "Улица",
+	"streetLatin": "Plekhanova Street"
+},
+{
+	"streetName": "Плодовая",
+	"streetType": "Улица",
+	"streetLatin": "Plodovaya Street"
+},
+{
+	"streetName": "Плодородия",
+	"streetType": "Улица",
+	"streetLatin": "Plodorodiya Street"
+},
+{
+	"streetName": "Плотников",
+	"streetType": "Улица",
+	"streetLatin": "Plotnikov Street"
+},
+{
+	"streetName": "Победы",
+	"streetType": "Улица",
+	"streetLatin": "Pobedy Street"
+},
+{
+	"streetName": "Поворотный",
+	"streetType": "Переулок",
+	"streetLatin": "Povorotny Lane"
+},
+{
+	"streetName": "Пограничников",
+	"streetType": "Улица",
+	"streetLatin": "Pogranichnikov Street"
+},
+{
+	"streetName": "Подгорная",
+	"streetType": "Улица",
+	"streetLatin": "Podgornaya Street"
+},
+{
+	"streetName": "Подлесная",
+	"streetType": "Улица",
+	"streetLatin": "Podlesnaya Street"
+},
+{
+	"streetName": "Подрядный",
+	"streetType": "Переулок",
+	"streetLatin": "Podryadny Lane"
+},
+{
+	"streetName": "Подснежный",
+	"streetType": "Переулок",
+	"streetLatin": "Podsnezhny Lane"
+},
+{
+	"streetName": "Пожарных",
+	"streetType": "Улица",
+	"streetLatin": "Pozharnykh Street"
+},
+{
+	"streetName": "Покосная",
+	"streetType": "Улица",
+	"streetLatin": "Pokosnaya Street"
+},
+{
+	"streetName": "Покровская",
+	"streetType": "Улица",
+	"streetLatin": "Pokrovskaya Street"
+},
+{
+	"streetName": "Полдневая",
+	"streetType": "Улица",
+	"streetLatin": "Poldnevaya Street"
+},
+{
+	"streetName": "Полевая",
+	"streetType": "Улица",
+	"streetLatin": "Polevaya Street"
+},
+{
+	"streetName": "Полеводов",
+	"streetType": "Улица",
+	"streetLatin": "Polevodov Street"
+},
+{
+	"streetName": "Полевской",
+	"streetType": "Тракт",
+	"streetLatin": "Polevskoy Highway"
+},
+{
+	"streetName": "Полежаевой",
+	"streetType": "Улица",
+	"streetLatin": "Polezhayevoy Street"
+},
+{
+	"streetName": "Ползунова",
+	"streetType": "Улица",
+	"streetLatin": "Polzunova Street"
+},
+{
+	"streetName": "Полимерный",
+	"streetType": "Переулок",
+	"streetLatin": "Polimerny Lane"
+},
+{
+	"streetName": "Полковая",
+	"streetType": "Улица",
+	"streetLatin": "Polkovaya Street"
+},
+{
+	"streetName": "Половодный",
+	"streetType": "Переулок",
+	"streetLatin": "Polovodny Lane"
+},
+{
+	"streetName": "Пологий",
+	"streetType": "Переулок",
+	"streetLatin": "Pologiy Lane"
+},
+{
+	"streetName": "Полтавская",
+	"streetType": "Улица",
+	"streetLatin": "Poltavskaya Street"
+},
+{
+	"streetName": "Полынная",
+	"streetType": "Улица",
+	"streetLatin": "Polynnaya Street"
+},
+{
+	"streetName": "Полюсная",
+	"streetType": "Улица",
+	"streetLatin": "Polyusnaya Street"
+},
+{
+	"streetName": "Полянка",
+	"streetType": "Улица",
+	"streetLatin": "Polyanka Street"
+},
+{
+	"streetName": "Полярников",
+	"streetType": "Переулок",
+	"streetLatin": "Polyarnikov Lane"
+},
+{
+	"streetName": "Попова",
+	"streetType": "Улица",
+	"streetLatin": "Popova Street"
+},
+{
+	"streetName": "Порошинская",
+	"streetType": "Улица",
+	"streetLatin": "Poroshinskaya Street"
+},
+{
+	"streetName": "Посадская",
+	"streetType": "Улица",
+	"streetLatin": "Posadskaya Street"
+},
+{
+	"streetName": "Посевная",
+	"streetType": "Улица",
+	"streetLatin": "Posevnaya Street"
+},
+{
+	"streetName": "Поселковый",
+	"streetType": "Переулок",
+	"streetLatin": "Poselkovy Lane"
+},
+{
+	"streetName": "Постовая",
+	"streetType": "Улица",
+	"streetLatin": "Postovaya Street"
+},
+{
+	"streetName": "Потешный",
+	"streetType": "Переулок",
+	"streetLatin": "Poteshny Lane"
+},
+{
+	"streetName": "Поточный",
+	"streetType": "Переулок",
+	"streetLatin": "Potochny Lane"
+},
+{
+	"streetName": "Походная",
+	"streetType": "Улица",
+	"streetLatin": "Pokhodnaya Street"
+},
+{
+	"streetName": "Почтовый",
+	"streetType": "Переулок",
+	"streetLatin": "Pochtovy Lane"
+},
+{
+	"streetName": "Праздничная",
+	"streetType": "Улица",
+	"streetLatin": "Prazdnichnaya Street"
+},
+{
+	"streetName": "Предельная",
+	"streetType": "Улица",
+	"streetLatin": "Predelnaya Street"
+},
+{
+	"streetName": "Предлесья",
+	"streetType": "Улица",
+	"streetLatin": "Predlesya Street"
+},
+{
+	"streetName": "Преподобного Сергия Радонежского",
+	"streetType": "Улица",
+	"streetLatin": "Prepodobnogo Sergiya Radonezhskogo Street"
+},
+{
+	"streetName": "Прибалтийская",
+	"streetType": "Улица",
+	"streetLatin": "Pribaltiyskaya Street"
+},
+{
+	"streetName": "Прибрежный",
+	"streetType": "Переулок",
+	"streetLatin": "Pribrezhny Lane"
+},
+{
+	"streetName": "Приветливый",
+	"streetType": "Переулок",
+	"streetLatin": "Privetlivy Lane"
+},
+{
+	"streetName": "Привокзальная",
+	"streetType": "Улица",
+	"streetLatin": "Privokzalnaya Street"
+},
+{
+	"streetName": "Привольная",
+	"streetType": "Улица",
+	"streetLatin": "Privolnaya Street"
+},
+{
+	"streetName": "Пригородная",
+	"streetType": "Улица",
+	"streetLatin": "Prigorodnaya Street"
+},
+{
+	"streetName": "Придорожная",
+	"streetType": "Улица",
+	"streetLatin": "Pridorozhnaya Street"
+},
+{
+	"streetName": "Приисковая",
+	"streetType": "Станция",
+	"streetLatin": "Priiskovaya Station"
+},
+{
+	"streetName": "Приисковая",
+	"streetType": "Улица",
+	"streetLatin": "Priiskovaya Street"
+},
+{
+	"streetName": "Природный",
+	"streetType": "Переулок",
+	"streetLatin": "Prirodny Lane"
+},
+{
+	"streetName": "Прогонная",
+	"streetType": "Улица",
+	"streetLatin": "Progonnaya Street"
+},
+{
+	"streetName": "Проезжая",
+	"streetType": "Улица",
+	"streetLatin": "Proyezzhaya Street"
+},
+{
+	"streetName": "Проезжий",
+	"streetType": "Переулок",
+	"streetLatin": "Proyezzhiy Lane"
+},
+{
+	"streetName": "Производственный",
+	"streetType": "Переулок",
+	"streetLatin": "Proizvodstvenny Lane"
+},
+{
+	"streetName": "Пролетарская",
+	"streetType": "Улица",
+	"streetLatin": "Proletarskaya Street"
+},
+{
+	"streetName": "Промысловая",
+	"streetType": "Улица",
+	"streetLatin": "Promyslovaya Street"
+},
+{
+	"streetName": "Промышленный",
+	"streetType": "Проезд",
+	"streetLatin": "Promyshlenny Drive"
+},
+{
+	"streetName": "Прониной",
+	"streetType": "Улица",
+	"streetLatin": "Proninoy Street"
+},
+{
+	"streetName": "Просторная",
+	"streetType": "Улица",
+	"streetLatin": "Prostornaya Street"
+},
+{
+	"streetName": "Проталинка",
+	"streetType": "Улица",
+	"streetLatin": "Protalinka Street"
+},
+{
+	"streetName": "Проточный",
+	"streetType": "Переулок",
+	"streetLatin": "Protochny Lane"
+},
+{
+	"streetName": "Профсоюзная",
+	"streetType": "Улица",
+	"streetLatin": "Profsoyuznaya Street"
+},
+{
+	"streetName": "Прохладная",
+	"streetType": "Улица",
+	"streetLatin": "Prokhladnaya Street"
+},
+{
+	"streetName": "Проходной",
+	"streetType": "Переулок",
+	"streetLatin": "Prokhodnoy Lane"
+},
+{
+	"streetName": "Прохожая",
+	"streetType": "Улица",
+	"streetLatin": "Prokhozhaya Street"
+},
+{
+	"streetName": "Прутковый",
+	"streetType": "Переулок",
+	"streetLatin": "Prutkovy Lane"
+},
+{
+	"streetName": "Прямой",
+	"streetType": "Переулок",
+	"streetLatin": "Pryamoy Lane"
+},
+{
+	"streetName": "Пугачёвский",
+	"streetType": "Переулок",
+	"streetLatin": "Pugachovskiy Lane"
+},
+{
+	"streetName": "Путёвка",
+	"streetType": "Станция",
+	"streetLatin": "Putyovka Station"
+},
+{
+	"streetName": "Пушкина",
+	"streetType": "Улица",
+	"streetLatin": "Pushkina Street"
+},
+{
+	"streetName": "Пшеничный",
+	"streetType": "Переулок",
+	"streetLatin": "Pshenichny Lane"
+},
+{
+	"streetName": "Пышминская",
+	"streetType": "Улица",
+	"streetLatin": "Pyshminskaya Street"
+},
+{
+	"streetName": "Рабкоров",
+	"streetType": "Улица",
+	"streetLatin": "Rabkorov Street"
+},
+{
+	"streetName": "Рабочая",
+	"streetType": "Улица",
+	"streetLatin": "Rabochaya Street"
+},
+{
+	"streetName": "Рабочей молодёжи",
+	"streetType": "Набережная",
+	"streetLatin": "Rabochey Molodyozhi Riverfront"
+},
+{
+	"streetName": "Рабочих",
+	"streetType": "Улица",
+	"streetLatin": "Rabochikh Street"
+},
+{
+	"streetName": "Радищева",
+	"streetType": "Улица",
+	"streetLatin": "Radishcheva Street"
+},
+{
+	"streetName": "Радужная",
+	"streetType": "Улица",
+	"streetLatin": "Raduzhnaya Street"
+},
+{
+	"streetName": "Раевского",
+	"streetType": "Улица",
+	"streetLatin": "Rayevskogo Street"
+},
+{
+	"streetName": "Раздольная",
+	"streetType": "Улица",
+	"streetLatin": "Razdolnaya Street"
+},
+{
+	"streetName": "Разливная",
+	"streetType": "Улица",
+	"streetLatin": "Razlivnaya Street"
+},
+{
+	"streetName": "Разъездной",
+	"streetType": "Переулок",
+	"streetLatin": "Razyezdnoy Lane"
+},
+{
+	"streetName": "Ракетная",
+	"streetType": "Улица",
+	"streetLatin": "Raketnaya Street"
+},
+{
+	"streetName": "Ракитовая",
+	"streetType": "Улица",
+	"streetLatin": "Rakitovaya Street"
+},
+{
+	"streetName": "Расковой",
+	"streetType": "Улица",
+	"streetLatin": "Raskovoy Street"
+},
+{
+	"streetName": "Рассветная",
+	"streetType": "Улица",
+	"streetLatin": "Rassvetnaya Street"
+},
+{
+	"streetName": "Расточная",
+	"streetType": "Улица",
+	"streetLatin": "Rastochnaya Street"
+},
+{
+	"streetName": "Реактивная",
+	"streetType": "Улица",
+	"streetLatin": "Reaktivnaya Street"
+},
+{
+	"streetName": "Революции",
+	"streetType": "Улица",
+	"streetLatin": "Revolyutsii Street"
+},
+{
+	"streetName": "Региональная",
+	"streetType": "Улица",
+	"streetLatin": "Regionalnaya Street"
+},
+{
+	"streetName": "Редколесья",
+	"streetType": "Улица",
+	"streetLatin": "Redkolesya Street"
+},
+{
+	"streetName": "Режевской",
+	"streetType": "Переулок",
+	"streetLatin": "Rezhevskoy Lane"
+},
+{
+	"streetName": "Режимный",
+	"streetType": "Переулок",
+	"streetLatin": "Rezhimny Lane"
+},
+{
+	"streetName": "Резервная",
+	"streetType": "Улица",
+	"streetLatin": "Rezervnaya Street"
+},
+{
+	"streetName": "Рейсовая",
+	"streetType": "Улица",
+	"streetLatin": "Reysovaya Street"
+},
+{
+	"streetName": "Рекордный",
+	"streetType": "Переулок",
+	"streetLatin": "Rekordny Lane"
+},
+{
+	"streetName": "Ремесленный",
+	"streetType": "Переулок",
+	"streetLatin": "Remeslenny Lane"
+},
+{
+	"streetName": "Ремонтный",
+	"streetType": "Переулок",
+	"streetLatin": "Remontny Lane"
+},
+{
+	"streetName": "Репина",
+	"streetType": "Улица",
+	"streetLatin": "Repina Street"
+},
+{
+	"streetName": "Республиканская",
+	"streetType": "Улица",
+	"streetLatin": "Respublikanskaya Street"
+},
+{
+	"streetName": "Ресурсная",
+	"streetType": "Улица",
+	"streetLatin": "Resursnaya Street"
+},
+{
+	"streetName": "Речная",
+	"streetType": "Улица",
+	"streetLatin": "Rechnaya Street"
+},
+{
+	"streetName": "Речной",
+	"streetType": "Бульвар",
+	"streetLatin": "Rechnoy Boulevard"
+},
+{
+	"streetName": "Речной",
+	"streetType": "Переулок",
+	"streetLatin": "Rechnoy Lane"
+},
+{
+	"streetName": "Решетникова",
+	"streetType": "Проезд",
+	"streetLatin": "Reshetnikova Drive"
+},
+{
+	"streetName": "Решётская",
+	"streetType": "Улица",
+	"streetLatin": "Reshotskaya Street"
+},
+{
+	"streetName": "Ржаной",
+	"streetType": "Переулок",
+	"streetLatin": "Rzhanoy Lane"
+},
+{
+	"streetName": "Ржевская",
+	"streetType": "Улица",
+	"streetLatin": "Rzhevskaya Street"
+},
+{
+	"streetName": "Рижский",
+	"streetType": "Переулок",
+	"streetLatin": "Rizhskiy Lane"
+},
+{
+	"streetName": "Ритслянда",
+	"streetType": "Переулок",
+	"streetLatin": "Ritslyanda Lane"
+},
+{
+	"streetName": "Родниковый",
+	"streetType": "Переулок",
+	"streetLatin": "Rodnikovy Lane"
+},
+{
+	"streetName": "Родонитовая",
+	"streetType": "Улица",
+	"streetLatin": "Rodonitovaya Street"
+},
+{
+	"streetName": "Рождественская",
+	"streetType": "Улица",
+	"streetLatin": "Rozhdestvenskaya Street"
+},
+{
+	"streetName": "Розы Люксембург",
+	"streetType": "Улица",
+	"streetLatin": "Rosy Luxemburg Street"
+},
+{
+	"streetName": "Романтиков",
+	"streetType": "Улица",
+	"streetLatin": "Romantikov Street"
+},
+{
+	"streetName": "Романтическая",
+	"streetType": "Улица",
+	"streetLatin": "Romanticheskaya Street"
+},
+{
+	"streetName": "Ромашковый",
+	"streetType": "Переулок",
+	"streetLatin": "Romashkovy Lane"
+},
+{
+	"streetName": "Российская",
+	"streetType": "Улица",
+	"streetLatin": "Rossiyskaya Street"
+},
+{
+	"streetName": "Росянка",
+	"streetType": "Улица",
+	"streetLatin": "Rosyanka Street"
+},
+{
+	"streetName": "Ротная",
+	"streetType": "Улица",
+	"streetLatin": "Rotnaya Street"
+},
+{
+	"streetName": "Рощинская",
+	"streetType": "Улица",
+	"streetLatin": "Roshchinskaya Street"
+},
+{
+	"streetName": "Рубежная",
+	"streetType": "Улица",
+	"streetLatin": "Rubezhnaya Street"
+},
+{
+	"streetName": "Рубиновая",
+	"streetType": "Улица",
+	"streetLatin": "Rubinovaya Street"
+},
+{
+	"streetName": "Рудногорский",
+	"streetType": "Переулок",
+	"streetLatin": "Rudnogorskiy Lane"
+},
+{
+	"streetName": "Рудознатцев",
+	"streetType": "Улица",
+	"streetLatin": "Rudoznattsev Street"
+},
+{
+	"streetName": "Рудянский",
+	"streetType": "Переулок",
+	"streetLatin": "Rudyanskiy Lane"
+},
+{
+	"streetName": "Рутминского",
+	"streetType": "Улица",
+	"streetLatin": "Rutminskogo Street"
+},
+{
+	"streetName": "Ручейная",
+	"streetType": "Улица",
+	"streetLatin": "Rucheynaya Street"
+},
+{
+	"streetName": "Рушниковая",
+	"streetType": "Улица",
+	"streetLatin": "Rushnikovaya Street"
+},
+{
+	"streetName": "Рыбаков",
+	"streetType": "Улица",
+	"streetLatin": "Rybakov Street"
+},
+{
+	"streetName": "Рыбинский",
+	"streetType": "Переулок",
+	"streetLatin": "Rybinskiy Lane"
+},
+{
+	"streetName": "Рыбная",
+	"streetType": "Улица",
+	"streetLatin": "Rybnaya Street"
+},
+{
+	"streetName": "Рыбоводов",
+	"streetType": "Улица",
+	"streetLatin": "Rybovodov Street"
+},
+{
+	"streetName": "Рябинина",
+	"streetType": "Улица",
+	"streetLatin": "Ryabinina Street"
+},
+{
+	"streetName": "Рябиновая",
+	"streetType": "Улица",
+	"streetLatin": "Ryabinovaya Street"
+},
+{
+	"streetName": "Рязанский",
+	"streetType": "Переулок",
+	"streetLatin": "Ryazanskiy Lane"
+},
+{
+	"streetName": "Саввы Белых",
+	"streetType": "Улица",
+	"streetLatin": "Savvy Belykh Street"
+},
+{
+	"streetName": "Сагринская",
+	"streetType": "Улица",
+	"streetLatin": "Sagrinskaya Street"
+},
+{
+	"streetName": "Садовая",
+	"streetType": "Улица",
+	"streetLatin": "Sadovaya Street"
+},
+{
+	"streetName": "Садоводов",
+	"streetType": "Переулок",
+	"streetLatin": "Sadovodov Lane"
+},
+{
+	"streetName": "Садовый",
+	"streetType": "Переулок",
+	"streetLatin": "Sadovy Lane"
+},
+{
+	"streetName": "Сажинская",
+	"streetType": "Улица",
+	"streetLatin": "Sazhinskaya Street"
+},
+{
+	"streetName": "Сазонова",
+	"streetType": "Улица",
+	"streetLatin": "Sazonova Street"
+},
+{
+	"streetName": "Сакко и Ванцетти",
+	"streetType": "Улица",
+	"streetLatin": "Sacco i Vanzetti Street"
+},
+{
+	"streetName": "Салдинская",
+	"streetType": "Улица",
+	"streetLatin": "Saldinskaya Street"
+},
+{
+	"streetName": "Самаркандская",
+	"streetType": "Улица",
+	"streetLatin": "Samarkandskaya Street"
+},
+{
+	"streetName": "Самолётная",
+	"streetType": "Улица",
+	"streetLatin": "Samolyotnaya Street"
+},
+{
+	"streetName": "Самолётный",
+	"streetType": "Переулок",
+	"streetLatin": "Samolyotny Lane"
+},
+{
+	"streetName": "Самородная",
+	"streetType": "Улица",
+	"streetLatin": "Samorodnaya Street"
+},
+{
+	"streetName": "Самоцветный",
+	"streetType": "Бульвар",
+	"streetLatin": "Samotsvetny Boulevard"
+},
+{
+	"streetName": "Санаторная",
+	"streetType": "Улица",
+	"streetLatin": "Sanatornaya Street"
+},
+{
+	"streetName": "Сапёров",
+	"streetType": "Переулок",
+	"streetLatin": "Sapyorov Lane"
+},
+{
+	"streetName": "Сапфировая",
+	"streetType": "Улица",
+	"streetLatin": "Sapfirovaya Street"
+},
+{
+	"streetName": "Саранинский",
+	"streetType": "Переулок",
+	"streetLatin": "Saraninskiy Lane"
+},
+{
+	"streetName": "Сарапульский",
+	"streetType": "Кордон",
+	"streetLatin": "Sarapulskiy Post"
+},
+{
+	"streetName": "Сахалинская",
+	"streetType": "Улица",
+	"streetLatin": "Sakhalinskaya Street"
+},
+{
+	"streetName": "Сварщиков",
+	"streetType": "Улица",
+	"streetLatin": "Svarshchikov Street"
+},
+{
+	"streetName": "Свердлова",
+	"streetType": "Переулок",
+	"streetLatin": "Sverdlova Lane"
+},
+{
+	"streetName": "Свердлова",
+	"streetType": "Улица",
+	"streetLatin": "Sverdlova Street"
+},
+{
+	"streetName": "Свердловская",
+	"streetType": "Улица",
+	"streetLatin": "Sverdlovskaya Street"
+},
+{
+	"streetName": "Светлореченская",
+	"streetType": "Улица",
+	"streetLatin": "Svetlorechenskaya Street"
+},
+{
+	"streetName": "Светлый",
+	"streetType": "Переулок",
+	"streetLatin": "Svetly Lane"
+},
+{
+	"streetName": "Свирский",
+	"streetType": "Переулок",
+	"streetLatin": "Svirskiy Lane"
+},
+{
+	"streetName": "Свободы",
+	"streetType": "Улица",
+	"streetLatin": "Svobody Street"
+},
+{
+	"streetName": "Связной",
+	"streetType": "Переулок",
+	"streetLatin": "Svyaznoy Lane"
+},
+{
+	"streetName": "Святогорская",
+	"streetType": "Улица",
+	"streetLatin": "Svyatogorskaya Street"
+},
+{
+	"streetName": "Севастопольская",
+	"streetType": "Улица",
+	"streetLatin": "Sevastopolskaya Street"
+},
+{
+	"streetName": "Северная околица",
+	"streetType": "Улица",
+	"streetLatin": "Severnaya Okolitsa Street"
+},
+{
+	"streetName": "Северный",
+	"streetType": "Переулок",
+	"streetLatin": "Severny Lane"
+},
+{
+	"streetName": "Северных радистов",
+	"streetType": "Улица",
+	"streetLatin": "Severnykh Radistov Street"
+},
+{
+	"streetName": "Северский",
+	"streetType": "Переулок",
+	"streetLatin": "Severskiy Lane"
+},
+{
+	"streetName": "Седова",
+	"streetType": "Проспект",
+	"streetLatin": "Sedova Avenue"
+},
+{
+	"streetName": "Селенитовая",
+	"streetType": "Улица",
+	"streetLatin": "Selenitovaya Street"
+},
+{
+	"streetName": "Селькоровская",
+	"streetType": "Улица",
+	"streetLatin": "Selkorovskaya Street"
+},
+{
+	"streetName": "Сельская",
+	"streetType": "Улица",
+	"streetLatin": "Selskaya Street"
+},
+{
+	"streetName": "Семейная",
+	"streetType": "Улица",
+	"streetLatin": "Semeynaya Street"
+},
+{
+	"streetName": "Семёна Лагоды",
+	"streetType": "Улица",
+	"streetLatin": "Semyona Lagody Street"
+},
+{
+	"streetName": "Сенная",
+	"streetType": "Улица",
+	"streetLatin": "Sennaya Street"
+},
+{
+	"streetName": "Сенокосный ",
+	"streetType": "Переулок",
+	"streetLatin": "Senokosny Lane"
+},
+{
+	"streetName": "Сентябрьский",
+	"streetType": "Переулок",
+	"streetLatin": "Sentyabrskiy Lane"
+},
+{
+	"streetName": "Серафимы Дерябиной",
+	"streetType": "Улица",
+	"streetLatin": "Serafimy Deryabinoy Street"
+},
+{
+	"streetName": "Сергея Есенина",
+	"streetType": "Бульвар",
+	"streetLatin": "Sergeya Yesenina Boulevard"
+},
+{
+	"streetName": "Сергинский",
+	"streetType": "Переулок",
+	"streetLatin": "Serginskiy Lane"
+},
+{
+	"streetName": "Серебристая",
+	"streetType": "Улица",
+	"streetLatin": "Serebristaya Street"
+},
+{
+	"streetName": "Серова",
+	"streetType": "Улица",
+	"streetLatin": "Serova Street"
+},
+{
+	"streetName": "Серпуховский",
+	"streetType": "Переулок",
+	"streetLatin": "Serpukhovskiy Lane"
+},
+{
+	"streetName": "Сибирка",
+	"streetType": "Улица",
+	"streetLatin": "Sibirka Street"
+},
+{
+	"streetName": "Сибирский",
+	"streetType": "Тракт",
+	"streetLatin": "Sibirskiy Highway"
+},
+{
+	"streetName": "Симбирский",
+	"streetType": "Переулок",
+	"streetLatin": "Simbirskiy Lane"
+},
+{
+	"streetName": "Симская",
+	"streetType": "Улица",
+	"streetLatin": "Simskaya Street"
+},
+{
+	"streetName": "Симферопольская",
+	"streetType": "Улица",
+	"streetLatin": "Simferopolskaya Street"
+},
+{
+	"streetName": "Синарская",
+	"streetType": "Улица",
+	"streetLatin": "Sinarskaya Street"
+},
+{
+	"streetName": "Синяева",
+	"streetType": "Улица",
+	"streetLatin": "Sinyayeva Street"
+},
+{
+	"streetName": "Сиреневая",
+	"streetType": "Улица",
+	"streetLatin": "Sirenevaya Street"
+},
+{
+	"streetName": "Сиреневый",
+	"streetType": "Бульвар",
+	"streetLatin": "Sirenevy Boulevard"
+},
+{
+	"streetName": "Ситцевый",
+	"streetType": "Переулок",
+	"streetLatin": "Sittsevy Lane"
+},
+{
+	"streetName": "Сказочный",
+	"streetType": "Переулок",
+	"streetLatin": "Skazochny Lane"
+},
+{
+	"streetName": "Скальная",
+	"streetType": "Улица",
+	"streetLatin": "Skalnaya Street"
+},
+{
+	"streetName": "Скворцовый",
+	"streetType": "Переулок",
+	"streetLatin": "Skvortsovy Lane"
+},
+{
+	"streetName": "Складской",
+	"streetType": "Проезд",
+	"streetLatin": "Skladskoy Drive"
+},
+{
+	"streetName": "Скоморошный",
+	"streetType": "Переулок",
+	"streetLatin": "Skomoroshny Lane"
+},
+{
+	"streetName": "Скоростной",
+	"streetType": "Переулок",
+	"streetLatin": "Skorostnoy Lane"
+},
+{
+	"streetName": "Славная",
+	"streetType": "Улица",
+	"streetLatin": "Slavnaya Street"
+},
+{
+	"streetName": "Славянская",
+	"streetType": "Улица",
+	"streetLatin": "Slavyanskaya Street"
+},
+{
+	"streetName": "Сланцевая",
+	"streetType": "Улица",
+	"streetLatin": "Slantsevaya Street"
+},
+{
+	"streetName": "Слободской",
+	"streetType": "Переулок",
+	"streetLatin": "Slobodskoy Lane"
+},
+{
+	"streetName": "Слюдяной",
+	"streetType": "Переулок",
+	"streetLatin": "Slyudyanoy Lane"
+},
+{
+	"streetName": "Смазчиков",
+	"streetType": "Улица",
+	"streetLatin": "Smazchikov Street"
+},
+{
+	"streetName": "Смоленская",
+	"streetType": "Улица",
+	"streetLatin": "Smolenskaya Street"
+},
+{
+	"streetName": "Смолистый",
+	"streetType": "Переулок",
+	"streetLatin": "Smolisty Lane"
+},
+{
+	"streetName": "Смоляной",
+	"streetType": "Переулок",
+	"streetLatin": "Smolyanoy Lane"
+},
+{
+	"streetName": "Смородиновая",
+	"streetType": "Улица",
+	"streetLatin": "Smorodinovaya Street"
+},
+{
+	"streetName": "Снайперов",
+	"streetType": "Переулок",
+	"streetLatin": "Snayperov Lane"
+},
+{
+	"streetName": "Снегирей",
+	"streetType": "Переулок",
+	"streetLatin": "Snegirey Lane"
+},
+{
+	"streetName": "Снежинская",
+	"streetType": "Улица",
+	"streetLatin": "Snezhinskaya Street"
+},
+{
+	"streetName": "Соболева",
+	"streetType": "Улица",
+	"streetLatin": "Soboleva Street"
+},
+{
+	"streetName": "Соболиный",
+	"streetType": "Переулок",
+	"streetLatin": "Soboliny Lane"
+},
+{
+	"streetName": "Советская",
+	"streetType": "Улица",
+	"streetLatin": "Sovetskaya Street"
+},
+{
+	"streetName": "Советский",
+	"streetType": "Переулок",
+	"streetLatin": "Sovetskiy Lane"
+},
+{
+	"streetName": "Советских женщин",
+	"streetType": "Улица",
+	"streetLatin": "Sovetskikh Zhenshchin Street"
+},
+{
+	"streetName": "Советской Армии",
+	"streetType": "Площадь",
+	"streetLatin": "Sovetskoy Armii Square"
+},
+{
+	"streetName": "Современников",
+	"streetType": "Улица",
+	"streetLatin": "Sovremennikov Street"
+},
+{
+	"streetName": "Совхозная",
+	"streetType": "Улица",
+	"streetLatin": "Sovkhoznaya Street"
+},
+{
+	"streetName": "Содружества",
+	"streetType": "Улица",
+	"streetLatin": "Sodruzhestva Street"
+},
+{
+	"streetName": "Созвездий",
+	"streetType": "Улица",
+	"streetLatin": "Sozvezdiy Street"
+},
+{
+	"streetName": "Создателей",
+	"streetType": "Улица",
+	"streetLatin": "Sozdateley Street"
+},
+{
+	"streetName": "Соколиная",
+	"streetType": "Улица",
+	"streetLatin": "Sokolinaya Street"
+},
+{
+	"streetName": "Солдатская",
+	"streetType": "Улица",
+	"streetLatin": "Soldatskaya Street"
+},
+{
+	"streetName": "Соликамская",
+	"streetType": "Улица",
+	"streetLatin": "Solikamskaya Street"
+},
+{
+	"streetName": "Солнечная",
+	"streetType": "Улица",
+	"streetLatin": "Solnechnaya Street"
+},
+{
+	"streetName": "Соловьёва ",
+	"streetType": "Площадь",
+	"streetLatin": "Solovyova Square"
+},
+{
+	"streetName": "Соловьиный",
+	"streetType": "Переулок",
+	"streetLatin": "Solovyiny Lane"
+},
+{
+	"streetName": "Соломенная",
+	"streetType": "Улица",
+	"streetLatin": "Solomennaya Street"
+},
+{
+	"streetName": "Сони Морозовой",
+	"streetType": "Улица",
+	"streetLatin": "Soni Morozovoy Street"
+},
+{
+	"streetName": "Сорочинская",
+	"streetType": "Улица",
+	"streetLatin": "Sorochinskaya Street"
+},
+{
+	"streetName": "Сортировочная",
+	"streetType": "Улица",
+	"streetLatin": "Sortirovochnaya Street"
+},
+{
+	"streetName": "Соседский",
+	"streetType": "Переулок",
+	"streetLatin": "Sosedskiy Lane"
+},
+{
+	"streetName": "Сосновая",
+	"streetType": "Улица",
+	"streetLatin": "Sosnovaya Street"
+},
+{
+	"streetName": "Сосновый",
+	"streetType": "Переулок",
+	"streetLatin": "Sosnovy Lane"
+},
+{
+	"streetName": "Сосьвинская",
+	"streetType": "Улица",
+	"streetLatin": "Sosvinskaya Street"
+},
+{
+	"streetName": "Софьи Ковалевской",
+	"streetType": "Улица",
+	"streetLatin": "Sofyi Kovalevskoy Street"
+},
+{
+	"streetName": "Софьи Перовской",
+	"streetType": "Улица",
+	"streetLatin": "Sofyi Perovskoy Street"
+},
+{
+	"streetName": "Социалистическая",
+	"streetType": "Улица",
+	"streetLatin": "Sotsialisticheskaya Street"
+},
+{
+	"streetName": "Союзная",
+	"streetType": "Улица",
+	"streetLatin": "Soyuznaya Street"
+},
+{
+	"streetName": "Специалистов",
+	"streetType": "Улица",
+	"streetLatin": "Spetsialistov Street"
+},
+{
+	"streetName": "Спокойный",
+	"streetType": "Переулок",
+	"streetLatin": "Spokoyny Lane"
+},
+{
+	"streetName": "Спортивная",
+	"streetType": "Улица",
+	"streetLatin": "Sportivnaya Street"
+},
+{
+	"streetName": "Спутников",
+	"streetType": "Улица",
+	"streetLatin": "Sputnikov Street"
+},
+{
+	"streetName": "Среднеуральская",
+	"streetType": "Улица",
+	"streetLatin": "Sredneuralskaya Street"
+},
+{
+	"streetName": "Стальского",
+	"streetType": "Улица",
+	"streetLatin": "Stalskogo Street"
+},
+{
+	"streetName": "Становой",
+	"streetType": "Переулок",
+	"streetLatin": "Stanovoy Lane"
+},
+{
+	"streetName": "Станочников",
+	"streetType": "Улица",
+	"streetLatin": "Stanochnikov Street"
+},
+{
+	"streetName": "Станционная",
+	"streetType": "Улица",
+	"streetLatin": "Stantsionnaya Street"
+},
+{
+	"streetName": "Старателей",
+	"streetType": "Переулок",
+	"streetLatin": "Starateley Lane"
+},
+{
+	"streetName": "Старожилов",
+	"streetType": "Улица",
+	"streetLatin": "Starozhilov Street"
+},
+{
+	"streetName": "Старосельская",
+	"streetType": "Улица",
+	"streetLatin": "Staroselskaya Street"
+},
+{
+	"streetName": "Стартовая",
+	"streetType": "Улица",
+	"streetLatin": "Startovaya Street"
+},
+{
+	"streetName": "Старый карьер",
+	"streetType": "Улица",
+	"streetLatin": "Stary Karyer Street"
+},
+{
+	"streetName": "Старых большевиков",
+	"streetType": "Улица",
+	"streetLatin": "Starykh Bolshevikov Street"
+},
+{
+	"streetName": "Стахановская",
+	"streetType": "Улица",
+	"streetLatin": "Stakhanovskaya Street"
+},
+{
+	"streetName": "Стачек",
+	"streetType": "Улица",
+	"streetLatin": "Stachek Street"
+},
+{
+	"streetName": "Степана Разина",
+	"streetType": "Улица",
+	"streetLatin": "Stepana Razina Street"
+},
+{
+	"streetName": "Степная",
+	"streetType": "Улица",
+	"streetLatin": "Stepnaya Street"
+},
+{
+	"streetName": "Столярный",
+	"streetType": "Переулок",
+	"streetLatin": "Stolyarny Lane"
+},
+{
+	"streetName": "Стрелочников",
+	"streetType": "Улица",
+	"streetLatin": "Strelochnikov Street"
+},
+{
+	"streetName": "Строгальщиков",
+	"streetType": "Улица",
+	"streetLatin": "Strogalshchikov Street"
+},
+{
+	"streetName": "Строевой",
+	"streetType": "Переулок",
+	"streetLatin": "Stroyevoy Lane"
+},
+{
+	"streetName": "Строителей",
+	"streetType": "Улица",
+	"streetLatin": "Stroiteley Street"
+},
+{
+	"streetName": "Струнный",
+	"streetType": "Переулок",
+	"streetLatin": "Strunny Lane"
+},
+{
+	"streetName": "Студенческая",
+	"streetType": "Улица",
+	"streetLatin": "Studencheskaya Street"
+},
+{
+	"streetName": "Студёный",
+	"streetType": "Переулок",
+	"streetLatin": "Studyony Lane"
+},
+{
+	"streetName": "Субботников",
+	"streetType": "Площадь",
+	"streetLatin": "Subbotnikov Square"
+},
+{
+	"streetName": "Суворовский",
+	"streetType": "Переулок",
+	"streetLatin": "Suvorovskiy Lane"
+},
+{
+	"streetName": "Сулимова",
+	"streetType": "Улица",
+	"streetLatin": "Sulimova Street"
+},
+{
+	"streetName": "Сурикова",
+	"streetType": "Улица",
+	"streetLatin": "Surikova Street"
+},
+{
+	"streetName": "Сухановский",
+	"streetType": "Переулок",
+	"streetLatin": "Sukhanovskiy Lane"
+},
+{
+	"streetName": "Суходольская",
+	"streetType": "Улица",
+	"streetLatin": "Sukhodolskaya Street"
+},
+{
+	"streetName": "Сухой",
+	"streetType": "Переулок",
+	"streetLatin": "Sukhoy Lane"
+},
+{
+	"streetName": "Сухоложская",
+	"streetType": "Улица",
+	"streetLatin": "Sukholozhskaya Street"
+},
+{
+	"streetName": "Сухорукова",
+	"streetType": "Улица",
+	"streetLatin": "Sukhorukova Street"
+},
+{
+	"streetName": "Сухумский",
+	"streetType": "Переулок",
+	"streetLatin": "Sukhumskiy Lane"
+},
+{
+	"streetName": "Сызранский",
+	"streetType": "Переулок",
+	"streetLatin": "Syzranskiy Lane"
+},
+{
+	"streetName": "Сылвинская",
+	"streetType": "Улица",
+	"streetLatin": "Sylvinskaya Street"
+},
+{
+	"streetName": "Сыромолотова",
+	"streetType": "Улица",
+	"streetLatin": "Syromolotova Street"
+},
+{
+	"streetName": "Сысертский",
+	"streetType": "Переулок",
+	"streetLatin": "Sysertskiy Lane"
+},
+{
+	"streetName": "Таборинская",
+	"streetType": "Улица",
+	"streetLatin": "Taborinskaya Street"
+},
+{
+	"streetName": "Таватуйская",
+	"streetType": "Улица",
+	"streetLatin": "Tavatuyskaya Street"
+},
+{
+	"streetName": "Таволожская",
+	"streetType": "Улица",
+	"streetLatin": "Tavolozhskaya Street"
+},
+{
+	"streetName": "Таганская",
+	"streetType": "Улица",
+	"streetLatin": "Taganskaya Street"
+},
+{
+	"streetName": "Тагильская",
+	"streetType": "Улица",
+	"streetLatin": "Tagilskaya Street"
+},
+{
+	"streetName": "Таёжная",
+	"streetType": "Улица",
+	"streetLatin": "Tayozhnaya Street"
+},
+{
+	"streetName": "Таёжный",
+	"streetType": "Переулок",
+	"streetLatin": "Tayozhny Lane"
+},
+{
+	"streetName": "Таллинский",
+	"streetType": "Переулок",
+	"streetLatin": "Tallinskiy Lane"
+},
+{
+	"streetName": "Талый",
+	"streetType": "Переулок",
+	"streetLatin": "Taliy Lane"
+},
+{
+	"streetName": "Тальковая",
+	"streetType": "Улица",
+	"streetLatin": "Talkovaya Street"
+},
+{
+	"streetName": "Тальковый",
+	"streetType": "Переулок",
+	"streetLatin": "Talkovy Lane"
+},
+{
+	"streetName": "Таманский",
+	"streetType": "Переулок",
+	"streetLatin": "Tamanskiy Lane"
+},
+{
+	"streetName": "Танкистов",
+	"streetType": "Улица",
+	"streetLatin": "Tankistov Street"
+},
+{
+	"streetName": "Татарский",
+	"streetType": "Переулок",
+	"streetLatin": "Tatarskiy Lane"
+},
+{
+	"streetName": "Татищева",
+	"streetType": "Улица",
+	"streetLatin": "Tatishcheva Street"
+},
+{
+	"streetName": "Ташкентская",
+	"streetType": "Улица",
+	"streetLatin": "Tashkentskaya Street"
+},
+{
+	"streetName": "Тбилисский",
+	"streetType": "Бульвар",
+	"streetLatin": "Tbilisskiy Boulevard"
+},
+{
+	"streetName": "Тверитина",
+	"streetType": "Улица",
+	"streetLatin": "Tveritina Street"
+},
+{
+	"streetName": "Тверской",
+	"streetType": "Переулок",
+	"streetLatin": "Tverskoy Lane"
+},
+{
+	"streetName": "Творческий",
+	"streetType": "Переулок",
+	"streetLatin": "Tvorcheskiy Lane"
+},
+{
+	"streetName": "Театральный",
+	"streetType": "Переулок",
+	"streetLatin": "Teatralny Lane"
+},
+{
+	"streetName": "Телефонный",
+	"streetType": "Переулок",
+	"streetLatin": "Telefonny Lane"
+},
+{
+	"streetName": "Тельмана",
+	"streetType": "Улица",
+	"streetLatin": "Telmana Street"
+},
+{
+	"streetName": "Тенистая",
+	"streetType": "Улица",
+	"streetLatin": "Tenistaya Street"
+},
+{
+	"streetName": "Тёплая",
+	"streetType": "Улица",
+	"streetLatin": "Tyoplaya Street"
+},
+{
+	"streetName": "Тепличная",
+	"streetType": "Улица",
+	"streetLatin": "Teplichnaya Street"
+},
+{
+	"streetName": "Теплогорский",
+	"streetType": "Переулок",
+	"streetLatin": "Teplogorskiy Lane"
+},
+{
+	"streetName": "Теплоходный",
+	"streetType": "Проезд",
+	"streetLatin": "Teplokhodny Drive"
+},
+{
+	"streetName": "Терновый",
+	"streetType": "Переулок",
+	"streetLatin": "Ternovy Lane"
+},
+{
+	"streetName": "Техническая",
+	"streetType": "Улица",
+	"streetLatin": "Tekhnicheskaya Street"
+},
+{
+	"streetName": "Технологическая",
+	"streetType": "Улица",
+	"streetLatin": "Tekhnologicheskaya Street"
+},
+{
+	"streetName": "Тимирязева",
+	"streetType": "Улица",
+	"streetLatin": "Timiryazeva Street"
+},
+{
+	"streetName": "Тисовая",
+	"streetType": "Улица",
+	"streetLatin": "Tisovaya Street"
+},
+{
+	"streetName": "Титова",
+	"streetType": "Улица",
+	"streetLatin": "Titova Street"
+},
+{
+	"streetName": "Тихая заводь",
+	"streetType": "Улица",
+	"streetLatin": "Tikhaya Zavod Street"
+},
+{
+	"streetName": "Тихвинский",
+	"streetType": "Переулок",
+	"streetLatin": "Tikhvinskiy Lane"
+},
+{
+	"streetName": "Тихий",
+	"streetType": "Переулок",
+	"streetLatin": "Tikhiy Lane"
+},
+{
+	"streetName": "Тихорецкая",
+	"streetType": "Улица",
+	"streetLatin": "Tikhoretskaya Street"
+},
+{
+	"streetName": "Ткачей",
+	"streetType": "Улица",
+	"streetLatin": "Tkachey Street"
+},
+{
+	"streetName": "Тобольская",
+	"streetType": "Улица",
+	"streetLatin": "Tobolskaya Street"
+},
+{
+	"streetName": "Товарная",
+	"streetType": "Улица",
+	"streetLatin": "Tovarnaya Street"
+},
+{
+	"streetName": "Токарей",
+	"streetType": "Улица",
+	"streetLatin": "Tokarey Street"
+},
+{
+	"streetName": "Толедова",
+	"streetType": "Улица",
+	"streetLatin": "Toledova Street"
+},
+{
+	"streetName": "Толмачёва",
+	"streetType": "Улица",
+	"streetLatin": "Tolmachova Street"
+},
+{
+	"streetName": "Толстихинский",
+	"streetType": "Переулок",
+	"streetLatin": "Tolstikhinskiy Lane"
+},
+{
+	"streetName": "Толстого",
+	"streetType": "Улица",
+	"streetLatin": "Tolstogo Street"
+},
+{
+	"streetName": "Топазовая",
+	"streetType": "Улица",
+	"streetLatin": "Topazovaya Street"
+},
+{
+	"streetName": "Тополиная",
+	"streetType": "Улица",
+	"streetLatin": "Topolinaya Street"
+},
+{
+	"streetName": "Торговая",
+	"streetType": "Улица",
+	"streetLatin": "Torgovaya Street"
+},
+{
+	"streetName": "Торфорезов",
+	"streetType": "Улица",
+	"streetLatin": "Torforezov Street"
+},
+{
+	"streetName": "Торфяная",
+	"streetType": "Улица",
+	"streetLatin": "Torfyanaya Street"
+},
+{
+	"streetName": "Торфяной",
+	"streetType": "Переулок",
+	"streetLatin": "Torfyanoy Lane"
+},
+{
+	"streetName": "Травяная",
+	"streetType": "Улица",
+	"streetLatin": "Travyanaya Street"
+},
+{
+	"streetName": "Трактовая",
+	"streetType": "Улица",
+	"streetLatin": "Traktovaya Street"
+},
+{
+	"streetName": "Трактористов",
+	"streetType": "Переулок",
+	"streetLatin": "Traktoristov Lane"
+},
+{
+	"streetName": "Трактористов",
+	"streetType": "Улица",
+	"streetLatin": "Traktoristov Street"
+},
+{
+	"streetName": "Трамвайный",
+	"streetType": "Переулок",
+	"streetLatin": "Tramvayny Lane"
+},
+{
+	"streetName": "Транзитный",
+	"streetType": "Переулок",
+	"streetLatin": "Tranzitny Lane"
+},
+{
+	"streetName": "Транспортников",
+	"streetType": "Переулок",
+	"streetLatin": "Transportnikov Lane"
+},
+{
+	"streetName": "Троицкая",
+	"streetType": "Улица",
+	"streetLatin": "Troitskaya Street"
+},
+{
+	"streetName": "Тростниковая",
+	"streetType": "Улица",
+	"streetLatin": "Trostnikovaya Street"
+},
+{
+	"streetName": "Трубачёва ",
+	"streetType": "Улица",
+	"streetLatin": "Trubachova Street"
+},
+{
+	"streetName": "Труда",
+	"streetType": "Площадь",
+	"streetLatin": "Truda Square"
+},
+{
+	"streetName": "Труда",
+	"streetType": "Улица",
+	"streetLatin": "Truda Street"
+},
+{
+	"streetName": "Трудовая",
+	"streetType": "Улица",
+	"streetLatin": "Trudovaya Street"
+},
+{
+	"streetName": "Тружеников",
+	"streetType": "Улица",
+	"streetLatin": "Truzhenikov Street"
+},
+{
+	"streetName": "Тугулымский",
+	"streetType": "Переулок",
+	"streetLatin": "Tugulymskiy Lane"
+},
+{
+	"streetName": "Туманный",
+	"streetType": "Переулок",
+	"streetLatin": "Tumanny Lane"
+},
+{
+	"streetName": "Турбинная",
+	"streetType": "Улица",
+	"streetLatin": "Turbinnaya Street"
+},
+{
+	"streetName": "Тургенева",
+	"streetType": "Улица",
+	"streetLatin": "Turgeneva Street"
+},
+{
+	"streetName": "Туристов",
+	"streetType": "Улица",
+	"streetLatin": "Turistov Street"
+},
+{
+	"streetName": "Турмалиновая",
+	"streetType": "Улица",
+	"streetLatin": "Turmalinovaya Street"
+},
+{
+	"streetName": "Тюменская",
+	"streetType": "Улица",
+	"streetLatin": "Tyumenskaya Street"
+},
+{
+	"streetName": "Тяговая",
+	"streetType": "Улица",
+	"streetLatin": "Tyagovaya Street"
+},
+{
+	"streetName": "Угловой",
+	"streetType": "Переулок",
+	"streetLatin": "Uglovoy Lane"
+},
+{
+	"streetName": "Удалой",
+	"streetType": "Переулок",
+	"streetLatin": "Udaloy Lane"
+},
+{
+	"streetName": "Ударников",
+	"streetType": "Переулок",
+	"streetLatin": "Udarnikov Lane"
+},
+{
+	"streetName": "Удачная",
+	"streetType": "Улица",
+	"streetLatin": "Udachnaya Street"
+},
+{
+	"streetName": "Удельная",
+	"streetType": "Улица",
+	"streetLatin": "Udelnaya Street"
+},
+{
+	"streetName": "Узкий",
+	"streetType": "Переулок",
+	"streetLatin": "Uzkiy Lane"
+},
+{
+	"streetName": "Узорная",
+	"streetType": "Улица",
+	"streetLatin": "Uzornaya Street"
+},
+{
+	"streetName": "Укромный",
+	"streetType": "Переулок",
+	"streetLatin": "Ukromny Lane"
+},
+{
+	"streetName": "Уктусская",
+	"streetType": "Улица",
+	"streetLatin": "Uktusskaya Street"
+},
+{
+	"streetName": "Уланская",
+	"streetType": "Улица",
+	"streetLatin": "Ulanskaya Street"
+},
+{
+	"streetName": "Ульяновская",
+	"streetType": "Улица",
+	"streetLatin": "Ulyanovskaya Street"
+},
+{
+	"streetName": "Умельцев",
+	"streetType": "Улица",
+	"streetLatin": "Umeltsev Street"
+},
+{
+	"streetName": "Университетский",
+	"streetType": "Переулок",
+	"streetLatin": "Universitetskiy Lane"
+},
+{
+	"streetName": "Уральская",
+	"streetType": "Улица",
+	"streetLatin": "Uralskaya Street"
+},
+{
+	"streetName": "Уральских коммунаров",
+	"streetType": "Улица",
+	"streetLatin": "Uralskikh Kommunarov Street"
+},
+{
+	"streetName": "Уральских краеведов",
+	"streetType": "Улица",
+	"streetLatin": "Uralskikh Krayevedov Street"
+},
+{
+	"streetName": "Уральских рабочих",
+	"streetType": "Улица",
+	"streetLatin": "Uralskikh Rabochikh Street"
+},
+{
+	"streetName": "Уральского добровольческого танкового корпуса",
+	"streetType": "Площадь",
+	"streetLatin": "Uralskogo Dobrovolcheskogo Tankovogo Korpusa Square"
+},
+{
+	"streetName": "Урицкого",
+	"streetType": "Улица",
+	"streetLatin": "Uritskogo Street"
+},
+{
+	"streetName": "Урожайная",
+	"streetType": "Улица",
+	"streetLatin": "Urozhaynaya Street"
+},
+{
+	"streetName": "Усадебная",
+	"streetType": "Улица",
+	"streetLatin": "Usadebnaya Street"
+},
+{
+	"streetName": "Усольская",
+	"streetType": "Улица",
+	"streetLatin": "Usolskaya Street"
+},
+{
+	"streetName": "Успешная",
+	"streetType": "Улица",
+	"streetLatin": "Uspeshnaya Street"
+},
+{
+	"streetName": "Уткинская",
+	"streetType": "Улица",
+	"streetLatin": "Utkinskaya Street"
+},
+{
+	"streetName": "Утренний",
+	"streetType": "Переулок",
+	"streetLatin": "Utrenniy Lane"
+},
+{
+	"streetName": "Уфалейская",
+	"streetType": "Улица",
+	"streetLatin": "Ufaleyskaya Street"
+},
+{
+	"streetName": "Уфимская",
+	"streetType": "Улица",
+	"streetLatin": "Ufimskaya Street"
+},
+{
+	"streetName": "Ухтомская",
+	"streetType": "Улица",
+	"streetLatin": "Ukhtomskaya Street"
+},
+{
+	"streetName": "Учебная",
+	"streetType": "Улица",
+	"streetLatin": "Uchebnaya Street"
+},
+{
+	"streetName": "Ученический",
+	"streetType": "Переулок",
+	"streetLatin": "Uchenicheskiy Lane"
+},
+{
+	"streetName": "Учителей",
+	"streetType": "Улица",
+	"streetLatin": "Uchiteley Street"
+},
+{
+	"streetName": "Уютный",
+	"streetType": "Переулок",
+	"streetLatin": "Uyutny Lane"
+},
+{
+	"streetName": "Фабричная",
+	"streetType": "Улица",
+	"streetLatin": "Fabrichnaya Street"
+},
+{
+	"streetName": "Февральской революции",
+	"streetType": "Улица",
+	"streetLatin": "Fevralskoy Revolyutsii Street"
+},
+{
+	"streetName": "Фёдорова",
+	"streetType": "Переулок",
+	"streetLatin": "Fyodorova Lane"
+},
+{
+	"streetName": "Феофанова",
+	"streetType": "Улица",
+	"streetLatin": "Feofanova Street"
+},
+{
+	"streetName": "Ферганская",
+	"streetType": "Улица",
+	"streetLatin": "Ferganskaya Street"
+},
+{
+	"streetName": "Фермерская",
+	"streetType": "Улица",
+	"streetLatin": "Fermerskaya Street"
+},
+{
+	"streetName": "Фестивальная",
+	"streetType": "Улица",
+	"streetLatin": "Festivalnaya Street"
+},
+{
+	"streetName": "Фианитовая",
+	"streetType": "Улица",
+	"streetLatin": "Fianitovaya Street"
+},
+{
+	"streetName": "Фигурная",
+	"streetType": "Улица",
+	"streetLatin": "Figurnaya Street"
+},
+{
+	"streetName": "Физиков",
+	"streetType": "Улица",
+	"streetLatin": "Fizikov Street"
+},
+{
+	"streetName": "Физкультурников",
+	"streetType": "Улица",
+	"streetLatin": "Fizkulturnikov Street"
+},
+{
+	"streetName": "Филатовская",
+	"streetType": "Улица",
+	"streetLatin": "Filatovskaya Street"
+},
+{
+	"streetName": "Флотская",
+	"streetType": "Улица",
+	"streetLatin": "Flotskaya Street"
+},
+{
+	"streetName": "Фонвизина",
+	"streetType": "Переулок",
+	"streetLatin": "Fonvizina Lane"
+},
+{
+	"streetName": "Фрезерная",
+	"streetType": "Улица",
+	"streetLatin": "Frezernaya Street"
+},
+{
+	"streetName": "Фрезеровщиков",
+	"streetType": "Улица",
+	"streetLatin": "Frezerovshchikov Street"
+},
+{
+	"streetName": "Фролова",
+	"streetType": "Улица",
+	"streetLatin": "Frolova Street"
+},
+{
+	"streetName": "Фронтовых бригад",
+	"streetType": "Улица",
+	"streetLatin": "Frontovykh Brigad Street"
+},
+{
+	"streetName": "Фруктовая",
+	"streetType": "Улица",
+	"streetLatin": "Fruktovaya Street"
+},
+{
+	"streetName": "Фрунзе",
+	"streetType": "Улица",
+	"streetLatin": "Frunze Street"
+},
+{
+	"streetName": "Фурманова",
+	"streetType": "Улица",
+	"streetLatin": "Furmanova Street"
+},
+{
+	"streetName": "Халтурина",
+	"streetType": "Улица",
+	"streetLatin": "Khalturina Street"
+},
+{
+	"streetName": "Халцедоновая",
+	"streetType": "Улица",
+	"streetLatin": "Khaltsedonovaya Street"
+},
+{
+	"streetName": "Харьковская",
+	"streetType": "Улица",
+	"streetLatin": "Kharkovskaya Street"
+},
+{
+	"streetName": "Хасановская",
+	"streetType": "Улица",
+	"streetLatin": "Khasanovskaya Street"
+},
+{
+	"streetName": "Хвойная",
+	"streetType": "Улица",
+	"streetLatin": "Khvoynaya Street"
+},
+{
+	"streetName": "Херсонский",
+	"streetType": "Переулок",
+	"streetLatin": "Khersonskiy Lane"
+},
+{
+	"streetName": "Хибиногорский",
+	"streetType": "Переулок",
+	"streetLatin": "Khibinogorskiy Lane"
+},
+{
+	"streetName": "Химиков",
+	"streetType": "Переулок",
+	"streetLatin": "Khimikov Lane"
+},
+{
+	"streetName": "Химмашевская",
+	"streetType": "Улица",
+	"streetLatin": "Khimmashevskaya Street"
+},
+{
+	"streetName": "Хлебная",
+	"streetType": "Улица",
+	"streetLatin": "Khlebnaya Street"
+},
+{
+	"streetName": "Хлопковый",
+	"streetType": "Переулок",
+	"streetLatin": "Khlopkovy Lane"
+},
+{
+	"streetName": "Хлоритовый",
+	"streetType": "Переулок",
+	"streetLatin": "Khloritovy Lane"
+},
+{
+	"streetName": "Хмелева",
+	"streetType": "Улица",
+	"streetLatin": "Khmeleva Street"
+},
+{
+	"streetName": "Хользунова",
+	"streetType": "Улица",
+	"streetLatin": "Kholzunova Street"
+},
+{
+	"streetName": "Хомякова",
+	"streetType": "Улица",
+	"streetLatin": "Khomyakova Street"
+},
+{
+	"streetName": "Хоровой",
+	"streetType": "Переулок",
+	"streetLatin": "Khorovoy Lane"
+},
+{
+	"streetName": "Хохрякова",
+	"streetType": "Улица",
+	"streetLatin": "Khokhryakova Street"
+},
+{
+	"streetName": "Хребтовый",
+	"streetType": "Переулок",
+	"streetLatin": "Khrebtovy Lane"
+},
+{
+	"streetName": "Хромцовская",
+	"streetType": "Улица",
+	"streetLatin": "Khromtsovskaya Street"
+},
+{
+	"streetName": "Хрустальная",
+	"streetType": "Улица",
+	"streetLatin": "Khrustalnaya Street"
+},
+{
+	"streetName": "Хрустальногорская",
+	"streetType": "Улица",
+	"streetLatin": "Khrustalnogorskaya Street"
+},
+{
+	"streetName": "Хутор",
+	"streetType": "Улица",
+	"streetLatin": "Khutor Street"
+},
+{
+	"streetName": "Хуторская",
+	"streetType": "Улица",
+	"streetLatin": "Khutorskaya Street"
+},
+{
+	"streetName": "Хуторята",
+	"streetType": "Станция",
+	"streetLatin": "Khutoryata Station"
+},
+{
+	"streetName": "Царская",
+	"streetType": "Улица",
+	"streetLatin": "Tsarskaya Street"
+},
+{
+	"streetName": "Цветаевой",
+	"streetType": "Улица",
+	"streetLatin": "Tsvetayevoy Street"
+},
+{
+	"streetName": "Цветоводов",
+	"streetType": "Переулок",
+	"streetLatin": "Tsvetovodov Lane"
+},
+{
+	"streetName": "Цветоносная",
+	"streetType": "Улица",
+	"streetLatin": "Tsvetonosnaya Street"
+},
+{
+	"streetName": "Цветочная",
+	"streetType": "Улица",
+	"streetLatin": "Tsvetochnaya Street"
+},
+{
+	"streetName": "Цветочный",
+	"streetType": "Переулок",
+	"streetLatin": "Tsvetochny Lane"
+},
+{
+	"streetName": "Цвиллинга",
+	"streetType": "Улица",
+	"streetLatin": "Tsvillinga Street"
+},
+{
+	"streetName": "Центральная",
+	"streetType": "Улица",
+	"streetLatin": "Tsentralnaya Street"
+},
+{
+	"streetName": "Центральный",
+	"streetType": "Переулок",
+	"streetLatin": "Tsentralny Lane"
+},
+{
+	"streetName": "Центральный рынок",
+	"streetType": "Переулок",
+	"streetLatin": "Tsentralny Rynok Lane"
+},
+{
+	"streetName": "Циолковского",
+	"streetType": "Улица",
+	"streetLatin": "Tsiolkovskogo Street"
+},
+{
+	"streetName": "Цитриновый",
+	"streetType": "Переулок",
+	"streetLatin": "Tsitrinovy Lane"
+},
+{
+	"streetName": "Цыганская",
+	"streetType": "Улица",
+	"streetLatin": "Tsyganskaya Street"
+},
+{
+	"streetName": "Чаадаева",
+	"streetType": "Переулок",
+	"streetLatin": "Chaadayeva Lane"
+},
+{
+	"streetName": "Чадовская",
+	"streetType": "Улица",
+	"streetLatin": "Chadovskaya Street"
+},
+{
+	"streetName": "Чайковского",
+	"streetType": "Улица",
+	"streetLatin": "Tchaikovskogo Street"
+},
+{
+	"streetName": "Чапаева",
+	"streetType": "Улица",
+	"streetLatin": "Chapayeva Street"
+},
+{
+	"streetName": "Чароитовая",
+	"streetType": "Улица",
+	"streetLatin": "Charoitovaya Street"
+},
+{
+	"streetName": "Чебышева",
+	"streetType": "Улица",
+	"streetLatin": "Chebysheva Street"
+},
+{
+	"streetName": "Чеверева",
+	"streetType": "Улица",
+	"streetLatin": "Chevereva Street"
+},
+{
+	"streetName": "Чекистов",
+	"streetType": "Улица",
+	"streetLatin": "Chekistov Street"
+},
+{
+	"streetName": "Челюскинцев",
+	"streetType": "Улица",
+	"streetLatin": "Chelyuskintsev Street"
+},
+{
+	"streetName": "Челябинский",
+	"streetType": "Переулок",
+	"streetLatin": "Chelyabinskiy Lane"
+},
+{
+	"streetName": "Челябинский",
+	"streetType": "Тракт",
+	"streetLatin": "Chelyabinskiy Highway"
+},
+{
+	"streetName": "Червонная",
+	"streetType": "Улица",
+	"streetLatin": "Chervonnaya Street"
+},
+{
+	"streetName": "Чердынская",
+	"streetType": "Улица",
+	"streetLatin": "Cherdynskaya Street"
+},
+{
+	"streetName": "Черёмуховая",
+	"streetType": "Улица",
+	"streetLatin": "Cheryomukhovaya Street"
+},
+{
+	"streetName": "Черемшанская",
+	"streetType": "Улица",
+	"streetLatin": "Cheremshanskaya Street"
+},
+{
+	"streetName": "Черепанова",
+	"streetType": "Улица",
+	"streetLatin": "Cherepanova Street"
+},
+{
+	"streetName": "Черкасская",
+	"streetType": "Улица",
+	"streetLatin": "Cherkasskaya Street"
+},
+{
+	"streetName": "Черниговский",
+	"streetType": "Переулок",
+	"streetLatin": "Chernigovskiy Lane"
+},
+{
+	"streetName": "Черничная",
+	"streetType": "Улица",
+	"streetLatin": "Chernichnaya Street"
+},
+{
+	"streetName": "Чернозёмная",
+	"streetType": "Улица",
+	"streetLatin": "Chernozyomnaya Street"
+},
+{
+	"streetName": "Черноморский",
+	"streetType": "Переулок",
+	"streetLatin": "Chernomorskiy Lane"
+},
+{
+	"streetName": "Черноусовский",
+	"streetType": "Переулок",
+	"streetLatin": "Chernousovskiy Lane"
+},
+{
+	"streetName": "Черноярская",
+	"streetType": "Улица",
+	"streetLatin": "Chernoyarskaya Street"
+},
+{
+	"streetName": "Чернышевского",
+	"streetType": "Улица",
+	"streetLatin": "Chernyshevskogo Street"
+},
+{
+	"streetName": "Черняховского",
+	"streetType": "Улица",
+	"streetLatin": "Chernyakhovskogo Street"
+},
+{
+	"streetName": "Чехова",
+	"streetType": "Улица",
+	"streetLatin": "Chekhova Street"
+},
+{
+	"streetName": "Чистая",
+	"streetType": "Улица",
+	"streetLatin": "Chistaya Street"
+},
+{
+	"streetName": "Чистопольская",
+	"streetType": "Улица",
+	"streetLatin": "Chistopolskaya Street"
+},
+{
+	"streetName": "Чистопрудная",
+	"streetType": "Улица",
+	"streetLatin": "Chistoprudnaya Street"
+},
+{
+	"streetName": "Чистый ключ",
+	"streetType": "Переулок",
+	"streetLatin": "Chisty Klyuch Lane"
+},
+{
+	"streetName": "Читинская",
+	"streetType": "Улица",
+	"streetLatin": "Chitinskaya Street"
+},
+{
+	"streetName": "Чкалова",
+	"streetType": "Улица",
+	"streetLatin": "Chkalova Street"
+},
+{
+	"streetName": "Чукотская",
+	"streetType": "Улица",
+	"streetLatin": "Chukotskaya Street"
+},
+{
+	"streetName": "Чупина",
+	"streetType": "Переулок",
+	"streetLatin": "Chupina Lane"
+},
+{
+	"streetName": "Чусовской",
+	"streetType": "Тракт",
+	"streetLatin": "Chusovskoy Highway"
+},
+{
+	"streetName": "Чуцкаева",
+	"streetType": "Переулок",
+	"streetLatin": "Chutskayeva Lane"
+},
+{
+	"streetName": "Шаблонный",
+	"streetType": "Переулок",
+	"streetLatin": "Shablonny Lane"
+},
+{
+	"streetName": "Шадринский",
+	"streetType": "Переулок",
+	"streetLatin": "Shadrinskiy Lane"
+},
+{
+	"streetName": "Шайтанский",
+	"streetType": "Переулок",
+	"streetLatin": "Shaytanskiy Lane"
+},
+{
+	"streetName": "Шалинский",
+	"streetType": "Переулок",
+	"streetLatin": "Shalinskiy Lane"
+},
+{
+	"streetName": "Шамарский",
+	"streetType": "Переулок",
+	"streetLatin": "Shamarskiy Lane"
+},
+{
+	"streetName": "Шаронова",
+	"streetType": "Переулок",
+	"streetLatin": "Sharonova Lane"
+},
+{
+	"streetName": "Шарташская",
+	"streetType": "Улица",
+	"streetLatin": "Shartashskaya Street"
+},
+{
+	"streetName": "Шатровая",
+	"streetType": "Улица",
+	"streetLatin": "Shatrovaya Street"
+},
+{
+	"streetName": "Шатурская",
+	"streetType": "Улица",
+	"streetLatin": "Shaturskaya Street"
+},
+{
+	"streetName": "Шаумяна",
+	"streetType": "Улица",
+	"streetLatin": "Shaumyana Street"
+},
+{
+	"streetName": "Шахтовый",
+	"streetType": "Переулок",
+	"streetLatin": "Shakhtovy Lane"
+},
+{
+	"streetName": "Шахты партизан",
+	"streetType": "Улица",
+	"streetLatin": "Shakhty Partizan Street"
+},
+{
+	"streetName": "Шевелёва",
+	"streetType": "Улица",
+	"streetLatin": "Shevelyova Street"
+},
+{
+	"streetName": "Шевченко",
+	"streetType": "Улица",
+	"streetLatin": "Shevchenko Street"
+},
+{
+	"streetName": "Шейнкмана",
+	"streetType": "Улица",
+	"streetLatin": "Sheynkmana Street"
+},
+{
+	"streetName": "Шекспира",
+	"streetType": "Улица",
+	"streetLatin": "Shakespeara Street"
+},
+{
+	"streetName": "Шестерикова",
+	"streetType": "Улица",
+	"streetLatin": "Shesterikova Street"
+},
+{
+	"streetName": "Шефская",
+	"streetType": "Улица",
+	"streetLatin": "Shefskaya Street"
+},
+{
+	"streetName": "Шиловский",
+	"streetType": "Переулок",
+	"streetLatin": "Shilovskiy Lane"
+},
+{
+	"streetName": "Широкий",
+	"streetType": "Переулок",
+	"streetLatin": "Shirokiy Lane"
+},
+{
+	"streetName": "Широкореченская",
+	"streetType": "Улица",
+	"streetLatin": "Shirokorechenskaya Street"
+},
+{
+	"streetName": "Широтная",
+	"streetType": "Улица",
+	"streetLatin": "Shirotnaya Street"
+},
+{
+	"streetName": "Шитовская",
+	"streetType": "Улица",
+	"streetLatin": "Shitovskaya Street"
+},
+{
+	"streetName": "Шишимская",
+	"streetType": "Улица",
+	"streetLatin": "Shishimskaya Street"
+},
+{
+	"streetName": "Школьная",
+	"streetType": "Улица",
+	"streetLatin": "Shkolnaya Street"
+},
+{
+	"streetName": "Школьников",
+	"streetType": "Улица",
+	"streetLatin": "Shkolnikov Street"
+},
+{
+	"streetName": "Школьный",
+	"streetType": "Переулок",
+	"streetLatin": "Shkolny Lane"
+},
+{
+	"streetName": "Шолохова",
+	"streetType": "Улица",
+	"streetLatin": "Sholokhova Street"
+},
+{
+	"streetName": "Шорный",
+	"streetType": "Переулок",
+	"streetLatin": "Shorniy Lane"
+},
+{
+	"streetName": "Шофёров",
+	"streetType": "Переулок",
+	"streetLatin": "Shofyorov Lane"
+},
+{
+	"streetName": "Шувакишская",
+	"streetType": "Улица",
+	"streetLatin": "Shuvakishskaya Street"
+},
+{
+	"streetName": "Шумихинский",
+	"streetType": "Переулок",
+	"streetLatin": "Shumikhinskiy Lane"
+},
+{
+	"streetName": "Щелкунская",
+	"streetType": "Улица",
+	"streetLatin": "Shchelkunskaya Street"
+},
+{
+	"streetName": "Щербакова",
+	"streetType": "Улица",
+	"streetLatin": "Shcherbakova Street"
+},
+{
+	"streetName": "Щорса",
+	"streetType": "Улица",
+	"streetLatin": "Shchorsa Street"
+},
+{
+	"streetName": "Щучий",
+	"streetType": "Переулок",
+	"streetLatin": "Shchuchiy Lane"
+},
+{
+	"streetName": "Эдельвейсовая",
+	"streetType": "Улица",
+	"streetLatin": "Edelveysovaya Street"
+},
+{
+	"streetName": "Экодолья",
+	"streetType": "Улица",
+	"streetLatin": "Ekodolya Street"
+},
+{
+	"streetName": "Экспертов",
+	"streetType": "Улица",
+	"streetLatin": "Ekspertov Street"
+},
+{
+	"streetName": "ЭКСПО-бульвар",
+	"streetType": "Бульвар",
+	"streetLatin": "EXPO Boulevard"
+},
+{
+	"streetName": "Электриков",
+	"streetType": "Улица",
+	"streetLatin": "Elektrikov Street"
+},
+{
+	"streetName": "Электродепо",
+	"streetType": "Улица",
+	"streetLatin": "Elektrodepo Street"
+},
+{
+	"streetName": "Электростилочная",
+	"streetType": "Улица",
+	"streetLatin": "Elektrostilochnaya Street"
+},
+{
+	"streetName": "Энгельса",
+	"streetType": "Улица",
+	"streetLatin": "Engelsa Street"
+},
+{
+	"streetName": "Энергетиков",
+	"streetType": "Переулок",
+	"streetLatin": "Energetikov Lane"
+},
+{
+	"streetName": "Энергостроителей",
+	"streetType": "Улица",
+	"streetLatin": "Energostroiteley Street"
+},
+{
+	"streetName": "Энтузиастов",
+	"streetType": "Улица",
+	"streetLatin": "Entuziastov Street"
+},
+{
+	"streetName": "Эскадронная",
+	"streetType": "Улица",
+	"streetLatin": "Eskadronnaya Street"
+},
+{
+	"streetName": "Эстонская",
+	"streetType": "Улица",
+	"streetLatin": "Estonskaya Street"
+},
+{
+	"streetName": "Эстрадный",
+	"streetType": "Переулок",
+	"streetLatin": "Estradny Lane"
+},
+{
+	"streetName": "Юбилейная",
+	"streetType": "Улица",
+	"streetLatin": "Yubileynaya Street"
+},
+{
+	"streetName": "Южная",
+	"streetType": "Улица",
+	"streetLatin": "Yuzhnaya Street"
+},
+{
+	"streetName": "Южногорская",
+	"streetType": "Улица",
+	"streetLatin": "Yuzhnogorskaya Street"
+},
+{
+	"streetName": "Южноистокская",
+	"streetType": "Улица",
+	"streetLatin": "Yuzhnoistokskaya Street"
+},
+{
+	"streetName": "Южный",
+	"streetType": "Переулок",
+	"streetLatin": "Yuzhny Lane"
+},
+{
+	"streetName": "Южный",
+	"streetType": "Проезд",
+	"streetLatin": "Yuzhny Drive"
+},
+{
+	"streetName": "Юзовский",
+	"streetType": "Переулок",
+	"streetLatin": "Yuzovskiy Lane"
+},
+{
+	"streetName": "Юлиуса Фучика",
+	"streetType": "Улица",
+	"streetLatin": "Juliusa Fuchika Street"
+},
+{
+	"streetName": "Юмашева",
+	"streetType": "Улица",
+	"streetLatin": "Yumasheva Street"
+},
+{
+	"streetName": "Юности",
+	"streetType": "Улица",
+	"streetLatin": "Yunosti Street"
+},
+{
+	"streetName": "Юрия Исламова",
+	"streetType": "Улица",
+	"streetLatin": "Yuriya Islamova Street"
+},
+{
+	"streetName": "Яблоневая",
+	"streetType": "Улица",
+	"streetLatin": "Yablonevaya Street"
+},
+{
+	"streetName": "Ягодная",
+	"streetType": "Улица",
+	"streetLatin": "Yagodnaya Street"
+},
+{
+	"streetName": "Якова Свердлова",
+	"streetType": "Улица",
+	"streetLatin": "Yakova Sverdlova Street"
+},
+{
+	"streetName": "Якорный",
+	"streetType": "Переулок",
+	"streetLatin": "Yakorny Lane"
+},
+{
+	"streetName": "Якутская",
+	"streetType": "Улица",
+	"streetLatin": "Yakutskaya Street"
+},
+{
+	"streetName": "Яламова",
+	"streetType": "Улица",
+	"streetLatin": "Yalamova Street"
+},
+{
+	"streetName": "Ялтинский",
+	"streetType": "Переулок",
+	"streetLatin": "Yaltinskiy Lane"
+},
+{
+	"streetName": "Ялунинская",
+	"streetType": "Улица",
+	"streetLatin": "Yaluninskaya Street"
+},
+{
+	"streetName": "Ямская",
+	"streetType": "Улица",
+	"streetLatin": "Yamskaya Street"
+},
+{
+	"streetName": "Янтарная",
+	"streetType": "Улица",
+	"streetLatin": "Yantarnaya Street"
+},
+{
+	"streetName": "Яркая",
+	"streetType": "Улица",
+	"streetLatin": "Yarkaya Street"
+},
+{
+	"streetName": "Яровой",
+	"streetType": "Переулок",
+	"streetLatin": "Yarovoy Lane"
+},
+{
+	"streetName": "Ярославская",
+	"streetType": "Улица",
+	"streetLatin": "Yaroslavskaya Street"
+},
+{
+	"streetName": "Ясеневая",
+	"streetType": "Улица",
+	"streetLatin": "Yasenevaya Street"
+},
+{
+	"streetName": "Ясная",
+	"streetType": "Улица",
+	"streetLatin": "Yasnaya Street"
+},
+{
+	"streetName": "Яхонтовая",
+	"streetType": "Улица",
+	"streetLatin": "Yakhontovaya Street"
+}
+]
