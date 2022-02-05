@@ -10,12 +10,12 @@
 
 .team-person_link .team-person__name span {
     transition: .15s ease box-shadow;
-    box-shadow:  0 2px 0 rgba(255, 255, 255, .31448);
+    box-shadow:  0 1px 0 rgba(255, 255, 255, .31448);
 }
 
 .team-person_link:hover .team-person__name span {
     display: inline;
-    box-shadow:  0 2px 0 #ffd500;
+    box-shadow:  0 1px 0 #ffd500;
 }
 
 .team-person_link .team-person__name {
@@ -111,6 +111,18 @@ a.team-person {
         font-size: 1.8vw;
     }
 }
+
+@media screen and (min-width: 991px) {
+    .team-person_link .team-person__name span {
+        box-shadow:  0 2px 0 rgba(255, 255, 255, .31448);
+    }
+
+    .team-person_link:hover .team-person__name span {
+        box-shadow:  0 2px 0 #ffd500;
+    }
+}
+
+
 
 @media screen and (min-width: 1200px) {
     .team-person__caption {
