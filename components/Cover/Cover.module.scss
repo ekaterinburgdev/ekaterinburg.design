@@ -7,22 +7,22 @@
   &,
   & * {
     pointer-events: none;
-    touch-action: none;
     user-select: none;
+    touch-action: none;
   }
 }
 
 @media screen and (min-width: 768px) {
   .cover {
     margin-bottom: -12vw;
-  }  
+  }
 }
 
 .cover_visible .cover__inner {
   display: none;
 }
 
-.cover_not-visible .cover__part {
+.cover_not-visible .cover__layer {
   transform: translateZ(0);
   animation-play-state: paused;
 }
@@ -30,9 +30,9 @@
 .cover__inner {
   position: absolute;
   top: -39%;
+  left: 50%;
   width: 180%;
   height: 180%;
-  left: 50%;
   transform: translate3d(-50%, 0%, 0);
 }
 
@@ -41,118 +41,145 @@
     top: -39%;
     width: 130%;
     height: 130%;
-  }  
+  }
 }
 
-.cover__part {
+.cover__layer {
   --cover-rotate-deg: 0deg;
   position: absolute;
   z-index: 1;
   width: 100%;
   height: 100%;
-	will-change: transform;
+  transform: translateZ(0);
   transform-origin: center;
-  animation-name: fadeIn;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-}
-
-.cover__part_1 {
+  animation-name: coverPartFadeIn;
   animation-duration: 1s;
-  animation-delay: .15s;
+  animation-timing-function: ease-in;
+  will-change: transform;
 }
 
-.cover__part_2 {
-  --cover-rotate-deg: -12deg;
-  animation-duration: .75s;
-  animation-delay: .25s;
+.cover__layer_prevent-scale-scroll {
+  visibility: hidden;
+  opacity: 0;
+  content-visibility: hidden;
 }
 
-.cover__part_3 {
-  --cover-rotate-deg: 10deg;
-  animation-duration: .5s;
-  animation-delay: .5s;
+.cover__layer-anim-zoom {
+  animation-name: coverPartZoom;
+  animation-duration: inherit;
+  animation-timing-function: cubic-bezier(0, 0.75, 0.25, 1);
+  animation-delay: inherit;
 }
 
-.cover__part_4 {
-  --cover-rotate-deg: -8deg;
-  animation-duration: .25s;
-  animation-delay: .75s;
-}
-
-.cover__part_5 {
-  --cover-rotate-deg: 6deg;
-  animation-duration: .15s;
-  animation-delay: 1s;
-}
-
-.cover__part_6 {
-  --cover-rotate-deg: -4deg;
-  animation-duration: .15s;
-  animation-delay: 1.25s;
-}
-
-.cover__part svg {
+.cart__layer-anim-rotate {
   --cover-rotate-deg: 0deg;
   animation: coverPartRotate .5s linear infinite;
   will-change: auto;
 }
 
-.cover__part_1 svg {
-  animation: none; 
+.cover__layer_1 {
+  .cover__layer-anim-zoom {
+    animation-delay: .05s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation: none;
+  }
 }
 
-.cover__part_2 svg {
-  animation-duration: 50s;
-  animation-direction: reverse;
+.cover__layer_2 {
+  --cover-rotate-deg: -12deg;
+
+  .cover__layer-anim-zoom {
+    animation-delay: .1s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation-duration: 50s;
+    animation-direction: reverse;
+  }
 }
 
-.cover__part_3 svg {
-  animation-duration: 75s;
+.cover__layer_3 {
+  --cover-rotate-deg: 10deg;
+
+  .cover__layer-anim-zoom {
+    animation-delay: .15s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation-duration: 75s;
+  }
 }
 
-.cover__part_4 svg {
-  animation-duration: 100s;
-  animation-direction: reverse;
+.cover__layer_4 {
+  --cover-rotate-deg: -8deg;
+
+  .cover__layer-anim-zoom {
+    animation-delay: .2s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation-duration: 100s;
+    animation-direction: reverse;
+  }
 }
 
-.cover__part_5 svg {
-  animation-duration: 150s;
+
+.cover__layer_5 {
+  --cover-rotate-deg: 6deg;
+
+  .cover__layer-anim-zoom {
+    animation-delay: .25s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation-duration: 150s;
+  }
 }
 
-.cover__part_6 svg {
-  animation-duration: 200s;
-  animation-direction: reverse;
+
+.cover__layer_6 {
+  --cover-rotate-deg: -4deg;
+
+  .cover__layer-anim-zoom {
+    animation-delay: .3s;
+  }
+
+  .cart__layer-anim-rotate {
+    animation-duration: 200s;
+    animation-direction: reverse;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .cover__part {
+  .cover__layer {
     transform: translateZ(0) rotate(calc(var(--cover-rotate-deg) * var(--cover-scroll-percent)));
     transform-origin: center;
   }
-  
-  .cover__part_2 svg {
+
+  .cover__layer_2 .cart__layer-anim-rotate {
     animation-duration: 350s;
   }
-  
-  .cover__part_3 svg {
+
+  .cover__layer_3 .cart__layer-anim-rotate {
     animation-duration: 375s;
   }
-  
-  .cover__part_4 svg {
+
+  .cover__layer_4 .cart__layer-anim-rotate {
     animation-duration: 400s;
   }
-  
-  .cover__part_5 svg {
+
+  .cover__layer_5 .cart__layer-anim-rotate {
     animation-duration: 450s;
   }
-  
-  .cover__part_6 svg {
+
+  .cover__layer_6 .cart__layer-anim-rotate {
     animation-duration: 500s;
   }
 }
 
-@keyframes fadeIn {
+@keyframes coverPartFadeIn {
   from {
     opacity: 0;
   }
@@ -162,9 +189,10 @@
   }
 }
 
-@keyframes zoom {
+
+@keyframes coverPartZoom {
   from {
-    transform: translateZ(0) scale(.25);
+    transform: translateZ(0) scale(.5);
   }
 
   to {
@@ -174,10 +202,10 @@
 
 @keyframes coverPartRotate {
   from {
-    transform: rotate(0deg);
+    transform: translateZ(0) rotate(0deg);
   }
 
   to {
-    transform: rotate(360deg);
+    transform: translateZ(0) rotate(360deg);
   }
 }
