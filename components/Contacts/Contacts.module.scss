@@ -70,8 +70,7 @@
 
   .contacts__link {
     background-size: .25em .275em;
-    background-position: 0% 100%;
-    background-repeat: repeat-x;
+    text-decoration-color: transparent;
   }
 }
 
@@ -83,14 +82,14 @@
   }
 
   .contacts__link {
+    transition: .15s ease text-decoration-color;
     color: #00B400;
-    text-decoration: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 93 48'%3E%3Cpath fill='%2300b400' d='M93 27v21L46 21 0 48V27L46 0l47 27z' opacity='.2'/%3E%3C/svg%3E");
-    backdrop-filter: blur(.5px);
+    text-decoration: underline;
+    text-decoration-color: rgba(#00B400, .2);
   }
 
   .contacts__link:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 93 48'%3E%3Cpath fill='%2300b400' d='M93 27v21L46 21 0 48V27L46 0l47 27z' opacity='.5'/%3E%3C/svg%3E");
+    text-decoration-color: rgba(#00B400, .6);
   }
 }
 
