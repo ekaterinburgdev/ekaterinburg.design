@@ -1,8 +1,8 @@
 .mail-button {
     box-sizing: border-box;
     position: fixed;
-    bottom: 2.4vh;
-    right: 1.5%;
+    bottom: 2vh;
+    right: 2vh;
     display: inline-block;
     padding: .38em 1.5em .23em;
     -webkit-transform: scale(1) translateZ(0);
@@ -15,7 +15,7 @@
     box-shadow: 0 0 0 0 #ffd400;
     color: #000;
     color: black;
-    font-size: calc(16px + .8vw);
+    font-size: calc(18px + .8vw);
     font-size: clamp(22px, 1.4vw, 24px);
     text-decoration: none;
     white-space: nowrap;
