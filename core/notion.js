@@ -8,7 +8,8 @@ let CACHED_FILES_LIST = [];
 const NOTION_DATABASES = {
   'Team': process.env.NOTION_DATABASE_TEAM,
   'Partners': process.env.NOTION_DATABASE_PARTNERS,
-  'Projects': process.env.NOTION_DATABASE_PROJECTS
+  'Projects': process.env.NOTION_DATABASE_PROJECTS,
+  'TextBlocks': process.env.NOTION_DATABASE_TEXTBLOCKS
 };
 
 const tp = new Typograf({ locale: ['ru', 'en-US'] });

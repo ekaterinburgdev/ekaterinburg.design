@@ -13,8 +13,11 @@ import TeamList from '../components/TeamGrid';
 import Contacts from '../components/Contacts';
 import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
+import TextBlockComponent from '../components/TextBlock';
 
-export default function Home({ projects, team, partners }) {
+export default function Home({ textBlocks, projects, team, partners }) {
+  const TextBlock = ({ name }) => <TextBlockComponent data={textBlocks} name={name} />
+
   return (
     <div className='wrap'>
       <Cover />
@@ -28,11 +31,10 @@ export default function Home({ projects, team, partners }) {
         <section id="about" className={'section'}>
           <div className={'main-visual'}>
             <h2 className={'main-visual__title'}>
-              Мы — Дизайн-код<br />
-              Екатеринбурга
+              <TextBlock name="MainVisualTitle" />
             </h2>
             <p className={'main-visual__description'}>
-              Мы отвечаем за&nbsp;всю красоту, комфорт и&nbsp;уют и&nbsp;создаём самый приятный город в&nbsp;России.
+              <TextBlock name="MainVisualText" />
 
               <svg className={'main-visual__logo'} width="207" height="170" viewBox="0 0 207 170" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_1696_932)">
@@ -53,7 +55,7 @@ export default function Home({ projects, team, partners }) {
         <section className={'section'} id="projects">
           <h2 className={'section__heading section__heading_projects'}>Дизайн-<br />система</h2>
           <p className={'section__subheader section__subheader_projects'}>
-            Мы&nbsp;задаём стандарты дизайна и&nbsp;ведём комплексные проекты: от&nbsp;разработки графики и&nbsp;архитектурных элементов до&nbsp;развития территорий.
+            <TextBlock data={textBlocks} name="MainProjectsText" />
           </p>
           <PostPreviewGrid posts={projects} />
         </section>
@@ -102,7 +104,8 @@ export async function getStaticProps() {
     props: {
       projects: await getNotionDatabaseItems('Projects'),
       team: await getNotionDatabaseItems('Team'),
-      partners: await getNotionDatabaseItems('Partners')
+      partners: await getNotionDatabaseItems('Partners'),
+      textBlocks: await getNotionDatabaseItems('TextBlocks')
     },
     revalidate: 15,
   }
