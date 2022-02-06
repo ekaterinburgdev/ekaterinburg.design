@@ -1,33 +1,39 @@
 .mail-button {
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 2vh;
-    right: 2vh;
-    display: inline-block;
-    padding: .38em 1.5em .23em;
-    -webkit-transform: scale(1) translateZ(0);
-            transform: scale(1) translateZ(0);
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    transition: all .1s ease;
-    border-radius: 100px;
-    background: #ffd400;
-    box-shadow: 0 0 0 0 #ffd400;
-    color: #000;
-    color: black;
-    font-size: calc(18px + .8vw);
-    font-size: clamp(22px, 1.4vw, 24px);
-    text-decoration: none;
-    white-space: nowrap;
-    cursor: pointer;
-    font-weight: 400;
-    line-height: 1.85;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 2vh;
+  right: 2vh;
+  display: inline-block;
+  padding: .38em 1.5em .23em;
+  -webkit-transform: scale(1) translateZ(0);
+  transform: scale(1) translateZ(0);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transition: all .1s ease;
+  border-radius: 100px;
+  background: #ffd400;
+  box-shadow: 0 0 0 0 #ffd400;
+  color: #000;
+  color: black;
+  font-size: 15px;
+  font-size: calc(15px + .6vw);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 1.85;
 }
 
 .mail-button:hover {
-    -webkit-transform: scale(1.1) skewY(-5deg) translateZ(0);
-            transform: scale(1.1) skewY(-5deg) translateZ(0);
-    box-shadow: 0 0 0 0px #ffd400;
-    color: black;
-    text-decoration: none;
+  -webkit-transform: scale(1.1) skewY(-5deg) translateZ(0);
+  transform: scale(1.1) skewY(-5deg) translateZ(0);
+  box-shadow: 0 0 0 0px #ffd400;
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 991px) {
+  .mail-button {
+    font-size: clamp(22px, 1.4vw, 24px);
+  }
 }

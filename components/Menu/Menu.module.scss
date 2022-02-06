@@ -21,8 +21,8 @@
     background: #ffd400;
     box-shadow: 0 0 0 0 #ffd400;
     color: #000;
-    font-size: calc(18px + .6vw);
-    font-size: clamp(22px, 1.4vw, 24px);
+    font-size: 15px;
+    font-size: calc(15px + .6vw);
     line-height: 1.85;
     white-space: nowrap;
     animation: .15s 1s menuFadeIn ease-in both;
@@ -83,6 +83,7 @@
 
     .menu__button {
         position: static;
+        font-size: clamp(22px, 1.4vw, 24px);
     }
 }
 
