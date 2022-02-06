@@ -23,7 +23,7 @@
 }
 
 .cover_not-visible .cover__layer {
-  transform: none;
+  transform: translateZ(0);
   animation-play-state: paused;
 }
 
