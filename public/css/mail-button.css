@@ -15,7 +15,6 @@
     box-shadow: 0 0 0 0 #ffd400;
     color: #000;
     color: black;
-    font-size: 1.4vw;
     font-size: calc(16px + .8vw);
     font-size: clamp(22px, 1.4vw, 24px);
     text-decoration: none;

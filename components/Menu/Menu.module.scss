@@ -1,7 +1,31 @@
-.menu,
-.menu__button,
+.menu__list,
 .menu__logo {
     display: none;
+}
+
+.menu__button {
+    position: fixed;
+    z-index: 4;
+    bottom: 2.4vh;
+    right: 1.5%;
+    display: inline-block;
+    padding: .38em 1.5em .25em;
+    transform: scale(1) translateZ(0);
+    transform-origin: center;
+    transition: transform .1s ease;
+    border-radius: 100px;
+    background: #ffd400;
+    box-shadow: 0 0 0 0 #ffd400;
+    color: #000;
+    font-size: calc(16px + .8vw);
+    font-size: clamp(22px, 1.4vw, 24px);
+    line-height: 1.85;
+    white-space: nowrap;
+
+    &:hover {
+        transform: scale(1.1) skewY(-5deg) translateZ(0);
+        text-decoration: none;
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -52,6 +76,10 @@
         font-weight: 400;
         text-decoration: none;
     }
+
+    .menu__button {
+        position: static;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -81,26 +109,4 @@
         left: 0;
         height: 100%;
     }
-
-    .menu__button {
-        display: inline-block;
-        padding: .38em 1.5em .25em;
-        transform: scale(1) translateZ(0);
-        transform-origin: center;
-        transition: transform .1s ease;
-        border-radius: 100px;
-        background: #ffd400;
-        box-shadow: 0 0 0 0 #ffd400;
-        color: #000;
-        font-size: 1.4vw;
-        font-size: clamp(22px, 1.4vw, 24px);
-        line-height: 1.85;
-        white-space: nowrap;
-
-        &:hover {
-            transform: scale(1.1) skewY(-5deg) translateZ(0);
-            text-decoration: none;
-        }
-    }
-
 }
