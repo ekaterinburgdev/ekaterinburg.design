@@ -25,6 +25,10 @@
   transform: rotate(-7deg);
 }
 
+.contacts__item_telegram .contacts__icon:hover {
+  transform: rotate(-7deg) scale(1.05) translateZ(0);
+}
+
 .contacts__item_facebook {
   margin-top: 5vmin;
 }
