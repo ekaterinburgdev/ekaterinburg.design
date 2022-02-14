@@ -11,16 +11,16 @@ export default function Document() {
         <meta name="description" content={siteDescription} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://${process.env.VERCEL_URL}/`} />
+        <meta property="og:url" content={`https://ekaterinburg.design/`} />
         <meta property="og:title" content={siteTitle} />
         <meta property="og:description" content={siteDescription} />
-        <meta property="og:image" content="/og-preview.jpg" />
+        <meta property="og:image" content="https://ekaterinburg.design/og-preview.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={`https://${process.env.VERCEL_URL}/`} />
+        <meta property="twitter:url" content={`https://ekaterinburg.design/`} />
         <meta property="twitter:title" content={siteTitle} />
         <meta property="twitter:description" content={siteDescription} />
-        <meta property="twitter:image" content="/og-preview.jpg" />
+        <meta property="twitter:image" content="https://ekaterinburg.design/og-preview.jpg" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
