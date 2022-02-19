@@ -20,6 +20,8 @@ body {
   font-family: 'Iset Sans', sans-serif;
   font-size: 20px;
   line-height: 1.85;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
