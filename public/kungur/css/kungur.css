@@ -1,0 +1,38 @@
+body {
+  background: #d6e2d4;
+}
+
+p {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ea533d;
+}
+
+#header {
+  z-index: 999 !important;
+}
+
+#cover {
+  margin-top: -3vw;
+}
+
+#roles .role {
+  color: #000;
+  letter-spacing: 0;
+}
+
+.footer, .footer a, #roles .person, #roles .person a {
+  color: #ea533d;
+}
+
+.footer a, #roles .person a {
+  box-shadow: 0 1.5px 0 0 rgba(234, 83, 61, 0.2);
+}
+
+@media (max-width: 750px) {
+  #cover {
+    margin-top: -10vw;
+  }
+}
