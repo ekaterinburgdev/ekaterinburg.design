@@ -742,6 +742,11 @@ ul li:before {
   display: -ms-flexbox;
   display: flex;
   max-width: 20%;
+  transform-origin: left;
+  transition: all 0.15s ease;
+}
+#header-2 .logo-to-main-page:hover {
+  transform: scale(1.1);
 }
 #header-2 .logo-to-main-page div {
   display: inline-block;
@@ -768,10 +773,14 @@ ul li:before {
   bottom: 0;
   right: 0;
   padding: 0 0.5vw 1vw;
+  transition: all 0.15s ease;
 }
 #header-2 .social-links a {
   box-shadow: none;
   margin-left: 1vw;
+}
+#header-2 .social-links a:hover {
+  transform: scale(1.15);
 }
 #header-2 .social-links a img {
   height: 2vw;
