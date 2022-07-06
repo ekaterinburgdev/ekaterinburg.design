@@ -997,6 +997,26 @@ ul li:before {
   #to-main-page:hover .arrow {
     transform: scaleX(1);
   }
+  #header-2 .logo-to-main-page {
+    padding: 0 0 1vw 1vw;
+  }
+  #header-2 .logo-to-main-page div img {
+    width: 12vw;
+    margin-right: 2vw;
+  }
+  #header-2 .logo-to-main-page div.logo-caption {
+    display: none;
+  }
+  #header-2 .social-links a {
+    display: none;
+  }
+  #header-2 .social-links a.mail-btn {
+    display: block;
+    padding: 2vw 4vw 1.5vw;
+    margin-bottom: 1vw;
+    border-radius: 10vw;
+    font-size: 4vw;
+  }
   #story {
     padding: 20px 0 0;
   }
@@ -1086,7 +1106,7 @@ ul li:before {
     box-shadow: 0 0.45vw 0 0 rgba(255, 200, 0, 0.8);
   }
   .footer {
-    padding-bottom: 10px;
+    padding-bottom: 15vw;
   }
   .footer .mobile-flex {
     margin-bottom: 8px;

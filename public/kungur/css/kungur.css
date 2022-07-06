@@ -25,3 +25,16 @@ h1, h2, h3, h4, h5, h6 {
 #roles .role {
   color: #ea533d;
 }
+
+@media (max-width: 750px) {
+  .kungur-youtube-frame {
+    padding: 0.5em !important;
+    margin-bottom: 0;
+  }
+  .kungur-youtube {
+    height: 30vh;
+  }
+  .main-text {
+    font-size: 5vw;
+  }
+}
