@@ -1445,7 +1445,7 @@
 },
 {
 	"nameRu": "Озеро Чусовское",
-	"nameEn": "Ozero Chusovskoye"
+	"nameEn": "Lake Chusovskoye"
 },
 {
 	"nameRu": "Парковый кордон",
@@ -1970,5 +1970,33 @@
 {
 	"nameRu": "УГЛТУ (Лесотехнический университет)",
 	"nameEn": "Forest Engineering University"
-}
+},
+{
+	"nameRu": "Полевая",
+	"nameEn": "Polevaya St."
+},
+{
+	"nameRu": "Озеро Лебяжье",
+	"nameEn": "Lake Lebyazhye"
+},
+{
+	"nameRu": "Льва Люльева",
+	"nameEn": "Lev Lyulyev St."
+},
+{
+	"nameRu": "Парк Пышминские озерки",
+	"nameEn": "Pyshminskiye Lakes Park"
+},
+{
+	"nameRu": "Академия спорта",
+	"nameEn": "Sports Academy"
+},
+{
+	"nameRu": "Тепличная",
+	"nameEn": "Teplichnaya St."
+},
+{
+	"nameRu": "Чуцкаева",
+	"nameEn": "Chutskaeva St."
+},
 ]
