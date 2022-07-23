@@ -15,12 +15,16 @@ export default function TeamPerson({ name, role, photo, link }) {
         </div>
       }
       <figcaption className={cx("team-person__caption")}>
-        <div className={cx("team-person__name")}>
-          <span>{name}</span>
-        </div>
-        <div className={cx("team-person__role")}>
-          {role}
-        </div>
+        {name &&
+            <div className={cx("team-person__name")}>
+              <span>{name}</span>
+            </div>
+        }
+        {role &&
+          <div className={cx("team-person__role")}>
+            {role}
+          </div>
+        }
       </figcaption>
     </figure>
   );

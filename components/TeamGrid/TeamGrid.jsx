@@ -24,7 +24,7 @@ export default function TeamGrid({ team }) {
         .sort(sortBySurname)
         .map(({
           ['имя']: name,
-          ['фото']: photo,
+          ['фото на сайте']: photo,
           ['ссылка на сайте']: link,
           ['должность на сайте']: role
         }) => (
