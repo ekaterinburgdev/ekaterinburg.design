@@ -2,12 +2,12 @@
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  margin-top: -4vmin;
+  margin-top: 5vmin;
   line-height: 1;
 }
 
 .contacts__item {
-  flex-basis: 50%;
+  flex-basis: calc(100% / 4);
   transform-origin: center;
   transition: .1s ease;
 }
@@ -35,6 +35,7 @@
 
 .contacts__caption_mail {
   display: inline-block;
+  margin-top: 3vmax;
   margin-bottom: .2em;
   margin-left: .5vw;
   transition: all .1s ease;
@@ -93,10 +94,6 @@
 @media screen and (min-width: 1600px) {
   .contacts {
     margin-top: 15vmin;
-  }
-
-  .contacts__item {
-    flex-basis: calc(100% / 4);
   }
 
   .contacts__link {

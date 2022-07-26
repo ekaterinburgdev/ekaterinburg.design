@@ -29,6 +29,7 @@
 }
 
 .section__heading_contacts {
+  margin-top: -10vmax;
   margin-bottom: 5vmax;
   line-height: .83;
 }
@@ -46,6 +47,7 @@
 
 @media screen and (min-width: 768px) {
   .section__heading_contacts {
+    margin-top: -1vmax;
     margin-bottom: 2vmax;
   }
 
