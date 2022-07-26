@@ -27,20 +27,20 @@ export default function Contacts() {
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
-          <SVGFacebook />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.youtube.com/channel/UCGHlfaD8vXJRoeRd_J6FS9g" target="_blank" aria-label="YouTube">
+        <a className={cx('contacts__icon')} href="https://www.youtube.com/c/ekaterinburgdesign" target="_blank" aria-label="YouTube">
           <SVGYouTube />
         </a>
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://zen.yandex.ru/id/619ed5a1e122f71d908395a7" target="_blank" aria-label="Яндекс.Дзен">
+        <a className={cx('contacts__icon')} href="https://zen.yandex.ru/ekaterinburgdesign" target="_blank" aria-label="Яндекс.Дзен">
           <SVGZen />
+        </a>
+      </div>
+
+      <div className={cx('contacts__item')}>
+        <a className={cx('contacts__icon')} href="https://www.behance.net/ekaterinburgdesign" target="_blank" aria-label="Behance">
+          <SVGBehance />
         </a>
       </div>
 
@@ -51,8 +51,8 @@ export default function Contacts() {
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.behance.net/ekaterinburgdesign" target="_blank" aria-label="Behance">
-          <SVGBehance />
+        <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
+          <SVGFacebook />
         </a>
       </div>
 
@@ -209,56 +209,6 @@ function SVGVK() {
   );
 }
 
-function SVGFacebook() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="690"
-      height="690"
-      fill="none"
-      viewBox="0 0 690 690"
-    >
-      <circle cx="345" cy="345" r="345" fill="#00B4FF"></circle>
-      <mask
-        id="mask0_821_174"
-        style={{ maskType: "alpha" }}
-        width="690"
-        height="690"
-        x="0"
-        y="0"
-        maskUnits="userSpaceOnUse"
-      >
-        <circle cx="345" cy="345" r="345" fill="#00B4FF"></circle>
-      </mask>
-      <g mask="url(#mask0_821_174)">
-        <path
-          fill="#fff"
-          d="M479.253 444.531l15.289-99.689h-95.647v-64.663c0-27.279 13.337-53.886 56.177-53.886h43.512v-84.87s-39.472-6.735-77.192-6.735c-78.807 0-130.269 47.755-130.269 134.175v75.979h-87.565v99.689h87.565v241.005c17.58 2.762 35.565 4.176 53.886 4.176 18.321 0 36.306-1.414 53.886-4.176V444.531h80.358z"
-        ></path>
-      </g>
-    </svg>
-  );
-}
-
-function SVGGithub() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="520"
-      height="520"
-      fill="none"
-      viewBox="0 0 520 520"
-    >
-      <path
-        fill="#fff"
-        fillRule="evenodd"
-        d="M260 0C116.35 0 0 116.35 0 260c0 115.05 74.425 212.225 177.775 246.675 13 2.275 17.875-5.525 17.875-12.35 0-6.175-.325-26.65-.325-48.425C130 457.925 113.1 429.975 107.9 415.35c-2.925-7.475-15.6-30.55-26.65-36.725-9.1-4.875-22.1-16.9-.325-17.225 20.475-.325 35.1 18.85 39.975 26.65 23.4 39.325 60.775 28.275 75.725 21.45 2.275-16.9 9.1-28.275 16.575-34.775-57.85-6.5-118.3-28.925-118.3-128.375 0-28.275 10.075-51.675 26.65-69.875-2.6-6.5-11.7-33.15 2.6-68.9 0 0 21.775-6.825 71.5 26.65 20.8-5.85 42.9-8.775 65-8.775s44.2 2.925 65 8.775c49.725-33.8 71.5-26.65 71.5-26.65 14.3 35.75 5.2 62.4 2.6 68.9 16.575 18.2 26.65 41.275 26.65 69.875 0 99.775-60.775 121.875-118.625 128.375 9.425 8.125 17.55 23.725 17.55 48.1 0 34.775-.325 62.725-.325 71.5 0 6.825 4.875 14.95 17.875 12.35A260.426 260.426 0 00520 260C520 116.35 403.65 0 260 0z"
-        clipRule="evenodd"
-      ></path>
-    </svg>
-  )
-}
-
 function SVGYouTube() {
   return (
     <svg
@@ -315,7 +265,55 @@ function SVGBehance() {
   )
 }
 
+function SVGGithub() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="520"
+      height="520"
+      fill="none"
+      viewBox="0 0 520 520"
+    >
+      <path
+        fill="#fff"
+        fillRule="evenodd"
+        d="M260 0C116.35 0 0 116.35 0 260c0 115.05 74.425 212.225 177.775 246.675 13 2.275 17.875-5.525 17.875-12.35 0-6.175-.325-26.65-.325-48.425C130 457.925 113.1 429.975 107.9 415.35c-2.925-7.475-15.6-30.55-26.65-36.725-9.1-4.875-22.1-16.9-.325-17.225 20.475-.325 35.1 18.85 39.975 26.65 23.4 39.325 60.775 28.275 75.725 21.45 2.275-16.9 9.1-28.275 16.575-34.775-57.85-6.5-118.3-28.925-118.3-128.375 0-28.275 10.075-51.675 26.65-69.875-2.6-6.5-11.7-33.15 2.6-68.9 0 0 21.775-6.825 71.5 26.65 20.8-5.85 42.9-8.775 65-8.775s44.2 2.925 65 8.775c49.725-33.8 71.5-26.65 71.5-26.65 14.3 35.75 5.2 62.4 2.6 68.9 16.575 18.2 26.65 41.275 26.65 69.875 0 99.775-60.775 121.875-118.625 128.375 9.425 8.125 17.55 23.725 17.55 48.1 0 34.775-.325 62.725-.325 71.5 0 6.825 4.875 14.95 17.875 12.35A260.426 260.426 0 00520 260C520 116.35 403.65 0 260 0z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  )
+}
 
+function SVGFacebook() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="690"
+      height="690"
+      fill="none"
+      viewBox="0 0 690 690"
+    >
+      <circle cx="345" cy="345" r="345" fill="#00B4FF"></circle>
+      <mask
+        id="mask0_821_174"
+        style={{ maskType: "alpha" }}
+        width="690"
+        height="690"
+        x="0"
+        y="0"
+        maskUnits="userSpaceOnUse"
+      >
+        <circle cx="345" cy="345" r="345" fill="#00B4FF"></circle>
+      </mask>
+      <g mask="url(#mask0_821_174)">
+        <path
+          fill="#fff"
+          d="M479.253 444.531l15.289-99.689h-95.647v-64.663c0-27.279 13.337-53.886 56.177-53.886h43.512v-84.87s-39.472-6.735-77.192-6.735c-78.807 0-130.269 47.755-130.269 134.175v75.979h-87.565v99.689h87.565v241.005c17.58 2.762 35.565 4.176 53.886 4.176 18.321 0 36.306-1.414 53.886-4.176V444.531h80.358z"
+        ></path>
+      </g>
+    </svg>
+  );
+}
 
 
 
