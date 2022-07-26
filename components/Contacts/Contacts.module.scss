@@ -7,7 +7,7 @@
 }
 
 .contacts__item {
-  flex-basis: calc(100% / 4);
+  flex-basis: calc(100% / 3);
   transform-origin: center;
   transition: .1s ease;
 }
@@ -79,6 +79,10 @@
 @media screen and (min-width: 768px) {
   .contacts {
     margin-top: 0;
+  }
+
+  .contacts__item {
+    flex-basis: calc(100% / 4);
   }
 
   .contacts__caption_mail {
