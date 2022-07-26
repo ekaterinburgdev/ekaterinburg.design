@@ -8,62 +8,12 @@
 
 .contacts__item {
   flex-basis: 50%;
-  padding: 0 2vmin;
   transform-origin: center;
-  transition: .15s ease;
+  transition: .1s ease;
 }
 
 .contacts__item .contacts__icon:hover {
-  transform: rotate(0deg) scale(1.05) translateZ(0);
-}
-
-.contacts__item_instagram {
-  margin-top: 16vmin;
-}
-
-.contacts__item_instagram .contacts__icon {
-  transform: rotate(-7deg);
-}
-
-.contacts__item_telegram .contacts__icon:hover {
-  transform: rotate(-7deg) scale(1.05) translateZ(0);
-}
-
-.contacts__item_facebook {
-  margin-top: 5vmin;
-}
-
-.contacts__item_facebook .contacts__icon {
-  transform: rotate(-15deg) scale(1);
-}
-
-.contacts__item_youtube {
-  margin-top: -20vmin;
-  margin-left: auto;
-}
-
-.contacts__item_youtube .contacts__icon {
-  transform: rotate(-7deg);
-}
-
-.contacts__item_zen {
-  margin-top: -20vmin;
-  margin-left: auto;
-}
-
-.contacts__item_zen .contacts__icon {
-  transform: rotate(7deg);
-}
-
-.contacts__item_mail {
-  transform: scale(1) rotate(0deg);
-
-  .contacts__link {
-    transition: .15s ease box-shadow;
-    background-size: .25em .275em;
-    box-shadow: inset 0 -.125em black, inset 0 -.17em transparent;
-    text-decoration: none;
-  }
+  transform: scale(1.05) translateZ(0);
 }
 
 .contacts__item_mail:hover {
@@ -119,6 +69,10 @@
   font-size: 15vw;
   font-weight: 500;
   line-height: .86;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -126,12 +80,9 @@
     margin-top: 0;
   }
 
-  .contacts__item {
-    padding: 0 3vmin;
-  }
-
   .contacts__caption_mail {
     font-size: 3vw;
+    margin-top: 2vmin;
   }
 
   .contacts__link {
@@ -141,44 +92,11 @@
 
 @media screen and (min-width: 1600px) {
   .contacts {
-    margin-top: -10vmin;
+    margin-top: 15vmin;
   }
 
   .contacts__item {
-    flex-basis: calc(100% / 3);
-    padding: 0 4vmin;
-  }
-
-  .contacts__item_instagram {
-    order: -2;
-    margin-top: 35vmin;
-  }
-
-  .contacts__item_telegram {
-    margin-top: 18vmin;
-    margin-left: 0;
-  }
-
-  .contacts__item_facebook {
-    order: -1;
-    margin-top: 14vmin;
-  }
-
-  .contacts__item_facebook .contacts__icon {
-    transform: rotate(-7deg) scale(1);
-  }
-
-  .contacts__item_youtube {
-    margin-top: -20vmin;
-  }
-
-  .contacts__item_zen {
-    margin-top: -10vmin;
-    margin-left: 0;
-  }
-
-  .contacts__item_mail {
-    margin-top: -18vmin;
+    flex-basis: calc(100% / 4);
   }
 
   .contacts__link {

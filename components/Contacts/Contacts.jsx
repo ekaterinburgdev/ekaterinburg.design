@@ -7,33 +7,52 @@ const cx = classNames.bind(styles);
 export default function Contacts() {
   return (
     <div className={cx('contacts')}>
-      <div className={cx('contacts__item', 'contacts__item_instagram')}>
+
+      <div className={cx('contacts__item')}>
+        <a className={cx('contacts__icon')} href="https://t.me/ekaterinburgdesign" target="_blank" aria-label="Telegram">
+          <SVGTelegram />
+        </a>
+      </div>
+
+      <div className={cx('contacts__item')}>
         <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
           <SVGInstagram />
         </a>
       </div>
 
-      <div className={cx('contacts__item', 'contacts__item_telegram')}>
-        <a className={cx('contacts__icon')} href="https://t.me/ekaterinburgdesign" target="_blank" aria-label="Telegram">
-          <SVGTelegram />
+      <div className={cx('contacts__item')}>
+        <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
+          <SVGVK />
         </a>
       </div>
-      
-      <div className={cx('contacts__item', 'contacts__item_facebook')}>
+
+      <div className={cx('contacts__item')}>
         <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
           <SVGFacebook />
         </a>
       </div>
 
-      <div className={cx('contacts__item', 'contacts__item_youtube')}>
+      <div className={cx('contacts__item')}>
         <a className={cx('contacts__icon')} href="https://www.youtube.com/channel/UCGHlfaD8vXJRoeRd_J6FS9g" target="_blank" aria-label="YouTube">
           <SVGYouTube />
         </a>
       </div>
-      
-      <div className={cx('contacts__item', 'contacts__item_zen')}>
+
+      <div className={cx('contacts__item')}>
         <a className={cx('contacts__icon')} href="https://zen.yandex.ru/id/619ed5a1e122f71d908395a7" target="_blank" aria-label="Яндекс.Дзен">
           <SVGZen />
+        </a>
+      </div>
+
+      <div className={cx('contacts__item')}>
+        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdesign" target="_blank" aria-label="Facebook">
+          <SVGGithub />
+        </a>
+      </div>
+
+      <div className={cx('contacts__item')}>
+        <a className={cx('contacts__icon')} href="https://www.behance.net/ekaterinburgdesign" target="_blank" aria-label="Behance">
+          <SVGBehance />
         </a>
       </div>
 
@@ -47,6 +66,44 @@ export default function Contacts() {
   )
 };
 
+function SVGTelegram() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 786 786"
+    >
+      <g clipPath="url(#telegram_a)">
+        <path
+          fill="url(#telegram_b)"
+          d="M392.8 785a392.5 392.5 0 1 0 0-785 392.5 392.5 0 0 0 0 785Z"
+        />
+        <path
+          fill="#fff"
+          fillRule="evenodd"
+          d="M178 388.4c114.4-49.8 190.7-82.7 228.9-98.6 109-45.3 131.6-53.2 146.4-53.4 3.2 0 10.5.7 15.2 4.5 4 3.3 5 7.6 5.6 10.7.5 3 1.2 10 .6 15.4-5.9 62-31.4 212.7-44.4 282.2-5.5 29.4-16.4 39.3-26.8 40.2-22.8 2.1-40.1-15-62.2-29.5-34.6-22.6-54-36.7-87.6-58.8-38.8-25.6-13.6-39.6 8.4-62.5 5.8-6 106.2-97.4 108.2-105.7.2-1 .5-4.9-1.8-7-2.3-2-5.7-1.3-8.2-.7-3.4.8-58.6 37.3-165.5 109.4-15.7 10.8-29.9 16-42.6 15.8-14-.4-41-8-61-14.5-24.6-8-44.1-12.2-42.4-25.8.9-7 10.6-14.3 29.2-21.7Z"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="telegram_b"
+          x1={392.8}
+          x2={392.8}
+          y1={0.1}
+          y2={779.3}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#2AABEE" />
+          <stop offset={1} stopColor="#229ED9" />
+        </linearGradient>
+        <clipPath id="telegram_a">
+          <path fill="#fff" d="M0 0h785v785H0z" transform="translate(.3)" />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+}
 
 function SVGInstagram() {
   return (
@@ -120,6 +177,27 @@ function SVGInstagram() {
   );
 }
 
+function SVGVK() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="500"
+      height="520"
+      fill="none"
+      viewBox="0 0 500 520"
+    >
+      <path
+        fill="#07f"
+        d="M0 250C0 136.865 0 80.292 35.146 45.146 70.292 10 126.875 10 240 10h20c113.135 0 169.708 0 204.854 35.146C500 80.292 500 136.875 500 250v20c0 113.135 0 169.708-35.146 204.854S373.125 510 260 510h-20c-113.135 0-169.708 0-204.854-35.146C0 439.708 0 383.125 0 270z"
+      ></path>
+      <path
+        fill="#fff"
+        d="M266.042 370.208c-113.959 0-178.959-78.125-181.667-208.125h57.083c1.875 95.417 43.959 135.834 77.292 144.167V162.083h53.75v82.292c32.917-3.542 67.5-41.042 79.167-82.292h53.75c-8.959 50.834-46.459 88.334-73.125 103.75 26.666 12.5 69.375 45.209 85.625 104.375H358.75c-12.708-39.583-44.375-70.208-86.25-74.375v74.375z"
+      ></path>
+    </svg>
+  );
+}
+
 function SVGFacebook() {
   return (
     <svg
@@ -151,6 +229,25 @@ function SVGFacebook() {
   );
 }
 
+function SVGGithub() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="520"
+      height="520"
+      fill="none"
+      viewBox="0 0 520 520"
+    >
+      <path
+        fill="#fff"
+        fillRule="evenodd"
+        d="M260 0C116.35 0 0 116.35 0 260c0 115.05 74.425 212.225 177.775 246.675 13 2.275 17.875-5.525 17.875-12.35 0-6.175-.325-26.65-.325-48.425C130 457.925 113.1 429.975 107.9 415.35c-2.925-7.475-15.6-30.55-26.65-36.725-9.1-4.875-22.1-16.9-.325-17.225 20.475-.325 35.1 18.85 39.975 26.65 23.4 39.325 60.775 28.275 75.725 21.45 2.275-16.9 9.1-28.275 16.575-34.775-57.85-6.5-118.3-28.925-118.3-128.375 0-28.275 10.075-51.675 26.65-69.875-2.6-6.5-11.7-33.15 2.6-68.9 0 0 21.775-6.825 71.5 26.65 20.8-5.85 42.9-8.775 65-8.775s44.2 2.925 65 8.775c49.725-33.8 71.5-26.65 71.5-26.65 14.3 35.75 5.2 62.4 2.6 68.9 16.575 18.2 26.65 41.275 26.65 69.875 0 99.775-60.775 121.875-118.625 128.375 9.425 8.125 17.55 23.725 17.55 48.1 0 34.775-.325 62.725-.325 71.5 0 6.825 4.875 14.95 17.875 12.35A260.426 260.426 0 00520 260C520 116.35 403.65 0 260 0z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  )
+}
+
 function SVGYouTube() {
   return (
     <svg
@@ -172,45 +269,6 @@ function SVGYouTube() {
   );
 }
 
-function SVGTelegram() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 786 786"
-    >
-      <g clipPath="url(#telegram_a)">
-        <path
-          fill="url(#telegram_b)"
-          d="M392.8 785a392.5 392.5 0 1 0 0-785 392.5 392.5 0 0 0 0 785Z"
-        />
-        <path
-          fill="#fff"
-          fillRule="evenodd"
-          d="M178 388.4c114.4-49.8 190.7-82.7 228.9-98.6 109-45.3 131.6-53.2 146.4-53.4 3.2 0 10.5.7 15.2 4.5 4 3.3 5 7.6 5.6 10.7.5 3 1.2 10 .6 15.4-5.9 62-31.4 212.7-44.4 282.2-5.5 29.4-16.4 39.3-26.8 40.2-22.8 2.1-40.1-15-62.2-29.5-34.6-22.6-54-36.7-87.6-58.8-38.8-25.6-13.6-39.6 8.4-62.5 5.8-6 106.2-97.4 108.2-105.7.2-1 .5-4.9-1.8-7-2.3-2-5.7-1.3-8.2-.7-3.4.8-58.6 37.3-165.5 109.4-15.7 10.8-29.9 16-42.6 15.8-14-.4-41-8-61-14.5-24.6-8-44.1-12.2-42.4-25.8.9-7 10.6-14.3 29.2-21.7Z"
-          clipRule="evenodd"
-        />
-      </g>
-      <defs>
-        <linearGradient
-          id="telegram_b"
-          x1={392.8}
-          x2={392.8}
-          y1={0.1}
-          y2={779.3}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#2AABEE" />
-          <stop offset={1} stopColor="#229ED9" />
-        </linearGradient>
-        <clipPath id="telegram_a">
-          <path fill="#fff" d="M0 0h785v785H0z" transform="translate(.3)" />
-        </clipPath>
-      </defs>
-    </svg>
-  )
-}
-
 function SVGZen() {
   return (
     <svg
@@ -225,3 +283,28 @@ function SVGZen() {
     </svg>
   )
 }
+
+function SVGBehance() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="520"
+      height="520"
+      fill="none"
+      viewBox="0 0 520 520"
+    >
+      <path
+        fill="#1769ff"
+        d="M520 260c0 143.609-116.391 260-260 260S0 403.609 0 260 116.391 0 260 0s260 116.391 260 260z"
+      ></path>
+      <g fill="#fff">
+        <path d="M384.82 171.844h-84.906v19.703h84.906zM232.07 251.164c6.602-3.352 11.578-7.109 14.93-11.172 5.992-7.211 9.039-16.859 9.039-28.742 0-11.578-2.945-21.531-8.937-29.859-9.954-13.508-26.813-20.516-50.68-20.821h-94.453v195.508h88.054c9.954 0 19.094-.914 27.625-2.641 8.43-1.726 15.844-5.078 22.04-9.851 5.585-4.164 10.156-9.242 13.812-15.336 5.789-9.242 8.734-19.602 8.734-31.18 0-11.273-2.539-20.82-7.617-28.64-5.078-7.821-12.594-13.61-22.547-17.266zm-48.648-56.57c9.344 0 17.062 1.015 23.055 3.047 7.007 2.945 10.461 8.937 10.461 18.078 0 8.226-2.641 13.914-7.922 17.164-5.282 3.25-12.188 4.875-20.719 4.875h-47.531v-43.164zm24.68 124.109c-4.672 2.336-11.274 3.453-19.805 3.453h-47.43v-52.101h48.141c8.43.101 14.93 1.218 19.5 3.351 8.328 3.758 12.492 10.766 12.492 20.922 0 11.984-4.266 20.109-12.898 24.375zM415.391 265.789c-1.727-11.375-5.586-21.328-11.477-29.859-6.601-9.75-14.93-16.86-24.984-21.43-10.055-4.57-21.43-6.805-34.024-6.805-21.226 0-38.39 6.703-51.695 20.008-13.305 13.406-19.906 32.602-19.906 57.586 0 26.711 7.312 46.008 22.039 57.891 14.726 11.882 31.687 17.773 50.883 17.773 23.257 0 41.437-7.008 54.437-21.125 8.328-8.836 13-17.57 14.016-26.101h-38.594c-2.234 4.265-4.875 7.515-7.82 9.953-5.383 4.367-12.391 6.601-21.024 6.601-8.125 0-15.031-1.828-20.82-5.484-9.547-5.789-14.524-16.047-15.133-30.469h105.32c.204-12.391-.203-21.937-1.218-28.539zm-103.086 3.758c1.32-9.445 4.672-16.86 10.054-22.344 5.383-5.484 12.899-8.226 22.547-8.226 8.938 0 16.352 2.64 22.446 7.82 5.992 5.18 9.343 12.797 10.054 22.851z"></path>
+      </g>
+    </svg>
+  )
+}
+
+
+
+
+
