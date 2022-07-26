@@ -21,7 +21,7 @@ export default function Contacts() {
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
+        <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="VK">
           <SVGVK />
         </a>
       </div>
@@ -45,7 +45,7 @@ export default function Contacts() {
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdesign" target="_blank" aria-label="Facebook">
+        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdesign" target="_blank" aria-label="GitHub">
           <SVGGithub />
         </a>
       </div>
