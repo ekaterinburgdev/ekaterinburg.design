@@ -24,7 +24,6 @@ export default function Home({ textBlocks, projects, team, partners }) {
       <Layout home>
         <Head>
           <title>Дизайн-код Екатеринбурга</title>
-          <TextBlock name="HeadContent" />
         </Head>
 
         <Menu items={menuItems} />
