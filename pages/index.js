@@ -14,8 +14,6 @@ import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
 import TextBlockComponent from '../components/TextBlock';
 
-const mapWidgetUrl = 'https://map.ekaterinburg.design';
-
 export default function Home({ textBlocks, projects, team, partners }) {
   const TextBlock = ({ name }) => <TextBlockComponent data={textBlocks} name={name} />
 
@@ -63,9 +61,11 @@ export default function Home({ textBlocks, projects, team, partners }) {
 
         <section className={'section'} id="partners">
           <h2 className={'section__heading section__heading_map'}>
-            <a href={mapWidgetUrl} target="_blank">Наши работы<br />в&nbsp;городе</a>
+            <a href="https://map.ekaterinburg.design/" target="_blank">
+              Наши работы<br />в&nbsp;городе
+            </a>
           </h2>
-          <Map widgetUrl={mapWidgetUrl} />
+          <Map widgetUrl="https://map.ekaterinburg.design/widget" />
         </section>
 
         <section className={'section'} id="partners">
