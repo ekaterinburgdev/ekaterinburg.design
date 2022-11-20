@@ -12,6 +12,18 @@
   line-height: 0.86;
 }
 
+.section__heading a {
+  color: currentColor;
+  text-decoration: underline;
+  text-decoration-color: rgba(85, 100, 125, .5);
+  text-decoration-skip-ink: none;
+  transition: .15s ease;
+
+  &:hover {
+    text-decoration-color: rgba(85, 100, 125, .7);
+  }
+}
+
 .section__heading_projects {
   margin-right: .4em;
   margin-bottom: .2em;
@@ -29,6 +41,7 @@
 }
 
 .section__heading_contacts {
+  font-size: 23vmin;
   margin-top: -10vmax;
   margin-bottom: 5vmax;
   line-height: .83;
@@ -54,6 +67,11 @@
   .section__heading_projects {
     font-size: 23vmin;
     margin-bottom: .44em;
+  }
+
+  .section__heading_map {
+    font-size: 14.6vmin;
+    margin-top: -2vmax;
   }
 
   .section__heading_support-us {

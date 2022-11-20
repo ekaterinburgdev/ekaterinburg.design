@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import { getNotionDatabaseItems } from '../core/notion'
 
 import Head from 'next/head'
@@ -9,6 +7,7 @@ import menuItems from '../routes.json';
 import Layout from '../components/Layout'
 import Menu from '../components/Menu'
 import PostPreviewGrid from '../components/PostPreviewGrid'
+import Map from '../components/Map';
 import TeamList from '../components/TeamGrid';
 import Contacts from '../components/Contacts';
 import Partners from '../components/Partners/Partners';
@@ -60,6 +59,14 @@ export default function Home({ textBlocks, projects, team, partners }) {
           <PostPreviewGrid posts={projects} />
         </section>
 
+        <section className={'section'} id="partners">
+          <h2 className={'section__heading section__heading_map'}>
+            <a href="https://map.ekaterinburg.design/" target="_blank">
+              Наши работы<br />в&nbsp;городе
+            </a>
+          </h2>
+          <Map widgetUrl="https://map.ekaterinburg.design/widget" />
+        </section>
 
         <section className={'section'} id="partners">
           <h2 className={'section__heading section__heading_partners'}>Партнёры</h2>

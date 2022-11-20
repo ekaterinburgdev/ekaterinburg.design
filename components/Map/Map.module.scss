@@ -1,0 +1,13 @@
+.map {
+    width: calc(100% + 6vw);
+    margin: 0 0 0 -3vw;
+    height: 70vh;
+    border: 0;
+}
+
+@media (orientation: portrait) {
+    .map {
+        min-height: 500px;
+        height: 60vh;
+    }
+}
