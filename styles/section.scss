@@ -19,6 +19,12 @@
   color: #00B4FF;
 }
 
+.section__heading_map {
+  margin-top: -3.2vmax;
+  margin-bottom: 3.5vmax;
+  line-height: .83;
+}
+
 .section__heading_support-us {
   margin-top: 6vmax;
   line-height: .9;
@@ -29,6 +35,7 @@
 }
 
 .section__heading_contacts {
+  font-size: 23vmin;
   margin-top: -10vmax;
   margin-bottom: 5vmax;
   line-height: .83;
@@ -54,6 +61,10 @@
   .section__heading_projects {
     font-size: 23vmin;
     margin-bottom: .44em;
+  }
+
+  .section__heading_map {
+    font-size: 14vmin;
   }
 
   .section__heading_support-us {
