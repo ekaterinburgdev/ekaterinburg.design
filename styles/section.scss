@@ -12,17 +12,20 @@
   line-height: 0.86;
 }
 
+.section__heading a {
+  color: currentColor;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .section__heading_projects {
   margin-right: .4em;
   margin-bottom: .2em;
   opacity: 1;
   color: #00B4FF;
-}
-
-.section__heading_map {
-  margin-top: -3.2vmax;
-  margin-bottom: 3.5vmax;
-  line-height: .83;
 }
 
 .section__heading_support-us {

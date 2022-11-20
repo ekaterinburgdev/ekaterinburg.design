@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import { getNotionDatabaseItems } from '../core/notion'
 
 import Head from 'next/head'
@@ -15,6 +13,8 @@ import Contacts from '../components/Contacts';
 import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
 import TextBlockComponent from '../components/TextBlock';
+
+const mapWidgetUrl = 'https://map.ekaterinburg.design';
 
 export default function Home({ textBlocks, projects, team, partners }) {
   const TextBlock = ({ name }) => <TextBlockComponent data={textBlocks} name={name} />
@@ -62,9 +62,10 @@ export default function Home({ textBlocks, projects, team, partners }) {
         </section>
 
         <section className={'section'} id="partners">
-          <h2 className={'section__heading section__heading_map'}>Наши работы<br />в&nbsp;городе</h2>
-
-          <Map />
+          <h2 className={'section__heading section__heading_map'}>
+            <a href={mapWidgetUrl} target="_blank">Наши работы<br />в&nbsp;городе</a>
+          </h2>
+          <Map widgetUrl={mapWidgetUrl} />
         </section>
 
         <section className={'section'} id="partners">
