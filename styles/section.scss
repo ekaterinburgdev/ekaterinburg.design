@@ -15,9 +15,12 @@
 .section__heading a {
   color: currentColor;
   text-decoration: underline;
+  text-decoration-color: rgba(85, 100, 125, .5);
+  text-decoration-skip-ink: none;
+  transition: .15s ease;
 
   &:hover {
-    text-decoration: none;
+    text-decoration-color: rgba(85, 100, 125, .7);
   }
 }
 
@@ -67,7 +70,8 @@
   }
 
   .section__heading_map {
-    font-size: 14vmin;
+    font-size: 14.6vmin;
+    margin-top: -2vmax;
   }
 
   .section__heading_support-us {
