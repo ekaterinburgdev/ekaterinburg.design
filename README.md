@@ -1,15 +1,19 @@
-# Сайт проекта Дизайн-код Екатеринбурга
+# Ekaterinburg Design Code site
 
-Работает на базе Create Next App и [Notion API](https://developers.notion.com/)
+🎨 Website for announcements of Ekaterinburg designers community
 
-## Запуск
+**[ekaterinburg.design](https://ekaterinburg.design)**
 
-1. Установка зависимостей
+## Development
+
+1. Install [Node.js](https://nodejs.org/en/download/)
+
+2. Install dependencies
 ```sh
 npm i 
 ```
 
-2. Добавить файл с переменными среды `.env.local` с [токенами Notion](https://www.notion.so/my-integrations) и Vercel
+3. Add `.env.local` with Notion tokens and Vercel
 ```sh
 NOTION_TOKEN=
 NOTION_DATABASE_TEAM=
@@ -19,30 +23,20 @@ NOTION_DATABASE_TEXTBLOCKS=
 VERCEL_URL=localhost:3000
 ```
 
-## Управление контентом
-
-В Notion хранятся данные проекта:
-- Проекты
-- Партнёры
-- Команда
-- Контакты
-
-## Разработка
-
-### Запуск dev-сервера
+4. Run local server
 ```sh
 npm run dev
 ```
 
-### Сборка
-```sh
-npm run production
-```
+## Content management
 
-### Запуск production-версии
-```sh
-npm start
-```
-## Деплой
+### Notion
+- Projects
+- Partners
+- Team
+- Contacts
+- Textblocks with custom HTML
 
-Проект развертывается на Vercel при `git push` с помощью GitHub Actions
+### Other content
+- Announcements pages in [/public path](https://github.com/ekaterinburgdev/ekaterinburg.design/tree/main/public) (Will be moved to Notion in the future)
+- Map widget in [design-map repository](https://github.com/ekaterinburgdev/design-map)
