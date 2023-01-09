@@ -30,6 +30,7 @@ export default function Document() {
 
         <meta name="yandex-verification" content="94c725a9e4228358" />
         <meta name="facebook-domain-verification" content="l85smr2ck81ubuv1qof1bylyds521p" />
+        <meta name="zen-verification" content="xFOYqPh93yqz68qsQBCCrcBzbyjvIdm5G9BuCTJcBU9u1oZpj4jNL9jlycEpvMv3" />
       </Head>
       <body>
         <Main />
