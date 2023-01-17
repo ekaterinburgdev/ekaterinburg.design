@@ -25,7 +25,7 @@
 }
 
 .footer__year-dash::after {
-    content: '2022';
+    content: attr(data-year);
     position: absolute;
     right: 0;
 }
