@@ -45,7 +45,7 @@ export default function Contacts() {
       </div>
 
       <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdesign" target="_blank" aria-label="GitHub">
+        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdev" target="_blank" aria-label="GitHub">
           <SVGGithub />
         </a>
       </div>
