@@ -1,8 +1,11 @@
 .contacts {
+  margin-top: 5vmin;
+}
+
+.contacts__list {
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  margin-top: 5vmin;
   line-height: 1;
 }
 
@@ -16,32 +19,22 @@
   transform: scale(1.05) translateZ(0);
 }
 
-.contacts__item_mail:hover {
-  transform: scale(1.05) rotate(-1deg) translateZ(0);
-
-  .contacts__caption_mail {
-    color: rgba(#00B400, .4);
-  }
-
-  .contacts__link {
-    box-shadow: inset 0 -.11em black, inset 0 -.16em rgba(#00B400, .2);
-    color: #00B400;
-  }
-
-  .contacts__link:hover {
-    box-shadow: inset 0 -.11em black, inset 0 -.16em rgba(#00B400, .6);
-  }
+.contacts__mail-button {
+  display: block;
+  padding: .75em 1.8em;
+  font-size: clamp(22px, 5vw, 120px);
+  color: #020004;
+  border-radius: 100em;
+  background: #ffd301;
+  text-decoration: none;
+  transition: .15s ease opacity;
+  line-height: 1;
+  text-align: center;
 }
 
-.contacts__caption_mail {
-  display: inline-block;
-  margin-top: 3vmax;
-  margin-bottom: .2em;
-  margin-left: .5vw;
-  transition: all .1s ease;
-  color: rgba(#FFD400, .4);
-  font-size: 6vw;
-  font-weight: 500;
+.contacts__mail-button:hover {
+  text-decoration: none;
+  opacity: .8;
 }
 
 .contacts__icon {
@@ -49,6 +42,7 @@
   position: relative;
   width: 100%;
   transition: transform .15s ease;
+  vertical-align: middle;
 
   &:after {
     content: '';
@@ -83,11 +77,6 @@
 
   .contacts__item {
     flex-basis: calc(100% / 4);
-  }
-
-  .contacts__caption_mail {
-    font-size: 3vw;
-    margin-top: 2vmin;
   }
 
   .contacts__link {
