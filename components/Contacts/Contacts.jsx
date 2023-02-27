@@ -7,61 +7,59 @@ const cx = classNames.bind(styles);
 export default function Contacts() {
   return (
     <div className={cx('contacts')}>
+      <div className={cx('contacts__list')}>
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://t.me/ekaterinburgdesign" target="_blank" aria-label="Telegram">
+            <SVGTelegram />
+          </a>
+        </div>
 
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://t.me/ekaterinburgdesign" target="_blank" aria-label="Telegram">
-          <SVGTelegram />
-        </a>
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
+            <SVGInstagram />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="VK">
+            <SVGVK />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://www.youtube.com/c/ekaterinburgdesign" target="_blank" aria-label="YouTube">
+            <SVGYouTube />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://zen.yandex.ru/ekaterinburgdesign" target="_blank" aria-label="Яндекс.Дзен">
+            <SVGZen />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://www.behance.net/ekaterinburgdesign" target="_blank" aria-label="Behance">
+            <SVGBehance />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdev" target="_blank" aria-label="GitHub">
+            <SVGGithub />
+          </a>
+        </div>
+
+        <div className={cx('contacts__item')}>
+          <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
+            <SVGFacebook />
+          </a>
+        </div>
       </div>
 
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
-          <SVGInstagram />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="VK">
-          <SVGVK />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.youtube.com/c/ekaterinburgdesign" target="_blank" aria-label="YouTube">
-          <SVGYouTube />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://zen.yandex.ru/ekaterinburgdesign" target="_blank" aria-label="Яндекс.Дзен">
-          <SVGZen />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.behance.net/ekaterinburgdesign" target="_blank" aria-label="Behance">
-          <SVGBehance />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://github.com/ekaterinburgdev" target="_blank" aria-label="GitHub">
-          <SVGGithub />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item')}>
-        <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
-          <SVGFacebook />
-        </a>
-      </div>
-
-      <div className={cx('contacts__item', 'contacts__item_mail')}>
-        <span className={cx('contacts__caption', 'contacts__caption_mail')}>написать нам</span><br />
-        <a className={cx('contacts__link')} href="mailto:mail@ekaterinburg.design">
-          mail@<br />ekaterinburg.<br />design
-        </a>
-      </div>
+      <a className={cx('contacts__mail-button')} href="mailto:mail@ekaterinburg.design">
+        mail@ekaterinburg.design
+      </a>
     </div>
   )
 };
