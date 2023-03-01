@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<base href="/street-plates-generator/">
+	<title>Генератор адресных табличек</title>
+	<link rel="stylesheet" href="css/street-sign.css">
+	<meta name="robots" content="noindex">
+</head>
+
+<body>
+	<div class="wrap">
+		<h1 id="headline">Генератор адресных табличек</h1>
+		<div id="description">
+			<p>1. Выберите название улицы из списка (транслит и тип улицы встанут автоматом).</p>
+			<p>2. Введите номер дома и номера конечных домов. Если конечные дома не нужны, оставьте поля пустыми.</p>
+		</div>
+	</div>
+	<div id="sign-wrap">
+		<div id="sign-address"><input id="streetType" type="text" placeholder="Улица" spellcheck="false" readonly><input
+				id="streetName" type="text" onClick="this.select();" placeholder="8 Марта" spellcheck="false"
+				autofocus="autofocus" tabindex="1">
+			<div id="sign-bottom">
+				<div id="number-left-wrap"><span>⟵ </span><input id="numberLeft" type="text" onClick="this.select();"
+						placeholder="1" spellcheck="false" tabindex="3"></div><input id="streetLatin" type="text"
+					placeholder="8 Marta Street" spellcheck="false" readonly>
+				<div id="number-right-wrap"><span> ⟶</span><input id="numberRight" type="text" onClick="this.select();"
+						placeholder="99" spellcheck="false" tabindex="4"></div>
+			</div>
+		</div>
+		<div id="sign-building-number"><input id="buildingNumber" type="text" onClick="this.select();" placeholder="21"
+				spellcheck="false" tabindex="2"></div>
+		<div id="sign-address-phantom"></div>
+		<div id="sign-building-number-phantom"></div>
+	</div>
+	<div class="wrap"><button id="createPDF">Скачать табличку</button><br></div>
+	<div id="map">
+		<div class="wrap">
+			<p>Карта для проверки, чтобы далеко не ходить</p>
+		</div>
+		<script type="text/javascript" charset="utf-8" async
+			src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4b5d7b664cf7ec4086e77a71049596191e485abd792b1881a575b989ea2177dc&amp;amp;width=100%25&amp;amp;height=800&amp;amp;lang=ru_RU&amp;amp;scroll=true&amp;amp;apikey=19d9f5ee-4efd-44c9-a6e6-3b99bc012343"></script>
+	</div>
+	<div id="logo-wrap"><img id="logo" src="img/logo.svg"></div>
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/street-sign.js"></script>
+	<script src="js/easy-autocomplete.js"></script>
+	<script src="js/sign-suggest.js"></script>
+	<script type="text/javascript">$('input').focus(function () {
+			$this = $(this);
+
+			$this.select();
+
+			window.setTimeout(function () {
+				$this.select();
+			}, 1);
+
+			$this.mouseup(function () {
+				$this.unbind("mouseup");
+				return false;
+			});
+		});</script>
+</body>
+
+</html>

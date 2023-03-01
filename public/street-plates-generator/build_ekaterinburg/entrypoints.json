@@ -1,0 +1,13 @@
+{
+  "entrypoints": {
+    "ekaterinburg": {
+      "js": [
+        "/build_ekaterinburg/runtime.f671e8da.js",
+        "/build_ekaterinburg/ekaterinburg.eb78c97b.js"
+      ],
+      "css": [
+        "/build_ekaterinburg/ekaterinburg.0fe9c6d8.css"
+      ]
+    }
+  }
+}
