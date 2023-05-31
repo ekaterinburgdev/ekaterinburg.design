@@ -20,7 +20,10 @@ export default function TeamGrid({ team }) {
   return (
     team && <ul className={cx("team-grid")}>
       {team
-        ?.filter(({ ['показать на сайте']: published }) => published)
+        ?.filter(({ ['показать на сайте']: published, ['проект']: project }) => (
+          published &&
+          project.includes('Дизайн-код Екатеринбурга'))
+        )
         .sort(sortBySurname)
         .map(({
           ['имя']: name,
