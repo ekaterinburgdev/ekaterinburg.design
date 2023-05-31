@@ -34,7 +34,7 @@ const MAX_IMAGE_SIZE = 1200;
     const files = fs.readdirSync(VERCEL_OUTPUT_PATH).filter(x => !x.includes('svg'));
     const resizedImages = await Promise.all(
         files.map(filename => new Promise(async (res) => {
-            const image = await sharp(VERCEL_OUTPUT_PATH + filename);
+            const image = await sharp(VERCEL_OUTPUT_PATH + filename, { failOnError: false });
             const { width, height } = await image.metadata();
 
             if (width >= MAX_IMAGE_SIZE) {
