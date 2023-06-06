@@ -26,7 +26,7 @@ const MAX_IMAGE_SIZE = 1200;
 
 
     console.log('Download files from Notion...');
-    const downloads = await Promise.all(items.map(x => download(x)));
+    const downloads = await runTasks(items.map(url => () => download(url)), 75);
     console.log(`Files loaded ${downloads.length}:\n`, downloads.join('\n'), '\n');
 
 
@@ -102,6 +102,7 @@ function download(url) {
 
         file.on("finish", () => {
             file.close();
+            console.log(`Downloaded ${outputFilename}`)
             res(outputFilename);
         });
 
@@ -112,3 +113,25 @@ function download(url) {
     });
 }
 
+
+async function runTasks(tasks, concurrency) {
+    const results = [];
+  
+    async function run(tasksIterator) {
+      for (const [index, task] of tasksIterator) {
+        try {
+          results[index] = await task();
+        } catch (error) {
+          results[index] = new Error(`Failed with: ${error.message}`);
+        }
+      }
+    }
+  
+    const workers = new Array(concurrency)
+      .fill(tasks.entries())
+      .map(run);
+  
+    await Promise.allSettled(workers);
+  
+    return results;
+  }

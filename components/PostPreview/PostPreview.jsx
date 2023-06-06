@@ -46,7 +46,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
     })}
     >
       <div className={cx('post-preview__gallery')} ref={galleryRef}>
-        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} loading="lazy" alt="" />)}
+        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
       </div>
 
       <span className={cx('post-preview__caption')} aria-hidden="true" data-caption-title={title}>

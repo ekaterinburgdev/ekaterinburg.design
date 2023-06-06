@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run preload-static && next dev",
-    "build": "npm run preload-static && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "preload-static": "node ./build-scripts/cache-images.mjs"
+    "preload-static": "node ./build-scripts/cache-images.mjs",
+    "postinstall": "pnpm preload-static"
   },
   "dependencies": {
     "@notionhq/client": "^0.4.0",
