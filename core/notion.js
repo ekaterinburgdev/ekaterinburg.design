@@ -30,12 +30,11 @@ export async function getNotionDatabaseItems(databaseName) {
   let cursor;
 
   while (cursor !== null) {
-    let response;
-    if (cursor) {
-      response = await notion.databases.query({ database_id: databaseId, start_cursor: cursor });
-    } else {
-      response = await notion.databases.query({ database_id: databaseId });
-    }
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      start_cursor: cursor || undefined
+    });
+    
     cursor = response.next_cursor;
     responseData = [...responseData, ...response.results.map(x => x.properties)];
   }
@@ -94,7 +93,7 @@ function getFileFromCache(url) {
 async function loadCachedFilesList() {
   let fileList;
   try {
-    const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`); const path = require('path');
+    const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`);
     fileList = await response.json();
   } catch {
     fileList = fs.readFileSync(path.join(process.cwd(), 'public', 'notion-static', 'filelist.json'), 'utf8');
