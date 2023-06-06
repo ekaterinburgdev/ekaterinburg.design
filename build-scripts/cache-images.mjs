@@ -9,6 +9,7 @@ import imageminPngquant from 'imagemin-pngquant';
 import imageminSvgo from 'imagemin-svgo';
 
 dotenv.config();
+const MAX_PARALLEL_DOWNLOADS = 50;
 const VERCEL_OUTPUT_PATH = './public/notion-static/';
 const MAX_IMAGE_SIZE = 1200;
 
@@ -26,7 +27,7 @@ const MAX_IMAGE_SIZE = 1200;
 
 
     console.log('Download files from Notion...');
-    const downloads = await runTasks(items.map(url => () => download(url)), 75);
+    const downloads = await runTasks(items.map(url => () => download(url)), MAX_PARALLEL_DOWNLOADS);
     console.log(`Files loaded ${downloads.length}:\n`, downloads.join('\n'), '\n');
 
 
