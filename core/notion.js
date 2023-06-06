@@ -25,13 +25,28 @@ const notion = new NotionClient({ auth: process.env.NOTION_TOKEN });
 export async function getNotionDatabaseItems(databaseName) {
   CACHED_FILES_LIST = await loadCachedFilesList();
   const databaseId = NOTION_DATABASES[databaseName];
-  const response = await notion.databases.query({ database_id: databaseId });
-  const data = response.results.map(x => x.properties);
 
-  return data.map(item => {
-    return Object.fromEntries(Object.entries(item)
-      .map(([key, value]) => [key.charAt(0).toLowerCase() + key.slice(1), getNotionValueByType(value, value.type)]));
-  })
+  let responseData = [];
+  let cursor;
+
+  while (cursor !== null) {
+    let response;
+    if (cursor) {
+      response = await notion.databases.query({ database_id: databaseId, start_cursor: cursor });
+    } else {
+      response = await notion.databases.query({ database_id: databaseId });
+    }
+    cursor = response.next_cursor;
+    responseData = [...responseData, ...response.results.map(x => x.properties)];
+  }
+
+  return responseData.map(item => (
+    Object.fromEntries(Object.entries(item)
+      .map(([key, value]) => [
+        key.charAt(0).toLowerCase() + key.slice(1),
+        getNotionValueByType(value, value.type)
+      ]))
+  ))
 }
 
 function getNotionValueByType(value, type) {
@@ -67,7 +82,7 @@ function getNotionValueByType(value, type) {
 }
 
 function getFileFromCache(url) {
-  const [ filename ] = new URL(url).pathname.split('/').slice(-1);
+  const [filename] = new URL(url).pathname.split('/').slice(-1);
   const fileExt = filename.split('.').slice(-1)[0];
   const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
   const notionFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
@@ -79,7 +94,7 @@ function getFileFromCache(url) {
 async function loadCachedFilesList() {
   let fileList;
   try {
-    const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`);const path = require('path');
+    const response = await fetch(`http://${process.env.VERCEL_URL}/notion-static/filelist.json`); const path = require('path');
     fileList = await response.json();
   } catch {
     fileList = fs.readFileSync(path.join(process.cwd(), 'public', 'notion-static', 'filelist.json'), 'utf8');
