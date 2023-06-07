@@ -36,7 +36,7 @@ export async function getNotionDatabaseItems(databaseName) {
     });
     
     cursor = response.next_cursor;
-    responseData = [...responseData, ...response.results.map(x => x.properties)];
+    responseData = responseData.concat(response.results.map(x => x.properties));
   }
 
   return responseData.map(item => (
