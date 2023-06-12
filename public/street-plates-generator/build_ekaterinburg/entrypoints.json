@@ -1,12 +1,11 @@
 {
   "entrypoints": {
     "ekaterinburg": {
-      "js": [
-        "/street-plates-generator/build_ekaterinburg/runtime.16cdd9c3.js",
-        "/street-plates-generator/build_ekaterinburg/ekaterinburg.f6fbb341.js"
-      ],
       "css": [
-        "/street-plates-generator/build_ekaterinburg/ekaterinburg.c8ae8429.css"
+        "/street-plates-generator/build_ekaterinburg/ekaterinburg.a40d9ab6.css"
+      ],
+      "js": [
+        "/street-plates-generator/build_ekaterinburg/ekaterinburg.ef176cbc.js"
       ]
     }
   }
