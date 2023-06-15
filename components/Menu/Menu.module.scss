@@ -46,7 +46,8 @@
     .menu__list {
         display: flex;
         left: 50%;
-        margin-left: -2%;
+        transform: translate(-50%);
+        position: relative;
         padding: 8px;
         border-radius: 70px;
         background: rgba(0, 0, 0, .7);
