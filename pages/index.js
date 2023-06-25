@@ -113,7 +113,6 @@ export async function getStaticProps() {
       team: await getNotionDatabaseItems('Team'),
       partners: await getNotionDatabaseItems('Partners'),
       textBlocks: await getNotionDatabaseItems('TextBlocks')
-    },
-    revalidate: 15,
+    }
   }
 }
