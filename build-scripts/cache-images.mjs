@@ -80,11 +80,22 @@ async function getNotionImagesFromDatabase(databaseName) {
     };
 
     const databaseId = NOTION_DATABASES[databaseName];
-    const response = await notion.databases.query({ database_id: databaseId });
-    const data = response.results.map(x => x.properties);
+    let responseData = [];
+    let cursor;
 
-    return data.flatMap(item => {
-        return Object.values(item).filter(x => x.type === 'files').flatMap(x => x.files.flatMap(x => x?.file?.url));
+    while (cursor !== null) {
+        const response = await notion.databases.query({
+            database_id: databaseId,
+            start_cursor: cursor || undefined
+        });
+        cursor = response.next_cursor;
+        responseData = responseData.concat(response.results.map(x => x.properties));
+    }
+
+    return responseData.flatMap(item => {
+        return Object.values(item)
+            .filter(x => x.type === 'files')
+            .flatMap(x => x.files.flatMap(x => x?.file?.url));
     })
 }
 
@@ -117,22 +128,22 @@ function download(url) {
 
 async function runTasks(tasks, concurrency) {
     const results = [];
-  
+
     async function run(tasksIterator) {
-      for (const [index, task] of tasksIterator) {
-        try {
-          results[index] = await task();
-        } catch (error) {
-          results[index] = new Error(`Failed with: ${error.message}`);
+        for (const [index, task] of tasksIterator) {
+            try {
+                results[index] = await task();
+            } catch (error) {
+                results[index] = new Error(`Failed with: ${error.message}`);
+            }
         }
-      }
     }
-  
+
     const workers = new Array(concurrency)
-      .fill(tasks.entries())
-      .map(run);
-  
+        .fill(tasks.entries())
+        .map(run);
+
     await Promise.allSettled(workers);
-  
+
     return results;
-  }
+}
