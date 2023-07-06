@@ -1661,7 +1661,7 @@
 },
 {
 	"nameRu": "Академика Сахарова",
-	"nameEn": "Akademika Sakharova St."
+	"nameEn": "Akademika Sakharova Ave."
 },
 {
 	"nameRu": "Гимназия «Корифей»",
@@ -2070,5 +2070,13 @@
 {
 	"nameRu": "Энерготехникум",
 	"nameEn": "Energotekhnikum"
-}
+},
+{
+	"nameRu": "Улица Академика Парина",
+	"nameEn": "Akademika Parina St."
+},
+{
+	"nameRu": "Академика Бардина",
+	"nameEn": "Akademika Bardina St."
+},
 ]
