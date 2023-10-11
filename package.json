@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "ekaterinburg-design",
+  "description": "Website for announcements of Ekaterinburg designers community",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,25 +10,19 @@
     "postinstall": "pnpm preload-static"
   },
   "dependencies": {
-    "@notionhq/client": "^0.4.0",
-    "classnames": "^2.3.1",
-    "next": "^12.0.8",
-    "node-fetch": "^2.6.6",
-    "nprogress": "^0.2.0",
-    "prop-types": "^15.7.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "remark": "^12.0.0",
-    "remark-html": "^12.0.0",
-    "sass": "^1.41.1",
-    "typograf": "^6.12.1"
-  },
-  "devDependencies": {
-    "dotenv-flow": "^3.2.0",
-    "imagemin": "^8.0.1",
+    "@notionhq/client": "^0.4.13",
+    "classnames": "^2.3.2",
+    "dotenv-flow": "^3.3.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^10.0.1",
-    "sharp": "^0.29.3"
+    "imagemin": "^8.0.1",
+    "next": "^12.3.4",
+    "nprogress": "^0.2.0",
+    "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "sass": "^1.69.2",
+    "sharp": "^0.32.6",
+    "typograf": "^6.15.1"
   }
 }
