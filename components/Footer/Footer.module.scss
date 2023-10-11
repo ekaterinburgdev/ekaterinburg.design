@@ -29,3 +29,18 @@
     position: absolute;
     right: 0;
 }
+
+.requisites {
+  font-size: 4vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.3;
+  white-space: wrap;
+  margin: 3vw .3vw 8vw;
+}
+
+@media screen and (min-width: 560px) {
+  .requisites {
+    font-size: 2vw;
+  }
+}
