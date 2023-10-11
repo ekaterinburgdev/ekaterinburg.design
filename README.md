@@ -6,11 +6,11 @@
 
 ## Development
 
-1. Install [Node.js](https://nodejs.org/en/download/)
+1. Install [Node.js](https://nodejs.org/en/download/) and [pnpm](https://www.npmjs.com/package/pnpm#installation)
 
 2. Install dependencies
 ```sh
-npm i 
+pnpm i 
 ```
 
 3. Add `.env.local` with Notion tokens and Vercel
@@ -25,7 +25,7 @@ VERCEL_URL=localhost:3000
 
 4. Run local server
 ```sh
-npm run dev
+pnpm dev
 ```
 
 ## Content management
