@@ -2,11 +2,12 @@
   "name": "ekaterinburg-design",
   "description": "Website for announcements of Ekaterinburg designers community",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preload-static": "node ./build-scripts/cache-images.mjs",
+    "preload-static": "node ./build-scripts/cache-images.js",
     "postinstall": "pnpm preload-static"
   },
   "dependencies": {
