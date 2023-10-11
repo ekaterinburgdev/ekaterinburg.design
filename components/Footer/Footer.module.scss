@@ -36,15 +36,15 @@
   letter-spacing: 0;
   line-height: 1.3;
   white-space: wrap;
-	text-align: justify;
+  text-align: justify;
   margin: 3vw .3vw 8vw;
   a {
     color: #1E2841;
-    box-shadow: 0 4px 0 0 rgba(#1E2841,.75);
-		text-decoration: none;
+    box-shadow: 0 2px 0 0 rgba(#1E2841,.75);
+    text-decoration: none;
     &:hover {
-			color: #242f4d;
-      box-shadow: 0 4px 0 0 rgba(#242f4d,1);
+      color: #242f4d;
+      box-shadow: 0 2px 0 0 rgba(#242f4d,1);
     }
   }
 }
@@ -52,5 +52,11 @@
 @media screen and (min-width: 560px) {
   .requisites {
     font-size: 1.88vw;
+    a {
+      box-shadow: 0 4px 0 0 rgba(#1E2841,.75);
+      &:hover {
+        box-shadow: 0 4px 0 0 rgba(#242f4d,1);
+      }
+    }
   }
 }
