@@ -1,4 +1,4 @@
-.post-preview {
+.project {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   border-radius: 8px;
 }
 
-.post-preview__gallery {
+.project__gallery {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -17,7 +17,7 @@
   pointer-events: none;
 }
 
-.post-preview__image {
+.project__image {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,12 +37,12 @@
     opacity: 1;
   }
 
-  &.post-preview__image_active {
+  &.project__image_active {
     opacity: 1;
   }
 }
 
-.post-preview__caption {
+.project__caption {
   position: absolute;
   z-index: 2;
   bottom: 0;
@@ -55,11 +55,11 @@
   line-height: 1;
 }
 
-.post-preview:hover .post-preview__caption {
+.project:hover .project__caption {
   opacity: 1;
 }
 
-.post-preview_contrast .post-preview__caption {
+.project_contrast .project__caption {
   margin-left: .3em;
   padding: .4em .5em .3em;
   max-width: 80%;
@@ -68,7 +68,7 @@
   transform: matrix(1, -0.08, 0, 1, 0, 0);
 }
 
-.post-preview_link .post-preview__caption {
+.project_link .project__caption {
   max-width: 80%;
   margin-left: .3em;
   padding: .3em .4em .4em;
@@ -77,13 +77,13 @@
   transform: translate(0, -12%) matrix(1, -0.08, 0, 1, 0, 0);
 }
 
-.post-preview__caption-word {
+.project__caption-word {
   position: relative;
   padding-right: .15em;
   display: inline-block;
 }
 
-.post-preview_link .post-preview__caption-word::before {
+.project_link .project__caption-word::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -93,7 +93,7 @@
   opacity: .2;
 }
 
-.post-preview__link-area {
+.project__link-area {
   position: absolute;
   z-index: 3;
   width: 100%;
@@ -102,34 +102,34 @@
 }
 
 @media screen and (min-width: 560px) {
-  .post-preview__caption {
+  .project__caption {
     transition: .15s ease opacity;
     // BUG из-за transform фон обрезается снизу
     box-shadow: 0 1px 0 transparent;
   }
 
-  .post-preview_big .post-preview__caption {
+  .project_big .project__caption {
     font-size: max(2vmax, 50px);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .post-preview__image {
+  .project__image {
     transform: scale(1);
   }
 
-  .post-preview:hover .post-preview__image {
+  .project:hover .project__image {
     transform: scale(1.05) translateZ(0) ;
   }
 
-  .post-preview__caption {
+  .project__caption {
     opacity: 0;
   }
 }
 
 @media screen and (min-width: 991px) {
-  .post-preview_link .post-preview__caption,
-  .post-preview_contrast .post-preview__caption {
+  .project_link .project__caption,
+  .project_contrast .project__caption {
     transform: matrix(1, -0.08, 0, 1, 0, 0) translate(0, 11%);
   }
 }

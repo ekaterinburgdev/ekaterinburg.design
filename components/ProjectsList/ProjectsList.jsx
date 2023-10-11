@@ -1,24 +1,16 @@
 
 import classNames from 'classnames/bind';
 
-import PostPreview from '../PostPreview';
+import PostPreview from '../Project';
 
-import styles from './PostPreviewGrid.module.scss'
+import styles from './ProjectsList.module.scss'
 
 const cx = classNames.bind(styles);
 
-export default function PostPreviewGrid({ posts }) {
-  const sortByPriority = (a, b) => {
-    if (a.priority > b.priority) { return -1; }
-    if (a.priority < b.priority) { return 1; }
-    return 0;
-  }
-
+export default function ProjectsList({ projects }) {
   return (
-    <ul className={cx('post-preview-grid')}>
-      {posts
-        .filter(({ published }) => published)
-        .sort(sortByPriority)
+    <ul className={cx('projects-list')}>
+      {projects
         .map((
           {
             id,
@@ -28,7 +20,7 @@ export default function PostPreviewGrid({ posts }) {
             siteLink,
             title,
           }) => (
-          <li className={cx('post-preview-grid__item', { 'post-preview-grid__item_big': previewBig })} key={title}>
+          <li className={cx('projects-list__item', { 'projects-list__item_big': previewBig })} key={title}>
             <PostPreview
               id={id}
               title={title}

@@ -1,18 +1,21 @@
-import { getNotionDatabaseItems } from '../core/notion'
-
 import Head from 'next/head'
 
-import menuItems from '../routes.json';
+import getTeam from '../lib/data/team';
+import getProjects from '../lib/data/projects';
+import getPartners from '../lib/data/partners';
+import getTextBlocks from '../lib/data/textBlocks';
 
 import Layout from '../components/Layout'
 import Menu from '../components/Menu'
-import PostPreviewGrid from '../components/PostPreviewGrid'
+import ProjectsList from '../components/ProjectsList'
 import Map from '../components/Map';
-import TeamList from '../components/TeamGrid';
+import TeamGrid from '../components/TeamList';
 import Contacts from '../components/Contacts';
 import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
 import TextBlockComponent from '../components/TextBlock';
+
+import menuItems from '../routes.json';
 
 export default function Home({ textBlocks, projects, team, partners }) {
   const TextBlock = ({ name }) => <TextBlockComponent data={textBlocks} name={name} />
@@ -56,7 +59,7 @@ export default function Home({ textBlocks, projects, team, partners }) {
           <p className={'section__subheader section__subheader_projects'}>
             <TextBlock data={textBlocks} name="MainProjectsText" />
           </p>
-          <PostPreviewGrid posts={projects} />
+          <ProjectsList projects={projects} />
         </section>
 
         <section className={'section'} id="partners">
@@ -77,24 +80,8 @@ export default function Home({ textBlocks, projects, team, partners }) {
         <section className={'section'} id="team">
           <h2 className={'section__heading section__heading_team'}>Команда</h2>
 
-          <TeamList team={team} />
+          <TeamGrid team={team} />
         </section>
-
-        {/*
-        <section className={'section'} id="donate">
-          <h3 className={'section__heading section__heading_support-us'}>Поддержите<br />нас</h3>
-
-          <p className={'support-description'}>
-            Мы&nbsp;развиваем Дизайн-код Екатеринбурга за&nbsp;свой счёт, и&nbsp;нам не&nbsp;хватает средств для реализации объектов&nbsp;&mdash; изготовления адресных табличек, урн, навигационных стелл и&nbsp;других наших проектов.
-          </p>
-
-          <p className={'support-description'}>
-            Если вы&nbsp;хотите помочь создать дизайн-систему Екатеринбурга, сделать жизнь в&nbsp;городе приятнее, комфортнее и&nbsp;красивее&nbsp;&mdash; поддержите нас.
-          </p>
-
-          <a className={'support-link'} href="/">помочь проекту →</a>
-        </section>
-        */}
 
         <section className={'section'} id="contacts">
           <h2 className={'section__heading section__heading_contacts'}>Почта<br />и соцсети</h2>
@@ -109,10 +96,10 @@ export default function Home({ textBlocks, projects, team, partners }) {
 export async function getStaticProps() {
   return {
     props: {
-      projects: await getNotionDatabaseItems('Projects'),
-      team: await getNotionDatabaseItems('Team'),
-      partners: await getNotionDatabaseItems('Partners'),
-      textBlocks: await getNotionDatabaseItems('TextBlocks')
+      projects: await getProjects(),
+      team: await getTeam(),
+      partners: await getPartners(),
+      textBlocks: await getTextBlocks()
     }
   }
 }

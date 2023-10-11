@@ -2,7 +2,7 @@
 import classNames from 'classnames/bind';
 import { useEffect, useRef } from 'react';
 
-import styles from './PostPreview.module.scss'
+import styles from './Project.module.scss'
 
 const cx = classNames.bind(styles);
 
@@ -20,11 +20,11 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
       startRandomTimeout = setTimeout(() => {
         changeSlidesInterval = setInterval(function () {
           for (let i = 0; i < images.length; i++) {
-            images[i].classList.remove(cx('post-preview__image_active'));
+            images[i].classList.remove(cx('project__image_active'));
           }
 
           current = (current != images.length - 1) ? current + 1 : 0;
-          images[current].classList.add(cx('post-preview__image_active'));
+          images[current].classList.add(cx('project__image_active'));
         }, 4000);
       }, Math.floor(Math.random() * 1500) + 1)
 
@@ -39,19 +39,19 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
 
   return (
     <article className={cx(
-      'post-preview', {
-      'post-preview_big': big,
-      'post-preview_contrast': contrast,
-      'post-preview_link': siteLink,
+      'project', {
+      'project_big': big,
+      'project_contrast': contrast,
+      'project_link': siteLink,
     })}
     >
-      <div className={cx('post-preview__gallery')} ref={galleryRef}>
-        {gallery?.map(image => <img className={cx('post-preview__image')} src={image} key={image} alt="" />)}
+      <div className={cx('project__gallery')} ref={galleryRef}>
+        {gallery?.map(image => <img className={cx('project__image')} src={image} key={image} alt="" />)}
       </div>
 
-      <span className={cx('post-preview__caption')} aria-hidden="true" data-caption-title={title}>
+      <span className={cx('project__caption')} aria-hidden="true" data-caption-title={title}>
         {title.split(' ').map(word => (
-          <span className={cx('post-preview__caption-word')} key={word}>{word} </span>)
+          <span className={cx('project__caption-word')} key={word}>{word} </span>)
         )}
       </span>
 
@@ -60,7 +60,7 @@ export default function PostPreview({ title, siteLink, gallery, big, contrast })
           href={siteLink}
           target={isNewPageLink ? '_blank' : null}
           rel={isNewPageLink ? 'noopener noreferrer' : null}
-          className={cx('post-preview__link-area')}
+          className={cx('project__link-area')}
         >
           {title}
         </a>}

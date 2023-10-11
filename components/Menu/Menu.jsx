@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import throttle from '../../utils/thottle';
+import throttle from '../../lib/utils/thottle';
 import classNames from 'classnames/bind';
 
 import styles from './Menu.module.scss';
