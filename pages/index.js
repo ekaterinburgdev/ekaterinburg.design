@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 import getTeam from '../lib/data/team';
 import getProjects from '../lib/data/projects';
@@ -15,8 +15,6 @@ import Partners from '../components/Partners/Partners';
 import Cover from '../components/Cover';
 import TextBlockComponent from '../components/TextBlock';
 
-import menuItems from '../routes.json';
-
 export default function Home({ textBlocks, projects, team, partners }) {
   const TextBlock = ({ name }) => <TextBlockComponent data={textBlocks} name={name} />
 
@@ -28,7 +26,13 @@ export default function Home({ textBlocks, projects, team, partners }) {
           <title>Дизайн-код Екатеринбурга</title>
         </Head>
 
-        <Menu items={menuItems} />
+        <Menu items={{
+          about: 'Кто мы',
+          projects: 'Дизайн-система',
+          partners: 'Партнёры',
+          team: 'Команда',
+          contacts: 'Почта и соцсети'
+        }} />
 
         <section id="about" className={'section'}>
           <div className={'main-visual'}>

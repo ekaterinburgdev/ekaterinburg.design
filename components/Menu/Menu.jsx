@@ -68,8 +68,8 @@ export default function Menu({ items }) {
           </div>
 
           <ul className={cx('menu__list')} ref={menuList}>
-            {items.map(({ title, link }) =>
-              <a href={link} className={cx('menu__list-item')} key={title}>{title}</a>
+            {Object.entries(items).map(([ link, title ]) =>
+              <a href={`#${link}`} className={cx('menu__list-item')} key={title}>{title}</a>
             )}
           </ul>
 
