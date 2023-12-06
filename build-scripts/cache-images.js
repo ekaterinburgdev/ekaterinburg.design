@@ -101,11 +101,9 @@ async function getNotionImagesFromDatabase(databaseName) {
 
 function download(url) {
     return new Promise((res) => {
-        const [filename] = new URL(url).pathname.split('/').slice(-1);
-        const fileExt = filename.split('.').slice(-1)[0];
-        const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
-        const outputFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
-
+        const [guid, filename] = new URL(url).pathname.split('/').slice(-2);
+        const [name, ext] = filename.split('.');
+        const outputFilename = `${guid}__${name}.${ext}`;
         const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + outputFilename);
 
         https.get(url, (response) => {
