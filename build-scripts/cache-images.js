@@ -8,6 +8,8 @@ import imageminMozjpeg from 'imagemin-mozjpeg';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminSvgo from 'imagemin-svgo';
 
+import { getNotionFilename } from '../lib/utils/getNotionFilename.js';
+
 dotenv.config();
 const MAX_PARALLEL_DOWNLOADS = 50;
 const VERCEL_OUTPUT_PATH = './public/notion-static/';
@@ -101,12 +103,8 @@ async function getNotionImagesFromDatabase(databaseName) {
 
 function download(url) {
     return new Promise((res) => {
-        const [filename] = new URL(url).pathname.split('/').slice(-1);
-        const fileExt = filename.split('.').slice(-1)[0];
-        const notionGUID = url.includes('notion-static.com') ? url.match(/secure.notion-static.com\/(.*)\//)[1] : '';
-        const outputFilename = notionGUID ? `${notionGUID}.${fileExt}` : filename;
-
-        const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + outputFilename);
+        const filename = getNotionFilename(url);
+        const file = fs.createWriteStream(VERCEL_OUTPUT_PATH + filename);
 
         https.get(url, (response) => {
             response.pipe(file);
@@ -114,12 +112,12 @@ function download(url) {
 
         file.on("finish", () => {
             file.close();
-            console.log(`Downloaded ${outputFilename}`)
-            res(outputFilename);
+            console.log(`Downloaded ${filename}`)
+            res(filename);
         });
 
         file.on("error", () => {
-            console.error(`Not loaded: ${outputFilename}`);
+            console.error(`Not loaded: ${filename}`);
             res('');
         });
     });
