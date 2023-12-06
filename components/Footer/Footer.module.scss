@@ -13,21 +13,22 @@
     font-feature-settings: "onum";
 }
 
-.footer__year-dash:before {
-    content: '';
-    position: absolute;
-    height: .115em;
-    top: .4em;
-    width: calc(100% - 4em);
-    transform: translateX(.1em);
-    background: currentColor;
-    clip-path: polygon(0 0, 91.2% 0, calc(91.2% - .02em) 91.2%, 0% 91.2%);
-}
-
-.footer__year-dash::after {
-    content: attr(data-year);
-    position: absolute;
-    right: 0;
+.footer__year-dash {
+  flex-grow: 1;
+  span {
+    font-size: 0;
+  }
+  
+  &:before {
+      content: '';
+      position: absolute;
+      height: .115em;
+      top: .4em;
+      width: calc(100% - 4em);
+      transform: translateX(.1em);
+      background: currentColor;
+      clip-path: polygon(0 0, 91.2% 0, calc(91.2% - .02em) 91.2%, 0% 91.2%);
+  }
 }
 
 .requisites {

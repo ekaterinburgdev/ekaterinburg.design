@@ -12,8 +12,7 @@ export default function Footer() {
       Дизайн-код Екатеринбурга
 
       <div className={cx('footer__year')}>
-        2017
-        <div className={cx('footer__year-dash')} data-year={currentYear}></div>
+        2017<span className={cx('footer__year-dash')}><span>—</span></span>{currentYear}
       </div>
 
       <div className={cx('requisites')}>
