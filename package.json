@@ -18,11 +18,11 @@
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
     "imagemin-svgo": "^10.0.1",
-    "next": "^14.2.4",
+    "next": "^14.2.5",
     "nprogress": "^0.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.77.5",
+    "sass": "^1.77.8",
     "sharp": "^0.33.4",
     "typograf": "^7.4.1"
   }
