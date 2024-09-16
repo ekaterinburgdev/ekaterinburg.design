@@ -1,0 +1,1 @@
+var animation1=bodymovin.loadAnimation({container:document.getElementById("logo-ru"),path:"js/ekaterinburg-logo-ru-animation.json",renderer:"svg",loop:!0,autoplay:!0}),animation2=bodymovin.loadAnimation({container:document.getElementById("logo-en"),path:"js/ekaterinburg-logo-en-animation.json",renderer:"svg",loop:!0,autoplay:!0});
