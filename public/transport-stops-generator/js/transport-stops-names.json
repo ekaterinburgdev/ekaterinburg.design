@@ -2044,7 +2044,7 @@
     "nameEn": "Yugo-Zapadniy Forest Park"
   },
   {
-    "nameRu": "Переулок Юниоров",
+    "nameRu": "пер. Юниоров",
     "nameEn": "Yuniorov Ln."
   },
   {
@@ -2052,7 +2052,7 @@
     "nameEn": "Tsentr Khudozhestvennoy Gimnastiki"
   },
   {
-    "nameRu": "Улица Лучистая",
+    "nameRu": "Лучистая",
     "nameEn": "Luchistaya St."
   },
   {
@@ -2122,5 +2122,17 @@
   {
     "nameRu": "Шувакишская улица",
     "nameEn": "Shuvakishskaya Street"
+  },
+  {
+    "nameRu": "Тенистая",
+    "nameEn": "Tenistaya St."
+  },
+  {
+    "nameRu": "п. Светлореченский",
+    "nameEn": "Svetlorechenskiy"
+  },
+  {
+    "nameRu": "Архитектора Белякина",
+    "nameEn": "Arkhitektora Belyakina St."
   }
 ]
