@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.9 142.9"><path d="M22 34.4h53.9c5 0 9 4 9 9v38.9l-3 15c-1 4.8-4 9-9 9H25c-4.9 0-8-4.1-9-9l-3-15V43.4c0-5 4-9 9-9zm67.3 26.9h8.6v21h-8.6v-21zM0 61.3h8.6v21H0v-21zm46.4 60l12.7-12.7 6.4 6.4-12.7 12.7-6.4-6.4zm-22.5 0l12.7-12.7L43 115l-12.7 12.7-6.4-6.4zM25 13.4h47.9v8.5h-16L46.2 32.6l-6.4-6.4 4.4-4.4H25v-8.4zm38.9 74.9c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6zm-29.9 0c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6zM22 43.1h53.9v9.7H22v-9.7zm0 18.5h53.9v20.7H22V61.6z" fill-rule="evenodd" clip-rule="evenodd" fill="#ef7f1a"/><path fill="none" d="M0 0h97.9v142.9H0z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 97.9 142.9" style="enable-background:new 0 0 97.9 142.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#EF7F1A;}
+	.st1{fill:none;}
+</style>
+<path class="st0" d="M22,34.4h53.9c5,0,9,4,9,9v38.9l-3,15c-1,4.8-4,9-9,9H25c-4.9,0-8-4.1-9-9l-3-15V43.4C13,38.4,17,34.4,22,34.4
+	L22,34.4z M89.3,61.3h8.6v21h-8.6C89.3,82.3,89.3,61.3,89.3,61.3z M0,61.3h8.6v21H0C0,82.3,0,61.3,0,61.3z M46.4,121.3l12.7-12.7
+	l6.4,6.4l-12.7,12.7L46.4,121.3L46.4,121.3z M23.9,121.3l12.7-12.7L43,115l-12.7,12.7L23.9,121.3L23.9,121.3z M25,13.4h47.9v8.5h-16
+	L46.2,32.6l-6.4-6.4l4.4-4.4H25V13.4z M63.9,88.3c3.3,0,6,2.7,6,6s-2.7,6-6,6c-3.3,0-6-2.7-6-6C57.9,91,60.6,88.3,63.9,88.3z
+	 M34,88.3c3.3,0,6,2.7,6,6s-2.7,6-6,6c-3.3,0-6-2.7-6-6C28,91,30.7,88.3,34,88.3z M22,43.1h53.9v9.7H22V43.1z M22,61.6h53.9v20.7H22
+	V61.6z"/>
+<rect class="st1" width="97.9" height="142.9"/>
+</svg>
