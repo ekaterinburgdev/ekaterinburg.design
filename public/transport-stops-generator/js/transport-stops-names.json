@@ -1912,6 +1912,10 @@
     "nameEn": "Akademicheskiy Microdistrict"
   },
   {
+    "nameRu": "Академический район",
+    "nameEn": "Akademicheskiy District"
+  },
+  {
     "nameRu": "Фармацевтический колледж",
     "nameEn": "Farmatsevticheskiy Kolledzh"
   },
@@ -2182,5 +2186,10 @@
   {
     "nameRu": "Губернаторский лицей",
     "nameEn": "Gubernatorskiy Litsey"
+  },
+  {
+    "nameRu": "ТРЦ «Веер Молл»",
+    "nameEn": "Veyer Mall"
   }
 ]
+
