@@ -53,20 +53,30 @@ const MAX_IMAGE_SIZE = 1200;
             res();
         }))
     );
-    console.log(`Files resized`)
+    console.log(`Files resized`, resizedImages.length)
 
 
     console.log(`Optimize files...`);
-    const optimizedFiles = await imagemin([`${VERCEL_OUTPUT_PATH}/*.{jpg,jpeg,png,svg}`], {
-        destination: VERCEL_OUTPUT_PATH,
-        plugins: [
-            imageminMozjpeg({ quality: 75 }),
-            imageminPngquant({ quality: [.6, .8] }),
-            imageminSvgo()
-        ]
-    });
-    console.log(`Files optimized: ${optimizedFiles.length}`);
+    const allFiles = fs.readdirSync(VERCEL_OUTPUT_PATH);
+    let optimizedCount = 0;
 
+    for (const filename of allFiles) {
+        try {
+            await imagemin([filename], {
+                destination: VERCEL_OUTPUT_PATH,
+                plugins: [
+                    imageminMozjpeg({ quality: 75 }),
+                    imageminPngquant({ quality: [.6, .8] }),
+                    imageminSvgo()
+                ]
+            });
+            optimizedCount++;
+        } catch (error) {
+            console.warn(`Skipping optimization for ${filename}: ${error.message.split('\n')[0]}`);
+        }
+    }
+
+    console.log(`Files optimized: ${optimizedCount} / ${allFiles.length}`);
 
     fs.writeFileSync(VERCEL_OUTPUT_PATH + 'filelist.json', JSON.stringify(downloads));
     console.log(`Filelist created: filelist.json`);
