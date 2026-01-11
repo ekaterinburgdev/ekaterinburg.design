@@ -1,8 +1,8 @@
-@import './font';
-@import './main-visual';
-@import './nprogress';
-@import './section';
-@import './typography';
+@use 'font';
+@use 'main-visual';
+@use 'nprogress';
+@use 'section';
+@use 'typography';
 
 html,
 body {
