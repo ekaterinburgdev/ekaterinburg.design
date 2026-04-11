@@ -14,11 +14,11 @@ export default function Contacts() {
           </a>
         </div>
 
-        <div className={cx('contacts__item')}>
+        {/* <div className={cx('contacts__item')}>
           <a className={cx('contacts__icon')} href="https://www.instagram.com/ekaterinburg.design/" target="_blank" aria-label="Instagram">
             <SVGInstagram />
           </a>
-        </div>
+        </div> */}
 
         <div className={cx('contacts__item')}>
           <a className={cx('contacts__icon')} href="https://vk.com/ekaterinburg.design/" target="_blank" aria-label="VK">
@@ -50,11 +50,11 @@ export default function Contacts() {
           </a>
         </div>
 
-        <div className={cx('contacts__item')}>
+        {/* <div className={cx('contacts__item')}>
           <a className={cx('contacts__icon')} href="https://www.facebook.com/ekaterinburg.design" target="_blank" aria-label="Facebook">
             <SVGFacebook />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <a className={cx('contacts__mail-button')} href="mailto:mail@ekaterinburg.design">
