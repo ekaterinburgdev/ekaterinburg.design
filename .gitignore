@@ -33,3 +33,6 @@ yarn-error.log*
 public/notion-static/
 
 /public/ano
+/public/donate
+/public/order
+/public/presentation
