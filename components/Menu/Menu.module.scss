@@ -51,7 +51,6 @@
         border-radius: 70px;
         background: rgba(0, 0, 0, .7);
         backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
         animation: .15s 1s menuFadeIn ease-in both;
     }
 
@@ -101,7 +100,6 @@
         line-height: 1;
         pointer-events: none;
         backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
         animation: .15s 1s menuFadeIn ease-in both;
     }
 
