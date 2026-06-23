@@ -136,8 +136,8 @@
     "nameEn": "Dachnaya St."
   },
   {
-    "nameRu": "Детский сад №43",
-    "nameEn": "Kindergarten No. 43"
+    "nameRu": "Детский сад № 43",
+    "nameEn": "Kindergarten No. 43"
   },
   {
     "nameRu": "ДК ВОС",
@@ -209,7 +209,7 @@
   },
   {
     "nameRu": "Эльмаш",
-    "nameEn": "Elmash"
+    "nameEn": "Elmash Dist."
   },
   {
     "nameRu": "8 Марта",
@@ -252,8 +252,8 @@
     "nameEn": "Gromova St."
   },
   {
-    "nameRu": "ДМБ №9",
-    "nameEn": "DMB No. 9"
+    "nameRu": "ДМБ № 9",
+    "nameEn": "DMB No. 9"
   },
   {
     "nameRu": "Есенина",
@@ -397,7 +397,7 @@
   },
   {
     "nameRu": "Заречный",
-    "nameEn": "Zarechny"
+    "nameEn": "Zarechny Microdistrict"
   },
   {
     "nameRu": "Июльская",
@@ -452,8 +452,8 @@
     "nameEn": "Polyusnaya St."
   },
   {
-    "nameRu": "Пост №1",
-    "nameEn": "Post No. 1"
+    "nameRu": "Пост № 1",
+    "nameEn": "Post No. 1"
   },
   {
     "nameRu": "Проезжая",
@@ -522,6 +522,10 @@
   {
     "nameRu": "Восточная",
     "nameEn": "Vostochnaya St."
+  },
+  {
+    "nameRu": "Екатеринбург — Восточная автостанция",
+    "nameEn": "Ekaterinburg — Vostochnaya Bus station"
   },
   {
     "nameRu": "Высоцкого",
@@ -769,7 +773,7 @@
   },
   {
     "nameRu": "п. Чапаева",
-    "nameEn": "Chapayeva"
+    "nameEn": "Chapayeva Vill."
   },
   {
     "nameRu": "Палисадная",
@@ -1037,7 +1041,7 @@
   },
   {
     "nameRu": "Карла Маркса",
-    "nameEn": "Karla Marxa St."
+    "nameEn": "Karla Marx St."
   },
   {
     "nameRu": "Керамическая",
@@ -1093,7 +1097,7 @@
   },
   {
     "nameRu": "Радиоколледж",
-    "nameEn": "Radiokolledzh"
+    "nameEn": "Radio College"
   },
   {
     "nameRu": "Радиостанция",
@@ -1265,7 +1269,7 @@
   },
   {
     "nameRu": "Таганский ряд",
-    "nameEn": "Taganskiy Ryad"
+    "nameEn": "Taganskiy Ryad Shopping Centre"
   },
   {
     "nameRu": "ТРЦ «Гринвич»",
@@ -1404,16 +1408,16 @@
     "nameEn": "Avtopredpriyatiye"
   },
   {
-    "nameRu": "Горбольница № 6",
-    "nameEn": "Gorbolnitsa No. 6"
+    "nameRu": "Горбольница № 6",
+    "nameEn": "Municipal Hospital No. 6"
   },
   {
-    "nameRu": "Горбольница № 7",
-    "nameEn": "Gorbolnitsa No. 7"
+    "nameRu": "Горбольница № 7",
+    "nameEn": "Municipal Hospital No. 7"
   },
   {
-    "nameRu": "Горбольница № 14",
-    "nameEn": "Gorbolnitsa No. 14"
+    "nameRu": "Горбольница № 14",
+    "nameEn": "Municipal Hospital No. 14"
   },
   {
     "nameRu": "Горный институт",
@@ -1489,7 +1493,7 @@
   },
   {
     "nameRu": "Трамвайный парк",
-    "nameEn": "Tramvayny Park"
+    "nameEn": "Tram Park"
   },
   {
     "nameRu": "Цех механизации",
@@ -1569,7 +1573,7 @@
   },
   {
     "nameRu": "Шарташский рынок",
-    "nameEn": "Shartashskiy Rynok"
+    "nameEn": "Shartashskiy Market"
   },
   {
     "nameRu": "Шиловский кордон",
@@ -1660,8 +1664,8 @@
     "nameEn": "Uralskikh Rabochikh St."
   },
   {
-    "nameRu": "Хладокомбинат №3",
-    "nameEn": "Khladokombinat No. 3"
+    "nameRu": "Хладокомбинат № 3",
+    "nameEn": "Khladokombinat No. 3"
   },
   {
     "nameRu": "Академика Сахарова",
@@ -1729,7 +1733,7 @@
   },
   {
     "nameRu": "Верх-Исетский рынок",
-    "nameEn": "Verkh-Isetskiy Rynok"
+    "nameEn": "Verkh-Isetskiy Market"
   },
   {
     "nameRu": "Дом-музей П. Бажова",
@@ -1813,7 +1817,7 @@
   },
   {
     "nameRu": "Федерация профсоюзов",
-    "nameEn": "Federatsiya Profsoyuzov"
+    "nameEn": "Federation of Trade Unions"
   },
   {
     "nameRu": "Юридическая академия",
@@ -1821,7 +1825,7 @@
   },
   {
     "nameRu": "Автомобильный колледж",
-    "nameEn": "Avtomobilny Kolledzh "
+    "nameEn": "Automobile and Road College"
   },
   {
     "nameRu": "Академика Вонсовского",
@@ -1885,7 +1889,7 @@
   },
   {
     "nameRu": "Гостиница «Центральная»",
-    "nameEn": "Ekaterinburg-Tsentralny Hotel"
+    "nameEn": "Tsentralnaya Hotel"
   },
   {
     "nameRu": "Кордон «Берёзовый ключ»",
@@ -1929,10 +1933,10 @@
   },
   {
     "nameRu": "ТЮЗ (Театр юного зрителя)",
-    "nameEn": "Theatre for the Young Spectator"
+    "nameEn": "Theatre of the Young Spectator"
   },
   {
-    "nameRu": "Кольцевая а/д (автодорога)",
+    "nameRu": "Кольцевая автодорога",
     "nameEn": "Koltsevaya Avtodoroga"
   },
   {
@@ -2032,8 +2036,8 @@
     "nameEn": "Evgeniy Savkov St."
   },
   {
-    "nameRu": "Школа №31",
-    "nameEn": "School No. 31"
+    "nameRu": "Школа № 31",
+    "nameEn": "School No. 31"
   },
   {
     "nameRu": "Профессора Матвеева",
@@ -2205,11 +2209,35 @@
   },
   {
     "nameRu": "Сандуновские бани",
-    "nameEn": "Sandunovskie Baths"
+    "nameEn": "Sanduny Public Baths"
   },
   {
     "nameRu": "Анатолия Мехренцева",
     "nameEn": "Anatoliya Mekhrentseva St."
+  },
+  {
+    "nameRu": "Мельникова",
+    "nameEn": "Melnikova St."
+  },
+  {
+    "nameRu": "Школа искусств № 2",
+    "nameEn": "School of Arts No. 2"
+  },
+  {
+    "nameRu": "Академия при Президенте России",
+    "nameEn": "Academy under the President of Russia"
+  },
+  {
+    "nameRu": "Квартал Преображенский",
+    "nameEn": "Preobrazhensky Quarter"
+  },
+  {
+    "nameRu": "Европейский микрорайон",
+    "nameEn": "Evropeisky Microdistrict"
+  },
+  {
+    "nameRu": "Зои Пушкарёвой",
+    "nameEn": "Zoi Pushkaryovoy St."
   }
 ]
 
