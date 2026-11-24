@@ -43,8 +43,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build with Next.js
-        run: pnpm build
+      - name: Build with Next.js (debug)
+        run: pnpm exec next build --debug-prerender
 
       - name: Upload artifact for custom deploy
         uses: actions/upload-artifact@v4
